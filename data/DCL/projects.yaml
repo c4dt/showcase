@@ -155,8 +155,8 @@ projects:
         date_updated: 2021-02-09
 
     libnvram:
-        name:         libNVRAM
-        description:  Log-Free Concurrent Data Structures
+        name: libNVRAM
+        description: Log-Free Concurrent Data Structures
         layman_desc: >
             Storing data structures in non-volatile RAM such that transient
             failures don't corrupt the data.
@@ -175,8 +175,16 @@ projects:
             - Transient Failures
         type: Library, Application
         language: C++
+        information:
+            - type: Paper
+              title: Log-Free Concurrent Data Structures
+              url: https://www.usenix.org/system/files/conference/atc18/atc18-david.pdf
+              notes:
+                  - label: Published at
+                    text: ATC 2018
+                    url: https://www.usenix.org/conference/atc18/presentation/david
         date_added: 2019-03-18
-        date_updated: 2021-01-21
+        date_updated: 2021-02-09
 
     flodb:
         name: FloDB
