@@ -206,8 +206,16 @@ projects:
             - Database
         type: Application
         language: C++
+        information:
+            - type: Paper
+              title: "FloDB: Unlocking Memory in Persistent Key-Value Stores"
+              url: https://infoscience.epfl.ch/record/227333
+              notes:
+                  - label: Published at
+                    text: EuroSys 2017
+                    url: https://eurosys2017.github.io
         date_added: 2019-03-18
-        date_updated: 2021-01-21
+        date_updated: 2021-02-09
 
     fleet:
         name:         Fleet
