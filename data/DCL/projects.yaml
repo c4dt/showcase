@@ -321,9 +321,9 @@ projects:
         date_updated: 2021-02-09
 
     aggregathor:
-        name:         AggregaThor
-        description:  Framework over TensorFlow implementing robust Stochastic Gradient Descent
-        tech_desc: >
+        name: AggregaThor
+        description: Framework over TensorFlow implementing robust Stochastic Gradient Descent
+        layman_desc: >
             Framework built over TensorFlow implementing state-of-the-art
             Byzantine-resilient, distributed Stochastic Gradient Descent (SGD).
             Modular approach allows most of its components to be reused in other
@@ -334,11 +334,11 @@ projects:
             - name: Arsany Guirguis
               email: arsany.guirguis@epfl.ch
             - name: Georgios Damaskinos
-              url: http://gdamaskinos.com/
+              url: https://gdamaskinos.com/
         code:
             type: Lab GitHub
             url:  https://github.com/LPD-EPFL/AggregaThor
-            date_last_commit: 2019-12-04
+            date_last_commit: 2019-12-06
         tags:
             - Robust SGD
             - Distributed ML
@@ -350,10 +350,14 @@ projects:
         language: Python / C++
         information:
             - type: Paper
-              url: https://mlsys.org/Conferences/2019/doc/2019/54.pdf
-              title: "AggregaThor: Byzantine Machine Learning via Robust Gradient Aggregation (SysML19')"
+              url: https://infoscience.epfl.ch/record/265684
+              title: "AGGREGATHOR: Byzantine Machine Learning via Robust Gradient Aggregation"
+              notes:
+                  - label: Published at
+                    text: SysML 2019
+                    url: https://mlsys.org/Conferences/2019
         date_added: 2019-03-18
-        date_updated: 2021-01-21
+        date_updated: 2021-02-09
 
     robust-rdma:
         name:         Robust RDMA
