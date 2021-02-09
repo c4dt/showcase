@@ -125,9 +125,8 @@ projects:
         date_updated: 2021-02-09
 
     mvtil:
-        name:         MVTIL
-        description: >
-            Multiversion Timestamp Locking (MVTL)
+        name: MVTIL
+        description: Multiversion Timestamp Locking (MVTL)
         layman_desc: >
             MVTL is a new family of concurrency control algorithms.
             Improving performance of distributed databases by allowing read
@@ -138,7 +137,7 @@ projects:
         code:
             type: Lab GitHub
             url:  https://github.com/LPD-EPFL/MVTIL
-            date_last_commit: 2018-05-16
+            date_last_commit: 2019-09-19
         tags:
             - Database
             - Concurrency
@@ -147,9 +146,13 @@ projects:
         information:
             - type: Paper
               title: Locking Timestamps versus Locking Objects
-              url: https://infoscience.epfl.ch/record/229425/files/Paper.pdf
+              url: https://infoscience.epfl.ch/record/229425
+              notes:
+                  - label: Published at
+                    text: PODC 2018
+                    url: https://www.podc.org/podc2018
         date_added: 2019-09-19
-        date_updated: 2021-01-21
+        date_updated: 2021-02-09
 
     libnvram:
         name:         libNVRAM
