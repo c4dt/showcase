@@ -358,26 +358,3 @@ projects:
                     url: https://mlsys.org/Conferences/2019
         date_added: 2019-03-18
         date_updated: 2021-02-09
-
-    robust-rdma:
-        name:         Robust RDMA
-        description:  Better fault-tolerance and performance of consensus using RDMA
-        tech_desc: >
-            Leveraging Remote Direct Memory Access (RDMA) to improve the
-            fault-tolerance and performance of consensus, compared to existing
-            protocols. In some cases, RDMA allows us to circumvent existing
-            theoretical lower bounds (solving Byzantine consensus with 2f+1
-            replicas, for instance).
-        contacts:
-            - name:  Rachid Guerraoui
-              email: rachid.guerraoui@epfl.ch
-        tags:
-            - RDMA
-            - Consensus
-            - Byzantine Resilience
-            - Fault-Tolerance
-            - Communication Complexity
-        type: Library
-        date_added: 2019-03-18
-        date_updated: 2021-01-21
-
