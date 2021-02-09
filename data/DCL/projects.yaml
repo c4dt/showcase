@@ -358,3 +358,48 @@ projects:
                     url: https://mlsys.org/Conferences/2019
         date_added: 2019-03-18
         date_updated: 2021-02-09
+
+    ascylib-optik:
+        name: ASCYLIB + OPTIK
+        description: State-of-the-art concurrent data-structure library
+        layman_desc: >
+            Over 40 implementations of linked lists, hash tables, skip lists,
+            binary search trees (BSTs), queues, priority queues, and stacks.
+            ASCYLIB contains sequential, lock-based, and lock-free
+            implementations for each data structure.
+        url: https://dcl.epfl.ch/site/ascylib
+        contacts:
+            - name: Vasileios Trigonakis
+              email: github@trigonakis.com
+            - name: Tudor David
+              email: repos@tudordavid.com
+        code:
+            type: Lab GitHub
+            url:  https://github.com/LPD-EPFL/ASCYLIB
+            date_last_commit: 2018-01-19
+        tags:
+            - Concurrency
+            - Data Structures
+            - Locking
+        type: Library
+        language: C
+        information:
+            - type: Paper
+              url: https://infoscience.epfl.ch/record/207109
+              title: "Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures"
+              notes:
+                  - label: Published at
+                    text: ASPLOS 2015
+                    url: http://asplos15.bilkent.edu.tr
+            - type: Paper
+              url: https://infoscience.epfl.ch/record/217219
+              title: Optimistic Concurrency with OPTIK
+              notes:
+                  - label: Published at
+                    text: PPoPP 2016
+                    url: https://ppopp16.sigplan.org
+            - type: Paper
+              url: https://infoscience.epfl.ch/record/203822
+              title: Designing ASCY-compliant Concurrent Search Data Structures
+        date_added: 2021-02-09
+        date_updated: 2021-02-09
