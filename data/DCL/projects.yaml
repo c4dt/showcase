@@ -218,13 +218,16 @@ projects:
         date_updated: 2021-02-09
 
     fleet:
-        name:         Fleet
-        description:  Machine Learning on Android
+        name: FLeet
+        description: Federated Machine Learning on Android
         layman_desc: >
-            MobNet is a framework for machine learning on android devices.
+            MobNet is a framework for federated machine learning on android
+            devices. It consumes way less battery than Standard FL while
+            increasing the model's accuracy three times. It allows for android
+            to actually participate in the building of a ML model.
         contacts:
             - name: Georgios Damaskinos
-              url: http://gdamaskinos.com/
+              url: https://gdamaskinos.com
         code:
             type: Non-lab GitHub
             url: https://github.com/gdamaskinos/fleet
@@ -235,9 +238,17 @@ projects:
             - Edge ML
         type: Library, Application
         language: Java
-        date_added: 2019-07-01
         maturity: 1
-        date_updated: 2021-01-21
+        information:
+            - type: Paper
+              title: "FLeet: Online Federated Learning via Staleness Awareness and Performance Prediction"
+              url: https://arxiv.org/abs/2006.07273
+              notes:
+                  - label: Published at
+                    text: ACM/IFIP Middleware 2020
+                    url: https://2020.middleware-conference.org
+        date_added: 2019-07-01
+        date_updated: 2021-02-09
 
     mctop:
         name:         MCTOP
