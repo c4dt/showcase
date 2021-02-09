@@ -90,11 +90,14 @@ projects:
         date_updated: 2021-02-09
 
     fegan:
-        name:         FeGAN
-        description: "Scaling Distributed GANs"
-        tech_desc: >
+        name: FeGAN
+        description: Scaling Distributed GANs
+        layman_desc: >
             The FeGAN system enables training GANs in the Federated Learning setup.
-            FeGAN is implemented on PyTorch.
+            GANs are generative adversarial networks, a class of machine learning
+            where two neural networks contest with each other.
+            FeGAN is implemented on PyTorch and is using less bandwidth and is
+            faster than using stat-of-the-art GANs implementations.
         contacts:
             - name: Arsany Guirguis
               email: arsany.guirguis@epfl.ch
@@ -113,9 +116,13 @@ projects:
         information:
             - type: Paper
               title: "FeGAN: Scaling Distributed GANs"
-              url: https://hal.archives-ouvertes.fr/hal-02953314/document
+              url: https://hal.archives-ouvertes.fr/hal-02953314
+              notes:
+                  - label: Published at
+                    text: ACM/IFIP Middleware 2020
+                    url: https://2020.middleware-conference.org
         date_added: 2020-11-11
-        date_updated: 2021-01-21
+        date_updated: 2021-02-09
 
     mvtil:
         name:         MVTIL
