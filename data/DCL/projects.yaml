@@ -251,12 +251,13 @@ projects:
         date_updated: 2021-02-09
 
     mctop:
-        name:         MCTOP
-        description:  A Multi-Core Topology Abstraction
-        tech_desc: >
+        name: MCTOP
+        description: A Multi-Core Topology Abstraction
+        layman_desc: >
           MCTOP is an abstraction of multi-core topologies augmented with
           important low-level hardware information, such as memory bandwidths
           and communication latencies.
+        url: https://dcl.epfl.ch/site/mctop
         contacts:
             - name: Vasileios Trigonakis
               email: github@trigonakis.com
@@ -269,8 +270,16 @@ projects:
             - Multiprocessor
         type: Application
         language: C
+        information:
+            - type: Paper
+              title: Abstracting Multi-Core Topologies with MCTOP
+              url: https://infoscience.epfl.ch/record/227458
+              notes:
+                  - label: Published at
+                    text: EuroSys 2017
+                    url: https://eurosys2017.github.io
         date_added: 2019-07-26
-        date_updated: 2021-01-21
+        date_updated: 2021-02-09
 
     lockin:
         name:         LOCKIN
