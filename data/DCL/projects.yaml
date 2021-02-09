@@ -39,8 +39,8 @@ projects:
         date_updated: 2021-02-09
 
     at2:
-        name:         AT2
-        description:  Asset Transfer System using lightweight broadcast-based primitives instead of consensus
+        name: AT2
+        description: Asset Transfer System using lightweight broadcast-based primitives instead of consensus
         tech_desc: >
             We replace consensus with a lightweight building block -- a
             broadcast-based primitive -- to obtain a full-fledged asset transfer
@@ -54,7 +54,7 @@ projects:
         code:
             type: Lab GitHub
             url: https://github.com/Distributed-EPFL
-            date_last_commit: 2021-01-28
+            date_last_commit: 2021-02-04
         maturity: 1
         tags:
             - Blockchain
@@ -87,7 +87,7 @@ projects:
                     text: PODC 2019
                     url: https://dl.acm.org/doi/10.1145/3293611.3331589
         date_added: 2019-03-18
-        date_updated: 2021-02-01
+        date_updated: 2021-02-09
 
     fegan:
         name:         FeGAN
