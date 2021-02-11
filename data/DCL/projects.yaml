@@ -30,7 +30,7 @@ projects:
             type: Lab Github
             url:  https://github.com/LPD-EPFL/Garfield
             date_last_commit: 2021-02-04
-        language: Pyton, Cuda, C++
+        language: Python, Cuda, C++
         information:
             - type: Paper
               title: "Garfield: System Support for Byzantine Machine Learning"
@@ -221,9 +221,9 @@ projects:
         name: FLeet
         description: Federated Machine Learning on Android
         layman_desc: >
-            MobNet is a framework for federated machine learning on android
-            devices. It consumes way less battery than Standard FL while
-            increasing the model's accuracy three times. It allows for android
+            MobNet is a framework for federated machine learning on Android
+            devices. It consumes much less battery than Standard FL while
+            increasing the model's accuracy three times. It allows for Android
             to actually participate in the building of a ML model.
         contacts:
             - name: Georgios Damaskinos
@@ -351,7 +351,7 @@ projects:
         information:
             - type: Paper
               url: https://infoscience.epfl.ch/record/265684
-              title: "AGGREGATHOR: Byzantine Machine Learning via Robust Gradient Aggregation"
+              title: "AggregaThor: Byzantine Machine Learning via Robust Gradient Aggregation"
               notes:
                   - label: Published at
                     text: SysML 2019
