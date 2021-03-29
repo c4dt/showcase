@@ -275,7 +275,6 @@ div.index-image {
     background-color: var(--dark-grey);
     color: var(--light-grey);
   }
-  
 
   div.breadcrumbs {
     background-color: #202020;
@@ -489,12 +488,8 @@ div.index-image {
     border-right: 1px solid #444 !important;
   }
 
-
-
   table.dataTable.cell-border tbody td {
-    border-top:none !important;
-    border-right:1px solid #444 !important;
-   }
-
-
+    border-top: none !important;
+    border-right: 1px solid #444 !important;
+  }
 }
