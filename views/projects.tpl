@@ -71,7 +71,12 @@
     %>
 
     <div class="contents">
-    <img class="float_left" src="/resources/c4dt_logo.png">
+    <picture>
+        <source
+            srcset="/resources/c4dt_logo_dark.png"
+            media="(prefers-color-scheme: dark)">
+        <img class="float_left" src="/resources/c4dt_logo.png">
+    </picture>
     <div class="intro">
         % if selected_lab_id is None:
         <h1>C4DT affiliated labs projects</h1>
