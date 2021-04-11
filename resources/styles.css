@@ -1,14 +1,21 @@
 :root {
   --dark-grey: #232323;
   --light-grey: #bfbfbe;
-  --orange: #f0af77;
+  --orange: #ffa870;
   --light-orange: #f5cda4;
   --blue: #0091aa;
   --light-blue: #a4bfcf;
-  --odd-row-hover-color: #343434;
-  --odd-row-color: #373737;
-  --even-row-hover-color: #3b3b3b;
-  --even-row-color: #3e3e3e;
+  --greenish-blue: #045757;
+  --dark-greenish-blue: #044343;
+
+  --active-odd-row-hover-color: #343434;
+  --active-odd-row-color: #133b5c;
+  --active-even-row-hover-color: #3b3b3b;
+  --active-even-row-color: #1e5f74;
+  --inactive-odd-row-hover-color: #343434;
+  --inactive-odd-row-color: #373737;
+  --inactive-even-row-hover-color: #3b3b3b;
+  --inactive-even-row-color: #3e3e3e;
 }
 
 body {
@@ -64,7 +71,7 @@ input {
 
 a:link,
 a:visited {
-  color: #289cae;
+  color: var(--light-orange);
 }
 
 label {
@@ -85,80 +92,80 @@ table.dataTable tbody tr td.proj_name {
   font-weight: bold;
 }
 
-table.dataTable.display tbody tr.odd {
+table.dataTable.display tbody tr.active tr.odd {
   background-color: #f4fff4;
 }
 
-table.dataTable.display tbody tr.even {
+table.dataTable.display tbody tr.active tr.even {
   background-color: #f8fff8;
 }
 
-table.dataTable.display tbody tr.odd:hover {
+table.dataTable.display tbody tr.active tr.odd:hover {
   background-color: #ecffec;
 }
 
-table.dataTable.display tbody tr.even:hover {
+table.dataTable.display tbody tr.active tr.even:hover {
   background-color: #f0fff0;
 }
 
-table.dataTable.display tbody tr.odd > td.sorting_1 {
+table.dataTable.display tbody tr.active tr.odd > td.sorting_1 {
   background-color: #f4fff4;
 }
 
-table.dataTable.display tbody tr.even > td.sorting_1 {
+table.dataTable.display tbody tr.active tr.even > td.sorting_1 {
   background-color: #f8fff8;
 }
 
-table.dataTable.display tbody tr.odd:hover > td.sorting_1 {
+table.dataTable.display tbody tr.active tr.odd:hover > td.sorting_1 {
   background-color: #ecffec;
 }
 
-table.dataTable.display tbody tr.even:hover > td.sorting_1 {
+table.dataTable.display tbody tr.active tr.even:hover > td.sorting_1 {
   background-color: #f0fff0;
 }
 
-table.dataTable.display tbody tr.odd > td.sorting_2 {
+table.dataTable.display tbody tr.active tr.odd > td.sorting_2 {
   background-color: #f4fff4;
 }
 
-table.dataTable.display tbody tr.even > td.sorting_2 {
+table.dataTable.display tbody tr.active tr.even > td.sorting_2 {
   background-color: #f8fff8;
 }
 
-table.dataTable.display tbody tr.odd:hover > td.sorting_2 {
+table.dataTable.display tbody tr.active tr.odd:hover > td.sorting_2 {
   background-color: #ecffec;
 }
 
-table.dataTable.display tbody tr.even:hover > td.sorting_2 {
+table.dataTable.display tbody tr.active tr.even:hover > td.sorting_2 {
   background-color: #f0fff0;
 }
 
-table.dataTable.display tbody tr.odd > td.sorting_3 {
+table.dataTable.display tbody tr.active tr.odd > td.sorting_3 {
   background-color: #f4fff4;
 }
 
-table.dataTable.display tbody tr.even > td.sorting_3 {
+table.dataTable.display tbody tr.active tr.even > td.sorting_3 {
   background-color: #f8fff8;
 }
 
-table.dataTable.display tbody tr.odd:hover > td.sorting_3 {
+table.dataTable.display tbody tr.active tr.odd:hover > td.sorting_3 {
   background-color: #ecffec;
 }
 
-table.dataTable.display tbody tr.even:hover > td.sorting_3 {
+table.dataTable.display tbody tr.active tr.even:hover > td.sorting_3 {
   background-color: #f0fff0;
 }
 
 table.dataTable button {
   border-radius: 6px;
-  background-color: var(--light-orange);
+  background-color: var(--orange);
   font-family: Arial, sans-serif;
   font-size: medium;
   border: solid 1px var(--orange);
 }
 
 table.dataTable button:hover {
-  background-color: #f0af77;
+  background-color: var(--light-orange);
 }
 
 #labs_info,
@@ -255,6 +262,10 @@ div.index-image {
     background-color: var(--dark-grey);
     color: var(--light-grey);
   }
+  a:link,
+  a:visited {
+    color: var(--light-orange);
+  }
 
   div.breadcrumbs {
     background-color: #202020;
@@ -265,7 +276,7 @@ div.index-image {
   }
 
   a:link {
-    color: var(--blue);
+    color: var(--orange);
   }
 
   table.dataTable thead,
@@ -285,68 +296,172 @@ div.index-image {
     background-color: #070707;
   }
 
-  table.dataTable.display tbody tr.odd {
-    background-color: var(--odd-row-color) !important;
+
+  div.dt-buttons{
+    display: inline-block;
   }
 
-  table.dataTable.display tbody tr.even {
-    background-color: var(--even-row-color);
+  button.dt-button {
+    padding: 2px !important;
+    color: var(--light-orange) !important;
+    background-color: var(--dark-grey) !important;
+    background-image: none !important;
   }
 
-  table.dataTable.display tbody tr.odd:hover {
-    background-color: var(--odd-row-hover-color);
+  span.box {
+    height: 20px;
+    width: 20px;
+    clear: both;
+    display: inline-block;
+  }
+  div.color_legend {
+    float: left;
+    display: block;
+    height: 35px;
+    text-align: center;
+  }
+  div.legend_line{
+    display: inline-block;
   }
 
-  table.dataTable.display tbody tr.even:hover {
-    background-color: var(--even-row-hover-color);
+  #projects_filter {
+    padding: 5px;
   }
 
-  table.dataTable.display tbody tr.odd > td.sorting_1 {
-    background-color: var(--odd-row-color);
+  .active_even {
+    background-color: var(--active-even-row-color);
   }
 
-  table.dataTable.display tbody tr.even > td.sorting_1 {
-    background-color: var(--even-row-color);
+  .active_odd {
+    background-color: var(--active-odd-row-color);
   }
 
-  table.dataTable.display tbody tr.odd:hover > td.sorting_1 {
-    background-color: var(--odd-row-hover-color);
+  table.dataTable.display tbody tr.inactive.odd {
+    background-color: var(--inactive-odd-row-color) !important;
   }
 
-  table.dataTable.display tbody tr.even:hover > td.sorting_1 {
-    background-color: var(--even-row-hover-color);
+  table.dataTable.display tbody tr.inactive.even {
+    background-color: var(--inactive-even-row-color);
   }
 
-  table.dataTable.display tbody tr.odd > td.sorting_2 {
-    background-color: var(--odd-row-color);
+  table.dataTable.display tbody tr.inactive.odd:hover {
+    background-color: var(--inactive-odd-row-hover-color);
   }
 
-  table.dataTable.display tbody tr.even > td.sorting_2 {
-    background-color: var(--even-row-color);
+  table.dataTable.display tbody tr.inactive.even:hover {
+    background-color: var(--inactive-even-row-hover-color);
   }
 
-  table.dataTable.display tbody tr.odd:hover > td.sorting_2 {
-    background-color: var(--odd-row-hover-color);
+  table.dataTable.display tbody tr.inactive.odd > td.sorting_1 {
+    background-color: var(--inactive-odd-row-color);
   }
 
-  table.dataTable.display tbody tr.even:hover > td.sorting_2 {
-    background-color: var(--even-row-hover-color);
+  table.dataTable.display tbody tr.inactive.even > td.sorting_1 {
+    background-color: var(--inactive-even-row-color);
   }
 
-  table.dataTable.display tbody tr.odd > td.sorting_3 {
-    background-color: var(--odd-row-color);
+  table.dataTable.display tbody tr.inactive.odd:hover > td.sorting_1 {
+    background-color: var(--inactive-odd-row-hover-color);
   }
 
-  table.dataTable.display tbody tr.even > td.sorting_3 {
-    background-color: var(--even-row-color);
+  table.dataTable.display tbody tr.inactive.even:hover > td.sorting_1 {
+    background-color: var(--inactive-even-row-hover-color);
   }
 
-  table.dataTable.display tbody tr.odd:hover > td.sorting_3 {
-    background-color: var(--odd-row-hover-color);
+  table.dataTable.display tbody tr.inactive.odd > td.sorting_2 {
+    background-color: var(--inactive-odd-row-color);
   }
 
-  table.dataTable.display tbody tr.even:hover > td.sorting_3 {
-    background-color: var(--even-row-hover-color);
+  table.dataTable.display tbody tr.inactive.even > td.sorting_2 {
+    background-color: var(--inactive-even-row-color);
+  }
+
+  table.dataTable.display tbody tr.inactive.odd:hover > td.sorting_2 {
+    background-color: var(--inactive-odd-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.inactive.even:hover > td.sorting_2 {
+    background-color: var(--inactive-even-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.inactive.odd > td.sorting_3 {
+    background-color: var(--inactive-odd-row-color);
+  }
+
+  table.dataTable.display tbody tr.inactive.even > td.sorting_3 {
+    background-color: var(--inactive-even-row-color);
+  }
+
+  table.dataTable.display tbody tr.inactive.odd:hover > td.sorting_3 {
+    background-color: var(--inactive-odd-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.inactive.even :hover > td.sorting_3 {
+    background-color: var(--inactive-even-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd {
+    background-color: var(--active-odd-row-color) !important;
+  }
+
+  table.dataTable.display tbody tr.active.even {
+    background-color: var(--active-even-row-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover {
+    background-color: var(--active-odd-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.even:hover {
+    background-color: var(--active-even-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd > td.sorting_1 {
+    background-color: var(--active-odd-row-color);
+  }
+
+  table.dataTable.display tbody tr.active.even > td.sorting_1 {
+    background-color: var(--active-even-row-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover > td.sorting_1 {
+    background-color: var(--active-odd-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.even:hover > td.sorting_1 {
+    background-color: var(--active-even-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd > td.sorting_2 {
+    background-color: var(--active-odd-row-color);
+  }
+
+  table.dataTable.display tbody tr.active.even > td.sorting_2 {
+    background-color: var(--active-even-row-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover > td.sorting_2 {
+    background-color: var(--active-odd-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.even:hover > td.sorting_2 {
+    background-color: var(--active-even-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd > td.sorting_3 {
+    background-color: var(--active-odd-row-color);
+  }
+
+  table.dataTable.display tbody tr.active.even > td.sorting_3 {
+    background-color: var(--active-even-row-color);
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover > td.sorting_3 {
+    background-color: var(--active-odd-row-hover-color);
+  }
+
+  table.dataTable.display tbody tr.active.even:hover > td.sorting_3 {
+    background-color: var(--active-even-row-hover-color);
   }
 
   table.dataTable.cell-border tbody td {

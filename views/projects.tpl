@@ -123,7 +123,13 @@
         </p>
         <p>For questions, please contact <a href="mailto:linus.gasser@epfl.ch">Linus Gasser</a></p>
     </div>
-
+    <div class="color_legend">
+        <div class="legend_line"></div>
+        <span class = "box active_even"></span>
+        <span class = "box active_odd"></span>
+        Active projects
+        </div>
+    </div>
         <table id="projects" class="display cell-border" style="width:100%">
             <thead>
                 <tr>
@@ -192,7 +198,7 @@
 
                             active = is_active(project)
                             %>
-                            <tr class="{{ 'active' if active else '' }}">
+                            <tr class="{{ 'active' if active else 'inactive' }}">
                                 <td data-order="{{ ' '.join(reversed(prof['name'])) }}" class="dt-nowrap">
                                     <a href="/showcase/labs/{{ lab_id }}">{{ ' '.join(prof['name']) }} &mdash; {{ lab_id }}</a>
                                 </td>
