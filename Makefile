@@ -28,6 +28,7 @@ env-test: requirements-test.txt $(VENV_DIR)
 .PHONY: test
 test: env-test
 	. $(VENV_DIR)/bin/activate
+	prettier --write .
 	python3 -m pytest $(PYTEST_OPTIONS)
 
 .PHONY: clean
