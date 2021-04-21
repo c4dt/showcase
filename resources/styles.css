@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  color: #444;
   font-family: Arial, sans-serif;
   font-size: medium;
 }
@@ -234,4 +235,100 @@ div.index-image {
   padding-right: 20%;
   padding-top: 1em;
   padding-top: 1em;
+
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333333;
+    color: #ccc;
+  }
+
+  div.breadcrumbs {
+    background-color: #222222;
+  }
+
+  input {
+    background-color: #080808;
+  }
+
+  table.dataTable thead,
+  table.dataTable tfoot {
+    background-color: #333333;
+  }
+
+  table.dataTable tbody tr td {
+    color: white;
+  }
+
+  div.project-header {
+    background-color: #0f0f0f;
+  }
+
+  div.project-details {
+    background-color: #070707;
+  }
+
+  table.dataTable.display tbody tr.active.odd {
+    background-color: #022202;
+  }
+
+  table.dataTable.display tbody tr.active.even {
+    background-color: #033303;
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover {
+    background-color: #002200;
+  }
+
+  table.dataTable.display tbody tr.active.even:hover {
+    background-color: #013301;
+  }
+
+  table.dataTable.display tbody tr.active.odd > td.sorting_1 {
+    background-color: #022202;
+  }
+
+  table.dataTable.display tbody tr.active.even > td.sorting_1 {
+    background-color: #033303;
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover > td.sorting_1 {
+    background-color: #002200;
+  }
+
+  table.dataTable.display tbody tr.active.even:hover > td.sorting_1 {
+    background-color: #013301;
+  }
+
+  table.dataTable.display tbody tr.active.odd > td.sorting_2 {
+    background-color: #022202;
+  }
+
+  table.dataTable.display tbody tr.active.even > td.sorting_2 {
+    background-color: #033303;
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover > td.sorting_2 {
+    background-color: #002200;
+  }
+
+  table.dataTable.display tbody tr.active.even:hover > td.sorting_2 {
+    background-color: #013301;
+  }
+
+  table.dataTable.display tbody tr.active.odd > td.sorting_3 {
+    background-color: #022202;
+  }
+
+  table.dataTable.display tbody tr.active.even > td.sorting_3 {
+    background-color: #033303;
+  }
+
+  table.dataTable.display tbody tr.active.odd:hover > td.sorting_3 {
+    background-color: #002200;
+  }
+
+  table.dataTable.display tbody tr.active.even:hover > td.sorting_3 {
+    background-color: #013301;
+  }
 }
