@@ -2,6 +2,8 @@
 
 # Showcase
 
+something bla
+
 Code that helps organize the labs' projects and present them nicely
 
 ## Purpose
