@@ -124,10 +124,11 @@
         <p>For questions, please contact <a href="mailto:linus.gasser@epfl.ch">Linus Gasser</a></p>
     </div>
     <div class="color_legend">
-        <div class="legend_line"></div>
+        <div class="legend_line">
         <span class = "box active_even"></span>
         <span class = "box active_odd"></span>
         Active projects
+        
         </div>
     </div>
         <table id="projects" class="display cell-border" style="width:100%">
