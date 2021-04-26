@@ -9,9 +9,9 @@
   --greenish-blue: #045757;
   --dark-greenish-blue: #044343;
 
-  --active-odd-row-hover-color: #103758;
+  --active-odd-row-hover-color: #093555;
   --active-odd-row-color: #133b5c;
-  --active-even-row-hover-color: #1c5b73;
+  --active-even-row-hover-color: #1b5a69;
   --active-even-row-color: #1e5f74;
   --inactive-odd-row-hover-color: #343434;
   --inactive-odd-row-color: #373737;
@@ -360,7 +360,7 @@ div.index-image {
   }
 
   table.dataTable.display tbody tr.inactive.odd {
-    background-color: var(--inactive-odd-row-color) !important;
+    background-color: var(--inactive-odd-row-color);
   }
 
   table.dataTable.display tbody tr.inactive.even {
@@ -424,7 +424,7 @@ div.index-image {
   }
 
   table.dataTable.display tbody tr.active.odd {
-    background-color: var(--active-odd-row-color) !important;
+    background-color: var(--active-odd-row-color);
   }
 
   table.dataTable.display tbody tr.active.even {
@@ -437,6 +437,9 @@ div.index-image {
 
   table.dataTable.display tbody tr.active.even:hover {
     background-color: var(--active-even-row-hover-color);
+  }
+  table.dataTable.display tbody tr.active.odd:hover > td {
+    background-color: var(--active-odd-row-hover-color);
   }
 
   table.dataTable.display tbody tr.active.odd > td.sorting_1 {
