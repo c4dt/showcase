@@ -9,13 +9,13 @@
   --greenish-blue: #045757;
   --dark-greenish-blue: #044343;
 
-  --active-odd-row-hover-color: #093555;
+  --active-odd-row-hover-color: #234b6c;
   --active-odd-row-color: #133b5c;
-  --active-even-row-hover-color: #1b5a69;
+  --active-even-row-hover-color: #2e6f84;
   --active-even-row-color: #1e5f74;
-  --inactive-odd-row-hover-color: #343434;
+  --inactive-odd-row-hover-color: #474747;
   --inactive-odd-row-color: #373737;
-  --inactive-even-row-hover-color: #3a3a3a;
+  --inactive-even-row-hover-color: #4e4e4e;
   --inactive-even-row-color: #3e3e3e;
 }
 
