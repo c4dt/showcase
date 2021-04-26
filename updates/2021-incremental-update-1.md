@@ -156,6 +156,16 @@
 
 ---
 
+210429 - Christian:
+
+- LTS4 - Pascal Frossard
+  - Update publication links to "infoscience.epfl.ch"
+  - Add publication conferences
+  - DeepFool, ManiFool: add tech description
+  - Typos
+
+---
+
 Changes:
 
 Date (YYMMDD) - Editor (Christian, Valérian, Linus):
