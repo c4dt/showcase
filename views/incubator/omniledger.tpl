@@ -11,7 +11,7 @@
     can be a good solution.
     Examples of this include money transfers if you don't trust any bank, or authentication to services
     without trusting only one (like Google or Facebook).<br>
-    Three important elements of blockchains are:
+    Most blockchains, including OmniLedger, are based on the following principles:
 </p>
 
 <table border="0">
@@ -34,18 +34,20 @@
                  style="float: left; padding: 1em;"/>
             <img src="/resources/incubator/images/omniledger/transaction_money.png" width="33%"
                  style="float: right; padding: 1em;"/>
+            <br clear="left"/>
             A transaction is what is stored in a blockchain.
             In the case of Bitcoin, transactions describe the <strong>movement of money</strong>
             between different parties.
             Instead of having a central bank deciding which money transfers are valid,
             Bitcoin spreads this decision over many computers which agree together which transfers are valid.
-            A new kind of transaction that is gaining traction in 2021 are Non Fungible Tokens, or NFTs,
+            A new kind of transaction that is gaining traction in 2021 are Non Fungible Tokens, or
+            <a href="https://en.wikipedia.org/wiki/Non-fungible_token">NFTs</a>,
             which represent the digital ownership of a physical object.
         </td>
         <td width="33%" style="padding: 1em;">
             <h3>Consensus</h3>
             <img src="/resources/incubator/images/omniledger/distributed-ledger.png" width="33%"
-                 style="float: left; padding: 1em;"/>
+                 style="float: right; padding: 1em;"/>
             There are other blockchains than Bitcoin, but they all solve the problem of
             <strong>consensus</strong> for decentralized systems. Reaching a consensus between
             different entities is not easy, as some of the entities can try to cheat.
@@ -67,35 +69,51 @@
     <li><strong>Speed</strong> - if many people want to use the system, it needs to be fast. Speed is measured
         in two ways: transactions per second, and confirmation delay
     </li>
-    <li><strong>Transactions per second</strong> - define how many money transfers can be processed by the system.
-        VISA can process up to 10'000 transactions in a second, while Bitcoin can do about 7.
-    </li>
-    <li><strong>Confirmation delay</strong> - how long you have to wait to be sure your money transfer arrived.
-        VISA takes about 5 seconds, Bitcoin takes about 1h.
-    </li>
+    <ul>
+        <li><strong>Transactions per second</strong> - define how many money transfers can be processed by the system.
+            VISA can process up to 10'000 transactions per second (tps), while Bitcoin can do about 7 tps.
+            OmniLedger creates interdependent shards, so that the speed of the overall system
+            can go well beyond 10'000 tps.
+        </li>
+        <li><strong>Confirmation delay</strong> - how long you have to wait to be sure your money transfer arrived.
+            VISA takes about 5 seconds, Bitcoin takes about 1h. OmniLedger transactions take between 2 seconds and 1
+            minute.
+        </li>
+    </ul>
     <li><strong>Attack resistance</strong> - if you receive money in the system, you want to make sure it
-        stays there, and does not disappear all of a sudden.
+        stays there, and does not disappear all of a sudden. OmniLedger can proof that even with the high throughput it
+        has, it is still save and will not allow an attacker to spend the same money twice.
     </li>
-    <li><strong>Secret storage</strong> - today's blockchains are often world-readable, so it is important
-    that you still can store secret data without everybody being able to read it.</li>
 </ul>
+<p>
+    In addition to these challenges, we implemented
+    <a href="https://factory.c4dt.org/showcase/labs/DEDIS/calypso">Calypso</a>,
+    which is a <strong>Secret storage</strong> service.
+    This is needed, because today's blockchains are often world-readable, so it is important
+    that you still can store secret data without everybody being able to read it.
+    Calypso is not part of the original OmniLedger paper, but uses the
+    OmniLedger blockchain implementation.
+    </li>
+</p>
 
 <h2>Links to demos</h2>
 
 <p>OmniLedger has already been used for a number of years, and there are a lot of projects that
-interact with this blockchain.
-Together with the <a href="https://dedis.ch">DEDIS</a> lab, C4DT is running a test-network for
-more than a year now, and it is used on a daily basis for different services.</p>
+    interact with this blockchain.
+    Together with the <a href="https://dedis.ch">DEDIS</a> lab, C4DT is running a test-network
+    since March 2019, and it is used on a daily basis for different services.</p>
 
 <ul>
-    <li><a href="https://wookie.ch/columbus">Blockchain Explorer</a> -
-        as our test network is public, you can explore the blocks to see the latest transactions.</li>
+    <li><a href="https://wookiee.ch/columbus">Blockchain Explorer</a> -
+        as our test network is public, you can explore the blocks to see the latest transactions.
+    </li>
     <li><a href="https://status.dedis.ch">Node Status</a> -
-        here you can see the status of the nodes running in our test network.</li>
+        here you can see the status of the nodes running in our test network.
+    </li>
     <li><a href="https://login.c4dt.org">Login Service</a> -
         this service is used by C4DT and its partners as authentication service to the internal
         pages. If you're interested, get in contact with <a href="mailto:linus.gasser@epfl.ch">Linus Gasser</a></li>
 </ul>
 
 <p>For more technical references like the paper describing OmniLedger, you can have a look at the
-<a href="https://factory.c4dt.org/showcase/labs/DEDIS/omniledger">showcase entry</a>.</p>
+    <a href="https://factory.c4dt.org/showcase/labs/DEDIS/omniledger">showcase entry</a>.</p>
