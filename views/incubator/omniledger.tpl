@@ -39,10 +39,10 @@
             In the case of Bitcoin, transactions describe the <strong>movement of money</strong>
             between different parties.
             Instead of having a central bank deciding which money transfers are valid,
-            Bitcoin spreads this decision over many computers which agree together which transfers are valid.
-            A new kind of transaction that is gaining traction in 2021 are Non Fungible Tokens, or
+            Bitcoin spreads this decision over many computers that have to agree on which transfers are valid.
+            A new kind of transaction that is gaining traction in 2021 is Non Fungible Tokens, or
             <a href="https://en.wikipedia.org/wiki/Non-fungible_token">NFTs</a>,
-            which represent the digital ownership of a physical object.
+            which represents the digital ownership of a physical object.
         </td>
         <td width="33%" style="padding: 1em;">
             <h3>Consensus</h3>
@@ -81,8 +81,8 @@
         </li>
     </ul>
     <li><strong>Attack resistance</strong> - if you receive money in the system, you want to make sure it
-        stays there, and does not disappear all of a sudden. OmniLedger can proof that even with the high throughput it
-        has, it is still save and will not allow an attacker to spend the same money twice.
+        stays there, and does not disappear all of a sudden. OmniLedger can prove that even with its high throughput,
+        it is still safe and will not allow an attacker to spend the same money twice.
     </li>
 </ul>
 <p>
