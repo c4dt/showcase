@@ -26,6 +26,17 @@ body {
   font-size: medium;
 }
 
+div.color_legend {
+  float: left;
+  display: block;
+  height: 35px;
+  text-align: center;
+}
+div.legend_line {
+  display: inline-block;
+  margin-top: 25px;
+}
+
 div.breadcrumbs {
   background-color: #eeeeee;
   padding-left: 1rem;
@@ -335,17 +346,6 @@ div.index-image {
     color: var(--light-orange) !important;
     background-color: var(--dark-grey) !important;
     background-image: none !important;
-  }
-
-  div.color_legend {
-    float: left;
-    display: block;
-    height: 35px;
-    text-align: center;
-  }
-  div.legend_line {
-    display: inline-block;
-    margin-top: 25px;
   }
 
   #projects_filter {
