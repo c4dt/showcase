@@ -146,6 +146,15 @@
 
 ---
 
+210419 - Linus:
+
+- LDS - Jean-Pierre Hubaux
+  - updated links to papers
+  - github last commits
+  - asked for technical paper of Lattigo, but nothing finalized available
+
+---
+
 210422 - Valérian:
 
 - LSIR - Karl Aberer
