@@ -82,7 +82,7 @@ span.box {
   width: 20px;
   clear: both;
   display: inline-block;
-  border:1px solid #070707;
+  border: 1px solid #070707;
 }
 
 .active_even {
