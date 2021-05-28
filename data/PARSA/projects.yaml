@@ -72,7 +72,6 @@ projects:
     name: ColTraIn HBFP Training Emulator
     description: >
       Co-located DNN Training and Inference
-    layman_desc: >
     tech_desc: >
       HBFP is a hybrid Block Floating-Point (BFP) - Floating-Point (FP) number representation for
       DNN training introduced by ColTraIn: Co-located DNN Training and Inference team of PARSA and
