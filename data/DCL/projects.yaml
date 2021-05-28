@@ -42,9 +42,9 @@ projects:
     name: AT2
     description: Asset Transfer System using lightweight broadcast-based primitives instead of consensus
     layman_desc: >
-      AT2 is a full-fledged asset transfer system (cryptocurrency) without
-      consensus, allowing for faster transactions and better scalability than
-      Bitcoin and consensus-based solutions.
+      AT2 is a full-fledged asset transfer system (cryptocurrency) without the
+      need for a global consensus, allowing for faster transactions and better
+      scalability than Bitcoin and consensus-based solutions.
     tech_desc: >
       We replace consensus with a lightweight building block -- a
       broadcast-based primitive -- to obtain a full-fledged asset transfer
