@@ -98,7 +98,7 @@ projects:
     information:
       - type: Paper
         title: "Dynamic Model Pruning with Feedback"
-        url: https://infoscience.epfl.ch/record/277539?ln=en
+        url: https://infoscience.epfl.ch/record/277539
         notes:
           - label: Published in
             text: ICLR 2020
