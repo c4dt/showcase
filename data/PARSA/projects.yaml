@@ -58,7 +58,7 @@ projects:
     information:
       - type: Paper
         title: "SimFlex: Statistical Sampling of Computer System Simulation"
-        url: https://infoscience.epfl.ch/record/112669/files/simflex.pdf
+        url: https://infoscience.epfl.ch/record/112669
         notes:
           - label: Published in
             text: IEEE Micro
