@@ -30,9 +30,9 @@ projects:
       date_last_commit: 2021-01-19
     # (The paper is still under review so we can hold-off with publishing this as well)
     #        info:
-    #	        - type: Paper
-    #	          title: Synthetic Data - A Privacy Mirage
-    #	          url: https://arxiv.org/abs/2011.07018
+    #           - type: Paper
+    #             title: Synthetic Data - A Privacy Mirage
+    #             url: https://arxiv.org/abs/2011.07018
     date_added: 2021-02-08
     date_updated: 2021-02-08
 

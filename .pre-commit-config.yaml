@@ -3,3 +3,9 @@ repos:
     rev: v2.2.1
     hooks:
       - id: prettier
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.1
+    hooks:
+      - id: yamllint
+        args: ["-d {extends: relaxed, rules: {line-length: {max: 150}}}"]
