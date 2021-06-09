@@ -120,3 +120,9 @@ def test_all_incubator_projects():
                 if project.get('in_incubator', False):
                     showcase.incubator_project(project_id)
 
+def test_api():
+    bc_data = showcase.get_bc_data()
+
+    assert type(bc_data) is dict
+    assert 'Factory' in bc_data
+

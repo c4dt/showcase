@@ -131,5 +131,35 @@ def incubator_project(project_id):
 
     return dict(project=project, lab=lab)
 
+@bottle.route('/api/get_bc_data')
+def get_bc_data():
+    labs = data.load()
+
+    showcase_data = {
+            'Labs': {
+                lab: [
+                    p['name'] for p in labs[lab]['projects'].values()
+                    ]
+                for lab in labs
+                }
+            }
+
+    incubator_data = {
+            p['name']:
+                'Demonstrator' if 'demo' in p and 'url' in p['demo'] else None
+            for lab in labs
+            for p in labs[lab]['projects'].values()
+            if p.get('in_incubator', False)
+            }
+
+    breadcrumbs = {
+            'Factory': {
+                'Showcase': showcase_data,
+                'Incubator': incubator_data,
+                }
+            }
+
+    return breadcrumbs
+
 if __name__ == '__main__':
     bottle.run(host='0.0.0.0', port=8080, debug=True, reloader=True)
