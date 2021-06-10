@@ -1,11 +1,7 @@
+@import "c4dt.css";
+
 :root {
-  --dark-grey: #232323;
-  --light-grey: #bfbfbe;
-  --orange: #ffa870;
   --dark-orange: #c26a336c;
-  --light-orange: #f5cda4;
-  --blue: #0091aa;
-  --light-blue: #a4bfcf;
   --greenish-blue: #045757;
   --dark-greenish-blue: #044343;
 
@@ -19,10 +15,23 @@
   --inactive-even-row-color: #3e3e3e;
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: #444;
+  }
+
+  a:link,
+  a:visited {
+    color: #289cae;
+  }
+
+  input {
+    background-color: #f0f0f0;
+  }
+}
+
 body {
-  background-color: white;
-  color: #444;
-  font-family: Verdana, sans-serif;
   font-size: medium;
 }
 
@@ -63,10 +72,6 @@ div.breadcrumbs a:hover {
 h1 {
   text-align: center;
 }
-a:link,
-a:visited {
-  color: #289cae;
-}
 img.float_left {
   width: 15%;
   float: left;
@@ -79,8 +84,6 @@ img.float_left {
 }
 
 input {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
   font-size: medium;
 }
 
@@ -282,27 +285,10 @@ div.index-image {
   padding-top: 1em;
 }
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--dark-grey);
-    color: var(--light-grey);
-  }
-  a:link,
-  a:visited {
-    color: var(--light-orange);
-  }
-
   div.breadcrumbs {
     background-color: #202020;
   }
 
-  input {
-    background-color: #080808;
-    color: var(--light-grey);
-  }
-
-  a:link {
-    color: var(--orange);
-  }
   a:link,
   a:visited {
     color: var(--light-orange);
