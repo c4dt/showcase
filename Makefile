@@ -4,6 +4,11 @@ all: showcase
 
 PYTEST_OPTIONS := -v
 VENV_DIR := venv
+NODE_DEP := @c4dt/angular-components
+NODE_DEP_VER := 3.0.1-p20210614124421.0
+
+COMMON_CSS := c4dt.css
+CSS_DIR := resources
 
 $(VENV_DIR):
 	python3 -m venv $(VENV_DIR)
@@ -14,6 +19,9 @@ $(VENV_DIR)/%: | $(VENV_DIR)
 env: requirements.txt $(VENV_DIR)
 	. $(VENV_DIR)/bin/activate
 	pip3 install -r $<
+	npm install $(NODE_DEP)@$(NODE_DEP_VER)
+	ln -sf $$( realpath --relative-to $(CSS_DIR) \
+		node_modules/$(NODE_DEP)/src/$(COMMON_CSS) ) $(CSS_DIR)
 
 .PHONY: showcase
 showcase: env showcase.py
@@ -32,4 +40,4 @@ test: env-test
 
 .PHONY: clean
 clean:
-	rm -rf $(VENV_DIR)
+	rm -rf $(VENV_DIR) node_modules $(CSS_DIR)/$(COMMON_CSS)
