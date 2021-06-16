@@ -25,9 +25,13 @@
   a:visited {
     color: #289cae;
   }
+  a:hover {
+    color: var(--dark-orange);
+  }
 
   input {
     background-color: #f0f0f0;
+    color: #444;
   }
 }
 
@@ -287,11 +291,6 @@ div.index-image {
 @media (prefers-color-scheme: dark) {
   div.breadcrumbs {
     background-color: #202020;
-  }
-
-  a:link,
-  a:visited {
-    color: var(--light-orange);
   }
 
   table.dataTable button {

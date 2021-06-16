@@ -5,7 +5,8 @@ all: showcase
 PYTEST_OPTIONS := -v
 VENV_DIR := venv
 NODE_DEP := @c4dt/angular-components
-NODE_DEP_VER := 3.0.0
+NODE_DEP_VER := 3.0.1-p20210614124421.0
+
 COMMON_CSS := c4dt.css
 CSS_DIR := resources
 
