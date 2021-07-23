@@ -1,6 +1,7 @@
 projects:
-  garfield:
-    name: Garfield
+  garfields:
+    name: Garfields
+    category: Learning
     description: >
       System Support for Byzantine Machine Learning
     contacts:
@@ -57,6 +58,7 @@ projects:
 
   at2:
     name: AT2
+    category: Blockchain
     description: Asset Transfer System using lightweight broadcast-based primitives instead of consensus
     layman_desc: >
       AT2 is a full-fledged asset transfer system (cryptocurrency) without the
@@ -123,6 +125,7 @@ projects:
 
   fegan:
     name: FeGAN
+    category: Learning
     description: Scaling Distributed GANs
     layman_desc: >
       The FeGAN system enables training GANs in the Federated Learning setup.
@@ -158,6 +161,7 @@ projects:
 
   mvtil:
     name: MVTIL
+    category: Security
     description: Multiversion Timestamp Locking (MVTL)
     layman_desc: >
       MVTL is a new family of concurrency control algorithms.
@@ -188,6 +192,7 @@ projects:
 
   libnvram:
     name: libNVRAM
+    category: Security
     description: Log-Free Concurrent Data Structures
     layman_desc: >
       Storing data structures in non-volatile RAM such that transient
@@ -220,6 +225,7 @@ projects:
 
   flodb:
     name: FloDB
+    category: Security
     description: Unlocking Memory in Persistent Key-Value Stores
     layman_desc: >
       High performance key-value store for servers with high amount of RAM
@@ -251,6 +257,7 @@ projects:
 
   fleet:
     name: FLeet
+    category: Learning
     description: Federated Machine Learning on Android
     layman_desc: >
       MobNet is a framework for federated machine learning on Android
@@ -284,6 +291,7 @@ projects:
 
   mctop:
     name: MCTOP
+    category: Security
     description: A Multi-Core Topology Abstraction
     layman_desc: >
       MCTOP is an abstraction of multi-core topologies augmented with
@@ -315,6 +323,7 @@ projects:
 
   lockin:
     name: LOCKIN
+    category: Security
     description: Automatically chose the best locking algorithm
     layman_desc: >
       GLS is a middleware that makes lock-based programming simple and
@@ -354,6 +363,7 @@ projects:
 
   aggregathor:
     name: AggregaThor
+    category: Learning
     description: Framework over TensorFlow implementing robust Stochastic Gradient Descent
     layman_desc: >
       Framework built over TensorFlow implementing state-of-the-art
@@ -393,6 +403,7 @@ projects:
 
   ascylib-optik:
     name: ASCYLIB + OPTIK
+    category: Security
     description: State-of-the-art concurrent data-structure library
     layman_desc: >
       Over 40 implementations of linked lists, hash tables, skip lists,
