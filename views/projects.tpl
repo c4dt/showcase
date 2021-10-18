@@ -272,7 +272,7 @@ applications = {
                     <option selected value="">All labs</option>
                     % for lab_id, lab in labs.items():
                         % prof = " ".join(lab['prof']['name'])
-                        <option value="{{ lab_id }}">{{ prof }} - {{ lab['name'] }}</option>
+                        <option value="lab_{{ lab_id }}">{{ prof }} - {{ lab['name'] }}</option>
                     % end
                 </select>
             </div>
@@ -483,6 +483,7 @@ applications = {
                                         % end
                                         {{ active_str }}
                                         {{ incubator_str }}
+                                        lab_{{ lab_id }}
                                     </span>
                                 </td>
                             </tr>
