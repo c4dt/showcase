@@ -63,7 +63,7 @@ projects:
             url: https://proceedings.neurips.cc/paper/2021
       - type: Relevant paper
         title: "Differential Privacy and Byzantine Resilience in SGD: Do They Add Up?"
-        url: https://arxiv.org/abs/2102.08166v3
+        url: https://arxiv.org/abs/2102.08166
         notes:
           - label: Published in
             text: Proceedings of PODC 2021
