@@ -1,4 +1,4 @@
-![Build Status](https://github.com/c4dt/showcase/actions/workflows/main.yml/badge.svg)
+[![Build Status](https://github.com/c4dt/showcase/actions/workflows/main.yml/badge.svg)](https://github.com/c4dt/showcase/actions/workflows/main.yml)
 
 # Showcase
 
