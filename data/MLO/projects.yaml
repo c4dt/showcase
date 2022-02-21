@@ -272,6 +272,7 @@ projects:
     applications:
       - Info
     description: Decentralized Collaborative Machine Learning
+    url: https://epfml.github.io/DeAI
     code:
       type: Lab GitHub
       url: https://github.com/epfml/DeAI
