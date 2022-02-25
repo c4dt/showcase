@@ -55,7 +55,7 @@ projects:
     license: Apache-2.0
     date_added: 2019-08-15
     date_updated: 2022-02-21
-    maturity: 1
+    maturity: 3
 
   prifi:
     name: PriFi
