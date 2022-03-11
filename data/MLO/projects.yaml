@@ -265,18 +265,18 @@ projects:
     date_added: 2021-11-04
     date_updated: 2021-11-04
 
-  deai:
-    name: DeAI
+  disco:
+    name: Disco
     categories:
       - Learning
     applications:
       - Info
     description: Decentralized Collaborative Machine Learning
-    url: https://epfml.github.io/DeAI
+    url: https://epfml.github.io/disco
     code:
       type: Lab GitHub
-      url: https://github.com/epfml/DeAI
-      date_last_commit: 2022-02-17
+      url: https://github.com/epfml/disco
+      date_last_commit: 2022-03-10
     language: JavaScript / TypeScript
     license: Apache-2.0
     type: Framework
@@ -286,7 +286,7 @@ projects:
       - Decentralized
     maturity: 2
     date_added: 2022-02-18
-    date_updated: 2022-02-18
+    date_updated: 2022-03-11
 
   byzantine-robust-optimizer:
     name: Byzantine Robust Optimizer
