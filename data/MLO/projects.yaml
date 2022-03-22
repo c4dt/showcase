@@ -284,9 +284,47 @@ projects:
       - Distributed Learning
       - TensorFlow
       - Decentralized
+    information:
+      - type: Web Page
+        title: Efficient - Powergossip
+        url: https://github.com/epfml/powergossip
+      - type: Web Page
+        title: Efficient - ChocoSGD
+        url: https://github.com/epfml/ChocoSGD
+      - type: Paper
+        title: Secure Byzantine-Robust Machine Learning
+        url: https://arxiv.org/abs/2006.04747
+      - type: Paper
+        title: Practical Secure Aggregation for Privacy-Preserving Machine Learning
+        url: https://eprint.iacr.org/2017/281.pdf
+        notes:
+          - label: Published in
+            text: "ACM Conference on Computer and Communications Security (CCS '17)"
+            url: https://acmccs.github.io/session-E5/
+      - type: Paper
+        title: Decentralized SGD with Asynchronous, Local and Quantized Updates
+        url: https://arxiv.org/abs/1910.12308
+        notes:
+          - label: Poster in
+            text: "Thirty-Fifth Conference on Neural Information Processing Systems (NeurIPS 2021)"
+            url: https://openreview.net/forum?id=9x10Q5J8e9W
+      - type: Paper
+        title: Byzantine-Robust Learning on Heterogeneous Datasets via Bucketing
+        url: https://arxiv.org/abs/2006.09365
+        notes:
+          - label: Published in
+            text: "The Tenth International Conference on Learning Representations (ICLR 2022)"
+            url: https://openreview.net/forum?id=jXKKDEi5vJt
+      - type: Paper
+        title: Learning from History for Byzantine Robust Optimization
+        url: https://arxiv.org/abs/2012.10333
+        notes:
+          - label: Published in
+            text: "Proceedings of Machine Learning Research, volume 139"
+            url: http://proceedings.mlr.press/v139/karimireddy21a.html
     maturity: 2
     date_added: 2022-02-18
-    date_updated: 2022-03-11
+    date_updated: 2022-03-22
 
   byzantine-robust-optimizer:
     name: Byzantine Robust Optimizer
