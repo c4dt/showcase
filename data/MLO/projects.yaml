@@ -284,12 +284,21 @@ projects:
       installation nor complex configuration, anyone can help. It's also a breeding
       ground for new machine learning technologies.
     url: https://epfml.github.io/disco
+    c4dt_contact:
+      name: Valérian Rousset
+      email: valerian.rousset@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/disco
       date_last_commit: 2022-05-03
     language: TypeScript
     license: Apache-2.0
+    incubator:
+      work: 2022/Q1 developing the project
+      products:
+        - type: Pilot
+          title: "Disco"
+          url: https://epfml.github.io/disco/
     type: Framework
     tags:
       - Distributed Learning
