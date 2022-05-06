@@ -260,7 +260,7 @@ projects:
       - Decentralized
     information:
       - type: Paper
-        title: RelaySum for Decentralized Deep Learningon Heterogeneous Data
+        title: RelaySum for Decentralized Deep Learning on Heterogeneous Data
         url: https://arxiv.org/pdf/2110.04175v1.pdf
     date_added: 2021-11-04
     date_updated: 2021-11-04
@@ -272,12 +272,23 @@ projects:
     applications:
       - Info
     description: Decentralized Collaborative Machine Learning
+    layman_desc: >
+      A collection of objects and routines to help you develop your own distributed
+      machine learning algorithm. It has two modes, federated, where a server is
+      keeping track of the model, and decentralized, where each participant has their
+      own local model. You can train your model directly in the browser, allowing it
+      to run on a variety of hardware. Many extensions are in the pipeline, such as
+      adding Byzantine resistance or training without revealing the model.
+      Compared to other solutions, Disco is bridging the gap between people creating
+      machine learning models and people having relevant data. By running without
+      installation nor complex configuration, anyone can help. It's also a breeding
+      ground for new machine learning technologies.
     url: https://epfml.github.io/disco
     code:
       type: Lab GitHub
       url: https://github.com/epfml/disco
-      date_last_commit: 2022-03-10
-    language: JavaScript / TypeScript
+      date_last_commit: 2022-05-03
+    language: TypeScript
     license: Apache-2.0
     type: Framework
     tags:
@@ -324,7 +335,7 @@ projects:
             url: http://proceedings.mlr.press/v139/karimireddy21a.html
     maturity: 2
     date_added: 2022-02-18
-    date_updated: 2022-03-22
+    date_updated: 2022-05-06
 
   byzantine-robust-optimizer:
     name: Byzantine Robust Optimizer
