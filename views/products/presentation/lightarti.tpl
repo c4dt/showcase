@@ -11,8 +11,8 @@ to track users, even when the government said they will not do it.
 On the network level, one of the best projects to guarantee the anonymity of the client is
 Tor. The Onion Router (Tor) relays the request of a client through a series of servers
 in such a way that no server has a full picture of the request. Unfortunately this advantage
-comes with a large setup cost for mobile applications: the client needs to download on a regular
-basis, every 3h, a full list of these servers.
+comes with a large setup cost for mobile applications: the client needs to download every hour
+a full list of these servers.
 </p><p>
 Lightarti-rest solves this problem by creating a smaller list of reliable servers, and updating
 this list only once a week. In regular intervals, an update is created to indicate servers
