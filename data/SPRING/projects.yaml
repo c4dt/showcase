@@ -440,11 +440,18 @@ projects:
     code:
       type: C4DT Github
       url: https://github.com/C4DT/lightarti-rest
-      date_last_commit: 2021-10-21
+      date_last_commit: 2022-04-14
+    information:
+      - type: Library
+        title: Android packages for lightarti-rest
+        url: https://github.com/c4dt/lightarti-rest-android
+      - type: Library
+        title: iOS packages for lightarti-rest
+        url: https://github.com/c4dt/lightarti-rest-ios
     language: Rust, Swift, Java
     license: MIT
     date_added: 2021-08-26
-    date_updated: 2021-10-21
+    date_updated: 2022-05-10
 
   voteagain:
     name: VoteAgain
