@@ -36,7 +36,7 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/spring-epfl/synthetic_data_release
-      date_last_commit: 2021-10-13
+      date_last_commit: 2022-05-13
     language: Python
     license: BSD-3-Clause
     information:
@@ -48,7 +48,7 @@ projects:
             text: "31st USENIX Security Symposium, 2022"
             url: https://www.usenix.org/conference/usenixsecurity22/presentation/stadler
     date_added: 2021-02-08
-    date_updated: 2022-01-11
+    date_updated: 2022-07-07
 
   claimchain:
     name: ClaimChain
@@ -75,14 +75,14 @@ projects:
     information:
       - type: Paper
         title: "ClaimChain: Improving the Security and Privacy of In-band Key Distribution for Messaging"
-        url: https://arxiv.org/abs/1707.06279
+        url: https://infoscience.epfl.ch/record/266698
         notes:
           - label: Published at
             text: WPES 2018
             url: https://wpes.tech/2018/program.html
     license: MIT
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
 
   lightnion:
     name: Lightnion
@@ -111,7 +111,7 @@ projects:
     language: JavaScript, Python
     license: BSD-3-Clause
     date_added: 2019-03-18
-    date_updated: 2021-06-07
+    date_updated: 2022-07-07
 
   trickster:
     name: Trickster
@@ -148,7 +148,7 @@ projects:
             text: NeurIPS 2018 Workshop on Security in Machine Learning
             url: https://secml2018.github.io/
     date_added: 2019-03-18
-    date_updated: 2021-06-07
+    date_updated: 2022-07-07
 
   hippiepug:
     name: Hippiepug
@@ -176,14 +176,14 @@ projects:
     information:
       - type: Paper
         title: "ClaimChain: Improving the Security and Privacy of In-band Key Distribution for Messaging"
-        url: https://arxiv.org/pdf/1707.06279.pdf
+        url: https://infoscience.epfl.ch/record/266698
         notes:
           - label: Published at
             text: WPES 2018
             url: https://wpes.tech/2018/program.html
     license: MIT
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
 
   mcsauditing:
     name: MCSAuditing
@@ -207,14 +207,14 @@ projects:
     information:
       - type: Paper
         title: "On (The Lack Of) Location Privacy in Crowdsourcing Applications"
-        url: https://arxiv.org/abs/1901.04923
+        url: https://infoscience.epfl.ch/record/275442
         notes:
           - label: Published at
             text: USENIX Security Symposium 2019
             url: https://www.usenix.org/conference/usenixsecurity19/presentation/boukoros
     license: GPL-3.0
     date_added: 2019-07-30
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
 
   zksk:
     name: Zero-Knowledge Swiss Knife
@@ -226,7 +226,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/zksk
-      date_last_commit: 2021-08-10
+      date_last_commit: 2022-03-02
     doc: https://zksk.readthedocs.io/
     contacts:
       - name: Bogdan Kulynych
@@ -246,7 +246,7 @@ projects:
             url: https://crises-deim.urv.cat/wpes2019/
     license: MIT
     date_added: 2020-02-06
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
     maturity: 2
 
   dp3t:
@@ -268,7 +268,7 @@ projects:
     code:
       type: Public Github
       url: https://github.com/DP-3T/
-      date_last_commit: 2021-09-10
+      date_last_commit: 2022-05-16
     doc: https://github.com/DP-3T/documents
     tags:
       - Protocol
@@ -284,7 +284,7 @@ projects:
         url: https://github.com/SwissCovid/swisscovid-app-ios
     license: MPL-2.0
     date_added: 2020-10-05
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
     maturity: 3
     incubator:
       work: 2020/Q4 documentation and testing of the app
@@ -330,7 +330,7 @@ projects:
         url: https://github.com/notifyme-app/notifyme-app-ios
     license: MPL-2.0
     date_added: 2021-01-21
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
 
   petrelic:
     name: Petrelic
@@ -351,12 +351,12 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/spring-epfl/petrelic
-      date_last_commit: 2021-04-08
+      date_last_commit: 2022-02-15
     doc: https://petrelic.readthedocs.io/
     language: Python
     license: MIT
     date_added: 2021-01-21
-    date_updated: 2021-06-07
+    date_updated: 2022-07-07
 
   sscred:
     name: SSCred
@@ -379,11 +379,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/spring-epfl/SSCred
-      date_last_commit: 2020-08-11
+      date_last_commit: 2022-03-18
     language: Python
     license: BSD-3-Clause
     date_added: 2021-01-21
-    date_updated: 2020-10-21
+    date_updated: 2022-07-07
 
   mia:
     name: mia
@@ -407,11 +407,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/spring-epfl/mia
-      date_last_commit: 2019-01-31
+      date_last_commit: 2021-10-20
     language: Python
     license: MIT
     date_added: 2021-01-21
-    date_updated: 2021-06-07
+    date_updated: 2022-07-07
 
   lightarti:
     name: lightarti-rest
@@ -440,7 +440,7 @@ projects:
     code:
       type: C4DT Github
       url: https://github.com/C4DT/lightarti-rest
-      date_last_commit: 2022-04-14
+      date_last_commit: 2022-05-31
     information:
       - type: Library
         title: Android packages for lightarti-rest
@@ -451,10 +451,10 @@ projects:
     language: Rust, Swift, Java
     license: MIT
     date_added: 2021-08-26
-    date_updated: 2022-05-10
+    date_updated: 2022-07-07
 
   voteagain:
-    name: VoteAgain
+    name: VOTEAGAIN
     categories:
       - Security
       - Privacy
@@ -476,21 +476,21 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/voteagain
-      date_last_commit: 2020-08-13
+      date_last_commit: 2022-03-22
     language: Python
     license: MIT
     tags:
       - Anonymity
     information:
       - type: Paper
-        title: "VoteAgain: A scalable coercion-resistant voting system"
-        url: https://arxiv.org/pdf/2005.11189.pdf
+        title: "VOTEAGAIN: A scalable coercion-resistant voting system"
+        url: https://infoscience.epfl.ch/record/287876
         notes:
           - label: Published at
             text: USENIX Security 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-07
 
   datashare-network:
     name: DatashareNetwork
@@ -523,14 +523,14 @@ projects:
       - Decentralized
     information:
       - type: Paper
-        title: "DatashareNetwork: A Decentralized Privacy-Preserving Search Engine for Investigative Journalists"
-        url: https://arxiv.org/pdf/2005.14645.pdf
+        title: "DATASHARENETWORK: A Decentralized Privacy-Preserving Search Engine for Investigative Journalists"
+        url: https://infoscience.epfl.ch/record/287810
         notes:
           - label: Published at
             text: USENIX 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-07
 
   tandem:
     name: Tandem
@@ -561,11 +561,82 @@ projects:
     information:
       - type: Paper
         title: "Tandem: Securing Keys by Using a Central Server While Preserving Privacy"
-        url: https://arxiv.org/pdf/1809.03390.pdf
+        url: https://arxiv.org/abs/1809.03390
         notes:
           - label: Published at
             text: PETS 2020
             url: https://petsymposium.org/2020/
     maturity: 2
     date_added: 2021-11-04
-    date_updated: 2022-01-25
+    date_updated: 2022-07-07
+
+  webgraph:
+    name: WebGraph
+    categories:
+      - Privacy
+      - Learning
+    applications:
+      - Info
+    description: Capturing Advertising and Tracking Information Flows for Robust Blocking
+    layman_desc: >
+      ML-based ad and tracker blocker that detects ads and trackers
+      based on their action rather than their content.
+    contacts:
+      - name: Sandra Siby
+        email: sandra.siby@epfl.ch
+    code:
+      type: Lab GitHub
+      url: https://github.com/spring-epfl/WebGraph
+      date_last_commit: 2022-06-23
+    language: Python
+    license: other
+    tags:
+      - Anonymity
+      - Protection
+    information:
+      - type: Paper
+        title: "WebGraph: Capturing Advertising and Tracking Information Flows for Robust Blocking"
+        url: https://arxiv.org/abs/2107.11309v1
+        notes:
+          - label: Published at
+            text: USENIX 2022
+            url: https://www.usenix.org/conference/usenixsecurity22
+    date_added: 2022-07-07
+    date_updated: 2022-07-07
+
+  disparate-vulnerability:
+    name: DisparateVulnerability
+    categories:
+      - Privacy
+      - Learning
+    applications:
+      - Info
+    description: Disparate Vulnerability to Membership Inference Attacks
+    layman_desc: >
+      A membership inference attack (MIA) against a machine-learning model
+      enables an attacker to determine whether a given data record
+      was part of the model's training data or not.
+      DisparateVulnerability helps in measuring how much a given model
+      can be inverted.
+    contacts:
+      - name: Bogdan Kulynych
+        email: bogdan.kulynych@epfl.ch
+    code:
+      type: Lab GitHub
+      url: https://github.com/spring-epfl/disparate-vulnerability
+      date_last_commit: 2022-01-04
+    language: Python
+    license: MIT
+    tags:
+      - Anonymity
+      - Protection
+    information:
+      - type: Paper
+        title: "Disparate Vulnerability to Membership Inference Attacks"
+        url: https://arxiv.org/abs/1906.00389
+        notes:
+          - label: Published at
+            text: PETS 2022
+            url: https://petsymposium.org/2022/
+    date_added: 2022-07-07
+    date_updated: 2022-07-07

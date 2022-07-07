@@ -14,7 +14,7 @@ projects:
       - Images
     type: Application
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   quality-crowd:
     name: QualityCrowd
@@ -45,7 +45,7 @@ projects:
         title: QualityCrowd - A Framework for Crowd-based Quality Evaluation
         url: https://mediatum.ub.tum.de/doc/1098076/1098076.pdf
     date_added: 2021-05-21
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   point-cloud-web-renderer:
     name: Point cloud web renderer
@@ -75,13 +75,13 @@ projects:
     information:
       - type: Paper
         title: A comprehensive study of the rate-distortion performance in MPEG point cloud compression
-        url: https://infoscience.epfl.ch/record/272124/files/APSIPA2019.pdf
+        url: https://infoscience.epfl.ch/record/272124
         notes:
           - label: Published in
             text: APSIPA
             url: http://apsipa.org
     date_added: 2021-05-21
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   learned-residual-pcc:
     name: Learned Residual PCC
@@ -114,14 +114,14 @@ projects:
       - Images
     information:
       - type: Paper
-        title: "Learning residual coding for point clouds"
+        title: Learning residual coding for point clouds
         url: https://infoscience.epfl.ch/record/288000
         notes:
           - label: Published in
             text: Proceedings of SPIE - Applications of Digital Image Processing XLIV
             url: https://spie.org/Publications/Proceedings/Volume/11842
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-07
 
   errgb:
     name: Error Resilient Recurring Gallery Building
@@ -151,11 +151,71 @@ projects:
       - Computer Vision
     information:
       - type: Paper
-        title: "Open-Set Person Re-Identification through Error Resilient Recurring Gallery Building"
+        title: Open-Set Person Re-Identification through Error Resilient Recurring Gallery Building
         url: https://infoscience.epfl.ch/record/286318
         notes:
           - label: Published at
             text: IEEE ICIP 2021
             url: https://www.2021.ieeeicip.org/
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-07
+
+  mesh-sampling:
+    name: Mesh sampling
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Generate point cloud based on mesh
+    tech_desc: >
+      It is composed of two scripts that perform mesh sampling.
+      They were developed with the goal of generating point cloud datasets
+      for training of learning-based compression algorithms
+      from large-scale mesh datasets such as ModelNet and ShapeNet.
+    code:
+      type: Lab GitHub
+      url: https://github.com/mmspg/mesh-sampling
+      date_last_commit: 2022-02-22
+    language: Python
+    license: other
+    type: Toolset
+    tags:
+      - Computer Vision
+    information:
+      - type: Paper
+        title: Sampling color and geometry point clouds from ShapeNet dataset
+        url: https://arxiv.org/abs/2201.06935
+    date_added: 2021-11-04
+    date_updated: 2022-07-07
+
+  pcc-geo-color:
+    name: Point-cloud compressor
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Learning-based compression of point cloud geometry and color
+    tech_desc: >
+      It includes scripts for training and testing a neural network architecture
+      for compression of geometry and color of point clouds.
+      The compression model is based on a convolutional auto-encoder architecture
+      that operates on block partitions of a point cloud.
+    code:
+      type: Lab GitHub
+      url: https://github.com/mmspg/pcc-geo-color
+      date_last_commit: 2022-01-04
+    language: Python
+    license: other
+    type: Toolset
+    tags:
+      - Computer Vision
+    information:
+      - type: Paper
+        title: Towards neural network approaches for point cloud compression
+        url: https://infoscience.epfl.ch/record/279585
+        notes:
+          - label: Published in
+            text: Proceedings Applications of Digital Image Processing 2020
+            url: https://www.spie.org/Publications/Proceedings/Volume/11510
+    date_added: 2021-11-04
+    date_updated: 2022-07-07

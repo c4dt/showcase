@@ -28,7 +28,7 @@ projects:
         title: My Food Repo
         url: https://www.myfoodrepo.org
     date_added: 2019-03-18
-    date_updated: 2021-06-14
+    date_updated: 2022-07-07
 
   foodandyou:
     name: Food & You
@@ -52,7 +52,7 @@ projects:
     type: Application
     url: https://www.foodandyou.ch
     date_added: 2021-01-21
-    date_updated: 2021-06-14
+    date_updated: 2022-07-07
 
   crowdbreaks:
     name: CrowdBreaks
@@ -72,8 +72,8 @@ projects:
     code:
       type: Project GitHub
       url: https://github.com/crowdbreaks
-      date_last_commit: 2021-09-16
-    type:
+      date_last_commit: 2022-06-07
+    license: MIT
     information:
       - type: Paper
         title: "Crowdbreaks: Tracking Health Trends Using Public Social Media Data and Crowdsourcing"
@@ -83,7 +83,7 @@ projects:
             text: Frontiers Public Health 2019
             url: https://www.frontiersin.org/articles/10.3389/fpubh.2019.00081
     date_added: 2021-01-21
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
 
   aicrowd:
     name: AIcrowd
@@ -99,7 +99,7 @@ projects:
     code:
       type: Project GitHub
       url: https://github.com/AIcrowd
-      date_last_commit: 2021-10-12
+      date_last_commit: 2022-06-19
     language: JavaScript, Ruby
     license: AGPL-3.0
     tags:
@@ -107,4 +107,24 @@ projects:
     type: Application
     maturity: 3
     date_added: 2021-01-21
-    date_updated: 2021-10-21
+    date_updated: 2022-07-07
+
+  txcl:
+    name: txcl
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Reproducible Text Classification
+    code:
+      type: Lab GitHub
+      url: https://github.com/crowdbreaks/text-classification
+      date_last_commit: 2022-02-24
+    language: Python
+    license: MIT
+    tags:
+      - CrowdSource
+      - Natural Language
+    type: Application
+    date_added: 2022-07-07
+    date_updated: 2022-07-07

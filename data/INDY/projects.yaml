@@ -9,7 +9,7 @@ projects:
     code:
       type: Personal GitHub
       url: https://github.com/lucasmaystre/choix
-      date_last_commit: 2021-04-26
+      date_last_commit: 2022-01-11
     contacts:
       - name: Lucas Maystre
         url: https://lucas.maystre.ch/
@@ -35,7 +35,7 @@ projects:
     license: MIT
     type: Library
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   who-is-that:
     name: Who is that?
@@ -58,7 +58,7 @@ projects:
       - Database
     type: Library
     date_added: 2019-09-09
-    date_updated: 2021-03-11
+    date_updated: 2022-07-05
 
   kickscore:
     name: kickscore
@@ -110,7 +110,7 @@ projects:
     license: MIT
     type: Library
     date_added: 2020-05-01
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   predikon:
     name: Predikon
@@ -141,4 +141,4 @@ projects:
       - Predictor
     type: Library
     date_added: 2020-05-01
-    date_updated: 2021-02-03
+    date_updated: 2022-07-05

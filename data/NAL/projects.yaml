@@ -52,7 +52,7 @@ projects:
             text: "USENIX NSDI '19"
             url: https://www.usenix.org/conference/nsdi19/presentation/iyer
     date_added: 2021-01-22
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   # This is the same as the 'vigor' project from DSLAB
   vigor:
@@ -98,7 +98,7 @@ projects:
     type: Framework
     maturity: 1
     date_added: 2019-07-26
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   line:
     name: LINE
@@ -125,7 +125,7 @@ projects:
     type: Application
     license: GPL-2.0
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   castan:
     name: CASTAN
@@ -161,4 +161,4 @@ projects:
             text: ACM SIGCOMM 2018
             url: http://conferences.sigcomm.org/sigcomm/2018/
     date_added: 2021-11-03
-    date_updated: 2021-11-03
+    date_updated: 2022-07-07

@@ -32,7 +32,7 @@ projects:
             text: NeurIPS 2020
             url: https://proceedings.neurips.cc/paper/2020/hash/a376802c0811f1b9088828288eb0d3f0-Abstract.html
     date_added: 2021-03-05
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
 
   chocosgd:
     name: chocoSGD
@@ -67,7 +67,7 @@ projects:
     language: Python
     license: Apache-2.0
     date_added: 2019-07-30
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
     maturity: 1
 
   cola:
@@ -91,7 +91,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfml/cola
-      date_last_commit: 2019-01-20
+      date_last_commit: 2021-11-29
     maturity: 1
     information:
       - type: Paper
@@ -111,7 +111,7 @@ projects:
     license: Apache-2.0
     type: Application
     date_added: 2019-07-30
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
 
   mlbench:
     name: MLBench
@@ -133,7 +133,7 @@ projects:
     code:
       type: Project GitHub
       url: https://github.com/mlbench
-      date_last_commit: 2021-07-09
+      date_last_commit: 2022-07-01
     url: https://mlbench.github.io
     doc: https://mlbench.readthedocs.io/
     information:
@@ -154,7 +154,7 @@ projects:
       name: Christian Grigis
       email: christian.grigis@epfl.ch
     date_added: 2019-07-30
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
     maturity: 2
 
   sent2vec:
@@ -181,7 +181,7 @@ projects:
       - Natural Language
     type: Library
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
     maturity: 1
 
   powersgd:
@@ -206,7 +206,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfml/powersgd
-      date_last_commit: 2021-10-19
+      date_last_commit: 2022-06-01
     information:
       - type: Paper
         title: "PowerSGD: Practical Low-Rank Gradient Compression for Distributed Optimization"
@@ -222,7 +222,7 @@ projects:
     type: Application
     license: MIT
     date_added: 2020-05-01
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
 
   relaysgd:
     name: RelaySGD
@@ -263,7 +263,7 @@ projects:
         title: RelaySum for Decentralized Deep Learning on Heterogeneous Data
         url: https://arxiv.org/pdf/2110.04175v1.pdf
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-06
 
   disco:
     name: Disco
@@ -290,7 +290,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfml/disco
-      date_last_commit: 2022-05-03
+      date_last_commit: 2022-07-04
     language: TypeScript
     license: Apache-2.0
     incubator:
@@ -344,7 +344,7 @@ projects:
             url: http://proceedings.mlr.press/v139/karimireddy21a.html
     maturity: 2
     date_added: 2022-02-18
-    date_updated: 2022-05-06
+    date_updated: 2022-07-06
 
   byzantine-robust-optimizer:
     name: Byzantine Robust Optimizer
@@ -386,7 +386,7 @@ projects:
             text: ICML 2021
             url: https://icml.cc/Conferences/2021
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-06
 
   quasi-global-momentum:
     name: Quasi-Global Momentum
@@ -423,7 +423,7 @@ projects:
             text: ICML 2021
             url: https://icml.cc/Conferences/2021
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-06
 
   hyperaggregate:
     name: HyperAggregate
@@ -449,4 +449,60 @@ projects:
         title: "HyperAggregate: A sublinear secure aggregation protocol"
         url: https://infoscience.epfl.ch/record/286909
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-06
+
+  phantomedicus:
+    name: PhantoMedicus
+    categories:
+      - Learning
+    applications:
+      - Health
+    description: Medical Survey Generator
+    layman_desc: >
+      Phantomedicus is a framework for simulating patients and consultations.
+      It can extract disease probabilities from given data.
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfml/phantomedicus
+      date_last_commit: 2022-06-25
+    language: Python
+    tags:
+      - Predictor
+    date_added: 2022-07-06
+    date_updated: 2022-07-06
+
+  paxlib:
+    name: PAXlib
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Augmentent PyTorch with some JAX
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfml/pax
+      date_last_commit: 2022-03-02
+    language: Python
+    type: Library
+    tags:
+      - PyTorch
+    date_added: 2022-07-07
+    date_updated: 2022-07-07
+
+  byzantine-robust-noniid-optimizer:
+    name: Byzantine-Robust optimizer
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Byzantine-Robust Learning on Heterogeneous Datasets via Bucketing
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfml/byzantine-robust-noniid-optimizer
+      date_last_commit: 2022-02-02
+    language: Python
+    type: Library
+    tags:
+      - PyTorch
+    date_added: 2022-07-07
+    date_updated: 2022-07-07

@@ -11,7 +11,7 @@ projects:
       Pribot uses an automated framework for privacy policy analysis
       (Polisis). It enables scalable, dynamic, and multi-dimensional
       queries on natural language privacy policies.
-    url: https://pribot.org/
+    url: https://pribot.org/bot
     code:
       type: Private GitHub
     contacts:
@@ -33,7 +33,7 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity18
     license: commercial
     date_added: 2019-03-18
-    date_updated: 2021-10-19
+    date_updated: 2022-07-06
 
   privyseal:
     name: PrivySeal
@@ -49,7 +49,6 @@ projects:
       these apps can make about them (e.g. topics of interest, activity
       patterns, etc.). The goal is to make users aware of these facts and
       discourage them to install over-privileged apps.
-    url: https://privyseal.epfl.ch/
     code:
       type: Private GitHub
     contacts:
@@ -68,7 +67,7 @@ projects:
             text: PETS'16
             url: https://petsymposium.org/2016
     date_added: 2019-03-18
-    date_updated: 2021-10-19
+    date_updated: 2022-07-06
 
   ai-data-platform-v1:
     name: AI Research Aiding Online Children Safety
@@ -105,7 +104,7 @@ projects:
       - Image Classification
     type: Framework
     date_added: 2019-03-18
-    date_updated: 2021-04-22
+    date_updated: 2022-07-06
 
   ai-data-platform-v2:
     name: AI-Driven Classifier Building Pipeline
@@ -120,7 +119,6 @@ projects:
       Intelligence classifiers for image and text classification.
     code:
       type: Private GitHub
-    doc: https://modemos.epfl.ch/platform_v2_docs
     information:
       - type: Demo
         title: Online Technology Demos
@@ -139,7 +137,7 @@ projects:
       - Image Classification
     type: Framework
     date_added: 2019-05-22
-    date_updated: 2021-04-22
+    date_updated: 2022-07-06
     maturity: 2
 
   scilens:
@@ -186,7 +184,7 @@ projects:
     license: GPL-3.0
     type: Application
     date_added: 2019-03-18
-    date_updated: 2021-10-19
+    date_updated: 2022-07-06
 
   media-observatory:
     name: Media Observatory
@@ -229,4 +227,50 @@ projects:
             text: WWW'19
             url: https://www2019.thewebconf.org
     date_added: 2019-09-04
-    date_updated: 2021-10-19
+    date_updated: 2022-07-06
+
+  gsn:
+    name: GSN
+    categories:
+      - Other
+    applications:
+      - Info
+    description: Develop sensor network with ease
+    layman_desc: >
+      Currently, each sensor network deployment has its own software system
+      for gathering, analyzing (application dependent) and publishing
+      the data coming from the sensor network.
+      GSN is developed based on the observation that
+      most of the logical requirements of the applications developed
+      for sensor networks are similar.
+      The applications based on GSN are hardware-independent making the sensor network changes invisible to the application.
+    code:
+      type: Lab GitHub
+      url: https://github.com/LSIR/gsn
+      date_last_commit: 2017-03-12
+    tags:
+      - Low-Level
+      - Network
+    type: Framework
+    date_added: 2022-07-06
+    date_updated: 2022-07-06
+
+  mlmodule:
+    name: MLModule
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Library of ML standardised models
+    layman_desc: >
+      MLModule is a library containing a collection of machine learning models
+      with standardised interface to run inference, train and manage model state files.
+    code:
+      type: Lab GitHub
+      url: https://github.com/LSIR/mlmodule
+      date_last_commit: 2022-06-01
+    tags:
+      - PyTorch
+    type: Library
+    date_added: 2022-07-06
+    date_updated: 2022-07-06

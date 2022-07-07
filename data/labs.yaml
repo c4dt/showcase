@@ -284,6 +284,20 @@ labs:
     contacts:
     url: https://lasec.epfl.ch/
 
+  LCA2:
+    name: Computer Communications and Applications Laboratory 2
+    prof:
+      name:
+        - Jean-Yves
+        - Le Boudec
+      email: jean-yves.leboudec@epfl.ch
+    description: >
+      The Computer Communications and Applications Laboratory 2 do research in
+      communication networks, with emphasis on deterministic networks, smart
+      grids and optimization of mobility.
+    contacts:
+    url: http://lca2.epfl.ch/
+
   LDS:
     name: Laboratory for Data Security
     prof:
@@ -305,20 +319,6 @@ labs:
       - name: Juan Ramón Troncoso-Pastoriza
         email: juan.troncoso-pastoriza@epfl.ch
     url: https://lds.epfl.ch
-
-  LCA2:
-    name: Computer Communications and Applications Laboratory 2
-    prof:
-      name:
-        - Jean-Yves
-        - Le Boudec
-      email: jean-yves.leboudec@epfl.ch
-    description: >
-      The Computer Communications and Applications Laboratory 2 do research in
-      communication networks, with emphasis on deterministic networks, smart
-      grids and optimization of mobility.
-    contacts:
-    url: http://lca2.epfl.ch/
 
   LIA:
     name: Artificial Intelligence Laboratory

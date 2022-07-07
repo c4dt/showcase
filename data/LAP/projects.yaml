@@ -15,7 +15,7 @@ projects:
     code:
       type: Personal GitHub
       url: https://github.com/lana555/dynamatic
-      date_last_commit: 2021-06-04
+      date_last_commit: 2022-05-15
     language: C++
     license: MIT
     tags:
@@ -36,4 +36,35 @@ projects:
             text: Proceedings of the 2020 ACM/SIGDA International Symposium on FPGAs
             url: https://www.sigda.org/publications/fpga-2020-toc/
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-05
+
+  dynaburst:
+    name: DynaBurst
+    categories:
+      - Other
+    applications:
+      - Info
+    description: Group DRAM bursts
+    tech_desc: >
+      DynaBurst is a highly flexible, FPGA-optimized, memory system for bandwidth-bound accelerators
+      that perform frequent irregular accesses to DRAM memory.
+      DynaBurst is an extension of the lab's miss-optimized nonblocking cache
+      which groups incoming requests into bursts of memory requests.
+    code:
+      type: Lab GitHub
+      url: https://github.com/EPFL-LAP/fpl19-DynaBurst
+      date_last_commit: 2019-09-06
+    language: VHDL
+    license: MIT
+    tags:
+      - Low-Level
+    information:
+      - type: Paper
+        title: "DynaBurst: Dynamically Assemblying DRAM Bursts over a Multitude of Random Accesses"
+        url: https://infoscience.epfl.ch/record/276498
+        notes:
+          - label: Published at
+            text: FPL 2019
+            url: https://fpl2019.bsc.es
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

@@ -16,7 +16,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfl-lara/stainless
-      date_last_commit: 2021-10-20
+      date_last_commit: 2022-07-03
     doc: https://epfl-lara.github.io/stainless/
     contacts:
       - name: Viktor Kunčak
@@ -73,7 +73,7 @@ projects:
         title: Stainless Verification System Tutorial
         url: https://raw.githubusercontent.com/epfl-lara/fmcad2021tutorial/main/Stainless-Tutorial-FMCAD2021.pdf
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
     maturity: 2
 
   inox:
@@ -89,7 +89,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfl-lara/inox
-      date_last_commit: 2021-09-23
+      date_last_commit: 2022-01-10
     contacts:
       - name: Viktor Kunčak
         email: viktor.kuncak@epfl.ch
@@ -105,7 +105,7 @@ projects:
     notes: >
       Invokes https://github.com/Z3Prover/z3 and http://cvc4.cs.stanford.edu/web/
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   rust-stainless:
     name: Rust-Stainless
@@ -130,4 +130,54 @@ projects:
       - Static Analysis
       - Code Analysis
     date_added: 2021-11-04
-    date_updated: 2022-02-14
+    date_updated: 2022-07-05
+
+  lisa:
+    name: LISA
+    categories:
+      - Verification
+    applications:
+      - Info
+    description: A Proof Assistant based on first order logic,
+      sequent calculus and set theory.
+    contacts:
+      - name: Simon Guilloud
+        email: simon.guilloud@epfl.ch
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-lara/lisa
+      date_last_commit: 2022-06-24
+    language: Scala
+    license: Apache-2.0
+    tags:
+      - Code Analysis
+      - Development
+    date_added: 2022-07-05
+    date_updated: 2022-07-05
+
+  scallion:
+    name: Scallion
+    categories:
+      - Other
+    applications:
+      - Info
+    description: A library for writing parsers and pretty printers for
+      LL(1) languages in Scala.
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-lara/scallion
+      date_last_commit: 2022-06-16
+    language: Scala
+    license: Apache-2.0
+    tags:
+      - Development
+    information:
+      - type: Paper
+        title: Zippy LL(1) Parsing with Derivatives
+        url: https://infoscience.epfl.ch/record/284113
+        notes:
+          - label: Published at
+            text: PLDI 2020
+            url: https://pldi20.sigplan.org
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

@@ -16,7 +16,7 @@ projects:
     code:
       type: Personal GitHub
       url: https://github.com/bwickman97/ffmalloc
-      date_last_commit: 2021-04-14
+      date_last_commit: 2022-04-09
     language: C
     type: Library
     tags:
@@ -24,13 +24,13 @@ projects:
     information:
       - type: Paper
         title: Preventing Use-After-Free Attacks with Fast Forward Allocation
-        url: https://raw.githubusercontent.com/bwickman97/ffmalloc/master/ffmalloc_post_publication_revision.pdf
+        url: https://infoscience.epfl.ch/record/291277
         notes:
           - label: Published at
             text: USENIX Security 2021
             url: https://www.usenix.org/conference/usenixsecurity21
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-07
 
   pactree:
     name: PACTree
@@ -49,7 +49,7 @@ projects:
     code:
       type: Non-lab GitHub
       url: https://github.com/cosmoss-vt/pactree
-      date_last_commit: 2021-09-03
+      date_last_commit: 2021-11-08
     language: C++
     license: Apache-2.0
     tags:
@@ -64,7 +64,7 @@ projects:
             text: SOSP 2021
             url: https://sosp2021.mpi-sws.org/
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-07
 
   nros:
     name: NrOS
@@ -80,7 +80,7 @@ projects:
     code:
       type: Non-lab GitHub
       url: https://github.com/vmware-labs/node-replicated-kernel
-      date_last_commit: 2021-11-05
+      date_last_commit: 2022-07-01
     language: Rust
     license: Apache-2.0
     tags:
@@ -88,10 +88,96 @@ projects:
     information:
       - type: Paper
         title: "NrOS: Effective Replication and Sharing in an Operating System"
-        url: https://ankitbhrdwj.github.io/papers/osdi21-bhardwaj.pdf
+        url: https://infoscience.epfl.ch/record/289218
         notes:
           - label: Published at
             text: USENIX OSDI 2021
             url: https://www.usenix.org/conference/osdi21
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-07
+
+  syncord:
+    name: SynCord
+    categories:
+      - Other
+    applications:
+      - Infra
+    description: Application-Informed Kernel Synchronization Primitives
+    tech_desc: >
+      SynCord is a framework to modify kernel locks
+      without recompiling or rebooting the kernel.
+      It abstracts key behaviors of kernel locks and exposes them as APIs
+      for designing user-defined kernel locks.
+      SynCord provides the mechanisms to customize kernel locks
+      safely and correctly from userspace.
+    url: https://rs3lab.github.io/SynCord
+    code:
+      type: Lab GitHub
+      url: https://github.com/rs3lab/SynCord
+      date_last_commit: 2022-07-01
+    language: Python, C
+    license: other
+    tags:
+      - Concurrency
+      - Server
+    date_added: 2022-07-07
+    date_updated: 2022-07-07
+
+  odinfs:
+    name: Odinfs
+    categories:
+      - Other
+    applications:
+      - Infra
+    description: Scaling PM Performance with Opportunistic Delegation
+    tech_desc: >
+      Odinfs is a NUMA-aware PM file system based on an opportunistic delegation framework
+      to achieve datapath scalability.
+      It limits concurrent PM access to avoid performance meltdown due to on-DIMM cache trashing.
+      It localizes PM access to avoid performance meltdown due to remote PM access.
+      It automatically parallelizes large PM access to utilize cumulative PM bandwidth across all NUMA nodes.
+      It maximizes concurrent access within the same file with scalable synchronization primitives.
+    url: https://rs3lab.github.io/Odinfs
+    code:
+      type: Lab GitHub
+      url: https://github.com/rs3lab/Odinfs
+      date_last_commit: 2022-05-16
+    language: C
+    license: other
+    tags:
+      - Concurrency
+      - Server
+    date_added: 2022-07-07
+    date_updated: 2022-07-07
+
+  shfllocks:
+    name: ShflLocks
+    categories:
+      - Other
+    applications:
+      - Infra
+    description: Scalable and Practical Locking with Shuffling
+    tech_desc: >
+      ShflLocks are a family of locking protocols that use shuffling mechanisms
+      to implement several policies, such as NUMA-awareness, or blocking.
+      It implements three locking protocols, NUMA-aware spinlock, NUMA-aware blocking mutex,
+      and NUMA-aware blocking rwlock.
+    code:
+      type: Lab GitHub
+      url: https://github.com/rs3lab/shfllock
+      date_last_commit: 2022-03-05
+    language: C
+    license: other
+    tags:
+      - Concurrency
+      - Server
+    information:
+      - type: Paper
+        title: Scalable and Practical Locking with Shuffling
+        url: https://dl.acm.org/doi/10.1145/3341301.3359629
+        notes:
+          - label: Published at
+            text: SOSP 2019
+            url: https://sosp19.rcs.uwaterloo.ca
+    date_added: 2022-07-07
+    date_updated: 2022-07-07

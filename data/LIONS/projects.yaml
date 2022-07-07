@@ -27,7 +27,7 @@ projects:
         title: A Primal-Dual Algorithmic Framework for Constrained Convex Minimization
         url: https://infoscience.epfl.ch/record/199844
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-05
 
   lb-csmri:
     name: LB-CSMRI
@@ -57,4 +57,31 @@ projects:
             text: IEEE Transactions on Medical Imaging, Vol. 37, 2018
             url: https://ieeexplore.ieee.org/document/8353419
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-05
+
+  storm+:
+    name: STORM+
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Faster PyTorch optimizer
+    layman_desc: >
+      Compared to the largely used SGD optimizer for PyTorch, STORM+ is faster
+      but requires two passes on the data.
+    code:
+      type: Lab GitHub
+      url: https://github.com/LIONS-EPFL/storm-plus-code
+    language: Python
+    tags:
+      - PyTorch
+    information:
+      - type: Paper
+        title: "STORM+: Fully Adaptive SGD with Momentum for Nonconvex Optimization"
+        url: https://infoscience.epfl.ch/record/289807
+        notes:
+          - label: Published at
+            text: NeurIPS 2021
+            url: https://neurips.cc/Conferences/2021
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

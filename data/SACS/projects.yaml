@@ -21,13 +21,13 @@ projects:
     information:
       - type: Paper
         title: Accelerated Nearest Neighbor Search with Quick ADC
-        url: https://arxiv.org/pdf/1704.07355.pdf
+        url: https://arxiv.org/abs/1704.07355
         notes:
           - label: Published in
             text: ICMR 2017
             url: https://dl.acm.org/doi/10.1145/3078971.3078992
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-07
 
   proteustm:
     name: ProteusTM
@@ -62,4 +62,4 @@ projects:
             text: ASPLOS 2016
             url: https://research.ece.cmu.edu/calcm/asplos2016/
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-07

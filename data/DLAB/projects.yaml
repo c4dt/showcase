@@ -21,8 +21,8 @@ projects:
       design, rather than by trust.
     code:
       type: Lab GitHub
-      url: https://github.com/cliqz-oss/browser-core/tree/6945afff7be667ed74b0b7476195678262120baf/modules/secvm/sources
-      date_last_commit: 2018-02-02
+      url: https://github.com/epfl-dlab/secvm-server
+      date_last_commit: 2020-08-17
     language: Java
     tags:
       - Decentralized
@@ -34,11 +34,8 @@ projects:
       - type: Paper
         title: Privacy-Preserving Distributed Learning with Secret Gradient Descent
         url: https://arxiv.org/pdf/1906.11993.pdf
-      - type: Source code
-        title: Server source code
-        url: https://github.com/epfl-dlab/secvm-server
     date_added: 2021-11-05
-    date_updated: 2022-01-25
+    date_updated: 2022-07-04
     maturity: 1
 
   invariant-language-models:
@@ -57,13 +54,13 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfl-dlab/invariant-language-models
-      date_last_commit: 2021-10-14
+      date_last_commit: 2022-01-24
     language: Python
     license: Apache-2.0
     tags:
       - Natural Language
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-04
 
   eighenthemes:
     name: Eigenthemes
@@ -96,4 +93,4 @@ projects:
             text: EMNLP 2021
             url: https://2021.emnlp.org/
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-04

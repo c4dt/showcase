@@ -32,4 +32,50 @@ projects:
             text: HPC 2019
             url: https://hosting.cs.vt.edu/hpc2019/
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-05
+
+  3d-ice:
+    name: 3D-ICE
+    categories:
+      - Other
+    applications:
+      - Infra
+    description: Thermal simulator for stacked integrated circuits
+    layman_desc: >
+      Hardware is getting smaller every day, components are being stacked
+      on top of each other, in order to make theses more compact. But as it is getting smaller,
+      it's also getting hotter. 3D-ICE helps in modelling how thermal flux are behaving.
+    url: https://www.epfl.ch/labs/esl/research/open-source-tools/3d-ice/
+    doc: https://eslweb.epfl.ch/3Dice/3D-ICE-User_Guide.pdf
+    code:
+      type: Lab GitHub
+      url: https://github.com/esl-epfl/3d-ice
+      date_last_commit: 2022-06-20
+    language: C
+    type: Simulation
+    tags:
+      - Low-Level
+      - Simulator
+    information:
+      - type: Paper
+        title: "3D-ICE 3.0: efficient nonlinear MPSoC thermal simulation with pluggable heat sink models"
+        url: https://infoscience.epfl.ch/record/285104
+      - type: Paper
+        title: "3D-ICE: a compact thermal model for early-stage design of liquid-cooled ICs"
+        url: https://infoscience.epfl.ch/record/186785
+      - type: Paper
+        title: "3D-ICE: Fast compact transient thermal modeling for 3D-ICs with inter-tier liquid cooling"
+        url: https://infoscience.epfl.ch/record/149790
+        notes:
+          - label: Published at
+            text: ICCAD 2010
+            url: https://iccad.com
+      - type: Paper
+        title: Compact transient thermal model for 3D ICs with liquid cooling via enhanced heat transfer cavity geometries
+        url: https://infoscience.epfl.ch/record/149792
+        notes:
+          - label: Published at
+            text: THERMINIC 2010
+            url: https://therminic.org/therminic2010/
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

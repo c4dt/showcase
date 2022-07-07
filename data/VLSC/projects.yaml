@@ -37,7 +37,7 @@ projects:
             text: ISMM 2018
             url: https://conf.researchr.org/home/ismm-2018
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-07
 
   abacus:
     name: Abacus
@@ -57,7 +57,7 @@ projects:
     code:
       type: Non-lab GitHub
       url: https://github.com/s3team/Abacus
-      date_last_commit: 2021-08-16
+      date_last_commit: 2022-05-17
     language: C
     license: MIT
     tags:
@@ -66,10 +66,10 @@ projects:
     information:
       - type: Paper
         title: "Abacus: Precise Side-Channel Analysis"
-        url: https://faculty.ist.psu.edu/wu/papers/abacus.pdf
+        url: https://infoscience.epfl.ch/record/288814
         notes:
           - label: Published at
             text: ICSE 2021
             url: https://conf.researchr.org/track/icse-2021/icse-2021-papers
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-07
