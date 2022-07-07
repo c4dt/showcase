@@ -15,7 +15,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/parsa-epfl/cloudsuite
-      date_last_commit: 2021-09-17
+      date_last_commit: 2022-04-12
     contacts:
       - name: Siddharth Gupta
         email: siddharth.gupta@epfl.ch
@@ -34,7 +34,7 @@ projects:
             url: https://dblp.org/db/conf/asplos/asplos2012.html
     license: CloudSuite, other
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   qflex:
     name: QFlex
@@ -71,7 +71,7 @@ projects:
     notes: >
       Some issues with regard to Oracle licenses
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07
 
   hbfpemulator:
     name: ColTraIn HBFP Training Emulator
@@ -99,10 +99,17 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/parsa-epfl/HBFPEmulator
-      date_last_commit: 2021-04-19
+      date_last_commit: 2021-10-25
     language: Python
     license: BSD-3-Clause
     information:
+      - type: Paper
+        title: Training DNNs with Hybrid Block Floating Point
+        url: https://infoscience.epfl.ch/record/266344
+        notes:
+          - label: Published at
+            text: NeurIPS 2018
+            url: https://neurips.cc/Conferences/2018
       - type: Paper
         title: "Dynamic Model Pruning with Feedback"
         url: https://infoscience.epfl.ch/record/277539
@@ -118,4 +125,4 @@ projects:
             text: ACM SigArch Computer Architecture Today
             url: https://www.sigarch.org/blog/
     date_added: 2021-05-27
-    date_updated: 2021-10-20
+    date_updated: 2022-07-07

@@ -32,7 +32,7 @@ projects:
             text: "Usenix OSDI '20"
             url: https://www.usenix.org/conference/osdi20/presentation/pirelli
     date_added: 2021-01-22
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   # This is the same as the 'vigor' project from NAL
   vigor:
@@ -78,7 +78,7 @@ projects:
     type: Framework
     maturity: 1
     date_added: 2019-07-26
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   # This is the same as the 'bolt' project from NAL
   bolt:
@@ -132,7 +132,7 @@ projects:
             text: "USENIX NSDI '19"
             url: https://www.usenix.org/conference/nsdi19/presentation/iyer
     date_added: 2021-02-03
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   cpi:
     name: CPI
@@ -174,7 +174,7 @@ projects:
           - label: Published in
             text: "Usenix S&P '15"
     date_added: 2019-07-26
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   s2e:
     name: S²E
@@ -192,7 +192,7 @@ projects:
     code:
       type: Project GitHub
       url: https://github.com/s2e
-      date_last_commit: 2021-10-16
+      date_last_commit: 2022-07-04
     language: C, C++
     license: MIT
     contacts:
@@ -212,7 +212,7 @@ projects:
             url: https://dl.acm.org/doi/10.1145/2110356.2110358
     type: Library
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   asap:
     name: ASAP
@@ -253,7 +253,7 @@ projects:
             text: "OSDI '14"
             url: https://www.usenix.org/conference/osdi14/poster-sessions
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   cloud9:
     name: Cloud 9
@@ -302,7 +302,7 @@ projects:
             url: https://dl.acm.org/toc/sigops/2010/43/4
     type: Application
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   dimmunix:
     name: Dimmunix
@@ -335,7 +335,7 @@ projects:
             text: "7th HotDep"
             url: http://hotdep2011.cis.upenn.edu/
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   failure-sketching:
     name: Failure Sketching
@@ -376,7 +376,7 @@ projects:
             text: "SOSP '15"
             url: https://dl.acm.org/doi/10.1145/2815400.2815412
     date_added: 2019-03-18
-    date_updated: 2021-10-20
+    date_updated: 2022-07-05
 
   conferr:
     name: ConfErr
@@ -414,7 +414,7 @@ projects:
         title: "Arugula: A programming language for describing human errors"
         url: http://lorenzo.nodo.ch/media/files/papers/eurosys10-arugula.pdf
     date_added: 2021-11-03
-    date_updated: 2021-11-03
+    date_updated: 2022-07-05
 
   lfi:
     name: LFI
@@ -447,4 +447,97 @@ projects:
             text: ACM Transactions on Computer Systems, December 2011
             url: https://dl.acm.org/doi/10.1145/2063509.2063511
     date_added: 2021-11-03
-    date_updated: 2021-11-03
+    date_updated: 2022-07-05
+
+  svshi:
+    name: SVSHI
+    categories:
+      - Verification
+    applications:
+      - Other
+    description: Verification framework for smart infrastructures
+    layman_desc: >
+      The Secure and Verified Smart Home Infrastructure project
+      is a platform/runtime/toolchain for developing and running
+      formally verified smart infrastructures, such as
+      smart buildings, smart cities, etc.
+    code:
+      type: Lab GitHub
+      url: https://github.com/dslab-epfl/svshi
+      date_last_commit: 2022-06-30
+    language: Python, Scala
+    license: MIT
+    type: Framework
+    tags:
+      - Internet of Things
+      - Protection
+    date_added: 2022-07-05
+    date_updated: 2022-07-05
+
+  klint:
+    name: Klint
+    categories:
+      - Verification
+    applications:
+      - Infra
+    description: Automated verification of network function binaries
+    layman_desc: >
+      Network functions are building blocks for "networks:" a router, a NAT
+      or anything transforming packets. As it is handling all the traffic
+      for a given infrastructure, it is crucial that it is implemented correctly.
+      Klint helps in building and verifying theses functions.
+    code:
+      type: Lab GitHub
+      url: https://github.com/dslab-epfl/klint
+      date_last_commit: 2022-06-15
+    language: C, Python
+    license: MIT
+    type: Toolset
+    tags:
+      - Code Analysis
+      - Network
+      - Server
+      - Low-Level
+    information:
+      - type: Paper
+        title: Automated Verification of Network Function Binaries
+        url: https://infoscience.epfl.ch/record/294788
+        notes:
+          - label: Published in
+            text: NSDI 2022
+            url: https://www.usenix.org/conference/nsdi22/presentation/pirelli
+    date_added: 2022-07-05
+    date_updated: 2022-07-05
+
+  pix:
+    name: PIX
+    categories:
+      - Verification
+    applications:
+      - Infra
+    description: Show performance of network functions
+    layman_desc: >
+      Network functions speed is very important for any network-heavy infrastructure.
+      PIX extracts performance metrics for these automatically, to help find
+      regressions and bottlenecks.
+    code:
+      type: Lab GitHub
+      url: https://github.com/dslab-epfl/pix
+      date_last_commit: 2022-06-15
+    language: C
+    license: MIT
+    type: Toolset
+    tags:
+      - Code Analysis
+      - Network
+      - Low-Level
+    information:
+      - type: Paper
+        title: Performance Interfaces for Network Functions
+        url: https://infoscience.epfl.ch/record/294787
+        notes:
+          - label: Published in
+            text: NSDI 2022
+            url: https://www.usenix.org/conference/nsdi22/presentation/iyer
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

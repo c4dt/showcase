@@ -31,7 +31,7 @@ projects:
             text: SCIS 2020
             url: https://www.iwsec.org/scis/2020/index_en.html
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-05
 
   ophcrack:
     name: ophcrack
@@ -55,4 +55,4 @@ projects:
     tags:
       - Attack
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-05

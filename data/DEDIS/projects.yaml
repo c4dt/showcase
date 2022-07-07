@@ -27,12 +27,12 @@ projects:
     type: Application
     code:
       type: Lab Github
-      url: https://github.com/dedis/student_21_pop
-      date_last_commit: 2021-10-20
+      url: https://github.com/dedis/popstellar
+      date_last_commit: 2022-07-04
     language: Go, Java, Scala, JavaScript
     license: AGPL-3.0
     date_added: 2021-04-13
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
 
   dela:
     name: DEDIS Ledger Architecture
@@ -57,11 +57,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/dedis/dela
-      date_last_commit: 2021-10-18
+      date_last_commit: 2022-04-28
     language: Go
-    license: AGPL-3.0
+    license: BSD-3-Clause
     date_added: 2021-04-13
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
 
   odyssey:
     name: Odyssey
@@ -90,7 +90,7 @@ projects:
     type: Application
     license: GPL-3.0
     date_added: 2020-04-28
-    date_updated: 2021-02-19
+    date_updated: 2022-07-04
 
   calypso:
     name: Calypso
@@ -107,8 +107,8 @@ projects:
       independently of OmniLedger.
     code:
       type: Lab GitHub
-      url: https://github.com/dedis/cothority/tree/master/calypso
-      date_last_commit: 2021-04-30
+      url: https://github.com/dedis/cothority/tree/main/calypso
+      date_last_commit: 2022-06-30
     c4dt_contact:
       name: Linus Gasser
       email: linus.gasser@epfl.ch
@@ -148,7 +148,7 @@ projects:
         url: https://github.com/calypso-demo
         title: Calypso demo from the paper
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
     maturity: 2
 
   kyber:
@@ -164,7 +164,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dedis/kyber
-      date_last_commit: 2020-11-26
+      date_last_commit: 2021-11-26
     lines_of_code: 17000 / 4000
     contacts:
       - name: Pierluca Borsò
@@ -177,7 +177,7 @@ projects:
     type: Library
     license: MPL-2.0
     date_added: 2019-03-18
-    date_updated: 2021-04-23
+    date_updated: 2022-07-04
     maturity: 3
 
   omniledger:
@@ -195,7 +195,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/c4dt/byzcoin
-      date_last_commit: 2021-10-04
+      date_last_commit: 2022-07-04
     contacts:
       - name: Pierluca Borsò
         email: pierluca.borso@epfl.ch
@@ -254,7 +254,7 @@ projects:
         title: Linus Gasser - DARC
         url: https://c4dt.org/article/darc
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
     maturity: 2
 
   onet:
@@ -285,7 +285,7 @@ projects:
     type: Library
     license: LGPL-3.0
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
 
   e-voting:
     name: E-voting
@@ -306,7 +306,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dedis/cothority/tree/master/evoting
-      date_last_commit: 2020-12-18
+      date_last_commit: 2022-06-02
     lines_of_code: 1700 / 200
     contacts:
       - name: Pierluca Borsò
@@ -321,7 +321,7 @@ projects:
     type: Application
     license: AGPL-3.0
     date_added: 2019-03-18
-    date_updated: 2021-02-19
+    date_updated: 2022-07-04
 
   drand:
     name: DRand
@@ -337,7 +337,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/drand/drand
-      date_last_commit: 2021-10-21
+      date_last_commit: 2022-06-28
     url: https://drand.love
     doc: https://github.com/drand/drand#documentation
     lines_of_code: 1000 / 200
@@ -355,10 +355,10 @@ projects:
         title: League of Entropy
         url: https://leagueofentropy.com/
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
 
   purbs:
-    name: Purbs
+    name: PURBs
     categories:
       - Privacy
     applications:
@@ -386,7 +386,7 @@ projects:
             url: https://petsymposium.org/2019/program.php
     type: Library
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
 
   threshold-logical-clocks:
     name: Threshold Logical Clocks
@@ -409,7 +409,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dedis/tlc
-      date_last_commit: 2020-05-08
+      date_last_commit: 2022-05-12
     tags:
       - Byzantine Resilience
       - Consensus
@@ -425,7 +425,7 @@ projects:
         url: https://drive.google.com/file/d/1BrTz20CbvXyFEKDtWH48FdWgwoG37wmr/view
     type: Application
     date_added: 2019-07-26
-    date_updated: 2021-02-19
+    date_updated: 2022-07-04
 
   twins:
     name: Twins
@@ -448,7 +448,7 @@ projects:
       - Consensus
     type: Application
     date_added: 2021-02-05
-    date_updated: 2021-10-21
+    date_updated: 2022-07-04
 
   simnet:
     name: SimNet
@@ -470,8 +470,54 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/dedis/simnet
-      date_last_commit: 2020-06-12
+      date_last_commit: 2022-02-24
     language: Go
     license: GPL-3.0
     date_added: 2021-02-24
-    date_updated: 2021-02-24
+    date_updated: 2022-07-04
+
+  hbt:
+    name: HBT
+    categories:
+      - Blockchain
+    applications:
+      - Gov
+    description: Token for conflicts zone
+    url: https://dedis.github.io/hbt
+    contacts:
+      - name: Noémien Kocher
+        email: noemien.kocher@epfl.ch
+    tags:
+      - Anonymity
+      - Decentralized
+    type: Application
+    code:
+      type: Lab Github
+      url: https://github.com/dedis/hbt
+      date_last_commit: 2022-06-30
+    language: Go
+    license: other
+    date_added: 2022-07-04
+    date_updated: 2022-07-04
+
+  determ-checker:
+    name: determ-checker
+    categories:
+      - Verification
+    applications:
+      - Info
+    description: Find non-determinism in golang code
+    contacts:
+      - name: Cristina Basescu
+        email: cristina.basescu@epfl.ch
+    tags:
+      - Code Analysis
+    type: Toolset
+    code:
+      type: Lab Github
+      url: https://github.com/dedis/determ-checker
+      date_last_commit: 2022-06-20
+    language: Go
+    license: other
+    date_added: 2022-07-04
+    date_updated: 2022-07-04

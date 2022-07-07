@@ -28,7 +28,7 @@ projects:
             text: IEEE Transactions on Industrial Informatics 12, Issue 5 (2016)
             url: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7742433
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   commelec-api:
     name: commelec-api
@@ -55,7 +55,7 @@ projects:
     type: Library
     license: MIT
     date_added: 2019-03-18
-    date_updated: 2021-03-30
+    date_updated: 2022-07-05
 
   t-recs:
     name: T-RECS
@@ -78,4 +78,23 @@ projects:
     type: Simulation
     license: MIT
     date_added: 2019-07-29
-    date_updated: 2021-03-30
+    date_updated: 2022-07-05
+
+  ephmeral-quic:
+    name: Ephemeral QUIC
+    categories:
+      - Other
+    applications:
+      - Info
+    description: QUIC extension for ephmeral data
+    code:
+      type: Lab GitHub
+      url: https://github.com/LCA2-EPFL/ephemeral-quic
+      date_last_commit: 2018-08-07
+    tags:
+      - Network
+    language: C++, Python
+    type: Library
+    license: other
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

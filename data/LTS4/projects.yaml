@@ -39,7 +39,7 @@ projects:
             text: 2016 IEEE Conference on Computer Vision and Pattern Recognition
             url: https://cvpr2016.thecvf.com/program/main_conference
     date_added: 2019-03-18
-    date_updated: 2021-04-26
+    date_updated: 2022-07-06
 
   manifool:
     name: ManiFool
@@ -70,13 +70,13 @@ projects:
     information:
       - type: Paper
         title: "Geometric Robustness of Deep Networks: Analysis and Improvement"
-        url: https://arxiv.org/abs/1711.09115
+        url: https://infoscience.epfl.ch/record/253668
         notes:
           - label: Published in
             text: proceedings of the 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
             url: https://www.computer.org/csdl/proceedings/cvpr/2018/17D45VtKirt
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
 
   sparsefool:
     name: SparseFool
@@ -115,7 +115,7 @@ projects:
             text: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition
             url: https://cvpr2019.thecvf.com/program/main_conference
     date_added: 2019-09-04
-    date_updated: 2021-04-26
+    date_updated: 2022-07-06
 
   universal:
     name: Universal
@@ -141,14 +141,14 @@ projects:
     type: Application
     information:
       - type: Paper
-        title: "Universal adversarial perturbations"
-        url: https://arxiv.org/pdf/1610.08401.pdf
+        title: Universal adversarial perturbations
+        url: https://infoscience.epfl.ch/record/226156
         notes:
           - label: Published in
             text: proceedings of 2017 IEEE Conference on Computer Vision and Pattern Recognition
             url: https://www.computer.org/csdl/proceedings/cvpr/2017/12OmNyoiYVr
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
 
   hold-me-tight:
     name: Hold me tight!
@@ -181,19 +181,19 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/LTS4/hold-me-tight
-      date_last_commit: 2021-06-22
+      date_last_commit: 2021-12-10
     language: Python
     license: Apache-2.0
     information:
       - type: Paper
-        title: "Hold me tight! Influence of discriminative features on deep network boundaries"
+        title: Hold me tight! Influence of discriminative features on deep network boundaries
         url: https://infoscience.epfl.ch/record/280278
         notes:
           - label: Published at
             text: Neural Information Processing Systems (NeurIPS) 2020
             url: https://neurips.cc/virtual/2020/public/papers.html?filter=sessions&search=poster+session+2
     date_added: 2021-01-27
-    date_updated: 2021-10-21
+    date_updated: 2022-07-06
 
   neural-anisotropy-directions:
     name: Neural Anisotropy Directions
@@ -237,7 +237,7 @@ projects:
             text: Neural Information Processing Systems (NeurIPS) 2020
             url: https://neurips.cc/virtual/2020/public/papers.html?filter=sessions&search=Poster+Session+4
     date_added: 2021-01-27
-    date_updated: 2021-04-26
+    date_updated: 2022-07-06
 
   orthonet:
     name: OrthoNet
@@ -275,10 +275,43 @@ projects:
     information:
       - type: Paper
         title: "OrthoNet: Multilayer Network Data Clustering"
-        url: https://arxiv.org/pdf/1811.00821.pdf
+        url: https://infoscience.epfl.ch/record/276521
         notes:
           - label: Published in
             text: IEEE Transactions on Signal and Information Processing over Networks, Volume 6
             url: https://ieeexplore.ieee.org/document/8974205
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-06
+
+  prime:
+    name: PRIME
+    categories:
+      - Learning
+      - Security
+    applications:
+      - Info
+    description: Boost robustness of images to common corruptions
+    tech_desc: >
+      PRIME is a generic, plug-n-play data augmentation scheme
+      that consists of simple families of max-entropy image transformations
+      for conferring robustness to common corruptions.
+      PRIME leads to significant improvements in corruption robustness on multiple benchmarks.
+    contacts:
+      - name: Apostolos Modas
+        email: apostolos.modas@epfl.ch
+    code:
+      type: Lab GitHub
+      url: https://github.com/LTS4/PRIME-augmentations
+      date_last_commit: 2021-12-28
+    language: Python
+    license: Apache-2.0
+    type: Toolset
+    tags:
+      - Images
+      - PyTorch
+    information:
+      - type: Paper
+        title: "PRIME: A few primitives can boost robustness to common corruptions"
+        url: https://arxiv.org/abs/2112.13547
+    date_added: 2022-07-06
+    date_updated: 2022-07-06

@@ -22,13 +22,13 @@ projects:
     information:
       - type: Paper
         title: "FuZZan: Efficient Sanitizer Metadata Design for Fuzzing"
-        url: https://hexhive.epfl.ch/publications/files/20ATC.pdf
+        url: https://infoscience.epfl.ch/record/289212
         notes:
           - label: Published at
             text: "Usenix ATC '20"
             url: https://www.usenix.org/conference/atc20/presentation/jeon
     date_added: 2021-03-05
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   usbfuzz:
     name: USBFuzz
@@ -51,13 +51,13 @@ projects:
     information:
       - type: Paper
         title: "USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation"
-        url: https://hexhive.epfl.ch/publications/files/20SEC3.pdf
+        url: https://infoscience.epfl.ch/record/287847
         notes:
           - label: Published at
             text: "Usenix S&P '20"
             url: https://www.usenix.org/conference/usenixsecurity20/presentation/peng
     date_added: 2021-03-05
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   magma:
     name: Magma
@@ -82,7 +82,7 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/HexHive/magma
-      date_last_commit: 2021-09-22
+      date_last_commit: 2022-07-03
     information:
       - type: Paper
         title: "Magma: A Ground-Truth Fuzzing Benchmark"
@@ -92,7 +92,7 @@ projects:
             text: SIGMETRICS 2021
             url: http://www.sigmetrics.org/sigmetrics2021
     date_added: 2020-02-21
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   t-fuzz:
     name: T-Fuzz
@@ -125,7 +125,7 @@ projects:
             text: SP 2018
             url: https://ieeexplore.ieee.org/document/8418632
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   bopc:
     name: BOPC
@@ -152,13 +152,13 @@ projects:
     information:
       - type: Paper
         title: "Block Oriented Programming: Automating Data-Only attacks"
-        url: https://github.com/HexHive/BOPC/blob/master/ccs18_paper.pdf
+        url: https://infoscience.epfl.ch/record/267008
         notes:
           - label: Published at
             text: CCS 2018
             url: https://dl.acm.org/doi/10.1145/3243734.3243739
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   cfixx:
     name: CFIXX
@@ -188,7 +188,7 @@ projects:
             text: NDSS 2018
             url: https://www.ndss-symposium.org/ndss2018
     date_added: 2019-03-18
-    date_updated: 2021-02-26
+    date_updated: 2022-07-05
 
   hextype:
     name: HexType
@@ -205,7 +205,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/HexType
-      date_last_commit: 2020-08-27
+      date_last_commit: 2021-11-16
     tags:
       - Fuzzing
     language: C++
@@ -219,7 +219,7 @@ projects:
             text: CCS 2017
             url: https://ccs2017.sigsac.org
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   retrowrite:
     name: RetroWrite
@@ -237,7 +237,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/retrowrite
-      date_last_commit: 2021-08-18
+      date_last_commit: 2022-05-02
     tags:
       - Fuzzing
       - Binary
@@ -247,7 +247,7 @@ projects:
     information:
       - type: Paper
         title: "RetroWrite: Statically Instrumenting COTS Binaries for Fuzzing and Sanitization"
-        url: http://hexhive.epfl.ch/publications/files/20Oakland.pdf
+        url: https://infoscience.epfl.ch/record/284290
         notes:
           - label: Published at
             text: Oakland 2020
@@ -256,7 +256,7 @@ projects:
         title: RetroWrite Tutorial
         url: https://github.com/HexHive/RetroWrite-Tutorial
     date_added: 2019-09-02
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   shadowstack:
     name: ShadowStack
@@ -289,13 +289,13 @@ projects:
     information:
       - type: Paper
         title: "SoK: Shining Light on Shadow Stacks"
-        url: http://hexhive.epfl.ch/publications/files/19Oakland.pdf
+        url: https://infoscience.epfl.ch/record/275478
         notes:
           - label: Published at
             text: Oakland 2019
             url: https://ieeexplore.ieee.org/document/8835389
     date_added: 2020-02-21
-    date_updated: 2021-02-26
+    date_updated: 2022-07-05
 
   hexpads:
     name: HexPADS
@@ -326,14 +326,14 @@ projects:
     type: Application
     information:
       - type: Paper
-        title: "HexPADS: a platform to detect “stealth” attacks"
+        title: 'HexPADS: a platform to detect "stealth" attacks'
         url: http://hexhive.epfl.ch/publications/files/16ESSoS.pdf
         notes:
           - label: Published at
             text: ESSoS 2016
             url: https://dl.acm.org/conference/essos
     date_added: 2020-02-21
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   fuzzgen:
     name: FuzzGen
@@ -361,13 +361,13 @@ projects:
     information:
       - type: Paper
         title: "FuzzGen: Automatic Fuzzer Generation"
-        url: http://hexhive.epfl.ch/publications/files/20SEC.pdf
+        url: https://infoscience.epfl.ch/record/287822
         notes:
           - label: Published at
             text: SEC 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2020-02-21
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   datashield:
     name: DataShield
@@ -400,7 +400,7 @@ projects:
             text: AsiaCCS 2017
             url: https://dl.acm.org/doi/10.1145/3052973.3052983
     date_added: 2020-02-21
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   halucinator:
     name: HALucinator
@@ -428,13 +428,13 @@ projects:
     information:
       - type: Paper
         title: "HALucinator: Firmware Re-hosting Through Abstraction Layer Emulation"
-        url: http://hexhive.epfl.ch/publications/files/20SEC2.pdf
+        url: https://infoscience.epfl.ch/record/287890
         notes:
           - label: Published at
             text: SEC 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2020-02-24
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
     maturity: 1
 
   benchiot:
@@ -462,14 +462,14 @@ projects:
     information:
       - type: Paper
         title: "BenchIoT: Security benchmarks for the Internet of Things"
-        url: http://hexhive.epfl.ch/publications/files/19DSN.pdf
+        url: https://infoscience.epfl.ch/record/280267
         notes:
           - label: Published at
             text: DSN 2019
             url: https://ieeexplore.ieee.org/document/8809492
     maturity: 1
     date_added: 2020-02-24
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   freegaen:
     name: Free GAEN alternative
@@ -517,7 +517,7 @@ projects:
       name: Christian Grigis
       email: christian.grigis@epfl.ch
     date_added: 2020-10-05
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   lightblue:
     name: LightBlue
@@ -541,18 +541,18 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/purseclab/lightblue
-      date_last_commit: 2021-07-14
+      date_last_commit: 2022-07-01
     information:
       - type: Paper
         title: "LIGHTBLUE : Automatic Profile-Aware Debloating of Bluetooth Stacks"
-        url: https://github.com/purseclab/lightblue/blob/master/lightblue.pdf
+        url: https://infoscience.epfl.ch/record/291299
         notes:
           - label: Published at
-            text: 30th USENIX Security Symposium
+            text: USENIX 2021
             url: https://www.usenix.org/conference/usenixsecurity21/
     language: C++, Python
     date_added: 2020-02-26
-    date_updated: 2021-10-21
+    date_updated: 2022-07-05
 
   igor:
     name: Igor
@@ -571,7 +571,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/Igor
-      date_last_commit: 2021-09-20
+      date_last_commit: 2022-06-16
     language: C
     type: Application
     tags:
@@ -579,7 +579,7 @@ projects:
     information:
       - type: Paper
         title: "Igor: Crash Deduplication Through Root-Cause Clustering"
-        url: https://nebelwelt.net/files/21CCS.pdf
+        url: https://infoscience.epfl.ch/record/294166
         notes:
           - label: Published at
             text: ACM CCS 2021
@@ -588,7 +588,7 @@ projects:
         title: "Igor: Crash Deduplication Through Root-Cause Clustering (CCS'21)"
         url: https://www.youtube.com/watch?v=V06x1Ad5dRo
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-05
 
   dis-cover:
     name: dis-cover
@@ -608,7 +608,7 @@ projects:
       - Binary
       - Low-Level
     date_added: 2021-11-04
-    date_updated: 2021-11-04
+    date_updated: 2022-07-05
 
   gramatron:
     name: Gramatron
@@ -632,10 +632,42 @@ projects:
     information:
       - type: Paper
         title: "Gramatron: Effective Grammar-Aware Fuzzing"
-        url: https://nebelwelt.net/files/21ISSTA.pdf
+        url: https://infoscience.epfl.ch/record/290978
         notes:
           - label: Published at
             text: ISSTA 2021
             url: https://conf.researchr.org/home/issta-2021
     date_added: 2021-11-04
-    date_updated: 2022-01-26
+    date_updated: 2022-07-05
+
+  dataflow:
+    name: datAFLow
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Data-flow based fuzzing
+    tech_desc: >
+      DatAFLow is a fuzzer built on top of AFL++.
+      However, instead of a control-flow-based feedback mechanism,
+      it uses a data-flow-based feedback mechanism;
+      specifically, data flows based on def-use associations.
+    code:
+      type: Lab GitHub
+      url: https://github.com/HexHive/datAFLow
+      date_last_commit: 2022-05-24
+    language: C++
+    license: other
+    type: Toolset
+    tags:
+      - Fuzzing
+    information:
+      - type: Report
+        title: "Registered Report: DatAFLow"
+        url: https://www.ndss-symposium.org/wp-content/uploads/fuzzing2022_23001_paper.pdf
+        notes:
+          - label: Published at
+            text: FUZZING 2022
+            url: https://fuzzingworkshop.github.io
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

@@ -19,7 +19,7 @@ projects:
     language: C++
     type: Application
     date_added: 2019-03-18
-    date_updated: 2021-03-22
+    date_updated: 2022-07-05
 
   image-completion:
     name: Image Completion
@@ -41,7 +41,7 @@ projects:
     language: MATLAB
     type: Application
     date_added: 2019-03-18
-    date_updated: 2021-03-22
+    date_updated: 2022-07-05
 
   adefan:
     name: ADEFAN
@@ -78,7 +78,7 @@ projects:
             text: ICASSP 2020
             url: https://2020.ieeeicassp.org/
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-05
 
   fg-nic:
     name: FG-NIC
@@ -100,7 +100,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/IVRL/FG-NIC
-      date_last_commit: 2021-08-23
+      date_last_commit: 2022-01-04
     language: Python
     license: MIT
     tags:
@@ -116,7 +116,7 @@ projects:
             text: IEEE Signal Processing Letters 2021
             url: https://ieeexplore.ieee.org/document/9513558
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-05
 
   buifd:
     name: BUIFD
@@ -146,13 +146,13 @@ projects:
     information:
       - type: Paper
         title: Blind Universal Bayesian Image Denoising WithGaussian Noise Level Learning
-        url: https://arxiv.org/pdf/1907.03029v2.pdf
+        url: https://infoscience.epfl.ch/record/276107
         notes:
           - label: Published in
             text: IEEE Transactions on Image Processing, Vol. 29, 2020
             url: https://ieeexplore.ieee.org/document/9024220
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-05
 
   zero-learning-medical-fusion:
     name: Zero-Learning Fast Medical Image Fusion
@@ -185,4 +185,31 @@ projects:
             text: FUSION 2019
             url: https://ieeexplore.ieee.org/document/9011178
     date_added: 2021-11-05
-    date_updated: 2021-11-05
+    date_updated: 2022-07-05
+
+  lelsd:
+    name: LELSD
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Interactive GAN-based image editing
+    layman_desc: >
+      When generating an image using a GAN, some errors might appear which are
+      obvious to the human observer, but not to the computer.
+      By introducing this user feedback one can refine the generated image
+      to look even more real.
+    code:
+      type: Lab GitHub
+      url: https://github.com/IVRL/LELSD
+      date_last_commit: 2022-02-20
+    language: Python
+    tags:
+      - Images
+      - Deep Neural Networks
+    information:
+      - type: Paper
+        title: Optimizing Latent Space Directions For GAN-based Local Image Editing
+        url: https://arxiv.org/abs/2111.12583
+    date_added: 2022-07-05
+    date_updated: 2022-07-05

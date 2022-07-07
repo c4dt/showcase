@@ -132,7 +132,7 @@ projects:
             text: Proceedings of NeurIPS 2017
             url: https://proceedings.neurips.cc/paper/2017
     date_added: 2021-01-20
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   at2:
     name: AT2
@@ -215,7 +215,7 @@ projects:
         title: "Presentation of Dynamic Byzantine Reliable Broadcast"
         url: https://www.youtube.com/watch?v=WIm8XGopqIA
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   fegan:
     name: FeGAN
@@ -253,7 +253,7 @@ projects:
             text: ACM/IFIP Middleware 2020
             url: https://2020.middleware-conference.org
     date_added: 2020-11-11
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   mvtil:
     name: MVTIL
@@ -289,7 +289,7 @@ projects:
             text: PODC 2018
             url: https://www.podc.org/podc2018
     date_added: 2019-09-19
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   libnvram:
     name: libNVRAM
@@ -325,7 +325,7 @@ projects:
             text: ATC 2018
             url: https://www.usenix.org/conference/atc18/presentation/david
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   flodb:
     name: FloDB
@@ -360,7 +360,7 @@ projects:
             text: EuroSys 2017
             url: https://eurosys2017.github.io
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   fleet:
     name: FLeet
@@ -397,7 +397,7 @@ projects:
             text: ACM/IFIP Middleware 2020
             url: https://2020.middleware-conference.org
     date_added: 2019-07-01
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   mctop:
     name: MCTOP
@@ -432,7 +432,7 @@ projects:
             text: EuroSys 2017
             url: https://eurosys2017.github.io
     date_added: 2019-07-26
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   lockin:
     name: LOCKIN
@@ -480,7 +480,7 @@ projects:
             text: ACM/IFIP Middleware 2016
             url: http://2016.middleware-conference.org
     date_added: 2019-07-01
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   aggregathor:
     name: AggregaThor
@@ -520,7 +520,7 @@ projects:
             text: SysML 2019
             url: https://mlsys.org/Conferences/2019
     date_added: 2019-03-18
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   ascylib-optik:
     name: ASCYLIB + OPTIK
@@ -570,7 +570,7 @@ projects:
         url: https://infoscience.epfl.ch/record/203822
         title: Designing ASCY-compliant Concurrent Search Data Structures
     date_added: 2021-02-09
-    date_updated: 2021-10-21
+    date_updated: 2022-07-01
 
   carbon:
     name: carbon
@@ -594,7 +594,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/Distributed-EPFL/carbon
-      date_last_commit: 2021-12-01
+      date_last_commit: 2021-12-13
     license: AGPL-3.0
     maturity: 1
     c4dt_contact:
@@ -611,4 +611,94 @@ projects:
         title: "AT2: Asynchronous Trustworthy Transfers"
         url: https://arxiv.org/abs/1812.10844
     date_added: 2021-12-01
-    date_updated: 2021-12-01
+    date_updated: 2022-07-04
+
+  clht:
+    name: CLHT
+    categories:
+      - Other
+    applications:
+      - Info
+    description: Very fast and scalable, resizable hash table
+    layman_desc: >
+      CLHT contains both a lock-based and lock-free implementation of hash tables.
+      Its optimistic design allows for 50 MegaOP/s in a concurrent run.
+    url: https://lpd.epfl.ch/site/ascylib
+    contacts:
+      - name: Vasileios Trigonakis
+        email: github@trigonakis.com
+    code:
+      type: Lab GitHub
+      url: https://github.com/LPD-EPFL/CLHT
+      date_last_commit: 2021-10-04
+    license: MIT
+    tags:
+      - Concurrency
+      - Data Structures
+    type: Library
+    language: C
+    information:
+      - type: Paper
+        title: Designing ASCY-compliant Concurrent Search Data Structures
+        url: https://infoscience.epfl.ch/record/203822
+    date_added: 2022-07-04
+    date_updated: 2022-07-04
+
+  nn-fault-tolerance:
+    name: Probabilistic Fault Tolerance of Neural Networks in the Continuous Limit
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Regularizer for failing neurons
+    layman_desc: >
+      How is a neural network changing its output in presence of failing node?
+      This project provides a regularizer adapting itself to changing conditions.
+    contacts:
+      - name: Sergia Volodin
+        email: sergei.volodin.ch@gmail.com
+    code:
+      type: Lab GitHub
+      url: https://github.com/LPD-EPFL/nn-fault-tolerance
+      date_last_commit: 2020-11-24
+    license: other
+    tags:
+      - Deep Neural Networks
+    language: Python
+    information:
+      - type: Paper
+        title: The Probabilistic Fault Tolerance of Neural Networks in the Continuous Limit
+        url: https://arxiv.org/abs/1902.01686
+    date_added: 2022-07-04
+    date_updated: 2022-07-04
+
+  ukharon:
+    name: uKharon
+    categories:
+      - Other
+    applications:
+      - Info
+    description: Membership service for microsecond applications
+    contacts:
+      - name: Athanasios Xygkis
+        email: athanasios.xygkis@epfl.ch
+    code:
+      type: Lab GitHub
+      url: https://github.com/LPD-EPFL/ukharon-artifacts
+      date_last_commit: 2022-05-24
+    license: other
+    tags:
+      - Concurrency
+      - Network
+    type: Application
+    language: C
+    information:
+      - type: Paper
+        title: "uKharon: A Membership Service for Microsecond Applications"
+        url: https://www.usenix.org/conference/atc22/presentation/guerraoui
+        notes:
+          - label: Published at
+            text: ATC 2022
+            url: https://www.usenix.org/conference/atc22
+    date_added: 2022-07-04
+    date_updated: 2022-07-04
