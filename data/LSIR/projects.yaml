@@ -229,32 +229,6 @@ projects:
     date_added: 2019-09-04
     date_updated: 2022-07-06
 
-  gsn:
-    name: GSN
-    categories:
-      - Other
-    applications:
-      - Info
-    description: Develop sensor network with ease
-    layman_desc: >
-      Currently, each sensor network deployment has its own software system
-      for gathering, analyzing (application dependent) and publishing
-      the data coming from the sensor network.
-      GSN is developed based on the observation that
-      most of the logical requirements of the applications developed
-      for sensor networks are similar.
-      The applications based on GSN are hardware-independent making the sensor network changes invisible to the application.
-    code:
-      type: Lab GitHub
-      url: https://github.com/LSIR/gsn
-      date_last_commit: 2017-03-12
-    tags:
-      - Low-Level
-      - Network
-    type: Framework
-    date_added: 2022-07-06
-    date_updated: 2022-07-06
-
   mlmodule:
     name: MLModule
     categories:
