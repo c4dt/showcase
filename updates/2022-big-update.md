@@ -67,9 +67,8 @@ Showcase modifications from 2022-06-22 to 2026-07-07
 
 - ESL - David Atienza
 
-- 3d-ice
-
-  - added
+  - 3d-ice
+    - added
 
 - HexHive - Mathias Payer
 
