@@ -18,17 +18,17 @@ Showcase modifications from 2022-06-22 to 2026-07-07
 
   - at2
     - bump commit
-  - clht
-  - nn-fault-tolerance
-  - ukharon
-    - added
+  - added
+    - clht
+    - nn-fault-tolerance
+    - ukharon
 
 - DCSL - Edouard Bugnion
 
   - gotee
     - unbump commit
-  - crab
-    - added
+  - added
+    - crab
 
 - DEDIS - Bryan Ford
 
@@ -49,9 +49,9 @@ Showcase modifications from 2022-06-22 to 2026-07-07
   - simnet
   - threshold logical clocks
     - bump commit
-  - hbt
-  - determ checker
-    - added
+  - added
+    - hbt
+    - determ checker
 
 - DLAB - Robert West
 
@@ -60,10 +60,10 @@ Showcase modifications from 2022-06-22 to 2026-07-07
 
 - DSLAB - George Candea
 
-  - svshi
-  - klint
-  - pix
-    - added
+  - added
+    - svshi
+    - klint
+    - pix
 
 - ESL - David Atienza
 
@@ -127,9 +127,9 @@ Showcase modifications from 2022-06-22 to 2026-07-07
   - stainless
   - inox
     - bump commit
-  - lisa
-  - scallion
-    - added
+  - added
+    - lisa
+    - scallion
 
 - LASEC - Serge Vaudenay
 
@@ -137,8 +137,7 @@ Showcase modifications from 2022-06-22 to 2026-07-07
 
 - LCA2 - Jean-Yves Le Boudec
 
-  - ephemeral-quic
-    - added
+  - NOP
 
 - LDS - Jean-Pierre Hubaux
 
@@ -146,9 +145,9 @@ Showcase modifications from 2022-06-22 to 2026-07-07
     - code: use github
   - drynx
     - code: use upstream
-  - pricell
-  - crisp
-    - added
+  - added
+    - pricell
+    - crisp
 
 - LIA - Boi Faltings
 
@@ -164,9 +163,9 @@ Showcase modifications from 2022-06-22 to 2026-07-07
   - lsitools -> lstools
     - rm url
     - bump commit
-  - benchmarks
-  - cirkit
-    - added
+  - added
+    - benchmarks
+    - cirkit
 
 - LSIR - Karl Aberer
 
@@ -175,7 +174,6 @@ Showcase modifications from 2022-06-22 to 2026-07-07
   - privyseal
   - ai-data-platform-v2
     - dead url
-  - gsn
   - mlmodule
     - added
 
@@ -195,18 +193,18 @@ Showcase modifications from 2022-06-22 to 2026-07-07
   - powersgd
   - disco
     - bump commit
-  - phantomedicus
-  - paxlib
-  - byzantine-robust-noniid-optimizer
-    - added
+  - added
+    - phantomedicus
+    - paxlib
+    - byzantine-robust-noniid-optimizer
 
 - MMSPG - Touradj Ebrahimi
 
   - point-cloud-web-renderer
     - paper: no direct to pdf
-  - mesh-sampling
-  - pcc-geo-color
-    - added
+  - added
+    - mesh-sampling
+    - pcc-geo-color
 
 - NAL - Katerina Argyraki
 
@@ -228,10 +226,10 @@ Showcase modifications from 2022-06-22 to 2026-07-07
     - paper: use infoscience
   - pactree
     - bump commit
-  - syncord
-  - odinfs
-  - shfllocks
-    - added
+  - added
+    - syncord
+    - odinfs
+    - shfllocks
 
 - SACS - Anne-Marie Kermarrec
 
@@ -272,9 +270,9 @@ Showcase modifications from 2022-06-22 to 2026-07-07
     - paper: use infoscience
   - tandem
     - paper: no direct to pdf
-  - webgraph
-  - disparate-vulnerability
-    - added
+  - added
+    - webgraph
+    - disparate-vulnerability
 
 - VLSC - James Larus
 
