@@ -211,5 +211,6 @@ projects:
       - type: Paper
         title: Optimizing Latent Space Directions For GAN-based Local Image Editing
         url: https://arxiv.org/abs/2111.12583
+    maturity: 1
     date_added: 2022-07-05
-    date_updated: 2022-07-05
+    date_updated: 2022-08-11
