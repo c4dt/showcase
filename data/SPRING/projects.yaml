@@ -603,7 +603,7 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity22
     maturity: 2
     date_added: 2022-07-07
-    date_updated: 2022-07-07
+    date_updated: 2022-08-10
 
   disparate-vulnerability:
     name: DisparateVulnerability
