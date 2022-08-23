@@ -454,7 +454,7 @@ projects:
     categories:
       - Verification
     applications:
-      - Other
+      - Infra
     description: Verification framework for smart infrastructures
     layman_desc: >
       The Secure and Verified Smart Home Infrastructure project
@@ -464,15 +464,16 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dslab-epfl/svshi
-      date_last_commit: 2022-06-30
+      date_last_commit: 2022-07-14
     language: Python, Scala
     license: MIT
     type: Framework
     tags:
       - Internet of Things
       - Protection
+    maturity: 3
     date_added: 2022-07-05
-    date_updated: 2022-07-05
+    date_updated: 2022-08-10
 
   klint:
     name: Klint
@@ -506,8 +507,9 @@ projects:
           - label: Published in
             text: NSDI 2022
             url: https://www.usenix.org/conference/nsdi22/presentation/pirelli
+    maturity: 1
     date_added: 2022-07-05
-    date_updated: 2022-07-05
+    date_updated: 2022-08-10
 
   pix:
     name: PIX

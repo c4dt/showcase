@@ -218,8 +218,9 @@ projects:
           - label: Published at
             text: CCS 2017
             url: https://ccs2017.sigsac.org
+    maturity: 1
     date_added: 2019-03-18
-    date_updated: 2022-07-05
+    date_updated: 2022-08-11
 
   retrowrite:
     name: RetroWrite
