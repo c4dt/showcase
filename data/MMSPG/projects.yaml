@@ -219,3 +219,28 @@ projects:
             url: https://www.spie.org/Publications/Proceedings/Volume/11510
     date_added: 2021-11-04
     date_updated: 2022-07-07
+
+  procam:
+    name: ProCam
+    categories:
+      - Privacy
+    applications:
+      - Info
+      - Health
+    description: Privacy-preserving camera system tracking individual body temperatures
+    layman_desc: >
+      Many contagious diseases such as Covid19 can induce high temperatures and fever in a significant
+      number of affected individuals. Contact tracing of such individuals and analysis of their behaviour 
+      and interactions with others and their environment can be a useful tool to contain spread of contagious diseases.
+      A key component of ProCam is an innovative camera that combines infrared/thermal and visible light sensors
+      while securing the visible light images.
+    url: https://www.epfl.ch/labs/mmspg/procam/
+    tags:
+      - Images
+      - Anonymity
+    type: Application
+    date_added: 2022-09-14
+    date_updated: 2022-09-14
+    code:
+      type: Project GitLab
+      url: https://gitlab.com/procam.epfl
