@@ -36,22 +36,19 @@
                 "scrollX": true,
                 "dom": "Brtip",
                 "orderClasses": false,
+                "stateSave": true,
                 "buttons": [
                     {text: "Columns", extend: 'colvis'},
-                    // 'copy',
-                    // 'csv',
-                    // 'print',
+                    {text: "Reset", extend: 'colvisGroup', hide: ".extra"},
                 ],
                 "columnDefs": [
                     {"width": "20%", "targets": 0},
                     {"width": "30%", "targets": 1},
                     {"width": "30%", "targets": 2},
                     {"width": "15%", "targets": 3},
+                    {"visible": false, "targets": ".extra"}, // Hide "extra" columns by default 
                 ]
             });
-
-            // Hide "extra" columns by default
-            table.columns(".extra").visible(false);
 
             table.on('order.dt', () => {
                 if (!search_lock) {
@@ -330,9 +327,23 @@ applications = {
                         <td style="display: none;" data-order="99"></td>
                         <td style="display: none;" data-order="100"></td>
 
-                        <td></td><td></td><td></td><td></td><td></td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                        <td></td><td></td><td></td><td></td><td></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
+                        <td style="display: none;"></td>
 
                         <td></td>
                         <td data-order="{{ category_sort }}">
