@@ -92,7 +92,7 @@ $ make
 
 This will create a Python virtual environment, activate it, install the dependencies and run the showcase application.
 
-The application listens by default on port 8080; point your browser to http://localhost:8080/.
+The application listens by default on port 8080; point your browser to http://localhost:8080/showcase.
 
 ## Run the tests
 

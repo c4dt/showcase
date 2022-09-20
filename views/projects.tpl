@@ -168,6 +168,8 @@
 </head>
 <body>
 <%
+from collections import OrderedDict
+
 trail = [
     ('Factory', '/'),
 ]
@@ -184,23 +186,23 @@ product_tags = {
     "technical": "Links to technical information"
 }
 
-categories = {
+categories = OrderedDict(sorted({
     "Privacy": [0, "Privacy Protection & Cryptography"],
     "Blockchain": [1,"Blockchains & Smart Contracts"],
     "Verification": [2, "Software Verification"],
     "Security": [3, "Device and System Security"],
     "Learning": [4, "Machine Learning"],
-    "Other": [5, "Other"],
-}
+}.items(), key=lambda k: k[1][1]))
+categories.update({ "Other": [len(categories), "Other"] })
 
-applications = {
+applications = OrderedDict(sorted({
     "Finance": "Finance",
     "Health": "Health",
     "Gov": "Government & Humanitarian",
     "Infra": "Critical Infrastructure",
     "Info": "Digital Information",
-    "Other": "Other",
-}
+}.items(), key=lambda k: k[1]))
+applications.update({ "Other": "Other" })
 
 %>
 
@@ -270,7 +272,7 @@ applications = {
                         style="width: 13em;"
                         onchange="search_apply();">
                     <option selected value="">All labs</option>
-                    % for lab_id, lab in labs.items():
+                    % for lab_id, lab in sorted(labs.items(), key=lambda k: k[1]['prof']['name']):
                         % prof = " ".join(lab['prof']['name'])
                         <option value="lab_{{ lab_id }}">{{ prof }} - {{ lab['name'] }}</option>
                     % end
