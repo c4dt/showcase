@@ -345,7 +345,7 @@ applications = {
                         <td style="display: none;"></td>
                         <td style="display: none;"></td>
 
-                        <td></td>
+                        <td style="display: none;"></td>
                         <td data-order="{{ category_sort }}">
                             <span style="display: none">category_{{category_key}}
                                 project_active project_incubated
