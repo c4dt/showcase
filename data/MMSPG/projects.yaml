@@ -233,7 +233,9 @@ projects:
       number of affected individuals. Contact tracing of such individuals and analysis of their behaviour 
       and interactions with others and their environment can be a useful tool to contain spread of contagious diseases.
       A key component of ProCam is an innovative camera that combines infrared/thermal and visible light sensors
-      while securing the visible light images.
+      while securing the visible light images. Privacy-preserving camera systems are important as more and more people are concerned
+      about the ethics of massive surveillance and invasion of privacy. ProCam solves this by using a cryptographic tool to hide the visible light images,
+      only allowing to retrieve identites with the use of cryptographic keys.
     url: https://www.epfl.ch/labs/mmspg/procam/
     tags:
       - Images
