@@ -642,3 +642,36 @@ projects:
     maturity: 1
     date_added: 2022-07-07
     date_updated: 2022-08-11
+
+  tandem_monero:
+    name: Tandem / Monero
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Info
+    description: >
+      Applying the privacy-preserving algorithms of Tandem to the usage of
+      the Monero blockchain.
+    layman_desc: >
+      One challenge when using private keys is that if they get stolen the damage
+      can be very big, especially when used in blockchains to protect funds.
+      Sharing the private key between multiple entities can secure the usage a bit,
+      but most algorithms don't give privacy.
+      In the context of a privacy-preserving service like Monero, where the source and
+      destination of a transaction are hidden, these algorithms would leak information about
+      the user.
+      Applying Tandem to transactions on the Monero blockchain allows to protect the private
+      key in case of loss, while keeping the owner of the transaction private.
+    contacts:
+      - name: Linus Gasser
+        email: linus.gasser@epfl.ch
+    tags:
+      - Anonymity
+      - Protection
+    information:
+      - type: Paper
+        title: "Using Tandem with Monero"
+        url: https://showcase.c4dt.org/resources/products/images/tandem_monero/Using_Tandem_in_Monero_2022-03.pdf
+    date_added: 2022-08-25
+    date_updated: 2022-08-25

@@ -1,10 +1,8 @@
-<p align="center">
-  <img
-    class="dark"
-    style="width: 60%"
-    src="/resources/products/images/disco/logo.svg"
-  />
-</p>
+<img
+  class="dark center"
+  style="width: 60%; max-width: 10em"
+  src="/resources/products/images/disco/logo.svg"
+/>
 
 <p>
   Disco greatly simplify access to
@@ -21,13 +19,11 @@
   disease, or automatically determine what an image represents.
 </p>
 
-<p align="center">
-  <img
-    class="dark"
-    style="width: 60%"
-    src="/resources/products/images/disco/network.svg"
-  />
-</p>
+<img
+  class="dark center"
+  style="width: 60%; max-width: 20em"
+  src="/resources/products/images/disco/network.svg"
+/>
 
 <p>
   Disco is in full development, adding new features and algorithms regularly. It
