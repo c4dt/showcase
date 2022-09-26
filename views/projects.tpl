@@ -46,7 +46,7 @@
                     {"width": "30%", "targets": 1},
                     {"width": "30%", "targets": 2},
                     {"width": "15%", "targets": 3},
-                    {"visible": false, "targets": ".extra"}, // Hide "extra" columns by default 
+                    {"visible": false, "targets": "extra"}, // Hide "extra" columns by default 
                 ]
             });
 
