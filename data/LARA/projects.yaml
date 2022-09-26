@@ -10,8 +10,7 @@ projects:
       Stainless is a tool for verifying Scala programs developed by the
       LARA. It can verify that your program is correct for all inputs, it
       can report inputs for which your program fails when they exist, and
-      it can prove that functions do not loop. As an example application,
-      Stainless can perform verification of Smart Contracts.
+      it can prove that functions do not loop.
     url: http://stainless.epfl.ch/
     code:
       type: Lab GitHub
@@ -29,18 +28,8 @@ projects:
       - Static Analysis
       - Code Analysis
     language: Scala
-    type: Library, Application
+    type: Library
     license: Apache-2.0
-    incubator:
-      work: 2021/Q2 - updated demonstrator with more explanations
-      products:
-        - type: Demo
-          title: Stainless-OmniLedger demonstrator
-          url: https://factory.c4dt.org/incubator/stainless/demo
-          code: https://github.com/c4dt/service-stainless
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     information:
       - type: Paper
         title: "Satisfiability Modulo Recursive Programs"
@@ -73,7 +62,47 @@ projects:
         title: Stainless Verification System Tutorial
         url: https://raw.githubusercontent.com/epfl-lara/fmcad2021tutorial/main/Stainless-Tutorial-FMCAD2021.pdf
     date_added: 2019-03-18
-    date_updated: 2022-07-05
+    date_updated: 2022-09-26
+    maturity: 2
+
+  stainless-for-smart-contracts:
+    name: Stainless for smart contracts
+    categories:
+      - Verification
+    applications:
+      - Infra
+    description: Stainless fork aimed at smart contracts
+    layman_desc: >
+      Stainless is a tool for verifying Scala programs developed by the
+      LARA. This fork can perform verification of Smart Contracts.
+    url: https://stainless.epfl.ch/smart-contracts.html
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-lara/smart
+      date_last_commit: 2020-10-03
+    contacts:
+      - name: Viktor Kunčak
+        email: viktor.kuncak@epfl.ch
+      - name: Nicolas Voirol
+        email: nicolas.voirol@epfl.ch
+    tags:
+      - Static Analysis
+      - Code Analysis
+    language: Scala
+    type: Library, Application
+    license: Apache-2.0
+    incubator:
+      work: 2021/Q2 - updated demonstrator with more explanations
+      products:
+        - type: Demo
+          title: Stainless-OmniLedger demonstrator
+          url: https://factory.c4dt.org/incubator/stainless/demo
+          code: https://github.com/c4dt/service-stainless
+    c4dt_contact:
+      name: Christian Grigis
+      email: christian.grigis@epfl.ch
+    date_added: 2022-09-26
+    date_updated: 2022-09-26
     maturity: 2
 
   inox:
