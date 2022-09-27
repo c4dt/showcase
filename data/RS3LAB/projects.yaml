@@ -150,35 +150,3 @@ projects:
     maturity: 1
     date_added: 2022-07-07
     date_updated: 2022-08-10
-
-  shfllocks:
-    name: ShflLocks
-    categories:
-      - Other
-    applications:
-      - Infra
-    description: Scalable and Practical Locking with Shuffling
-    tech_desc: >
-      ShflLocks are a family of locking protocols that use shuffling mechanisms
-      to implement several policies, such as NUMA-awareness, or blocking.
-      It implements three locking protocols, NUMA-aware spinlock, NUMA-aware blocking mutex,
-      and NUMA-aware blocking rwlock.
-    code:
-      type: Lab GitHub
-      url: https://github.com/rs3lab/shfllock
-      date_last_commit: 2022-03-05
-    language: C
-    license: other
-    tags:
-      - Concurrency
-      - Server
-    information:
-      - type: Paper
-        title: Scalable and Practical Locking with Shuffling
-        url: https://dl.acm.org/doi/10.1145/3341301.3359629
-        notes:
-          - label: Published at
-            text: SOSP 2019
-            url: https://sosp19.rcs.uwaterloo.ca
-    date_added: 2022-07-07
-    date_updated: 2022-07-07
