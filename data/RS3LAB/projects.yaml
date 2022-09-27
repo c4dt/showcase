@@ -150,3 +150,17 @@ projects:
     maturity: 1
     date_added: 2022-07-07
     date_updated: 2022-08-10
+
+  hydra:
+    name: Hydra
+    categories:
+      - Other
+    applications:
+      - Infra
+    description: Finding Semantic Bugs in File Systems with an Extensible Fuzzing Framework
+    tags:
+      - Concurrency
+      - Fuzzing
+      - Server
+    date_added: 2022-09-27
+    date_updated: 2022-09-27
