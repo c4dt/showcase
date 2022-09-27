@@ -672,3 +672,39 @@ projects:
             url: https://fuzzingworkshop.github.io
     date_added: 2022-07-05
     date_updated: 2022-07-05
+
+  midas:
+    name: Midas
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Systematic kernel TOCTTOU protection
+    tech_desc: >
+      During a syscall, the kernel might read multiple times a value from userspace.
+      As theses are controlled by the unpriviliged process, it may introduce
+      subtle changes of behavior and possible hard-to-detect attacks, a classic
+      time-of-check-to-time-of-use bug.
+      Midas disable this attack surface by always returning the same values during
+      a given syscall.
+    code:
+      type: Lab GitHub
+      url: https://github.com/HexHive/Midas
+      date_last_commit: 2021-12-08
+    language: C
+    license: other
+    type: Application
+    tags:
+      - Binary
+      - Debug
+      - Protection
+    information:
+      - type: Paper
+        title: "Midas: Systematic Kernel TOCTTOU Protection"
+        url: https://infoscience.epfl.ch/record/290014
+        notes:
+          - label: Published at
+            text: "Usenix SEC '22"
+            url: https://www.usenix.org/conference/usenixsecurity22/summer-accepted-papers
+    date_added: 2022-09-27
+    date_updated: 2022-09-27
