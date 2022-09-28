@@ -94,3 +94,37 @@ projects:
             url: https://2021.emnlp.org/
     date_added: 2021-11-05
     date_updated: 2022-07-04
+
+  quotebank:
+    name: Quotebank
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Corpus of quotations from a decade of news
+    layman_desc: >
+      News from half a million of website, over the last 15 years, labelled by writer.
+      Quotebank shows that it can accurately associate any citation
+      with who most probably wrote it. It helps in identifying the source
+      of a given news without any metadata.
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-dlab/Quotebank
+      date_last_commit: 2021-07-23
+    language: Python
+    license: MIT
+    tags:
+      - Natural Language
+    information:
+      - type: Paper
+        title: "Quotebank: A Corpus of Quotations from a Decade of News"
+        url: https://infoscience.epfl.ch/record/294900
+        notes:
+          - label: Published at
+            text: WSDM 2021
+            url: https://www.wsdm-conference.org/2021/proceedings.php
+      - type: Demo
+        title: Quotebank
+        url: https://quotebank.dlab.tools
+    date_added: 2022-09-28
+    date_updated: 2022-09-28
