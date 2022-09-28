@@ -160,4 +160,11 @@
         {{ project['lines_of_code'] }}
     </div>
     % end
+
+    % if 'notes' in project:
+    <div>
+        <div class="header">Notes:</div>
+        {{ project['notes'] }}
+    </div>
+    % end
 </div>
