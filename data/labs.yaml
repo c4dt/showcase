@@ -450,30 +450,6 @@ labs:
     contacts:
     url: https://mmspg.epfl.ch/
 
-  NAL:
-    name: Network Architecture Lab
-    prof:
-      name:
-        - Katerina
-        - Argyraki
-      email: katerina.argyraki@epfl.ch
-    description: >
-      The Network Architecture Lab works on fundamental questions regarding
-      network system design such as : 
-      <ul>
-        <li>Can we infer network behavior from external observations?</li>
-        <li>Can we improve Internet transparency?<
-        <li>Is Internet transparency compatible with user privacy? /li>
-        <li>How should we write packet-processing software, such that we can reason
-        about its semantics?</li>
-        <li>How should we write packet-processing software, such that we can reason
-        about its performance?</li>
-      </ul>
-    contacts:
-      - name: Luis David Pedrosa
-        email: luis.pedrosa@epfl.ch
-    url: https://www.epfl.ch/labs/nal/
-
   PARSA:
     name: Parallel Systems Architecture Lab
     prof:

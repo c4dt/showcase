@@ -34,7 +34,6 @@ projects:
     date_added: 2021-01-22
     date_updated: 2022-07-05
 
-  # This is the same as the 'vigor' project from NAL
   vigor:
     name: Vigor
     categories:
@@ -80,7 +79,6 @@ projects:
     date_added: 2019-07-26
     date_updated: 2022-07-05
 
-  # This is the same as the 'bolt' project from NAL
   bolt:
     name: BOLT
     categories:

@@ -43,9 +43,6 @@ Salathelab/
 PARSA/
     qFlex: Simulator, CPU
 
-NAL/
-    LINE: Emulator, Measurement
-
 LTS4/
     DeepFool: Adversarial
     Universal: Perturbations
