@@ -663,15 +663,15 @@ projects:
       the user.
       Applying Tandem to transactions on the Monero blockchain allows to protect the private
       key in case of loss, while keeping the owner of the transaction private.
-    contacts:
-      - name: Linus Gasser
-        email: linus.gasser@epfl.ch
+    c4dt_contact:
+      name: Linus Gasser
+      email: linus.gasser@epfl.ch
     tags:
       - Anonymity
       - Protection
     information:
       - type: Paper
         title: "Using Tandem with Monero"
-        url: https://showcase.c4dt.org/resources/products/images/tandem_monero/Using_Tandem_in_Monero_2022-03.pdf
+        url: https://www.c4dt.org/wp-content/uploads/2022/09/Using_Tandem_in_Monero_2022-03.pdf
     date_added: 2022-08-25
     date_updated: 2022-08-25
