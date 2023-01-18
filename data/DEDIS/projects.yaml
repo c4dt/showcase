@@ -209,10 +209,7 @@ projects:
       products:
         - type: Demo
           title: "Blockchain Explorer"
-          url: https://wookiee.ch/columbus
-        - type: Demo
-          title: "Node Status"
-          url: https://status.dedis.ch/
+          url: https://explorer.c4dt.org
         - type: Pilot
           title: "Login Service"
           url: https://login.c4dt.org
