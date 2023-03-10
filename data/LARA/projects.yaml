@@ -93,7 +93,7 @@ projects:
       products:
         - type: Demo
           title: Stainless-OmniLedger demonstrator
-          url: https://factory.c4dt.org/incubator/stainless/demo
+          url: https://github.com/c4dt/service-stainless
           code: https://github.com/c4dt/service-stainless
     c4dt_contact:
       name: Christian Grigis
