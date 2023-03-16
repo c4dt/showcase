@@ -207,10 +207,92 @@ projects:
     tags:
       - Images
       - Deep Neural Networks
+    license: MIT
     information:
       - type: Paper
         title: Optimizing Latent Space Directions For GAN-based Local Image Editing
         url: https://arxiv.org/abs/2111.12583
     maturity: 1
     date_added: 2022-07-05
-    date_updated: 2022-08-11
+    date_updated: 2023-03-21
+
+  dsr:
+    name: DSR
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Drone Image Super-Resolution
+    layman_desc: >
+      Despite achieving remarkable progress in recent years, single-image super-resolution methods are developed with artificial limitations.
+      We propose a novel drone image dataset, with scenes captured at low and high resolutions, and across a span of altitudes. Our results show that off-the-shelf state-of-the-art networks perform worse on this different domain.
+    code:
+      type: Lab GitHub
+      url: https://github.com/IVRL/DSR
+      date_last_commit: 2022-09-15
+    language: Python
+    tags:
+      - Images
+      - Deep Neural Networks
+    information:
+      - type: Paper
+        title: "DSR: Towards Drone Image Super-Resolution"
+        url: https://arxiv.org/abs/2208.12327
+        notes:
+          - label: Published at
+            text: ECCV 2022 Workshops
+            url: https://dl.acm.org/doi/proceedings/10.1007/978-3-031-25063-7
+    license: BSD-3-Clause
+    date_added: 2023-03-21
+    date_updated: 2023-03-21
+
+  tempsal:
+    name: TempSAL
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Uncovering Temporal Information for Deep Saliency Prediction
+    layman_desc: >
+      Deep saliency prediction algorithms complement the object recognition features, they typically rely on additional information, such as scene context, semantic relationships, gaze direction, and object dissimilarity. However, none of these models consider the temporal nature of gaze shifts during image observation. We introduce a novel saliency prediction model that learns to output saliency maps in sequential time intervals by exploiting human temporal attention patterns.
+    url: https://ivrl.github.io/Tempsal/#section-qualitative
+    code:
+      type: Lab GitHub
+      url: https://github.com/IVRL/Tempsal
+      date_last_commit: 2023-01-05
+    tags:
+      - Images
+      - Deep Neural Networks
+    information:
+      - type: Paper
+        title: "TempSAL -- Uncovering Temporal Information for Deep Saliency Prediction"
+        url: https://arxiv.org/abs/2301.02315
+    license: MIT
+    date_added: 2023-03-21
+    date_updated: 2023-03-21
+
+  dynca:
+    name: DyNCA
+    categories:
+      - Learning
+    applications:
+      - Info
+    type: Framework
+    description: Real-Time Dynamic Texture Synthesis Using Neural Cellular Automata
+    layman_desc: >
+      Current Dynamic Texture Synthesis (DyTS) models in the literature can synthesize realistic videos. However, these methods require a slow iterative optimization process to synthesize a single fixed-size short video, and they do not offer any post-training control over the synthesis process. We propose Dynamic Neural Cellular Automata (DyNCA), a framework for real-time and controllable dynamic texture synthesis.
+    url: https://dynca.github.io/
+    code:
+      type: Lab GitHub
+      url: https://github.com/IVRL/DyNCA
+      date_last_commit: 2023-03-19
+    tags:
+      - Images
+      - Deep Neural Networks
+    information:
+      - type: Paper
+        title: "DyNCA: Real-time Dynamic Texture Synthesis Using Neural Cellular Automata"
+        url: https://arxiv.org/abs/2211.11417
+    license: MIT
+    date_added: 2023-03-21
+    date_updated: 2023-03-21

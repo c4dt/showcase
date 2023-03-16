@@ -20,6 +20,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/digitalepidemiologylab/foodrepo_api
       date_last_commit: 2020-08-24
+    license: CC BY 4.0
     tags:
       - Database
     language: JavaScript
@@ -28,7 +29,7 @@ projects:
         title: My Food Repo
         url: https://www.myfoodrepo.org
     date_added: 2019-03-18
-    date_updated: 2022-07-07
+    date_updated: 2023-03-23
 
   foodandyou:
     name: Food & You
@@ -70,9 +71,9 @@ projects:
       - Survey
       - CrowdSource
     code:
-      type: Project GitHub
-      url: https://github.com/crowdbreaks
-      date_last_commit: 2022-06-07
+      type: Lab GitHub
+      url: https://github.com/digitalepidemiologylab/crowdbreaks
+      date_last_commit: 2022-11-30
     license: MIT
     information:
       - type: Paper
@@ -83,7 +84,7 @@ projects:
             text: Frontiers Public Health 2019
             url: https://www.frontiersin.org/articles/10.3389/fpubh.2019.00081
     date_added: 2021-01-21
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   aicrowd:
     name: AIcrowd
@@ -99,7 +100,7 @@ projects:
     code:
       type: Project GitHub
       url: https://github.com/AIcrowd
-      date_last_commit: 2022-06-19
+      date_last_commit: 2022-12-26
     language: JavaScript, Ruby
     license: AGPL-3.0
     tags:
@@ -107,7 +108,7 @@ projects:
     type: Application
     maturity: 3
     date_added: 2021-01-21
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   txcl:
     name: txcl
@@ -118,7 +119,7 @@ projects:
     description: Reproducible Text Classification
     code:
       type: Lab GitHub
-      url: https://github.com/crowdbreaks/text-classification
+      url: https://github.com/digitalepidemiologylab/text-classification
       date_last_commit: 2022-02-24
     language: Python
     license: MIT

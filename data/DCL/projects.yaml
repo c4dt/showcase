@@ -591,11 +591,6 @@ projects:
     contacts:
       - name: Matteo Monti
         email: matteo.monti@epfl.ch
-    code:
-      type: Lab GitHub
-      url: https://github.com/Distributed-EPFL/carbon
-      date_last_commit: 2021-12-13
-    license: AGPL-3.0
     maturity: 1
     c4dt_contact:
       name: Valérian Rousset
@@ -702,3 +697,36 @@ projects:
             url: https://www.usenix.org/conference/atc22
     date_added: 2022-07-04
     date_updated: 2022-07-04
+
+  ubft:
+    name: uBFT
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Microsecond-scale BFT using Disaggregated Memory
+    contacts:
+      - name: Athanasios Xygkis
+        email: athanasios.xygkis@epfl.ch
+    code:
+      type: Lab GitHub
+      url: https://github.com/LPD-EPFL/ubft
+      date_last_commit: 2022-10-18
+    license: other
+    tags:
+      - Byzantine Resilience
+      - Network
+      - Consensus
+      - Protocol
+    type: Library
+    language: C
+    information:
+      - type: Paper
+        title: "uBFT: Microsecond-scale BFT using Disaggregated Memory"
+        url: https://arxiv.org/abs/2210.17174v3
+        notes:
+          - label: Published at
+            text: ASPLOS 2023
+            url: https://dl.acm.org/doi/proceedings/10.1145/3575693
+    date_added: 2023-03-13
+    date_updated: 2023-03-13

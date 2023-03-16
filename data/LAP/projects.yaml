@@ -15,7 +15,7 @@ projects:
     code:
       type: Personal GitHub
       url: https://github.com/lana555/dynamatic
-      date_last_commit: 2022-05-15
+      date_last_commit: 2023-01-05
     language: C++
     license: MIT
     tags:
@@ -36,7 +36,7 @@ projects:
             text: Proceedings of the 2020 ACM/SIGDA International Symposium on FPGAs
             url: https://www.sigda.org/publications/fpga-2020-toc/
     date_added: 2021-11-04
-    date_updated: 2022-07-05
+    date_updated: 2023-03-21
 
   dynaburst:
     name: DynaBurst

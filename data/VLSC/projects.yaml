@@ -73,3 +73,29 @@ projects:
             url: https://conf.researchr.org/track/icse-2021/icse-2021-papers
     date_added: 2021-11-05
     date_updated: 2022-07-07
+
+  bitfiltrator:
+    name: Bitfiltrator
+    categories:
+      - Security
+    applications:
+      - Other
+    type: Toolset
+    description: Bitfiltrator is an automated bitstream parameter extraction tool for Xilinx UltraScale and UltraScale+ FPGAs.
+    layman_desc: >
+      Prior work has reverse-engineered parts of the bitstream format for security or debugging/instrumentation activities, but no paper has explained how to do this reverse engineering systematically! Our work bridges this gap by explaining: (1) the various parameters needed to navigate a bitstream correctly, (2) the experiments to obtain them, and (3) the many pitfalls and erroneous assumptions to avoid while undertaking this endeavor. We demonstrate our technique by using it to extract the bitstream format of initial LUT equations, LUTRAM contents, BRAM contents, and register values in Xilinx UltraScale and UltraScale+ FPGAs. Our methods are implemented in an open-source tool, Bitfiltrator [1], that can extract device layouts and architecture-specific bitstream formats for these cells automatically and without physical access to an FPGA.
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-vlsc/bitfiltrator
+      date_last_commit: 2022-11-27
+    language: Python
+    license: MIT
+    tags:
+      - Low-Level
+      - Debug
+    information:
+      - type: Paper
+        title: "Bitfiltrator: A general approach for reverse-engineering Xilinx bitstream formats"
+        url: https://github.com/epfl-vlsc/bitfiltrator/blob/main/fpl22-bitfiltrator-paper.pdf
+    date_added: 2023-03-22
+    date_updated: 2023-03-22

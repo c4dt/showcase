@@ -90,7 +90,6 @@ projects:
     applications:
       - Info
     description: Learning residual coding for point clouds
-    layman_desc: >
     tech_desc: >
       Recent  advancements  in  acquisition  of  three-dimensional  models have
       been  increasingly  drawing  attention  toimaging modalities based on the
@@ -246,3 +245,23 @@ projects:
     code:
       type: Project GitLab
       url: https://gitlab.com/procam.epfl
+
+  admire:
+    name: AdMiRe EPFL
+    categories:
+      - Other
+    applications:
+      - Other
+    description: "EPFL's contribution to the AdMiRe project: the Background Extraction and Super Resolution modules, with input and output as NDI streams."
+    layman_desc: >
+      Currently, TV audiences can only interact with the shows they are watching through social media or hybrid broadcast broadband TV. Additionally, content creators in film, TV or live productions face technical challenges that result in less engaging content. The EU-funded AdMiRe project aims to tackle both these problems by developing, validating and demonstrating innovative solutions based on mixed reality technology. These solutions will enable audiences at home to be incorporated into the live TV programme they are watching and to interact with people in the TV studio. They will also provide content creators with tools that radically improve talent immersion and interaction with computer-generated elements.
+    url: http://www.admire3d.eu/
+    tags:
+      - Images
+    type: Application
+    date_added: 2023-03-22
+    date_updated: 2023-03-22
+    license: GPL-3.0
+    code:
+      type: Lab GitHub
+      url: https://github.com/mmspg/AdMiRe_EPFL

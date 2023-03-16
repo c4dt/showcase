@@ -268,7 +268,7 @@ projects:
     code:
       type: Public Github
       url: https://github.com/DP-3T/
-      date_last_commit: 2022-05-16
+      date_last_commit: 2022-12-14
     doc: https://github.com/DP-3T/documents
     tags:
       - Protocol
@@ -284,7 +284,7 @@ projects:
         url: https://github.com/SwissCovid/swisscovid-app-ios
     license: MPL-2.0
     date_added: 2020-10-05
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
     maturity: 3
     incubator:
       work: 2020/Q4 documentation and testing of the app
@@ -379,11 +379,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/spring-epfl/SSCred
-      date_last_commit: 2022-03-18
+      date_last_commit: 2022-07-08
     language: Python
     license: BSD-3-Clause
     date_added: 2021-01-21
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   mia:
     name: mia
@@ -440,7 +440,7 @@ projects:
     code:
       type: C4DT Github
       url: https://github.com/C4DT/lightarti-rest
-      date_last_commit: 2022-05-31
+      date_last_commit: 2022-11-14
     information:
       - type: Library
         title: Android packages for lightarti-rest
@@ -451,7 +451,7 @@ projects:
     language: Rust, Swift, Java
     license: MIT
     date_added: 2021-08-26
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   voteagain:
     name: VOTEAGAIN
@@ -516,7 +516,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/datashare-network-crypto
-      date_last_commit: 2020-07-06
+      date_last_commit: 2022-09-21
     language: Python
     license: BSD-3-Clause
     tags:
@@ -530,7 +530,7 @@ projects:
             text: USENIX 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2021-11-04
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   tandem:
     name: Tandem
@@ -587,7 +587,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/WebGraph
-      date_last_commit: 2022-06-23
+      date_last_commit: 2022-08-25
     language: Python
     license: other
     tags:
@@ -603,7 +603,7 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity22
     maturity: 2
     date_added: 2022-07-07
-    date_updated: 2022-08-10
+    date_updated: 2023-03-22
 
   disparate-vulnerability:
     name: DisparateVulnerability
@@ -675,3 +675,25 @@ projects:
         url: https://c4dt.epfl.ch/using_tandem_in_monero/
     date_added: 2022-08-25
     date_updated: 2022-08-25
+
+  private-collection-matching:
+    name: Private Collection Matching Protocols
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Info
+    type: Framework
+    description: >
+      Framework to build privacy-preserving Private Collection Matching (PCM) systems
+    layman_desc: >
+      We introduce Private Collection Matching (PCM) problems, in which a client aims to determine whether a collection of sets owned by a server matches their interests. Existing privacy-preserving cryptographic primitives cannot solve PCM problems efficiently without harming privacy. We propose a modular framework that enables designers to build privacy-preserving PCM systems that output one bit: whether a collection of server sets matches the client's set. The communication cost of our protocols scales linearly with the size of the client's set and is independent of the number of server elements. We demonstrate the potential of our framework by designing and implementing novel solutions for two real-world PCM problems: determining whether a dataset has chemical compounds of interest, and determining whether a document collection has relevant documents. Our evaluation shows that we offer a privacy gain with respect to existing works at a reasonable communication and computation cost.
+    tags:
+      - Protocol
+      - Protection
+    information:
+      - type: Paper
+        title: "Private Collection Matching Protocols"
+        url: https://arxiv.org/abs/2206.07009
+    date_added: 2023-03-22
+    date_updated: 2023-03-22

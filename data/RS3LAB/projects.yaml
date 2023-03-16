@@ -80,7 +80,7 @@ projects:
     code:
       type: Non-lab GitHub
       url: https://github.com/vmware-labs/node-replicated-kernel
-      date_last_commit: 2022-07-01
+      date_last_commit: 2023-03-11
     language: Rust
     license: Apache-2.0
     tags:
@@ -94,7 +94,7 @@ projects:
             text: USENIX OSDI 2021
             url: https://www.usenix.org/conference/osdi21
     date_added: 2021-11-05
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   syncord:
     name: SynCord

@@ -33,8 +33,11 @@ projects:
       sharing in multiple scenarios.
     code:
       type: Lab GitHub
-      url: https://github.com/ldsec/lattigo
-      date_last_commit: 2022-06-13
+      url: https://github.com/tuneinsight/lattigo
+      date_last_commit: 2023-03-14
+    c4dt_contact:
+      name: Linus Gasser
+      email: linus.gasser@epfl.ch
     contacts:
       - name: Jean-Philippe Bossuat
         email: jean-philippe@tuneinsight.com
@@ -44,9 +47,6 @@ projects:
         email: lattigo@tuneinsight.com
     incubator:
       work: 2020/Q1 maturity evaluation
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     tags:
       - Homomorphic Encryption
       - Secure Multi-Party Computation
@@ -54,7 +54,7 @@ projects:
     type: Library
     license: Apache-2.0
     date_added: 2019-08-15
-    date_updated: 2022-07-05
+    date_updated: 2023-03-21
     maturity: 3
 
   unlynx:
@@ -123,16 +123,16 @@ projects:
     language: GoLang
     type: Application
     license: non-commercial
+    c4dt_contact:
+      name: Linus Gasser
+      email: linus.gasser@epfl.ch
     contacts:
       - name: Mickaël Misbach
         email: mickael.misbach@epfl.ch
     incubator:
       work: 2020/Q2 Maturity Evaluation and library support
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     date_added: 2019-03-18
-    date_updated: 2022-09-28
+    date_updated: 2023-03-21
     maturity: 2
 
   drynx:

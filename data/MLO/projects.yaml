@@ -133,9 +133,12 @@ projects:
     code:
       type: Project GitHub
       url: https://github.com/mlbench
-      date_last_commit: 2022-07-01
+      date_last_commit: 2023-03-01
     url: https://mlbench.github.io
     doc: https://mlbench.readthedocs.io/
+    c4dt_contact:
+      name: Linus Gasser
+      email: linus.gasser@epfl.ch
     information:
       - type: Tutorial
         title: Tutorials for getting up to speed with MLBench
@@ -150,11 +153,8 @@ projects:
     license: Apache-2.0
     incubator:
       work: 2020/Q4 evaluated and tested the project
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     date_added: 2019-07-30
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
     maturity: 2
 
   sent2vec:
@@ -171,7 +171,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfml/sent2vec
-      date_last_commit: 2021-10-10
+      date_last_commit: 2022-08-03
     language: C++
     license: BSD-3-Clause
     contacts:
@@ -181,7 +181,7 @@ projects:
       - Natural Language
     type: Library
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
     maturity: 1
 
   powersgd:
@@ -206,7 +206,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfml/powersgd
-      date_last_commit: 2022-06-01
+      date_last_commit: 2022-11-22
     information:
       - type: Paper
         title: "PowerSGD: Practical Low-Rank Gradient Compression for Distributed Optimization"
@@ -222,7 +222,7 @@ projects:
     type: Application
     license: MIT
     date_added: 2020-05-01
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
 
   relaysgd:
     name: RelaySGD
@@ -285,12 +285,15 @@ projects:
       ground for new machine learning technologies.
     url: https://epfml.github.io/disco
     c4dt_contact:
-      name: Valérian Rousset
-      email: valerian.rousset@epfl.ch
+      name: Linus Gasser
+      email: linus.gasser@epfl.ch
+    contacts:
+      - name: Martin Jaggi
+        email: martin.jaggi@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/disco
-      date_last_commit: 2022-07-04
+      date_last_commit: 2023-03-21
     language: TypeScript
     license: Apache-2.0
     incubator:
@@ -344,7 +347,7 @@ projects:
             url: http://proceedings.mlr.press/v139/karimireddy21a.html
     maturity: 2
     date_added: 2022-02-18
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
 
   byzantine-robust-optimizer:
     name: Byzantine Robust Optimizer
@@ -408,8 +411,9 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfml/quasi-global-momentum
-      date_last_commit: 2021-10-18
+      date_last_commit: 2022-12-23
     language: Python
+    license: Apache-2.0
     tags:
       - Decentralized
       - Distributed Learning
@@ -423,7 +427,7 @@ projects:
             text: ICML 2021
             url: https://icml.cc/Conferences/2021
     date_added: 2021-11-04
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
 
   hyperaggregate:
     name: HyperAggregate
@@ -483,6 +487,7 @@ projects:
       url: https://github.com/epfml/pax
       date_last_commit: 2022-03-02
     language: Python
+    license: Apache-2.0
     type: Library
     tags:
       - PyTorch
@@ -501,6 +506,7 @@ projects:
       url: https://github.com/epfml/byzantine-robust-noniid-optimizer
       date_last_commit: 2022-02-02
     language: Python
+    license: MIT
     type: Library
     tags:
       - PyTorch

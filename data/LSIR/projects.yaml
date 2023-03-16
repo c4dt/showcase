@@ -11,7 +11,6 @@ projects:
       Pribot uses an automated framework for privacy policy analysis
       (Polisis). It enables scalable, dynamic, and multi-dimensional
       queries on natural language privacy policies.
-    url: https://pribot.org/bot
     code:
       type: Private GitHub
     contacts:
@@ -33,7 +32,7 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity18
     license: commercial
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2023-03-21
 
   privyseal:
     name: PrivySeal
@@ -90,9 +89,6 @@ projects:
       type: Private GitHub
     information:
       - type: Demo
-        title: Online Technology Demos
-        url: https://modemos.epfl.ch/main
-      - type: Demo
         title: Online Image Retrieval Demo
         url: https://modemos.epfl.ch/article
     contacts:
@@ -120,9 +116,6 @@ projects:
     code:
       type: Private GitHub
     information:
-      - type: Demo
-        title: Online Technology Demos
-        url: http://data-platform.lsir.ch
       - type: Paper
         title: Weakly Supervised Active Learning with Cluster Annotation
         url: https://arxiv.org/pdf/1812.11780.pdf
@@ -137,7 +130,7 @@ projects:
       - Image Classification
     type: Framework
     date_added: 2019-05-22
-    date_updated: 2022-07-06
+    date_updated: 2023-03-21
     maturity: 2
 
   scilens:
@@ -172,9 +165,6 @@ projects:
           - label: Published at
             text: VLDB'20
             url: https://vldb2020.org
-      - type: Demo
-        title: SciLens News Platform Demo
-        url: https://newsteller.io
     contacts:
       - name: Panayiotis Smeros
         email: panayiotis.smeros@epfl.ch
@@ -184,7 +174,7 @@ projects:
     license: GPL-3.0
     type: Application
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2023-03-21
 
   media-observatory:
     name: Media Observatory
@@ -229,22 +219,22 @@ projects:
     date_added: 2019-09-04
     date_updated: 2022-07-06
 
-  mlmodule:
-    name: MLModule
+  mozuma:
+    name: Mozuma
     categories:
       - Learning
     applications:
       - Info
     description: Library of ML standardised models
     layman_desc: >
-      MLModule is a library containing a collection of machine learning models
+      Mozuma is a library containing a collection of machine learning models
       with standardised interface to run inference, train and manage model state files.
     code:
       type: Lab GitHub
-      url: https://github.com/LSIR/mlmodule
-      date_last_commit: 2022-06-01
+      url: https://github.com/mozuma/mozuma
+      date_last_commit: 2022-10-28
     tags:
       - PyTorch
     type: Library
     date_added: 2022-07-06
-    date_updated: 2022-07-06
+    date_updated: 2023-03-21

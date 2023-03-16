@@ -28,11 +28,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/dedis/popstellar
-      date_last_commit: 2022-07-04
+      date_last_commit: 2023-03-15
     language: Go, Java, Scala, JavaScript
     license: AGPL-3.0
     date_added: 2021-04-13
-    date_updated: 2022-07-04
+    date_updated: 2023-03-15
 
   dela:
     name: DEDIS Ledger Architecture
@@ -41,7 +41,6 @@ projects:
     applications:
       - Infra
     description: Modular abstractions to perform Distributed Ledger (DL) operations
-    layman_desc: >
     tech_desc: >
       With Dela you can: learn the architecture of a distributed ledger, run your blockchain / distributed ledger,
       implement and test your new idea that will revolutionize the blockchain world by adding your new module’s
@@ -57,11 +56,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/dedis/dela
-      date_last_commit: 2022-04-28
+      date_last_commit: 2023-03-08
     language: Go
     license: BSD-3-Clause
     date_added: 2021-04-13
-    date_updated: 2022-07-04
+    date_updated: 2023-03-16
 
   odyssey:
     name: Odyssey
@@ -118,7 +117,7 @@ projects:
       products:
         - type: Demo
           title: "Calypso filesharing"
-          url: https://github.com/calypso-demo/filesharing
+          url: https://github.com/dedis/filesharing
         - type: Pilot
           title: "Odyssey"
           url: https://github.com/dedis/odyssey
@@ -148,7 +147,7 @@ projects:
         url: https://github.com/calypso-demo
         title: Calypso demo from the paper
     date_added: 2019-03-18
-    date_updated: 2022-07-04
+    date_updated: 2023-03-15
     maturity: 2
 
   kyber:
@@ -164,7 +163,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dedis/kyber
-      date_last_commit: 2021-11-26
+      date_last_commit: 2022-11-30
     lines_of_code: 17000 / 4000
     contacts:
       - name: Pierluca Borsò
@@ -177,7 +176,7 @@ projects:
     type: Library
     license: MPL-2.0
     date_added: 2019-03-18
-    date_updated: 2022-07-04
+    date_updated: 2023-03-16
     maturity: 3
 
   omniledger:
@@ -302,7 +301,7 @@ projects:
       over before decrypting the votes, keeping anonymity of the users.
     code:
       type: Lab GitHub
-      url: https://github.com/dedis/cothority/tree/master/evoting
+      url: https://github.com/dedis/cothority/tree/main/evoting
       date_last_commit: 2022-06-02
     lines_of_code: 1700 / 200
     contacts:
@@ -318,7 +317,7 @@ projects:
     type: Application
     license: AGPL-3.0
     date_added: 2019-03-18
-    date_updated: 2022-07-04
+    date_updated: 2023-03-16
 
   drand:
     name: DRand
@@ -334,7 +333,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/drand/drand
-      date_last_commit: 2022-06-28
+      date_last_commit: 2023-03-16
     url: https://drand.love
     doc: https://github.com/drand/drand#documentation
     lines_of_code: 1000 / 200
@@ -352,7 +351,7 @@ projects:
         title: League of Entropy
         url: https://leagueofentropy.com/
     date_added: 2019-03-18
-    date_updated: 2022-07-04
+    date_updated: 2023-03-16
 
   purbs:
     name: PURBs
@@ -382,6 +381,7 @@ projects:
             text: PETS 2019
             url: https://petsymposium.org/2019/program.php
     type: Library
+    license: BSD-3-Clause
     date_added: 2019-03-18
     date_updated: 2022-07-04
 
@@ -435,7 +435,6 @@ projects:
       Linking patients to their physical and digital TWINs
     layman_desc: >
       Using organoids for research while protecting patients’ identity
-    tech_desc: >
     contacts:
       - name: Pierluca Borsò
         email: pierluca.borso@epfl.ch
@@ -491,11 +490,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/dedis/hbt
-      date_last_commit: 2022-06-30
+      date_last_commit: 2023-03-16
     language: Go
     license: other
     date_added: 2022-07-04
-    date_updated: 2022-07-04
+    date_updated: 2023-03-16
 
   determ-checker:
     name: determ-checker
@@ -518,3 +517,33 @@ projects:
     license: other
     date_added: 2022-07-04
     date_updated: 2022-07-04
+
+  matchertext:
+    name: matchertext
+    categories:
+      - Other
+    applications:
+      - Other
+    description: >
+      Matchertext is a syntactic discipline that allows strings in one compliant language to be embedded verbatim without escaping (e.g., via cut-and-paste) into itself or another compliant language.
+    contacts:
+      - name: Bryan Ford
+        email: bryan.ford@epfl.ch
+    tags:
+      - Code Analysis
+    type: Toolset
+    code:
+      type: Lab Github
+      url: https://github.com/dedis/matchertext
+      date_last_commit: 2022-11-08
+    information:
+      - type: Paper
+        title: "Matchertext: Towards Verbatim Interlanguage Embedding"
+        url: https://arxiv.org/abs/2212.14129
+      - type: Blog post
+        title: "Matchertext: an escape route from language-embedding hell?"
+        url: https://bford.info/2023/01/02/matchertext/
+    language: Go
+    license: other
+    date_added: 2022-03-16
+    date_updated: 2022-03-16

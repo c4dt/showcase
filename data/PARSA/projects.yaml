@@ -15,7 +15,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/parsa-epfl/cloudsuite
-      date_last_commit: 2022-04-12
+      date_last_commit: 2023-03-20
     contacts:
       - name: Siddharth Gupta
         email: siddharth.gupta@epfl.ch
@@ -34,7 +34,7 @@ projects:
             url: https://dblp.org/db/conf/asplos/asplos2012.html
     license: CloudSuite, other
     date_added: 2019-03-18
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   qflex:
     name: QFlex
@@ -99,7 +99,7 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/parsa-epfl/HBFPEmulator
-      date_last_commit: 2021-10-25
+      date_last_commit: 2023-02-16
     language: Python
     license: BSD-3-Clause
     information:
@@ -125,4 +125,4 @@ projects:
             text: ACM SigArch Computer Architecture Today
             url: https://www.sigarch.org/blog/
     date_added: 2021-05-27
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22

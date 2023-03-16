@@ -128,3 +128,75 @@ projects:
         url: https://quotebank.dlab.tools
     date_added: 2022-09-28
     date_updated: 2022-09-28
+
+  dipps:
+    name: DiPPS
+    categories:
+      - Privacy
+      - Learning
+    applications:
+      - Info
+    tags:
+      - Survey
+    description: Differentially Private Propensity Scores for Bias Correction
+    layman_desc: >
+      In surveys, it is typically up to the individuals to decide if they want to participate or not, which leads to participation bias: the individuals willing to share their data might not be representative of the entire population. Similarly, there are cases where one does not have direct access to any data of the target population and has to resort to publicly available proxy data sampled from a different distribution. In this paper, we present Differentially Private Propensity Scores for Bias Correction (DiPPS), a method for approximating the true data distribution of interest in both of the above settings
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-dlab/DIPPS
+      date_last_commit: 2022-10-02
+    language: Python
+    license: other
+    information:
+      - type: Paper
+        title: Differentially Private Propensity Scores for Bias Correction
+        url: https://arxiv.org/abs/2210.02360
+    date_added: 2023-03-16
+    date_updated: 2023-03-16
+
+  genie:
+    name: GenIE
+    categories:
+      - Privacy
+      - Learning
+    applications:
+      - Info
+    tags:
+      - Natural Language
+    description: Autoregressive information extraction system
+    layman_desc: >
+      GenIE uses a sequence-to-sequence model that takes unstructured text as input and autoregressively generates a structured semantic representation of the information expressed in it, in the form of (subject, relation, object) triplets, as output.
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-dlab/GenIE
+      date_last_commit: 2023-02-23
+    language: Python
+    license: MIT
+    information:
+      - type: Paper
+        title: "GenIE: Generative Information Extraction"
+        url: https://arxiv.org/abs/2112.08340
+    date_added: 2023-03-16
+    date_updated: 2023-03-16
+
+  synthie:
+    name: SynthIE
+    categories:
+      - Learning
+    applications:
+      - Info
+    tags:
+      - Natural Language
+    description: Exploiting Asymmetry for Synthetic Training Data Generation
+    code:
+      type: Lab GitHub
+      url: https://github.com/epfl-dlab/SynthIE
+      date_last_commit: 2023-03-08
+    language: Python
+    license: MIT
+    information:
+      - type: Paper
+        title: "Exploiting Asymmetry for Synthetic Training Data Generation: SynthIE and the Case of Information Extraction"
+        url: https://arxiv.org/abs/2303.04132
+    date_added: 2023-03-16
+    date_updated: 2023-03-16

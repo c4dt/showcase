@@ -82,7 +82,7 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/HexHive/magma
-      date_last_commit: 2022-07-03
+      date_last_commit: 2022-12-07
     information:
       - type: Paper
         title: "Magma: A Ground-Truth Fuzzing Benchmark"
@@ -92,7 +92,7 @@ projects:
             text: SIGMETRICS 2021
             url: http://www.sigmetrics.org/sigmetrics2021
     date_added: 2020-02-21
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   t-fuzz:
     name: T-Fuzz
@@ -238,7 +238,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/retrowrite
-      date_last_commit: 2022-05-02
+      date_last_commit: 2023-03-08
     tags:
       - Fuzzing
       - Binary
@@ -257,7 +257,7 @@ projects:
         title: RetroWrite Tutorial
         url: https://github.com/HexHive/RetroWrite-Tutorial
     date_added: 2019-09-02
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   shadowstack:
     name: ShadowStack
@@ -572,7 +572,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/Igor
-      date_last_commit: 2022-06-16
+      date_last_commit: 2022-08-02
     language: C
     type: Application
     tags:
@@ -589,7 +589,7 @@ projects:
         title: "Igor: Crash Deduplication Through Root-Cause Clustering (CCS'21)"
         url: https://www.youtube.com/watch?v=V06x1Ad5dRo
     date_added: 2021-11-04
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   dis-cover:
     name: dis-cover
@@ -656,9 +656,9 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/datAFLow
-      date_last_commit: 2022-05-24
+      date_last_commit: 2023-02-01
     language: C++
-    license: other
+    license: Apache-2.0
     type: Toolset
     tags:
       - Fuzzing
@@ -671,7 +671,7 @@ projects:
             text: FUZZING 2022
             url: https://fuzzingworkshop.github.io
     date_added: 2022-07-05
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   midas:
     name: Midas
@@ -708,3 +708,53 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity22/summer-accepted-papers
     date_added: 2022-09-27
     date_updated: 2022-09-27
+
+  gleefuzz:
+    name: GLeeFuzz
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Fuzzing WebGL Through Error Message Guided Mutation
+    tech_desc: >
+      Our fuzzing technique, GLeeFuzz, guides input mutation by error messages instead of code coverage. Our key observation is that browsers emit meaningful error messages to aid developers in debugging their WebGL programs. Error messages indicate which part of the input fails (e.g., incomplete arguments, invalid arguments, or unsatisfied dependencies between API calls). Leveraging error messages as feedback, the fuzzer effectively expands coverage by focusing mutation on erroneous parts of the input. We analyze Chrome’s WebGL implementation to identify the dependencies between error-emitting statements and rejected parts of the input, and use this information to guide input mutation. We evaluate our GLeeFuzz prototype on Chrome, Firefox, and Safari on diverse desktop and mobile OSes. We discovered 7 vulnerabilities, 4 in Chrome, 2 in Safari, and 1 in Firefox. The Chrome vulnerabilities allow a remote attacker to freeze the GPU and possibly execute remote code at the browser privilege.
+    tags:
+      - Fuzzing
+    type: Application
+    code:
+      type: Lab Github
+      url: https://github.com/HexHive/GLeeFuzz
+      date_last_commit: 2022-11-17
+    information:
+      - type: Paper
+        title: "GLeeFuzz: Fuzzing WebGL Through Error Message Guided Mutation"
+        url: https://www.usenix.org/system/files/sec23summer_249-peng-prepub.pdf
+        notes:
+          - label: Published at
+            text: Usenix SEC '23
+            url: https://www.usenix.org/conference/usenixsecurity23/summer-accepted-papers
+    date_added: 2023-03-20
+    date_updated: 2023-03-20
+
+  evocatio:
+    name: Evocatio
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Evocatio is a bug analyzer built on top of AFL++ and AddressSanitizer. It automatically discovers a bug’s capabilities.
+    tech_desc: >
+      Evocatio automatically discovers a bug’s capabilities: analyzing a crashing test case (i.e., an input exposing a bug) to understand the full extent of how an attacker can exploit a bug. Evocatio leverages a capability-guided fuzzer to efficiently uncover new bug capabilities (rather than only generating a single crashing test case for a given bug, as a traditional greybox fuzzer does).
+    tags:
+      - Fuzzing
+    type: Application
+    code:
+      type: Lab Github
+      url: https://github.com/HexHive/Evocatio
+      date_last_commit: 2022-12-16
+    information:
+      - type: Paper
+        title: "Evocatio: Conjuring Bug Capabilities from a Single PoC"
+        url: https://hexhive.epfl.ch/publications/files/22CCS.pdf
+    date_added: 2023-03-20
+    date_updated: 2023-03-20
