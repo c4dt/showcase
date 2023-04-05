@@ -8,17 +8,15 @@ projects:
       - Gov
     description: Proof that you are an actual person while keeping your anonymity
     layman_desc: >
-      The internet allows for anonymous participation. While this is great for protecting people like
-      whistleblowers, it can be a burden if people abuse it and create many fake accounts. This project
-      implements a way to prove that you are a unique individual, while still guaranteeing you anonymity
-      while you use services on the internet. Applications range from chat to e-voting and energy-efficient
+      The internet allows for anonymous participation. While this is great for protecting people like whistleblowers, it can be a burden if
+      people abuse it and create many fake accounts. This project implements a way to prove that you are a unique individual, while still
+      guaranteeing you anonymity while you use services on the internet. Applications range from chat to e-voting and energy-efficient
       blockchains.
     tech_desc: >
-      Fake accounts are a big problem on the internet, while not all people want or can identify
-      themselves using state-issued identities. Proof-of-personhood proposes to use personhood parties
-      where people have to physically show up and get identified as real persons. Using cryptographic
-      primitives, it is then possible to prove that you were part of that group, without revealing your
-      individual identity.
+      Fake accounts are a big problem on the internet, while not all people want or can identify themselves using state-issued identities.
+      Proof-of-personhood proposes to use personhood parties where people have to physically show up and get identified as real persons.
+      Using cryptographic primitives, it is then possible to prove that you were part of that group, without revealing your individual
+      identity.
     contacts:
       - name: Pierluca Borsò
         email: pierluca.borso@epfl.ch
@@ -42,9 +40,8 @@ projects:
       - Infra
     description: Modular abstractions to perform Distributed Ledger (DL) operations
     tech_desc: >
-      With Dela you can: learn the architecture of a distributed ledger, run your blockchain / distributed ledger,
-      implement and test your new idea that will revolutionize the blockchain world by adding your new module’s
-      implementation to the Dela ecosystem.
+      With Dela you can: learn the architecture of a distributed ledger, run your blockchain / distributed ledger, implement and test your
+      new idea that will revolutionize the blockchain world by adding your new module’s implementation to the Dela ecosystem.
     contacts:
       - name: Noémien Kocher
         email: noemien.kocher@epfl.ch
@@ -71,9 +68,8 @@ projects:
       - Info
     description: Auditable Sharing and Management of Sensitive Data Across Jurisdictions
     layman_desc: >
-      Odyssey is a set of applications and tools that enables sharing of sensitive data
-      between multiple distrustful parties. This project uses state-of-the-art secret
-      management service on the blockchain coupled with an enclave delivery mechanism.
+      Odyssey is a set of applications and tools that enables sharing of sensitive data between multiple distrustful parties. This project
+      uses state-of-the-art secret management service on the blockchain coupled with an enclave delivery mechanism.
     url: https://dedis.github.io/odyssey/
     code:
       type: Lab GitHub
@@ -100,10 +96,8 @@ projects:
       - Info
     description: Encrypted storage with access control
     layman_desc: >
-      Store data encrypted on the blockchain and use a decentralized access
-      control mechanism to define who is allowed to decrypt. It has been
-      developed alongside with OmniLedger. But it can also be used
-      independently of OmniLedger.
+      Store data encrypted on the blockchain and use a decentralized access control mechanism to define who is allowed to decrypt. It has
+      been developed alongside with OmniLedger. But it can also be used independently of OmniLedger.
     code:
       type: Lab GitHub
       url: https://github.com/dedis/cothority/tree/main/calypso
@@ -158,8 +152,7 @@ projects:
       - Infra
     description: Cryptographic library
     layman_desc: >
-      A low level cryptographic library to create new cryptographic
-      primitives. Not to be used for everyday cryptography.
+      A low level cryptographic library to create new cryptographic primitives. Not to be used for everyday cryptography.
     code:
       type: Lab GitHub
       url: https://github.com/dedis/kyber
@@ -187,10 +180,8 @@ projects:
       - Infra
     description: Ethereum-like blockchain implementation based on skipchains
     layman_desc: >
-      OmniLedger is a high performance blockchain solution developed by the
-      DEDIS-lab. It supports pre-compiled smart contracts, as well as
-      Ethereum smart contracts. Combined with Calypso, it allows management
-      of access to secure and private data in a fully audited way.
+      OmniLedger is a high performance blockchain solution developed by the DEDIS-lab. It supports pre-compiled smart contracts, as well as
+      Ethereum smart contracts. Combined with Calypso, it allows management of access to secure and private data in a fully audited way.
     code:
       type: Lab GitHub
       url: https://github.com/c4dt/byzcoin
@@ -261,8 +252,7 @@ projects:
       - Infra
     description: Library for simulation and deployment of decentralized, distributed protocols
     layman_desc: >
-      Library to write applications and protocols in a decentralized
-      setting. Including an easy to use simulation framework to test the
+      Library to write applications and protocols in a decentralized setting. Including an easy to use simulation framework to test the
       performance of the protocols.
     code:
       type: Lab GitHub
@@ -292,12 +282,10 @@ projects:
       - Gov
     description: Decentralized, encrypted, fully anonymous e-voting
     tech_desc: >
-      Our e-voting system is inspired by the first version of Helios where the encrypted ballots are shuffled and
-      anonymized before they are decrypted. Instead of the shuffle used in Helios, we implemented a Neff shuffle
-      which is much faster than the original Helios shuffle.
+      Our e-voting system is inspired by the first version of Helios where the encrypted ballots are shuffled and anonymized before they are
+      decrypted. Instead of the shuffle used in Helios, we implemented a Neff shuffle which is much faster than the original Helios shuffle.
     layman_desc: >
-      The e-voting used in the EPFL voting since 2018. It allows users
-      to vote on a distributed system that will wait for the election to be
+      The e-voting used in the EPFL voting since 2018. It allows users to vote on a distributed system that will wait for the election to be
       over before decrypting the votes, keeping anonymity of the users.
     code:
       type: Lab GitHub
@@ -327,9 +315,8 @@ projects:
       - Infra
     description: Publicly verifiable randomness
     layman_desc: >
-      In many distributed applications, it is important to get a provably
-      secure random number. DRand makes it possible to have these numbers
-      provably secure.
+      In many distributed applications, it is important to get a provably secure random number. DRand makes it possible to have these
+      numbers provably secure.
     code:
       type: Lab GitHub
       url: https://github.com/drand/drand
@@ -361,8 +348,7 @@ projects:
       - Info
     description: Metadata leakage prevention for encrypted communication and storage
     layman_desc: >
-      A library for a novel encoding approach preventing metadata leakage
-      for encrypted communication and data at rest.
+      A library for a novel encoding approach preventing metadata leakage for encrypted communication and data at rest.
     code:
       type: Lab GitHub
       url: http://github.com/dedis/purbs
@@ -393,13 +379,10 @@ projects:
       - Infra
     description: Solving the consensus problem in a new way by creating a global clock
     tech_desc: >
-      An attempt to simplify asynchronous consensus by building atop a novel
-      threshold logical clock abstraction, which enables upper layers to
-      operate as if on a synchronous network. This approach yields an
-      asynchronous consensus protocol for fail-stop nodes that may be simpler
-      and more robust than Paxos and its leader-based variants, requiring no
-      common coins and achieving consensus in a constant expected number of
-      rounds.
+      An attempt to simplify asynchronous consensus by building atop a novel threshold logical clock abstraction, which enables upper layers
+      to operate as if on a synchronous network. This approach yields an asynchronous consensus protocol for fail-stop nodes that may be
+      simpler and more robust than Paxos and its leader-based variants, requiring no common coins and achieving consensus in a constant
+      expected number of rounds.
     contacts:
       - name: Bryan Ford
         email: bryan.ford@epfl.ch
@@ -455,8 +438,8 @@ projects:
     description: >
       SimNet is a tool to simulate decentralized applications in the cloud
     tech_desc: >
-      SimNet provides multiple configurations to affect the topology so that specific link between two nodes can
-      have a delay or a loss of packets for instance.
+      SimNet provides multiple configurations to affect the topology so that specific link between two nodes can have a delay or a loss of
+      packets for instance.
     contacts:
       - name: Noémien Kocher
         email: noemien.kocher@epfl.ch
@@ -525,7 +508,8 @@ projects:
     applications:
       - Other
     description: >
-      Matchertext is a syntactic discipline that allows strings in one compliant language to be embedded verbatim without escaping (e.g., via cut-and-paste) into itself or another compliant language.
+      Matchertext is a syntactic discipline that allows strings in one compliant language to be embedded verbatim without escaping (e.g.,
+      via cut-and-paste) into itself or another compliant language.
     contacts:
       - name: Bryan Ford
         email: bryan.ford@epfl.ch

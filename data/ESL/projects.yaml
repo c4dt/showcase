@@ -7,9 +7,8 @@ projects:
       - Infra
     description: gem5-based simulator with architectural extensions
     layman_desc: >
-      gem5-X stands for a gem5-based full-system simulator with architectural
-      eXtensions. It is a gem5-based simulator that allows architectural
-      exploration and optimization of heterogeneous systems
+      gem5-X stands for a gem5-based full-system simulator with architectural eXtensions. It is a gem5-based simulator that allows
+      architectural exploration and optimization of heterogeneous systems
     url: https://www.epfl.ch/labs/esl/research/2d-3d-system-on-chip/gem5-x/
     doc: https://www.epfl.ch/labs/esl/wp-content/uploads/2021/08/gem5_X_TechnicalManual_v2.pdf
     code:
@@ -42,9 +41,8 @@ projects:
       - Infra
     description: Thermal simulator for stacked integrated circuits
     layman_desc: >
-      Hardware is getting smaller every day, components are being stacked
-      on top of each other, in order to make theses more compact. But as it is getting smaller,
-      it's also getting hotter. 3D-ICE helps in modelling how thermal flux are behaving.
+      Hardware is getting smaller every day, components are being stacked on top of each other, in order to make theses more compact. But as
+      it is getting smaller, it's also getting hotter. 3D-ICE helps in modelling how thermal flux are behaving.
     url: https://www.epfl.ch/labs/esl/research/open-source-tools/3d-ice/
     doc: https://eslweb.epfl.ch/3Dice/3D-ICE-User_Guide.pdf
     code:

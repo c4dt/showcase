@@ -7,12 +7,9 @@ projects:
       - Infra
     description: Memory allocation preventing "use-after-free" exploits
     layman_desc: >
-      ffmalloc is a "one time allocator" where any given virtual memory address
-      is only returned to the calling application once. Since exploitation of
-      use-after-free errors relies on being able to modify memory associated
-      with "dangling pointers," by not reusing a virtual address region in
-      subsequent allocation, an adversary cannot negatively impact the dangling
-      memory region.
+      ffmalloc is a "one time allocator" where any given virtual memory address is only returned to the calling application once. Since
+      exploitation of use-after-free errors relies on being able to modify memory associated with "dangling pointers," by not reusing a
+      virtual address region in subsequent allocation, an adversary cannot negatively impact the dangling memory region.
     code:
       type: Personal GitHub
       url: https://github.com/bwickman97/ffmalloc
@@ -40,12 +37,9 @@ projects:
       - Infra
     description: Efficient Non-Volatile Memory (NVM) access
     layman_desc: >
-      Non-Volatile Memory (NVM), which provides relatively fast and
-      byte-addressable persistence, is now commercially available. However, we
-      cannot equate a real NVM with a slow DRAM, as it is much more complicated
-      than we expect. We propose guidelines for designing high-performance
-      persistent index structures, allowing to increase performance and tail
-      latency.
+      Non-Volatile Memory (NVM), which provides relatively fast and byte-addressable persistence, is now commercially available. However, we
+      cannot equate a real NVM with a slow DRAM, as it is much more complicated than we expect. We propose guidelines for designing
+      high-performance persistent index structures, allowing to increase performance and tail latency.
     code:
       type: Non-lab GitHub
       url: https://github.com/cosmoss-vt/pactree
@@ -74,9 +68,8 @@ projects:
       - Infra
     description: OS kernel with safer approach to synchronization
     layman_desc: >
-      NrOS is an operating system primarily constructed as a simple, sequential
-      kernel with no concurrency, making it easier to develop and reason
-      aboutits correctness.
+      NrOS is an operating system primarily constructed as a simple, sequential kernel with no concurrency, making it easier to develop and
+      reason aboutits correctness.
     code:
       type: Non-lab GitHub
       url: https://github.com/vmware-labs/node-replicated-kernel
@@ -104,12 +97,9 @@ projects:
       - Infra
     description: Application-Informed Kernel Synchronization Primitives
     tech_desc: >
-      SynCord is a framework to modify kernel locks
-      without recompiling or rebooting the kernel.
-      It abstracts key behaviors of kernel locks and exposes them as APIs
-      for designing user-defined kernel locks.
-      SynCord provides the mechanisms to customize kernel locks
-      safely and correctly from userspace.
+      SynCord is a framework to modify kernel locks without recompiling or rebooting the kernel. It abstracts key behaviors of kernel locks
+      and exposes them as APIs for designing user-defined kernel locks. SynCord provides the mechanisms to customize kernel locks safely and
+      correctly from userspace.
     url: https://rs3lab.github.io/SynCord
     code:
       type: Lab GitHub
@@ -131,12 +121,10 @@ projects:
       - Infra
     description: Scaling PM Performance with Opportunistic Delegation
     tech_desc: >
-      Odinfs is a NUMA-aware PM file system based on an opportunistic delegation framework
-      to achieve datapath scalability.
-      It limits concurrent PM access to avoid performance meltdown due to on-DIMM cache trashing.
-      It localizes PM access to avoid performance meltdown due to remote PM access.
-      It automatically parallelizes large PM access to utilize cumulative PM bandwidth across all NUMA nodes.
-      It maximizes concurrent access within the same file with scalable synchronization primitives.
+      Odinfs is a NUMA-aware PM file system based on an opportunistic delegation framework to achieve datapath scalability. It limits
+      concurrent PM access to avoid performance meltdown due to on-DIMM cache trashing. It localizes PM access to avoid performance meltdown
+      due to remote PM access. It automatically parallelizes large PM access to utilize cumulative PM bandwidth across all NUMA nodes. It
+      maximizes concurrent access within the same file with scalable synchronization primitives.
     url: https://rs3lab.github.io/Odinfs
     code:
       type: Lab GitHub

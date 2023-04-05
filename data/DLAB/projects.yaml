@@ -8,17 +8,12 @@ projects:
       - Infra
     description: Privacy-preserving classification
     layman_desc: >
-      Today, large amounts of valuable data are distributed among millions of
-      user-held devices, such as personal computers, phones, or
-      Internet-of-things devices. Many companies collect such data with the
-      goal of using it for training machine learning models allowingthem to
-      improve their services. User-held data is, however, often sensitive, and
-      collecting it is problematic in terms of privacy.  We propose a novel way
-      of training a supervised classifier in a distributed setting akin to the
-      recently proposed federated learning paradigm, but under the stricter
-      privacy requirement that the server that trains the model is assumed to
-      be untrusted and potentially malicious. We thus preserve user privacy by
-      design, rather than by trust.
+      Today, large amounts of valuable data are distributed among millions of user-held devices, such as personal computers, phones, or
+      Internet-of-things devices. Many companies collect such data with the goal of using it for training machine learning models
+      allowingthem to improve their services. User-held data is, however, often sensitive, and collecting it is problematic in terms of
+      privacy.  We propose a novel way of training a supervised classifier in a distributed setting akin to the recently proposed federated
+      learning paradigm, but under the stricter privacy requirement that the server that trains the model is assumed to be untrusted and
+      potentially malicious. We thus preserve user privacy by design, rather than by trust.
     code:
       type: Lab GitHub
       url: https://github.com/epfl-dlab/secvm-server
@@ -46,11 +41,9 @@ projects:
       - Info
     description: Invariant natural language modeling
     layman_desc: >
-      Modern pretrained language models are critical components for natural
-      language processing. Yet, they suffer from spurious correlations, poor
-      out-of-domain generalization, and biases. This is a framework to learn
-      invariant representations that should generalize across training
-      environments.
+      Modern pretrained language models are critical components for natural language processing. Yet, they suffer from spurious
+      correlations, poor out-of-domain generalization, and biases. This is a framework to learn invariant representations that should
+      generalize across training environments.
     code:
       type: Lab GitHub
       url: https://github.com/epfl-dlab/invariant-language-models
@@ -70,12 +63,9 @@ projects:
       - Info
     description: Improved entity linking
     layman_desc: >
-      In natural language processing, entity linking, i.e. the task of
-      assigning a unique identity to entities (for example "Paris" in a
-      sentence refers to the city, not to someone's name), is an important
-      problem. Most previous solutions rely on annotated data, which is however
-      not available in many domains. We propose a method for entity linking
-      without the need for annotated data.
+      In natural language processing, entity linking, i.e. the task of assigning a unique identity to entities (for example "Paris" in a
+      sentence refers to the city, not to someone's name), is an important problem. Most previous solutions rely on annotated data, which is
+      however not available in many domains. We propose a method for entity linking without the need for annotated data.
     code:
       type: Lab GitHub
       url: https://github.com/epfl-dlab/eigenthemes
@@ -103,10 +93,8 @@ projects:
       - Info
     description: Corpus of quotations from a decade of news
     layman_desc: >
-      News from half a million of website, over the last 15 years, labelled by writer.
-      Quotebank shows that it can accurately associate any citation
-      with who most probably wrote it. It helps in identifying the source
-      of a given news without any metadata.
+      News from half a million of website, over the last 15 years, labelled by writer. Quotebank shows that it can accurately associate any
+      citation with who most probably wrote it. It helps in identifying the source of a given news without any metadata.
     code:
       type: Lab GitHub
       url: https://github.com/epfl-dlab/Quotebank
@@ -140,7 +128,11 @@ projects:
       - Survey
     description: Differentially Private Propensity Scores for Bias Correction
     layman_desc: >
-      In surveys, it is typically up to the individuals to decide if they want to participate or not, which leads to participation bias: the individuals willing to share their data might not be representative of the entire population. Similarly, there are cases where one does not have direct access to any data of the target population and has to resort to publicly available proxy data sampled from a different distribution. In this paper, we present Differentially Private Propensity Scores for Bias Correction (DiPPS), a method for approximating the true data distribution of interest in both of the above settings
+      In surveys, it is typically up to the individuals to decide if they want to participate or not, which leads to participation bias: the
+      individuals willing to share their data might not be representative of the entire population. Similarly, there are cases where one
+      does not have direct access to any data of the target population and has to resort to publicly available proxy data sampled from a
+      different distribution. In this paper, we present Differentially Private Propensity Scores for Bias Correction (DiPPS), a method for
+      approximating the true data distribution of interest in both of the above settings
     code:
       type: Lab GitHub
       url: https://github.com/epfl-dlab/DIPPS
@@ -165,7 +157,8 @@ projects:
       - Natural Language
     description: Autoregressive information extraction system
     layman_desc: >
-      GenIE uses a sequence-to-sequence model that takes unstructured text as input and autoregressively generates a structured semantic representation of the information expressed in it, in the form of (subject, relation, object) triplets, as output.
+      GenIE uses a sequence-to-sequence model that takes unstructured text as input and autoregressively generates a structured semantic
+      representation of the information expressed in it, in the form of (subject, relation, object) triplets, as output.
     code:
       type: Lab GitHub
       url: https://github.com/epfl-dlab/GenIE

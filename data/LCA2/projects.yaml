@@ -7,8 +7,7 @@ projects:
       - Infra
     description: Parallel redundancy protocol for IP networks
     layman_desc: >
-      iPRP allows parallel transmission of data over a network for hard
-      real time applications with simply installing an app on both the
+      iPRP allows parallel transmission of data over a network for hard real time applications with simply installing an app on both the
       server and the client.
     code:
       type: Lab GitHub
@@ -38,8 +37,7 @@ projects:
       - Infra
     description: API for the Commelec real-time microgrid framework
     layman_desc: >
-      This project defines a message format, based on Cap'n Proto, for
-      encoding certain mathematical objects (i.e., real-valued symbolic
+      This project defines a message format, based on Cap'n Proto, for encoding certain mathematical objects (i.e., real-valued symbolic
       expressions, sets and set-valued functions) as sequences of bytes.
     code:
       type: Lab GitHub
@@ -65,9 +63,8 @@ projects:
       - Infra
     description: Testbed for multi-agent real-time control of electric grids
     tech_desc: >
-      T-RECS is a software testbed for multi-agent real-time control of electric grids. T-RECS uses
-      software containers to run each agent in a virtual environment. Agents are networked via Mininet,
-      so real packets are exchanged using TCP/IP.
+      T-RECS is a software testbed for multi-agent real-time control of electric grids. T-RECS uses software containers to run each agent in
+      a virtual environment. Agents are networked via Mininet, so real packets are exchanged using TCP/IP.
     code:
       type: Lab GitHub
       url: https://github.com/LCA2-EPFL/T-RECS
