@@ -113,6 +113,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "BSD-3-Clause Clear",
                 "CeCILL-B",
                 "CloudSuite",
+                "CC BY 4.0",
                 "commercial",
                 "non-commercial",
                 "other",

@@ -7,13 +7,11 @@ projects:
     applications:
       - Info
     description: Data distribution-aware differential privacy
-    layman_desc: >
-      Traditional differential privacy is independent of the data distribution.
-      However, this is not well-matched with the modern machine learning
-      con-text, where models are trained on specific data. As a result,
-      achieving meaningful privacy guarantees in ML often excessively reduces
-      accuracy. Bayesian differential privacy (BDP) takes into account the data
-      distribution to provide more practical privacy guarantees.
+    tech_desc: >
+      Traditional differential privacy is independent of the data distribution. However, this is not well-matched with the modern machine
+      learning con-text, where models are trained on specific data. As a result, achieving meaningful privacy guarantees in ML often
+      excessively reduces accuracy. Bayesian differential privacy (BDP) takes into account the data distribution to provide more practical
+      privacy guarantees.
     code:
       type: Personal GitHub
       url: https://github.com/AlekseiTriastcyn/bayesian-differential-privacy
@@ -40,11 +38,10 @@ projects:
     applications:
       - Info
     description: Continual adaption of recommendation systems without forgetting
-    layman_desc: >
-      Recommendation systems typically require continual adaptation to take
-      into account new and obsolete items. A major challenge in this situation
-      is catastrophic forgetting, where the trained model forgets patterns it
-      has learned before. We propose a method to mitigate this effect.
+    tech_desc: >
+      Recommendation systems typically require continual adaptation to take into account new and obsolete items. A major challenge in this
+      situation is catastrophic forgetting, where the trained model forgets patterns it has learned before. We propose a method to mitigate
+      this effect.
     code:
       type: Personal GitHub
       url: https://github.com/DoubleMuL/ADER

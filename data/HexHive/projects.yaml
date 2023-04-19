@@ -7,9 +7,9 @@ projects:
       - Infra
     description: Faster address sanitization to improve fuzzing speed
     tech_desc: >
-      Our evaluation shows that on the Google fuzzer test suite, FuZZan improves fuzzing throughput over ASan by 48%
-      starting with Google’s provided seeds (52% when starting with empty seeds on the same applications). Due to this
-      improved throughput, FuZZan discovers 13% more unique paths given the same 24 hours and finds bugs 42% faster
+      Our evaluation shows that on the Google fuzzer test suite, FuZZan improves fuzzing throughput over ASan by 48% starting with Google’s
+      provided seeds (52% when starting with empty seeds on the same applications). Due to this improved throughput, FuZZan discovers 13%
+      more unique paths given the same 24 hours and finds bugs 42% faster
     tags:
       - Fuzzing
     type: Application
@@ -38,8 +38,8 @@ projects:
       - Infra
     description: "Virtual environment for fuzzing USB peripherals"
     tech_desc: >
-      Fuzzing USB peripherals for Linux, Android, MacOS, Windows, FreeBSD
-      Found lots of 0days in modern kernels, allowing arbitrary compromise
+      Fuzzing USB peripherals for Linux, Android, MacOS, Windows, FreeBSD Found lots of 0days in modern kernels, allowing arbitrary
+      compromise
     tags:
       - Fuzzing
     type: Application
@@ -67,13 +67,13 @@ projects:
       - Infra
     description: A ground-truth fuzzing benchmark suite based on real programs with real bugs
     tech_desc: >
-      Magma is a collection of open-source libraries with widespread usage and a long history of security-critical
-      bugs and vulnerabilities. In light of the need for better fuzzer evaluation, we front-ported bugs from
-      previous bug reports to the latest versions of these libraries.
+      Magma is a collection of open-source libraries with widespread usage and a long history of security-critical bugs and vulnerabilities.
+      In light of the need for better fuzzer evaluation, we front-ported bugs from previous bug reports to the latest versions of these
+      libraries.
 
-      For each ported bug, we added in-line (source-code-level) instrumentation to collect ground-truth
-      information about bugs reached (buggy code executed) and triggered (fault condition satisfied by input).
-      This instrumentation allows a monitoring utility to measure fuzzer progress in real time.
+      For each ported bug, we added in-line (source-code-level) instrumentation to collect ground-truth information about bugs reached
+      (buggy code executed) and triggered (fault condition satisfied by input). This instrumentation allows a monitoring utility to measure
+      fuzzer progress in real time.
     url: https://hexhive.epfl.ch/magma/
     tags:
       - Fuzzing
@@ -82,7 +82,7 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/HexHive/magma
-      date_last_commit: 2022-07-03
+      date_last_commit: 2022-12-07
     information:
       - type: Paper
         title: "Magma: A Ground-Truth Fuzzing Benchmark"
@@ -92,7 +92,7 @@ projects:
             text: SIGMETRICS 2021
             url: http://www.sigmetrics.org/sigmetrics2021
     date_added: 2020-02-21
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   t-fuzz:
     name: T-Fuzz
@@ -101,11 +101,9 @@ projects:
     applications:
       - Infra
     description: Fuzzing tool and crash analyzer
-    layman_desc: >
-      T-Fuzz (transformational fuzzing) improves fuzzing by detecting
-      whenever the fuzzer is stuck and then modifying the underlying
-      program to reach new program locations. This allows fuzzing to
-      discover and test hard to reach code.
+    tech_desc: >
+      T-Fuzz (transformational fuzzing) improves fuzzing by detecting whenever the fuzzer is stuck and then modifying the underlying program
+      to reach new program locations. This allows fuzzing to discover and test hard to reach code.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/T-Fuzz
@@ -135,10 +133,9 @@ projects:
       - Infra
     description: Block-oriented programming compiler
     layman_desc: >
-      BOPC searches for exploits in the code that can be put together to
-      execute new functions, while not tipping off any of the verifications
-      in the program. BOPC is a tool that automatically synthesizes
-      data-flow exploits based on real programs and real exploits.
+      BOPC searches for exploits in the code that can be put together to execute new functions, while not tipping off any of the
+      verifications in the program. BOPC is a tool that automatically synthesizes data-flow exploits based on real programs and real
+      exploits.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/BOPC
@@ -167,9 +164,9 @@ projects:
     applications:
       - Infra
     description: Protection for C++ internal code pointers
-    layman_desc: >
-      CFIXX is a runtime mitigation that protects C++ programs from attacks
-      that overwrite internal data structures containing code pointers.
+    tech_desc: >
+      CFIXX is a runtime mitigation that protects C++ programs from attacks that overwrite internal data structures containing code
+      pointers.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/CFIXX
@@ -197,11 +194,9 @@ projects:
     applications:
       - Infra
     description: Efficient detection of type confusion errors for C++
-    layman_desc: >
-      HexType is a sanitizer for C++ cast safety. The primary use case is
-      during testing to detect type confusion issues in the code.
-      Additionally, HexType may be run in a fuzzing environment to detect
-      type violations.
+    tech_desc: >
+      HexType is a sanitizer for C++ cast safety. The primary use case is during testing to detect type confusion issues in the code.
+      Additionally, HexType may be run in a fuzzing environment to detect type violations.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/HexType
@@ -229,16 +224,14 @@ projects:
     applications:
       - Infra
     description: Static instrumentation of binaries for fuzzing and sanitation
-    layman_desc: >
-      RetroWrite can analyze the security of closed source binaries by applying
-      an efficient fuzzing technique that usually only works when the source
-      code is available. This makes it possible to trigger more errors than the
-      default binary fuzzers available, while being much faster in finding these
-      errors.
+    tech_desc: >
+      RetroWrite can analyze the security of closed source binaries by applying an efficient fuzzing technique that usually only works when
+      the source code is available. This makes it possible to trigger more errors than the default binary fuzzers available, while being
+      much faster in finding these errors.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/retrowrite
-      date_last_commit: 2022-05-02
+      date_last_commit: 2023-03-08
     tags:
       - Fuzzing
       - Binary
@@ -257,7 +250,7 @@ projects:
         title: RetroWrite Tutorial
         url: https://github.com/HexHive/RetroWrite-Tutorial
     date_added: 2019-09-02
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   shadowstack:
     name: ShadowStack
@@ -267,17 +260,12 @@ projects:
       - Infra
     description: LLVM Implementation of different ShadowStack schemes for x86_64
     layman_desc: >
-      In computer security, a shadow stack is a mechanism for protecting
-      a procedure's stored return address, such as from a stack buffer
-      overflow. The shadow stack itself is a second, separate stack that
-      \"shadows\" the program call stack. In the function prologue, a
-      function stores its return address to both the call stack and the
-      shadow stack. In the function epilogue, a function loads the return
-      address from both the call stack and the shadow stack, and then
-      compares them. If the two records of the return address differ,
-      then an attack is detected; the typical course of action is simply
-      to terminate the program or alert system administrators about a
-      possible intrusion attempt.
+      In computer security, a shadow stack is a mechanism for protecting a procedure's stored return address, such as from a stack buffer
+      overflow. The shadow stack itself is a second, separate stack that \"shadows\" the program call stack. In the function prologue, a
+      function stores its return address to both the call stack and the shadow stack. In the function epilogue, a function loads the return
+      address from both the call stack and the shadow stack, and then compares them. If the two records of the return address differ, then
+      an attack is detected; the typical course of action is simply to terminate the program or alert system administrators about a possible
+      intrusion attempt.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/ShadowStack
@@ -305,18 +293,13 @@ projects:
     applications:
       - Infra
     description: Host-based, performance-counter-based attack detection system
-    layman_desc: >
-      Attacks change the execution behavior of a system. Our attack
-      detection system HexPADS detects attacks through divergences from
-      normal behavior using attack signatures. HexPADS collects
-      information from the operating system on runtime performance
-      metrics with measurements from hardware performance counters for
-      individual processes. Cache behavior is a strong indicator of
-      ongoing attacks like rowhammer, side channels, covert channels, or
-      CAIN attacks. Collecting performance metrics across all running
-      processes allows the correlation and detection of these attacks. In
-      addition, HexPADS can mitigate the attacks or significantly reduce
-      their effectiveness with negligible overhead to benign processes.
+    tech_desc: >
+      Attacks change the execution behavior of a system. Our attack detection system HexPADS detects attacks through divergences from normal
+      behavior using attack signatures. HexPADS collects information from the operating system on runtime performance metrics with
+      measurements from hardware performance counters for individual processes. Cache behavior is a strong indicator of ongoing attacks like
+      rowhammer, side channels, covert channels, or CAIN attacks. Collecting performance metrics across all running processes allows the
+      correlation and detection of these attacks. In addition, HexPADS can mitigate the attacks or significantly reduce their effectiveness
+      with negligible overhead to benign processes.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/HexPADS
@@ -343,11 +326,9 @@ projects:
     applications:
       - Infra
     description: Automatic fuzzer generation
-    layman_desc: >
-      FuzzGen is a tool for automatically synthesizing fuzzers for complex
-      libraries in a given environment. From a given library, it allow for
-      creating a dedicated fuzzer, aiming at good code coverage, without
-      human interaction.
+    tech_desc: >
+      FuzzGen is a tool for automatically synthesizing fuzzers for complex libraries in a given environment. From a given library, it allow
+      for creating a dedicated fuzzer, aiming at good code coverage, without human interaction.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/FuzzGen
@@ -377,10 +358,9 @@ projects:
     applications:
       - Info
     description: Configurable data confidentiality and integrity
-    layman_desc: >
-      DataShield can, based on C/C++ languages annotation, protect
-      unwanted access to secret data. By securing only theses
-      datastructures, performance overhead is greatly reduced.
+    tech_desc: >
+      DataShield can, based on C/C++ languages annotation, protect unwanted access to secret data. By securing only theses datastructures,
+      performance overhead is greatly reduced.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/datashield
@@ -410,11 +390,9 @@ projects:
     applications:
       - Infra
     description: Firmware re-hosting through abstraction layer emulation
-    layman_desc: >
-      HALucinator allow for running a firmware outside of its physical
-      implementation. When extracting it, one can recreate the same
-      environment as the one used by the firmware's developer thus
-      allowing for faster exploitation.
+    tech_desc: >
+      HALucinator allow for running a firmware outside of its physical implementation. When extracting it, one can recreate the same
+      environment as the one used by the firmware's developer thus allowing for faster exploitation.
     code:
       type: Lab GitHub
       url: https://github.com/embedded-sec/halucinator
@@ -445,11 +423,9 @@ projects:
     applications:
       - Infra
     description: Security benchmarks for the Internet of Things
-    layman_desc: >
-      BenchIoT enables automatic evaluation of 14 metrics covering
-      security, performance, memory usage, and energy consumption.
-      Having a sound benchmark focused on IoT allow for robust and
-      comparable metrics.
+    tech_desc: >
+      BenchIoT enables automatic evaluation of 14 metrics covering security, performance, memory usage, and energy consumption. Having a
+      sound benchmark focused on IoT allow for robust and comparable metrics.
     code:
       type: Lab GitHub
       url: https://github.com/embedded-sec/BenchIoT
@@ -479,16 +455,12 @@ projects:
     applications:
       - Health
     description: Alternative to GAEN for contact tracing applications
-    layman_desc: >
-      Apple and Google developed the Google-Apple Exposure Notification
-      system in order to provide a uniform API for contact-tracing apps
-      while preserving user privacy. On Android, GAEN is integrated in
-      the Google Play services, which is proprietary. As a consequence,
-      users wanting to keep a free system, as well as phone manufacturers
-      such as Huawei who don't have Google Play services cannot use these
-      applications.
-      This project aims to offer an alternative framework, based on
-      open-source code, which requires only minimal changes to the apps.
+    tech_desc: >
+      Apple and Google developed the Google-Apple Exposure Notification system in order to provide a uniform API for contact-tracing apps
+      while preserving user privacy. On Android, GAEN is integrated in the Google Play services, which is proprietary. As a consequence,
+      users wanting to keep a free system, as well as phone manufacturers such as Huawei who don't have Google Play services cannot use
+      these applications. This project aims to offer an alternative framework, based on open-source code, which requires only minimal
+      changes to the apps.
     code:
       type: C4DT GitHub
       url: https://github.com/c4dt/dp3t-app-android-ch/tree/microg-nearby
@@ -527,14 +499,10 @@ projects:
     applications:
       - Infra
     description: "Automatic profile-aware debloating of bluetooth stacks"
-    layman_desc: >
-      The Bluetooth standard is complex, many commands are defined but
-      aren't needed in many use cases. It allows for a big surface attack
-      which can be cumbersome to correctly reduce.
-      Based on Bluetooth usage profiling, LightBlue allows to reduce
-      the number of exposed commands understood by the firmware and the
-      runtime, thus greatly reducing the potential future attacks that
-      might arise.
+    tech_desc: >
+      The Bluetooth standard is complex, many commands are defined but aren't needed in many use cases. It allows for a big surface attack
+      which can be cumbersome to correctly reduce. Based on Bluetooth usage profiling, LightBlue allows to reduce the number of exposed
+      commands understood by the firmware and the runtime, thus greatly reducing the potential future attacks that might arise.
     tags:
       - Attack
       - Bluetooth
@@ -562,17 +530,15 @@ projects:
     applications:
       - Infra
     description: Crash deduplication through root-cause clustering
-    layman_desc: >
-      Fuzzing has emerged as the most effective bug-finding technique. The
-      output of a fuzzer is a set of proof-of-concept (PoC) test cases for all
-      observed “unique” crashes. It costs developers substantial efforts to
-      analyze each crashing test case. This, mostly manual, process has lead to
-      the number of reported crashes out-pacing the number of bug fixes.
-      Igor is a tool for automated crash grouping/deduplication.
+    tech_desc: >
+      Fuzzing has emerged as the most effective bug-finding technique. The output of a fuzzer is a set of proof-of-concept (PoC) test cases
+      for all observed “unique” crashes. It costs developers substantial efforts to analyze each crashing test case. This, mostly manual,
+      process has lead to the number of reported crashes out-pacing the number of bug fixes. Igor is a tool for automated crash
+      grouping/deduplication.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/Igor
-      date_last_commit: 2022-06-16
+      date_last_commit: 2022-08-02
     language: C
     type: Application
     tags:
@@ -589,7 +555,7 @@ projects:
         title: "Igor: Crash Deduplication Through Root-Cause Clustering (CCS'21)"
         url: https://www.youtube.com/watch?v=V06x1Ad5dRo
     date_added: 2021-11-04
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   dis-cover:
     name: dis-cover
@@ -618,7 +584,7 @@ projects:
     applications:
       - Infra
     description: Grammar-aware fuzzing
-    layman_desc: >
+    tech_desc: >
       Coverage-guided fuzzer that uses grammar automatons to perform grammar-aware fuzzing.
     code:
       type: Lab GitHub
@@ -649,16 +615,14 @@ projects:
       - Infra
     description: Data-flow based fuzzing
     tech_desc: >
-      DatAFLow is a fuzzer built on top of AFL++.
-      However, instead of a control-flow-based feedback mechanism,
-      it uses a data-flow-based feedback mechanism;
-      specifically, data flows based on def-use associations.
+      DatAFLow is a fuzzer built on top of AFL++. However, instead of a control-flow-based feedback mechanism, it uses a data-flow-based
+      feedback mechanism; specifically, data flows based on def-use associations.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/datAFLow
-      date_last_commit: 2022-05-24
+      date_last_commit: 2023-02-01
     language: C++
-    license: other
+    license: Apache-2.0
     type: Toolset
     tags:
       - Fuzzing
@@ -671,7 +635,7 @@ projects:
             text: FUZZING 2022
             url: https://fuzzingworkshop.github.io
     date_added: 2022-07-05
-    date_updated: 2022-07-05
+    date_updated: 2023-03-20
 
   midas:
     name: Midas
@@ -681,12 +645,9 @@ projects:
       - Infra
     description: Systematic kernel TOCTTOU protection
     tech_desc: >
-      During a syscall, the kernel might read multiple times a value from userspace.
-      As theses are controlled by the unpriviliged process, it may introduce
-      subtle changes of behavior and possible hard-to-detect attacks, a classic
-      time-of-check-to-time-of-use bug.
-      Midas disable this attack surface by always returning the same values during
-      a given syscall.
+      During a syscall, the kernel might read multiple times a value from userspace. As theses are controlled by the unpriviliged process,
+      it may introduce subtle changes of behavior and possible hard-to-detect attacks, a classic time-of-check-to-time-of-use bug. Midas
+      disable this attack surface by always returning the same values during a given syscall.
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/Midas
@@ -708,3 +669,62 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity22/summer-accepted-papers
     date_added: 2022-09-27
     date_updated: 2022-09-27
+
+  gleefuzz:
+    name: GLeeFuzz
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Fuzzing WebGL Through Error Message Guided Mutation
+    tech_desc: >
+      Our fuzzing technique, GLeeFuzz, guides input mutation by error messages instead of code coverage. Our key observation is that
+      browsers emit meaningful error messages to aid developers in debugging their WebGL programs. Error messages indicate which part of the
+      input fails (e.g., incomplete arguments, invalid arguments, or unsatisfied dependencies between API calls). Leveraging error messages
+      as feedback, the fuzzer effectively expands coverage by focusing mutation on erroneous parts of the input. We analyze Chrome’s WebGL
+      implementation to identify the dependencies between error-emitting statements and rejected parts of the input, and use this
+      information to guide input mutation. We evaluate our GLeeFuzz prototype on Chrome, Firefox, and Safari on diverse desktop and mobile
+      OSes. We discovered 7 vulnerabilities, 4 in Chrome, 2 in Safari, and 1 in Firefox. The Chrome vulnerabilities allow a remote attacker
+      to freeze the GPU and possibly execute remote code at the browser privilege.
+    tags:
+      - Fuzzing
+    type: Application
+    code:
+      type: Lab Github
+      url: https://github.com/HexHive/GLeeFuzz
+      date_last_commit: 2022-11-17
+    information:
+      - type: Paper
+        title: "GLeeFuzz: Fuzzing WebGL Through Error Message Guided Mutation"
+        url: https://www.usenix.org/system/files/sec23summer_249-peng-prepub.pdf
+        notes:
+          - label: Published at
+            text: Usenix SEC '23
+            url: https://www.usenix.org/conference/usenixsecurity23/summer-accepted-papers
+    date_added: 2023-03-20
+    date_updated: 2023-03-20
+
+  evocatio:
+    name: Evocatio
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Evocatio is a bug analyzer built on top of AFL++ and AddressSanitizer. It automatically discovers a bug’s capabilities.
+    tech_desc: >
+      Evocatio automatically discovers a bug’s capabilities: analyzing a crashing test case (i.e., an input exposing a bug) to understand
+      the full extent of how an attacker can exploit a bug. Evocatio leverages a capability-guided fuzzer to efficiently uncover new bug
+      capabilities (rather than only generating a single crashing test case for a given bug, as a traditional greybox fuzzer does).
+    tags:
+      - Fuzzing
+    type: Application
+    code:
+      type: Lab Github
+      url: https://github.com/HexHive/Evocatio
+      date_last_commit: 2022-12-16
+    information:
+      - type: Paper
+        title: "Evocatio: Conjuring Bug Capabilities from a Single PoC"
+        url: https://hexhive.epfl.ch/publications/files/22CCS.pdf
+    date_added: 2023-03-20
+    date_updated: 2023-03-20

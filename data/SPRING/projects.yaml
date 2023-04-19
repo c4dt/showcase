@@ -8,23 +8,16 @@ projects:
       - Info
     description: Privacy evaluation framework for synthetic data publishing
     layman_desc: >
-      The framework implemented in this library allows data holders to evaluate
-      how much publishing a synthetic dataset in place of a sensitive raw
-      dataset reduces the privacy risk for the individuals whose data is
-      included in the raw data. The results of the evaluation help to inform
-      decisions about whether to publish the data or which generative model
-      provides the best trade-off between utility and privacy gain.
+      The framework implemented in this library allows data holders to evaluate how much publishing a synthetic dataset in place of a
+      sensitive raw dataset reduces the privacy risk for the individuals whose data is included in the raw data. The results of the
+      evaluation help to inform decisions about whether to publish the data or which generative model provides the best trade-off between
+      utility and privacy gain.
     tech_desc: >
-      The framework implemented in this library measures the privacy gain of
-      publishing a synthetic dataset in place of the raw data with respect to a
-      specific privacy concern. Each concern is modelled as a privacy adversary
-      that targets an individual record and aims to infer a secret about this
-      record. The library includes implementations of two new privacy attacks
-      on the output of a generative model. To evaluate privacy gain, the
-      framework is instantiated under the chosen threat model and outputs an
-      estimate about how much publishing the synthetic data instead of the raw
-      data reduces the privacy loss of a chosen target record under this threat
-      model.
+      The framework implemented in this library measures the privacy gain of publishing a synthetic dataset in place of the raw data with
+      respect to a specific privacy concern. Each concern is modelled as a privacy adversary that targets an individual record and aims to
+      infer a secret about this record. The library includes implementations of two new privacy attacks on the output of a generative model.
+      To evaluate privacy gain, the framework is instantiated under the chosen threat model and outputs an estimate about how much
+      publishing the synthetic data instead of the raw data reduces the privacy loss of a chosen target record under this threat model.
     contacts:
       - name: Theresa Stadler
         email: theresa.stadler@epfl.ch
@@ -57,9 +50,8 @@ projects:
     applications:
       - Info
     description: Prove your identity with regards to others
-    layman_desc: >
-      A decentralized public key distribution system with an emphasis on
-      privacy preservation.
+    tech_desc: >
+      A decentralized public key distribution system with an emphasis on privacy preservation.
     url: https://claimchain.github.io/
     code:
       type: Project GitHub
@@ -91,12 +83,10 @@ projects:
     applications:
       - Infra
     description: Anonymous communication in browsers via the Tor network
-    layman_desc: >
-      A Javascript library for browsers for anonymous communication via the
-      Tor network. The library connects to the Tor network to enable
-      websites to send and retrieve data anonymously (e.g. send sensitive
-      information without identifying the user) without requiring users to
-      install special software such as the Tor browser.
+    tech_desc: >
+      A Javascript library for browsers for anonymous communication via the Tor network. The library connects to the Tor network to enable
+      websites to send and retrieve data anonymously (e.g. send sensitive information without identifying the user) without requiring users
+      to install special software such as the Tor browser.
     contacts:
       - name: Laurent Girod
         email: laurent.girod@epfl.ch
@@ -120,11 +110,9 @@ projects:
     applications:
       - Infra
     description: Sophisticated attacks on Machine Learning models
-    layman_desc: >
-      Trickster allows to attack machine learning models where the attack
-      needs to be more sophisticated than simply adding some noise to an
-      image. One example is to evade an abuse detection model, for example,
-      social media bot detection, or a malware detector.
+    tech_desc: >
+      Trickster allows to attack machine learning models where the attack needs to be more sophisticated than simply adding some noise to an
+      image. One example is to evade an abuse detection model, for example, social media bot detection, or a malware detector.
     contacts:
       - name: Bogdan Kulynych
         email: bogdan.kulynych@epfl.ch
@@ -158,9 +146,8 @@ projects:
     applications:
       - Info
     description: Sublinear-traversal blockchains and efficient key-value Merkle trees
-    layman_desc: >
-      This library provides implementations of two cryptographic data
-      structures: fast traversal blockchain structure, and a verifiable
+    tech_desc: >
+      This library provides implementations of two cryptographic data structures: fast traversal blockchain structure, and a verifiable
       dictionary, implemented as a key-value Merkle tree.
     code:
       type: Lab GitHub
@@ -258,17 +245,14 @@ projects:
       - Health
       - Infra
     description: A privacy preserving exposure notification protocol to inform people about possible exposure to the COVID-19 virus
-    layman_desc: >
-      The goal of the DP3T protocol is to simplify and accelerate the process
-      of identifying people who have been in contact with a positively CoVid-19
-      tested person, thus providing a technological foundation to help slow the
-      spread of the SARS-CoV-2 virus.  The system aims to minimise privacy and
-      security risks for individuals and communities and guarantee the highest
-      level of data protection.
+    tech_desc: >
+      The goal of the DP3T protocol is to simplify and accelerate the process of identifying people who have been in contact with a
+      positively CoVid-19 tested person, thus providing a technological foundation to help slow the spread of the SARS-CoV-2 virus.  The
+      system aims to minimise privacy and security risks for individuals and communities and guarantee the highest level of data protection.
     code:
       type: Public Github
       url: https://github.com/DP-3T/
-      date_last_commit: 2022-05-16
+      date_last_commit: 2022-12-14
     doc: https://github.com/DP-3T/documents
     tags:
       - Protocol
@@ -284,7 +268,7 @@ projects:
         url: https://github.com/SwissCovid/swisscovid-app-ios
     license: MPL-2.0
     date_added: 2020-10-05
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
     maturity: 3
     incubator:
       work: 2020/Q4 documentation and testing of the app
@@ -300,12 +284,10 @@ projects:
       - Health
       - Gov
     description: Decentralized Privacy-Preserving Presence Tracing
-    layman_desc: >
-      CrowdNotifier is a protocol that can complement manual contact tracing by
-      efficiently notifying visitors of venues and events with
-      SARS-CoV-2-positive attendees. It provides strong privacy and abuse-
-      resistance, and show that it can scale to handle notification at a
-      national scale.
+    tech_desc: >
+      CrowdNotifier is a protocol that can complement manual contact tracing by efficiently notifying visitors of venues and events with
+      SARS-CoV-2-positive attendees. It provides strong privacy and abuse- resistance, and show that it can scale to handle notification at
+      a national scale.
     code:
       type: Public Github
       url: https://github.com/CrowdNotifier/libcrowdnotifier
@@ -340,8 +322,7 @@ projects:
       - Info
     description: Wrapper around RELIC pairings
     tech_desc: >
-      petrelic is a Python wrapper around RELIC. It provides a simple python
-      interface to the BLS-381 pairing and RELIC's big number class.
+      petrelic is a Python wrapper around RELIC. It provides a simple python interface to the BLS-381 pairing and RELIC's big number class.
     contacts:
       - name: Laurent Girod
         email: laurent.girod@epfl.ch
@@ -366,10 +347,7 @@ projects:
       - Info
     description: Library to facilitate anonymous authentication
     tech_desc: >
-      SSCred provides the following primitives:
-      1) Anonymous credential light (ACL)
-      2) Abe's Blind signature
-      3) Blinded Pedersen commitment
+      SSCred provides the following primitives: 1) Anonymous credential light (ACL) 2) Abe's Blind signature 3) Blinded Pedersen commitment
     contacts:
       - name: Kasra Edalat
         email: kasra.edalat@epfl.ch
@@ -379,11 +357,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/spring-epfl/SSCred
-      date_last_commit: 2022-03-18
+      date_last_commit: 2022-07-08
     language: Python
     license: BSD-3-Clause
     date_added: 2021-01-21
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   mia:
     name: mia
@@ -393,11 +371,9 @@ projects:
       - Info
     description: Library for running membership inference attacks (MIA) against machine learning models
     tech_desc: >
-      These are attacks against privacy of the training data. In MIA, an
-      attacker tries to guess whether a given example was used during training
-      of a target model or not, only by querying the model. See more in the
-      paper by Shokri et al. Currently, you can use the library to evaluate the
-      robustness of your Keras or PyTorch models to MIA.
+      These are attacks against privacy of the training data. In MIA, an attacker tries to guess whether a given example was used during
+      training of a target model or not, only by querying the model. See more in the paper by Shokri et al. Currently, you can use the
+      library to evaluate the robustness of your Keras or PyTorch models to MIA.
     contacts:
       - name: Bogdan Kulynych
         email: bogdan.kulynych@epfl.ch
@@ -422,10 +398,9 @@ projects:
       - Infra
     description: A Rust library to perform REST requests over the Tor network for mobile applications.
     tech_desc: >
-      This library builds upon the arti-library. It wraps the arti-library for easy use by mobile
-      applications. Instead of downloading the whole dictionary of the Tor-nodes every hour, a
-      prepared dictionary is downloaded once per week. This reduces bandwidth requirements, as the
-      whole dictionary is around 3MB. The prepared dictionary only weighs 200kB.
+      This library builds upon the arti-library. It wraps the arti-library for easy use by mobile applications. Instead of downloading the
+      whole dictionary of the Tor-nodes every hour, a prepared dictionary is downloaded once per week. This reduces bandwidth requirements,
+      as the whole dictionary is around 3MB. The prepared dictionary only weighs 200kB.
     contacts:
       - name: Wouter Lueks
         email: wouter.lueks@epfl.ch
@@ -440,7 +415,7 @@ projects:
     code:
       type: C4DT Github
       url: https://github.com/C4DT/lightarti-rest
-      date_last_commit: 2022-05-31
+      date_last_commit: 2022-11-14
     information:
       - type: Library
         title: Android packages for lightarti-rest
@@ -451,7 +426,7 @@ projects:
     language: Rust, Swift, Java
     license: MIT
     date_added: 2021-08-26
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   voteagain:
     name: VOTEAGAIN
@@ -461,15 +436,11 @@ projects:
     applications:
       - Gov
     description: Scalable coercion-resistant voting system
-    layman_desc: >
-      The strongest threat model for voting systems considerscoercion
-      resistance: protection against coercers that force voters to modify their
-      votes, or to abstain. Existing remote voting systems either do not
-      provide this property; require an ex-pensive tallying phase; or burden
-      users with the need to store cryptographic key material and with the
-      responsibility to deceive their coercers. VoteAgain is a scalable voting
-      scheme that relies on the revoting paradigm to provide coercion
-      resistance.
+    tech_desc: >
+      The strongest threat model for voting systems considerscoercion resistance: protection against coercers that force voters to modify
+      their votes, or to abstain. Existing remote voting systems either do not provide this property; require an ex-pensive tallying phase;
+      or burden users with the need to store cryptographic key material and with the responsibility to deceive their coercers. VoteAgain is
+      a scalable voting scheme that relies on the revoting paradigm to provide coercion resistance.
     contacts:
       - name: Wouter Lueks
         email: wouter.lueks@epfl.ch
@@ -500,23 +471,19 @@ projects:
     applications:
       - Info
     description: Decentralized privacy-preserving search engine for investigative journalists
-    layman_desc: >
-      Investigative journalists collect large numbers of digital documents
-      during their investigations. These documents can greatly benefit other
-      journalists’ work. However, many of these documents contain sensitive
-      information. Hence, possessing such documents can endanger reporters,
-      their stories, and their sources.  Consequently, many documents are used
-      only for single, local, investigations. DatashareNetwork is a
-      decentralized and privacy-preserving search system that enables
-      journalists world-wide to find documents via a dedicated network of
-      peers.
+    tech_desc: >
+      Investigative journalists collect large numbers of digital documents during their investigations. These documents can greatly benefit
+      other journalists’ work. However, many of these documents contain sensitive information. Hence, possessing such documents can endanger
+      reporters, their stories, and their sources.  Consequently, many documents are used only for single, local, investigations.
+      DatashareNetwork is a decentralized and privacy-preserving search system that enables journalists world-wide to find documents via a
+      dedicated network of peers.
     contacts:
       - name: Kasra Edalatnejadkhamene
         email: kasra.edalat@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/datashare-network-crypto
-      date_last_commit: 2020-07-06
+      date_last_commit: 2022-09-21
     language: Python
     license: BSD-3-Clause
     tags:
@@ -530,7 +497,7 @@ projects:
             text: USENIX 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2021-11-04
-    date_updated: 2022-07-07
+    date_updated: 2023-03-22
 
   tandem:
     name: Tandem
@@ -540,11 +507,9 @@ projects:
     applications:
       - Info
     description: Centralized privacy-preserving secure key storage
-    layman_desc: >
-      Users’ devices, e.g., smartphones or laptops, are typically incapable of
-      securely storing and processing cryptographic keys. Tandem is a novel set
-      of protocols for securing cryptographic keys with support from a central
-      server.
+    tech_desc: >
+      Users’ devices, e.g., smartphones or laptops, are typically incapable of securely storing and processing cryptographic keys. Tandem is
+      a novel set of protocols for securing cryptographic keys with support from a central server.
     contacts:
       - name: Wouter Lueks
         email: wouter.lueks@epfl.ch
@@ -578,16 +543,15 @@ projects:
     applications:
       - Info
     description: Capturing Advertising and Tracking Information Flows for Robust Blocking
-    layman_desc: >
-      ML-based ad and tracker blocker that detects ads and trackers
-      based on their action rather than their content.
+    tech_desc: >
+      ML-based ad and tracker blocker that detects ads and trackers based on their action rather than their content.
     contacts:
       - name: Sandra Siby
         email: sandra.siby@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/WebGraph
-      date_last_commit: 2022-06-23
+      date_last_commit: 2022-08-25
     language: Python
     license: other
     tags:
@@ -603,7 +567,7 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity22
     maturity: 2
     date_added: 2022-07-07
-    date_updated: 2022-08-10
+    date_updated: 2023-03-22
 
   disparate-vulnerability:
     name: DisparateVulnerability
@@ -613,12 +577,9 @@ projects:
     applications:
       - Info
     description: Disparate Vulnerability to Membership Inference Attacks
-    layman_desc: >
-      A membership inference attack (MIA) against a machine-learning model
-      enables an attacker to determine whether a given data record
-      was part of the model's training data or not.
-      DisparateVulnerability helps in measuring how much a given model
-      can be inverted.
+    tech_desc: >
+      A membership inference attack (MIA) against a machine-learning model enables an attacker to determine whether a given data record was
+      part of the model's training data or not. DisparateVulnerability helps in measuring how much a given model can be inverted.
     contacts:
       - name: Bogdan Kulynych
         email: bogdan.kulynych@epfl.ch
@@ -651,18 +612,13 @@ projects:
     applications:
       - Info
     description: >
-      Applying the privacy-preserving algorithms of Tandem to the usage of
-      the Monero blockchain.
-    layman_desc: >
-      One challenge when using private keys is that if they get stolen the damage
-      can be very big, especially when used in blockchains to protect funds.
-      Sharing the private key between multiple entities can secure the usage a bit,
-      but most algorithms don't give privacy.
-      In the context of a privacy-preserving service like Monero, where the source and
-      destination of a transaction are hidden, these algorithms would leak information about
-      the user.
-      Applying Tandem to transactions on the Monero blockchain allows to protect the private
-      key in case of loss, while keeping the owner of the transaction private.
+      Applying the privacy-preserving algorithms of Tandem to the usage of the Monero blockchain.
+    tech_desc: >
+      One challenge when using private keys is that if they get stolen the damage can be very big, especially when used in blockchains to
+      protect funds. Sharing the private key between multiple entities can secure the usage a bit, but most algorithms don't give privacy.
+      In the context of a privacy-preserving service like Monero, where the source and destination of a transaction are hidden, these
+      algorithms would leak information about the user. Applying Tandem to transactions on the Monero blockchain allows to protect the
+      private key in case of loss, while keeping the owner of the transaction private.
     c4dt_contact:
       name: Linus Gasser
       email: linus.gasser@epfl.ch
@@ -675,3 +631,32 @@ projects:
         url: https://c4dt.epfl.ch/using_tandem_in_monero/
     date_added: 2022-08-25
     date_updated: 2022-08-25
+
+  private-collection-matching:
+    name: Private Collection Matching Protocols
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Info
+    type: Framework
+    description: >
+      Framework to build privacy-preserving Private Collection Matching (PCM) systems
+    tech_desc: >
+      We introduce Private Collection Matching (PCM) problems, in which a client aims to determine whether a collection of sets owned by a
+      server matches their interests. Existing privacy-preserving cryptographic primitives cannot solve PCM problems efficiently without
+      harming privacy. We propose a modular framework that enables designers to build privacy-preserving PCM systems that output one bit:
+      whether a collection of server sets matches the client's set. The communication cost of our protocols scales linearly with the size of
+      the client's set and is independent of the number of server elements. We demonstrate the potential of our framework by designing and
+      implementing novel solutions for two real-world PCM problems: determining whether a dataset has chemical compounds of interest, and
+      determining whether a document collection has relevant documents. Our evaluation shows that we offer a privacy gain with respect to
+      existing works at a reasonable communication and computation cost.
+    tags:
+      - Protocol
+      - Protection
+    information:
+      - type: Paper
+        title: "Private Collection Matching Protocols"
+        url: https://arxiv.org/abs/2206.07009
+    date_added: 2023-03-22
+    date_updated: 2023-03-22

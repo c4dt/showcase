@@ -6,16 +6,14 @@ projects:
     applications:
       - Infra
     description: Use Scala to develop Web frontends
-    layman_desc: >
-      Scala.js optimizes your Scala code into highly efficient JavaScript.
-      Strong typing guarantees your code is free of silly mistakes. You can
-      use any JavaScript library right from your Scala.js code, either in a
-      statically or dynamically typed way.
+    tech_desc: >
+      Scala.js optimizes your Scala code into highly efficient JavaScript. Strong typing guarantees your code is free of silly mistakes. You
+      can use any JavaScript library right from your Scala.js code, either in a statically or dynamically typed way.
     url: https://www.scala-js.org/
     code:
       type: Project GitHub
       url: https://github.com/scala-js/scala-js
-      date_last_commit: 2022-06-30
+      date_last_commit: 2023-03-20
     language: Scala
     license: Apache-2.0
     tags:
@@ -25,7 +23,7 @@ projects:
         title: Scala.js Tutorial
         url: https://www.scala-js.org/doc/tutorial/
     date_added: 2021-11-05
-    date_updated: 2022-07-05
+    date_updated: 2023-03-21
 
   scala-native:
     name: Scala Native
@@ -34,19 +32,18 @@ projects:
     applications:
       - Infra
     description: Generate native code from Scala
-    layman_desc: >
-      Native is an optimizing ahead-of-time compiler and lightweight managed
-      runtime designed specifically for Scala. It features low-level
+    tech_desc: >
+      Native is an optimizing ahead-of-time compiler and lightweight managed runtime designed specifically for Scala. It features low-level
       primitices, seamless interop with native code and instant startup time.
     url: http://scala-native.org/
     doc: https://scala-native.readthedocs.io/
     code:
       type: Project GitHub
       url: https://github.com/scala-native/scala-native
-      date_last_commit: 2022-07-05
+      date_last_commit: 2023-03-20
     language: Scala, C
     license: Apache-2.0
     tags:
       - Development
     date_added: 2021-11-05
-    date_updated: 2022-07-05
+    date_updated: 2023-03-21

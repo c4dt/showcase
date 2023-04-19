@@ -7,10 +7,9 @@ projects:
       - Info
     description: Practical low-rank communication compression in decentralized deep learning
     tech_desc: >
-      Inspired by the PowerSGD algorithm for centralized deep learning, this algorithm uses power iteration steps
-      to maximize the information transferred per bit. We prove that our method requires no additional
-      hyperparameters, converges faster than prior methods, and is asymptotically independent of both the network
-      and the compression.
+      Inspired by the PowerSGD algorithm for centralized deep learning, this algorithm uses power iteration steps to maximize the
+      information transferred per bit. We prove that our method requires no additional hyperparameters, converges faster than prior methods,
+      and is asymptotically independent of both the network and the compression.
     contacts:
       - name: Thijs Vogels
         email: thijs.vogels@epfl.ch
@@ -42,8 +41,8 @@ projects:
       - Info
     description: Decentralized communication-efficient machine learning and deep learning
     tech_desc: >
-      Communication-efficient decentralized ML training (both deep learning, compatible with PyTorch,
-      and traditional convex machine learning models).
+      Communication-efficient decentralized ML training (both deep learning, compatible with PyTorch, and traditional convex machine
+      learning models).
     contacts:
       - name: Tao Lin
         email: tao.lin@epfl.ch
@@ -78,13 +77,12 @@ projects:
       - Info
     description: Decentralized linear machine learning
     tech_desc: >
-      Decentralized machine learning is a promising emerging paradigm in view of global challenges of data
-      ownership and privacy. We consider learning of linear classification and regression models, in the
-      setting where the training data is decentralized over many user devices, and the learning algorithm
-      must run on-device, on an arbitrary communication network, without a central coordinator. We propose
-      COLA, a new decentralized training algorithm with strong theoretical guarantees and superior practical
-      performance. Our framework overcomes many limitations of existing methods, and achieves communication
-      efficiency, scalability, elasticity as well as resilience to changes in data and participating devices.
+      Decentralized machine learning is a promising emerging paradigm in view of global challenges of data ownership and privacy. We
+      consider learning of linear classification and regression models, in the setting where the training data is decentralized over many
+      user devices, and the learning algorithm must run on-device, on an arbitrary communication network, without a central coordinator. We
+      propose COLA, a new decentralized training algorithm with strong theoretical guarantees and superior practical performance. Our
+      framework overcomes many limitations of existing methods, and achieves communication efficiency, scalability, elasticity as well as
+      resilience to changes in data and participating devices.
     contacts:
       - name: Lie He
         email: lie.he@epfl.ch
@@ -120,20 +118,15 @@ projects:
     applications:
       - Info
     description: Benchmarking of distributed ML
-    layman_desc: >
-      Framework for distributed machine learning. Its purpose is to
-      improve transparency, reproducibility, robustness, and to provide
-      fair performance measures as well as reference implementations,
-      helping adoption of distributed machine learning methods both in
-      industry and in the academic community.
-      Besides algorithm comparison, a main use case is to help the
-      selection of hardware (CPU, GPU) used to run AI applications, as
-      well as how to connect it into a cluster to get a good
-      cost/performance tradeoff.
+    tech_desc: >
+      Framework for distributed machine learning. Its purpose is to improve transparency, reproducibility, robustness, and to provide fair
+      performance measures as well as reference implementations, helping adoption of distributed machine learning methods both in industry
+      and in the academic community. Besides algorithm comparison, a main use case is to help the selection of hardware (CPU, GPU) used to
+      run AI applications, as well as how to connect it into a cluster to get a good cost/performance tradeoff.
     code:
       type: Project GitHub
       url: https://github.com/mlbench
-      date_last_commit: 2022-07-01
+      date_last_commit: 2023-03-01
     url: https://mlbench.github.io
     doc: https://mlbench.readthedocs.io/
     information:
@@ -145,16 +138,16 @@ projects:
         url: https://mlbench.github.io/blog/
     tags:
       - Benchmark
+    c4dt_contact:
+      name: Linus Gasser
+      email: linus.gasser@epfl.ch
     language: Python
     type: Framework
     license: Apache-2.0
     incubator:
       work: 2020/Q4 evaluated and tested the project
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     date_added: 2019-07-30
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
     maturity: 2
 
   sent2vec:
@@ -164,14 +157,13 @@ projects:
     applications:
       - Info
     description: Numerical representations for short texts
-    layman_desc: >
-      Library that delivers numerical representations (features) for words,
-      short texts or sentences, which can be used as input to any machine
-      learning task later on.
+    tech_desc: >
+      Library that delivers numerical representations (features) for words, short texts or sentences, which can be used as input to any
+      machine learning task later on.
     code:
       type: Lab GitHub
       url: https://github.com/epfml/sent2vec
-      date_last_commit: 2021-10-10
+      date_last_commit: 2022-08-03
     language: C++
     license: BSD-3-Clause
     contacts:
@@ -181,7 +173,7 @@ projects:
       - Natural Language
     type: Library
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
     maturity: 1
 
   powersgd:
@@ -192,21 +184,17 @@ projects:
       - Info
     description: Practical low-rank gradient compression for distributed optimization
     tech_desc: >
-      New low-rank gradient compressor based on power iteration that can
-      i) compress gradients rapidly, ii) efficiently aggregate the
-      compressed gradients using all-reduce, and iii) achieve test
-      performance on par with SGD. The proposed algorithm is the only
-      method evaluated that achieves consistent wall-clock speedups when
-      benchmarked against regular SGD with an optimized communication
-      backend. We demonstrate reduced training times for convolutional
-      networks as well as LSTMs on common datasets.
+      New low-rank gradient compressor based on power iteration that can i) compress gradients rapidly, ii) efficiently aggregate the
+      compressed gradients using all-reduce, and iii) achieve test performance on par with SGD. The proposed algorithm is the only method
+      evaluated that achieves consistent wall-clock speedups when benchmarked against regular SGD with an optimized communication backend.
+      We demonstrate reduced training times for convolutional networks as well as LSTMs on common datasets.
     contacts:
       - name: Thijs Vogels
         email: thijs.vogels@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/powersgd
-      date_last_commit: 2022-06-01
+      date_last_commit: 2022-11-22
     information:
       - type: Paper
         title: "PowerSGD: Practical Low-Rank Gradient Compression for Distributed Optimization"
@@ -222,7 +210,7 @@ projects:
     type: Application
     license: MIT
     date_added: 2020-05-01
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
 
   relaysgd:
     name: RelaySGD
@@ -231,20 +219,14 @@ projects:
     applications:
       - Info
     description: Improved information propagation in decentralized learning
-    layman_desc: >
-      Because the workers only communicate with few neighbors without central
-      coordination, these updates propagate progressively over the network.
-      This paradigm enables distributed training on networks without all-to-all
-      connectivity, helping to protect data privacy as well as to reduce the
-      communication cost of distributed training in data centers. A key
-      challenge, primarily in decentralized deep learning, remains the handling
-      of differences between the workers' local data distributions. To tackle
-      this challenge, we introduce the RelaySum mechanism for information
-      propagation in decentralized learning. RelaySum uses spanning trees to
-      distribute information exactly uniformly across all workers with finite
-      delays depending on the distance between nodes. In contrast, the typical
-      gossip averaging mechanism only distributes data uniformly asymptotically
-      while using the same communication volume per step as RelaySum.
+    tech_desc: >
+      Because the workers only communicate with few neighbors without central coordination, these updates propagate progressively over the
+      network. This paradigm enables distributed training on networks without all-to-all connectivity, helping to protect data privacy as
+      well as to reduce the communication cost of distributed training in data centers. A key challenge, primarily in decentralized deep
+      learning, remains the handling of differences between the workers' local data distributions. To tackle this challenge, we introduce
+      the RelaySum mechanism for information propagation in decentralized learning. RelaySum uses spanning trees to distribute information
+      exactly uniformly across all workers with finite delays depending on the distance between nodes. In contrast, the typical gossip
+      averaging mechanism only distributes data uniformly asymptotically while using the same communication volume per step as RelaySum.
     contacts:
       - name: Thijs Vogels
         email: thijs.vogels@epfl.ch
@@ -272,25 +254,24 @@ projects:
     applications:
       - Info
     description: Decentralized Collaborative Machine Learning
-    layman_desc: >
-      A collection of objects and routines to help you develop your own distributed
-      machine learning algorithm. It has two modes, federated, where a server is
-      keeping track of the model, and decentralized, where each participant has their
-      own local model. You can train your model directly in the browser, allowing it
-      to run on a variety of hardware. Many extensions are in the pipeline, such as
-      adding Byzantine resistance or training without revealing the model.
-      Compared to other solutions, Disco is bridging the gap between people creating
-      machine learning models and people having relevant data. By running without
-      installation nor complex configuration, anyone can help. It's also a breeding
-      ground for new machine learning technologies.
+    tech_desc: >
+      A collection of objects and routines to help you develop your own distributed machine learning algorithm. It has two modes, federated,
+      where a server is keeping track of the model, and decentralized, where each participant has their own local model. You can train your
+      model directly in the browser, allowing it to run on a variety of hardware. Many extensions are in the pipeline, such as adding
+      Byzantine resistance or training without revealing the model. Compared to other solutions, Disco is bridging the gap between people
+      creating machine learning models and people having relevant data. By running without installation nor complex configuration, anyone
+      can help. It's also a breeding ground for new machine learning technologies.
     url: https://epfml.github.io/disco
     c4dt_contact:
-      name: Valérian Rousset
-      email: valerian.rousset@epfl.ch
+      name: Linus Gasser
+      email: linus.gasser@epfl.ch
+    contacts:
+      - name: Martin Jaggi
+        email: martin.jaggi@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/disco
-      date_last_commit: 2022-07-04
+      date_last_commit: 2023-03-21
     language: TypeScript
     license: Apache-2.0
     incubator:
@@ -344,7 +325,7 @@ projects:
             url: http://proceedings.mlr.press/v139/karimireddy21a.html
     maturity: 2
     date_added: 2022-02-18
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
 
   byzantine-robust-optimizer:
     name: Byzantine Robust Optimizer
@@ -353,15 +334,12 @@ projects:
     applications:
       - Info
     description: Improved federated learning with Byzantine robustness
-    layman_desc: >
-      Byzantine robustness has received significant attention recently given
-      its importance for distributed and federated learning. In spite of this,
-      there are severe flaws in existing algorithms even when the data across
-      the participants is identically distributed. To address these issues, we
-      present two surprisingly simple strategies: a new robust iterative clipping
-      procedure, and incorporating worker momentum to overcome time-coupled
-      attacks. This is the first provably robust method for the standard
-      stochastic optimization setting.
+    tech_desc: >
+      Byzantine robustness has received significant attention recently given its importance for distributed and federated learning. In spite
+      of this, there are severe flaws in existing algorithms even when the data across the participants is identically distributed. To
+      address these issues, we present two surprisingly simple strategies: a new robust iterative clipping procedure, and incorporating
+      worker momentum to overcome time-coupled attacks. This is the first provably robust method for the standard stochastic optimization
+      setting.
     contacts:
       - name: Sai Praneeth Reddy Karimireddy
         email: sai.karimireddy@epfl.ch
@@ -395,21 +373,20 @@ projects:
     applications:
       - Infra
     description: Improved decentralized training with data heterogeneity
-    layman_desc: >
-      Decentralized training of deep learning models is a key element for
-      enabling data privacy and on-device learning over networks. In realistic
-      learning scenarios, the presence of heterogeneity across different
-      clients' local datasets poses an optimization challenge and may severely
-      deteriorate the generalization performance. We propose a novel
-      momentum-based method to mitigate this decentralized training difficulty.
+    tech_desc: >
+      Decentralized training of deep learning models is a key element for enabling data privacy and on-device learning over networks. In
+      realistic learning scenarios, the presence of heterogeneity across different clients' local datasets poses an optimization challenge
+      and may severely deteriorate the generalization performance. We propose a novel momentum-based method to mitigate this decentralized
+      training difficulty.
     contacts:
       - name: Tao Lin
         email: tao.lin@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/quasi-global-momentum
-      date_last_commit: 2021-10-18
+      date_last_commit: 2022-12-23
     language: Python
+    license: Apache-2.0
     tags:
       - Decentralized
       - Distributed Learning
@@ -423,7 +400,7 @@ projects:
             text: ICML 2021
             url: https://icml.cc/Conferences/2021
     date_added: 2021-11-04
-    date_updated: 2022-07-06
+    date_updated: 2023-03-22
 
   hyperaggregate:
     name: HyperAggregate
@@ -432,10 +409,9 @@ projects:
     applications:
       - Info
     description: Sublinear aggregation algorithm
-    layman_desc: >
-      Novel decentralized aggregation protocol that can be parameterized so that
-      the overall computation overhead scales logarithmically with the number
-      of nodes.
+    tech_desc: >
+      Novel decentralized aggregation protocol that can be parameterized so that the overall computation overhead scales logarithmically
+      with the number of nodes.
     code:
       type: Personal GitHub
       url: https://github.com/mvujas/HyperAggregate
@@ -458,9 +434,8 @@ projects:
     applications:
       - Health
     description: Medical Survey Generator
-    layman_desc: >
-      Phantomedicus is a framework for simulating patients and consultations.
-      It can extract disease probabilities from given data.
+    tech_desc: >
+      Phantomedicus is a framework for simulating patients and consultations. It can extract disease probabilities from given data.
     code:
       type: Lab GitHub
       url: https://github.com/epfml/phantomedicus
@@ -483,6 +458,7 @@ projects:
       url: https://github.com/epfml/pax
       date_last_commit: 2022-03-02
     language: Python
+    license: Apache-2.0
     type: Library
     tags:
       - PyTorch
@@ -501,6 +477,7 @@ projects:
       url: https://github.com/epfml/byzantine-robust-noniid-optimizer
       date_last_commit: 2022-02-02
     language: Python
+    license: MIT
     type: Library
     tags:
       - PyTorch

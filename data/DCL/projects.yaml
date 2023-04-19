@@ -12,16 +12,14 @@ projects:
         email: arsany.guirguis@epfl.ch
     type: Library
     tech_desc: >
-      Garfield is a library to build Byzantine machine learning
-      (ML) applications on top of popular frameworks such as TensorFlow and PyTorch.
-      We show how to use Garfield to build different architectures for ML applications like single server,
-      multiple workers (SSMW), multiple servers, multiple
-      workers (MSMW), and fully decentralized architecture.
+      Garfield is a library to build Byzantine machine learning (ML) applications on top of popular frameworks such as TensorFlow and
+      PyTorch. We show how to use Garfield to build different architectures for ML applications like single server, multiple workers (SSMW),
+      multiple servers, multiple workers (MSMW), and fully decentralized architecture.
     layman_desc: >
-      Training ML is done in a distributed fashion these days due to the usage of big models and huge datasets
-      (for scalability reasons). This distribution inevitably leads to a higher probability of failure somewhere
-      in the network. Garfield is a library/tool to ensure the correctness/convergence of training despite the
-      presence of these failures. Garfield can be used to do so with various ML applications and architectures.
+      Training ML is done in a distributed fashion these days due to the usage of big models and huge datasets (for scalability reasons).
+      This distribution inevitably leads to a higher probability of failure somewhere in the network. Garfield is a library/tool to ensure
+      the correctness/convergence of training despite the presence of these failures. Garfield can be used to do so with various ML
+      applications and architectures.
     tags:
       - Federated Learning
       - Distributed Learning
@@ -142,16 +140,12 @@ projects:
       - Finance
     description: Asset Transfer System using lightweight broadcast-based primitives instead of consensus
     layman_desc: >
-      AT2 is a full-fledged asset transfer system (cryptocurrency) without the
-      need for a global consensus, allowing for faster transactions and better
-      scalability than Bitcoin and consensus-based solutions.
+      AT2 is a full-fledged asset transfer system (cryptocurrency) without the need for a global consensus, allowing for faster transactions
+      and better scalability than Bitcoin and consensus-based solutions.
     tech_desc: >
-      We replace consensus with a lightweight building block -- a
-      broadcast-based primitive -- to obtain a full-fledged asset transfer
-      system (cryptocurrency). This system is more efficient and more
-      scalable compared with Bitcoin and consensus-based solutions. AT2 is
-      the first system to bypass consensus algorithms for implementing
-      asset transfers.
+      We replace consensus with a lightweight building block -- a broadcast-based primitive -- to obtain a full-fledged asset transfer
+      system (cryptocurrency). This system is more efficient and more scalable compared with Bitcoin and consensus-based solutions. AT2 is
+      the first system to bypass consensus algorithms for implementing asset transfers.
     contacts:
       - name: Matteo Monti
         email: matteo.monti@epfl.ch
@@ -224,12 +218,10 @@ projects:
     applications:
       - Info
     description: Scaling distributed Generative Adversarial Networks (GANs)
-    layman_desc: >
-      The FeGAN system enables training GANs in the Federated Learning setup.
-      GANs are generative adversarial networks, a class of machine learning
-      where two neural networks contest with each other.
-      FeGAN is implemented on PyTorch and is using less bandwidth and is
-      faster than using stat-of-the-art GANs implementations.
+    tech_desc: >
+      The FeGAN system enables training GANs in the Federated Learning setup. GANs are generative adversarial networks, a class of machine
+      learning where two neural networks contest with each other. FeGAN is implemented on PyTorch and is using less bandwidth and is faster
+      than using stat-of-the-art GANs implementations.
     contacts:
       - name: Arsany Guirguis
         email: arsany.guirguis@epfl.ch
@@ -262,10 +254,9 @@ projects:
     applications:
       - Infra
     description: Multiversion Timestamp Locking (MVTL)
-    layman_desc: >
-      MVTL is a new family of concurrency control algorithms.
-      Improving performance of distributed databases by allowing read
-      accesses to lag behind the latest version of the data.
+    tech_desc: >
+      MVTL is a new family of concurrency control algorithms. Improving performance of distributed databases by allowing read accesses to
+      lag behind the latest version of the data.
     contacts:
       - name: Rachid Guerraoui
         email: rachid.guerraoui@epfl.ch
@@ -299,8 +290,7 @@ projects:
       - Infra
     description: Log-free concurrent data structures
     layman_desc: >
-      Storing data structures in non-volatile RAM such that transient
-      failures don't corrupt the data.
+      Storing data structures in non-volatile RAM such that transient failures don't corrupt the data.
     url: http://dcl.epfl.ch/site/nvram
     contacts:
       - name: Rachid Guerraoui
@@ -335,8 +325,7 @@ projects:
       - Infra
     description: Unlocking memory in persistent key-value stores
     layman_desc: >
-      High performance key-value store for servers with high amount of RAM
-      and lots of CPUs.
+      High performance key-value store for servers with high amount of RAM and lots of CPUs.
     url: http://dcl.epfl.ch/site/flodb
     code:
       type: Lab GitHub
@@ -370,10 +359,8 @@ projects:
       - Info
     description: Federated machine learning on Android
     layman_desc: >
-      MobNet is a framework for federated machine learning on Android
-      devices. It consumes much less battery than Standard FL while
-      increasing the model's accuracy three times. It allows for Android
-      to actually participate in the building of a ML model.
+      MobNet is a framework for federated machine learning on Android devices. It consumes much less battery than Standard FL while
+      increasing the model's accuracy three times. It allows for Android to actually participate in the building of a ML model.
     contacts:
       - name: Georgios Damaskinos
         url: https://gdamaskinos.com
@@ -407,8 +394,7 @@ projects:
       - Infra
     description: A multi-core topology abstraction
     layman_desc: >
-      MCTOP is an abstraction of multi-core topologies augmented with
-      important low-level hardware information, such as memory bandwidths
+      MCTOP is an abstraction of multi-core topologies augmented with important low-level hardware information, such as memory bandwidths
       and communication latencies.
     url: https://dcl.epfl.ch/site/mctop
     contacts:
@@ -442,15 +428,11 @@ projects:
       - Infra
     description: Automatically chose the best locking algorithm
     layman_desc: >
-      LOCKIN is a lock library that includes several lock algorithm
-      implementations mainly in header files for ease of use. Essentially, you
-      can use LOCKIN to easily modify the pthread mutex locks in a system with
-      practically zero effort.
-      GLS is a middleware that makes lock-based programming simple and
-      effective. GLS offers the classic lock-unlock interface of locks.
-      However, in contrast to classic lock libraries, GLS does not require
-      any effort from the programmer for allocating and initializing locks,
-      nor for selecting the appropriate locking strategy.
+      LOCKIN is a lock library that includes several lock algorithm implementations mainly in header files for ease of use. Essentially, you
+      can use LOCKIN to easily modify the pthread mutex locks in a system with practically zero effort. GLS is a middleware that makes
+      lock-based programming simple and effective. GLS offers the classic lock-unlock interface of locks. However, in contrast to classic
+      lock libraries, GLS does not require any effort from the programmer for allocating and initializing locks, nor for selecting the
+      appropriate locking strategy.
     url: https://dcl.epfl.ch/site/lockin
     contacts:
       - name: Rachid Guerraoui
@@ -490,12 +472,9 @@ projects:
       - Info
     description: Framework over TensorFlow implementing robust stochastic gradient descent
     layman_desc: >
-      Framework built over TensorFlow implementing state-of-the-art
-      Byzantine-resilient, distributed Stochastic Gradient Descent (SGD).
-      Modular approach allows most of its components to be reused in other
-      projects. Unreliable communication channels are supported, providing
-      a performance speed-up over standard TensorFlow in saturated
-      networks.
+      Framework built over TensorFlow implementing state-of-the-art Byzantine-resilient, distributed Stochastic Gradient Descent (SGD).
+      Modular approach allows most of its components to be reused in other projects. Unreliable communication channels are supported,
+      providing a performance speed-up over standard TensorFlow in saturated networks.
     contacts:
       - name: Arsany Guirguis
         email: arsany.guirguis@epfl.ch
@@ -530,10 +509,8 @@ projects:
       - Infra
     description: State-of-the-art concurrent data-structure library
     layman_desc: >
-      Over 40 implementations of linked lists, hash tables, skip lists,
-      binary search trees (BSTs), queues, priority queues, and stacks.
-      ASCYLIB contains sequential, lock-based, and lock-free
-      implementations for each data structure.
+      Over 40 implementations of linked lists, hash tables, skip lists, binary search trees (BSTs), queues, priority queues, and stacks.
+      ASCYLIB contains sequential, lock-based, and lock-free implementations for each data structure.
     url: https://dcl.epfl.ch/site/ascylib
     contacts:
       - name: Vasileios Trigonakis
@@ -580,22 +557,14 @@ projects:
       - Finance
     description: Blockchain using lightweight broadcast-based primitives instead of consensus
     layman_desc: >
-      Carbon is a blockchain not using global consensus for transactions,
-      allowing for faster transactions and better scalability than many other
-      chains.
+      Carbon is a blockchain not using global consensus for transactions, allowing for faster transactions and better scalability than many
+      other chains.
     tech_desc: >
-      Carbon is the next iteration on AT2, adding many new features,
-      such as minting and a dynamic network. By decoupling leader selection
-      from transaction processing, this system is more efficient and more
-      scalable compared with Bitcoin and consensus-based solutions.
+      Carbon is the next iteration on AT2, adding many new features, such as minting and a dynamic network. By decoupling leader selection
+      from transaction processing, this system is more efficient and more scalable compared with Bitcoin and consensus-based solutions.
     contacts:
       - name: Matteo Monti
         email: matteo.monti@epfl.ch
-    code:
-      type: Lab GitHub
-      url: https://github.com/Distributed-EPFL/carbon
-      date_last_commit: 2021-12-13
-    license: AGPL-3.0
     maturity: 1
     c4dt_contact:
       name: Valérian Rousset
@@ -621,8 +590,8 @@ projects:
       - Info
     description: Very fast and scalable, resizable hash table
     layman_desc: >
-      CLHT contains both a lock-based and lock-free implementation of hash tables.
-      Its optimistic design allows for 50 MegaOP/s in a concurrent run.
+      CLHT contains both a lock-based and lock-free implementation of hash tables. Its optimistic design allows for 50 MegaOP/s in a
+      concurrent run.
     url: https://lpd.epfl.ch/site/ascylib
     contacts:
       - name: Vasileios Trigonakis
@@ -652,8 +621,8 @@ projects:
       - Info
     description: Regularizer for failing neurons
     layman_desc: >
-      How is a neural network changing its output in presence of failing node?
-      This project provides a regularizer adapting itself to changing conditions.
+      How is a neural network changing its output in presence of failing node? This project provides a regularizer adapting itself to
+      changing conditions.
     contacts:
       - name: Sergia Volodin
         email: sergei.volodin.ch@gmail.com
@@ -702,3 +671,36 @@ projects:
             url: https://www.usenix.org/conference/atc22
     date_added: 2022-07-04
     date_updated: 2022-07-04
+
+  ubft:
+    name: uBFT
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Microsecond-scale BFT using Disaggregated Memory
+    contacts:
+      - name: Athanasios Xygkis
+        email: athanasios.xygkis@epfl.ch
+    code:
+      type: Lab GitHub
+      url: https://github.com/LPD-EPFL/ubft
+      date_last_commit: 2022-10-18
+    license: other
+    tags:
+      - Byzantine Resilience
+      - Network
+      - Consensus
+      - Protocol
+    type: Library
+    language: C
+    information:
+      - type: Paper
+        title: "uBFT: Microsecond-scale BFT using Disaggregated Memory"
+        url: https://arxiv.org/abs/2210.17174v3
+        notes:
+          - label: Published at
+            text: ASPLOS 2023
+            url: https://dl.acm.org/doi/proceedings/10.1145/3575693
+    date_added: 2023-03-13
+    date_updated: 2023-03-13
