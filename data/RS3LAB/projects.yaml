@@ -6,7 +6,7 @@ projects:
     applications:
       - Infra
     description: Memory allocation preventing "use-after-free" exploits
-    layman_desc: >
+    tech_desc: >
       ffmalloc is a "one time allocator" where any given virtual memory address is only returned to the calling application once. Since
       exploitation of use-after-free errors relies on being able to modify memory associated with "dangling pointers," by not reusing a
       virtual address region in subsequent allocation, an adversary cannot negatively impact the dangling memory region.
@@ -36,7 +36,7 @@ projects:
     applications:
       - Infra
     description: Efficient Non-Volatile Memory (NVM) access
-    layman_desc: >
+    tech_desc: >
       Non-Volatile Memory (NVM), which provides relatively fast and byte-addressable persistence, is now commercially available. However, we
       cannot equate a real NVM with a slow DRAM, as it is much more complicated than we expect. We propose guidelines for designing
       high-performance persistent index structures, allowing to increase performance and tail latency.
@@ -67,7 +67,7 @@ projects:
     applications:
       - Infra
     description: OS kernel with safer approach to synchronization
-    layman_desc: >
+    tech_desc: >
       NrOS is an operating system primarily constructed as a simple, sequential kernel with no concurrency, making it easier to develop and
       reason aboutits correctness.
     code:

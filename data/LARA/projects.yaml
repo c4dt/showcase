@@ -6,7 +6,7 @@ projects:
     applications:
       - Infra
     description: Verification framework for a subset of the Scala programming language
-    layman_desc: >
+    tech_desc: >
       Stainless is a tool for verifying Scala programs developed by the LARA. It can verify that your program is correct for all inputs, it
       can report inputs for which your program fails when they exist, and it can prove that functions do not loop.
     url: http://stainless.epfl.ch/
@@ -70,7 +70,7 @@ projects:
     applications:
       - Infra
     description: Stainless fork aimed at smart contracts
-    layman_desc: >
+    tech_desc: >
       Stainless is a tool for verifying Scala programs developed by the LARA. This fork can perform verification of Smart Contracts.
     url: https://stainless.epfl.ch/smart-contracts.html
     code:
@@ -109,7 +109,7 @@ projects:
     applications:
       - Infra
     description: Constraint solver for Stainless
-    layman_desc: >
+    tech_desc: >
       Inox can be used to prove constraints on methods in a program, to attest the correctness of these parts.
     code:
       type: Lab GitHub

@@ -50,7 +50,7 @@ projects:
     applications:
       - Info
     description: Prove your identity with regards to others
-    layman_desc: >
+    tech_desc: >
       A decentralized public key distribution system with an emphasis on privacy preservation.
     url: https://claimchain.github.io/
     code:
@@ -83,7 +83,7 @@ projects:
     applications:
       - Infra
     description: Anonymous communication in browsers via the Tor network
-    layman_desc: >
+    tech_desc: >
       A Javascript library for browsers for anonymous communication via the Tor network. The library connects to the Tor network to enable
       websites to send and retrieve data anonymously (e.g. send sensitive information without identifying the user) without requiring users
       to install special software such as the Tor browser.
@@ -110,7 +110,7 @@ projects:
     applications:
       - Infra
     description: Sophisticated attacks on Machine Learning models
-    layman_desc: >
+    tech_desc: >
       Trickster allows to attack machine learning models where the attack needs to be more sophisticated than simply adding some noise to an
       image. One example is to evade an abuse detection model, for example, social media bot detection, or a malware detector.
     contacts:
@@ -146,7 +146,7 @@ projects:
     applications:
       - Info
     description: Sublinear-traversal blockchains and efficient key-value Merkle trees
-    layman_desc: >
+    tech_desc: >
       This library provides implementations of two cryptographic data structures: fast traversal blockchain structure, and a verifiable
       dictionary, implemented as a key-value Merkle tree.
     code:
@@ -245,7 +245,7 @@ projects:
       - Health
       - Infra
     description: A privacy preserving exposure notification protocol to inform people about possible exposure to the COVID-19 virus
-    layman_desc: >
+    tech_desc: >
       The goal of the DP3T protocol is to simplify and accelerate the process of identifying people who have been in contact with a
       positively CoVid-19 tested person, thus providing a technological foundation to help slow the spread of the SARS-CoV-2 virus.  The
       system aims to minimise privacy and security risks for individuals and communities and guarantee the highest level of data protection.
@@ -284,7 +284,7 @@ projects:
       - Health
       - Gov
     description: Decentralized Privacy-Preserving Presence Tracing
-    layman_desc: >
+    tech_desc: >
       CrowdNotifier is a protocol that can complement manual contact tracing by efficiently notifying visitors of venues and events with
       SARS-CoV-2-positive attendees. It provides strong privacy and abuse- resistance, and show that it can scale to handle notification at
       a national scale.
@@ -436,7 +436,7 @@ projects:
     applications:
       - Gov
     description: Scalable coercion-resistant voting system
-    layman_desc: >
+    tech_desc: >
       The strongest threat model for voting systems considerscoercion resistance: protection against coercers that force voters to modify
       their votes, or to abstain. Existing remote voting systems either do not provide this property; require an ex-pensive tallying phase;
       or burden users with the need to store cryptographic key material and with the responsibility to deceive their coercers. VoteAgain is
@@ -471,7 +471,7 @@ projects:
     applications:
       - Info
     description: Decentralized privacy-preserving search engine for investigative journalists
-    layman_desc: >
+    tech_desc: >
       Investigative journalists collect large numbers of digital documents during their investigations. These documents can greatly benefit
       other journalists’ work. However, many of these documents contain sensitive information. Hence, possessing such documents can endanger
       reporters, their stories, and their sources.  Consequently, many documents are used only for single, local, investigations.
@@ -507,7 +507,7 @@ projects:
     applications:
       - Info
     description: Centralized privacy-preserving secure key storage
-    layman_desc: >
+    tech_desc: >
       Users’ devices, e.g., smartphones or laptops, are typically incapable of securely storing and processing cryptographic keys. Tandem is
       a novel set of protocols for securing cryptographic keys with support from a central server.
     contacts:
@@ -543,7 +543,7 @@ projects:
     applications:
       - Info
     description: Capturing Advertising and Tracking Information Flows for Robust Blocking
-    layman_desc: >
+    tech_desc: >
       ML-based ad and tracker blocker that detects ads and trackers based on their action rather than their content.
     contacts:
       - name: Sandra Siby
@@ -577,7 +577,7 @@ projects:
     applications:
       - Info
     description: Disparate Vulnerability to Membership Inference Attacks
-    layman_desc: >
+    tech_desc: >
       A membership inference attack (MIA) against a machine-learning model enables an attacker to determine whether a given data record was
       part of the model's training data or not. DisparateVulnerability helps in measuring how much a given model can be inverted.
     contacts:
@@ -613,7 +613,7 @@ projects:
       - Info
     description: >
       Applying the privacy-preserving algorithms of Tandem to the usage of the Monero blockchain.
-    layman_desc: >
+    tech_desc: >
       One challenge when using private keys is that if they get stolen the damage can be very big, especially when used in blockchains to
       protect funds. Sharing the private key between multiple entities can secure the usage a bit, but most algorithms don't give privacy.
       In the context of a privacy-preserving service like Monero, where the source and destination of a transaction are hidden, these

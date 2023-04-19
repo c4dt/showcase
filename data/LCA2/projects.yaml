@@ -6,7 +6,7 @@ projects:
     applications:
       - Infra
     description: Parallel redundancy protocol for IP networks
-    layman_desc: >
+    tech_desc: >
       iPRP allows parallel transmission of data over a network for hard real time applications with simply installing an app on both the
       server and the client.
     code:
@@ -36,7 +36,7 @@ projects:
     applications:
       - Infra
     description: API for the Commelec real-time microgrid framework
-    layman_desc: >
+    tech_desc: >
       This project defines a message format, based on Cap'n Proto, for encoding certain mathematical objects (i.e., real-valued symbolic
       expressions, sets and set-valued functions) as sequences of bytes.
     code:

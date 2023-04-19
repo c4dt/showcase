@@ -6,7 +6,7 @@ projects:
     applications:
       - Infra
     description: Use Scala to develop Web frontends
-    layman_desc: >
+    tech_desc: >
       Scala.js optimizes your Scala code into highly efficient JavaScript. Strong typing guarantees your code is free of silly mistakes. You
       can use any JavaScript library right from your Scala.js code, either in a statically or dynamically typed way.
     url: https://www.scala-js.org/
@@ -32,7 +32,7 @@ projects:
     applications:
       - Infra
     description: Generate native code from Scala
-    layman_desc: >
+    tech_desc: >
       Native is an optimizing ahead-of-time compiler and lightweight managed runtime designed specifically for Scala. It features low-level
       primitices, seamless interop with native code and instant startup time.
     url: http://scala-native.org/

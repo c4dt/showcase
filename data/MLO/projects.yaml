@@ -118,7 +118,7 @@ projects:
     applications:
       - Info
     description: Benchmarking of distributed ML
-    layman_desc: >
+    tech_desc: >
       Framework for distributed machine learning. Its purpose is to improve transparency, reproducibility, robustness, and to provide fair
       performance measures as well as reference implementations, helping adoption of distributed machine learning methods both in industry
       and in the academic community. Besides algorithm comparison, a main use case is to help the selection of hardware (CPU, GPU) used to
@@ -157,7 +157,7 @@ projects:
     applications:
       - Info
     description: Numerical representations for short texts
-    layman_desc: >
+    tech_desc: >
       Library that delivers numerical representations (features) for words, short texts or sentences, which can be used as input to any
       machine learning task later on.
     code:
@@ -219,7 +219,7 @@ projects:
     applications:
       - Info
     description: Improved information propagation in decentralized learning
-    layman_desc: >
+    tech_desc: >
       Because the workers only communicate with few neighbors without central coordination, these updates propagate progressively over the
       network. This paradigm enables distributed training on networks without all-to-all connectivity, helping to protect data privacy as
       well as to reduce the communication cost of distributed training in data centers. A key challenge, primarily in decentralized deep
@@ -254,7 +254,7 @@ projects:
     applications:
       - Info
     description: Decentralized Collaborative Machine Learning
-    layman_desc: >
+    tech_desc: >
       A collection of objects and routines to help you develop your own distributed machine learning algorithm. It has two modes, federated,
       where a server is keeping track of the model, and decentralized, where each participant has their own local model. You can train your
       model directly in the browser, allowing it to run on a variety of hardware. Many extensions are in the pipeline, such as adding
@@ -334,7 +334,7 @@ projects:
     applications:
       - Info
     description: Improved federated learning with Byzantine robustness
-    layman_desc: >
+    tech_desc: >
       Byzantine robustness has received significant attention recently given its importance for distributed and federated learning. In spite
       of this, there are severe flaws in existing algorithms even when the data across the participants is identically distributed. To
       address these issues, we present two surprisingly simple strategies: a new robust iterative clipping procedure, and incorporating
@@ -373,7 +373,7 @@ projects:
     applications:
       - Infra
     description: Improved decentralized training with data heterogeneity
-    layman_desc: >
+    tech_desc: >
       Decentralized training of deep learning models is a key element for enabling data privacy and on-device learning over networks. In
       realistic learning scenarios, the presence of heterogeneity across different clients' local datasets poses an optimization challenge
       and may severely deteriorate the generalization performance. We propose a novel momentum-based method to mitigate this decentralized
@@ -409,7 +409,7 @@ projects:
     applications:
       - Info
     description: Sublinear aggregation algorithm
-    layman_desc: >
+    tech_desc: >
       Novel decentralized aggregation protocol that can be parameterized so that the overall computation overhead scales logarithmically
       with the number of nodes.
     code:
@@ -434,7 +434,7 @@ projects:
     applications:
       - Health
     description: Medical Survey Generator
-    layman_desc: >
+    tech_desc: >
       Phantomedicus is a framework for simulating patients and consultations. It can extract disease probabilities from given data.
     code:
       type: Lab GitHub

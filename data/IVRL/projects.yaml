@@ -48,7 +48,7 @@ projects:
     applications:
       - Info
     description: Fast and energy-efficient video encoder and decoder
-    layman_desc: >
+    tech_desc: >
       ADEFAN (Adaptive Depth Efficient Filtering by Adaptive Normaliztion) is a state-of-the-art technology for encoding and decoding videos
       that presents many advantages over other available methods. It features extremely energy-efficient encoder, extremely fast encoding
       process, no specialized hardware for encoding and added security with encoding key. It is this ideal for video-transmitting IoT
@@ -82,7 +82,7 @@ projects:
     applications:
       - Info
     description: Noise-robust image classification
-    layman_desc: >
+    tech_desc: >
       Image classification has significantly improved using deep learning. This is mainly due to convolutional neural networks (CNNs) that
       are capable of learning rich feature extractors from large datasets. However, most deep learning classification methods are trained on
       clean images and are not robust when handling noisy ones, even if a restoration preprocessing step is applied.  We propose a method
@@ -116,7 +116,7 @@ projects:
     applications:
       - Info
     description: Deep learning image denoiser
-    layman_desc: >
+    tech_desc: >
       Blind and universal image denoising consists of using a unique model that denoises images with any level of noise. It is especially
       practical as noise levels do not need to be known when the model is developed or at test time. We propose a blind and universal deep
       learning image denoiser based on an optimal denoising solution, which we call fusion denoising. Our approach improves real-world
@@ -150,7 +150,7 @@ projects:
       - Info
       - Health
     description: High-quality image fusion
-    layman_desc: >
+    tech_desc: >
       Medical image fusion plays a central role by integrating information from multiple sources into a single, more understandable output.
       We propose a real-time image fusion method using pre-trained neural networks to generate a single image containing features from
       multi-modal sources. Our method can be applied to any number of input sources.
@@ -180,7 +180,7 @@ projects:
     applications:
       - Info
     description: Interactive GAN-based image editing
-    layman_desc: >
+    tech_desc: >
       When generating an image using a GAN, some errors might appear which are obvious to the human observer, but not to the computer. By
       introducing this user feedback one can refine the generated image to look even more real.
     code:
@@ -207,7 +207,7 @@ projects:
     applications:
       - Info
     description: Drone Image Super-Resolution
-    layman_desc: >
+    tech_desc: >
       Despite achieving remarkable progress in recent years, single-image super-resolution methods are developed with artificial
       limitations. We propose a novel drone image dataset, with scenes captured at low and high resolutions, and across a span of altitudes.
       Our results show that off-the-shelf state-of-the-art networks perform worse on this different domain.

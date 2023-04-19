@@ -77,7 +77,7 @@ projects:
     applications:
       - Info
     description: Geometry-inspired sparse attack on deep networks
-    layman_desc: >
+    tech_desc: >
       Deep Neural Networks have achieved extraordinary results on image classification tasks, but have been shown to be vulnerable to
       attacks with carefully crafted perturbations of the input data. Although most attacks usually change values of many image’s pixels, it
       has been shown that deep networks are also vulnerable to sparse alterations of the input. SparseFool implements an efficient algorithm
@@ -112,7 +112,7 @@ projects:
     applications:
       - Info
     description: Universal adversarial perturbations
-    layman_desc: >
+    tech_desc: >
       Proposing a universal (image-agnostic) and very small perturbation vector that causes natural images to be misclassified with high
       probability in a deep neuronal network.
     code:
@@ -229,7 +229,7 @@ projects:
     applications:
       - Info
     description: Multilayer network data clustering
-    layman_desc: >
+    tech_desc: >
       Network data appears in very diverse applications, like biological, social, or sensor networks. Clustering of network nodes into
       categories or communities has thus become a very common task in machine learning and data mining. Network data comes with some
       information about the network edges. In some cases, this network information can even be given with multiple views or multiple layers,

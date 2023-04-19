@@ -6,7 +6,7 @@ projects:
     applications:
       - Infra
     description: Highly detailed heap profiler
-    layman_desc: >
+    tech_desc: >
       Modern software systems heavily use the memory heap. As systems grow more complex and compute with increasing amounts of data, it can
       be difficult for developers to understand how their programs actually use the bytes that they allocate on the heap and whether
       improvements are possible. Memoro as built to answer this question of heap usage efficiency. It uses a combination of static
@@ -41,7 +41,7 @@ projects:
     applications:
       - Infra
     description: Precise side-channel analysis
-    layman_desc: >
+    tech_desc: >
       Side-channel attacks allow adversaries to infer sensitive information from non-functional characteristics. Typical side-channel
       detection tools are able to identify many potential vulnerabilities, but do not provide information regarding their severity, making
       it difficult for developers to decide whether to address them, as their leaks are often negligible in practice. Abacus is able to

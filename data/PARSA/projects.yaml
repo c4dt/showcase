@@ -6,7 +6,7 @@ projects:
     applications:
       - Infra
     description: Benchmark suite for cloud services
-    layman_desc: >
+    tech_desc: >
       CloudSuite is a benchmark suite for cloud services. It consists of a number of applications that have been selected based on their
       popularity in today's datacenters. The benchmarks are based on real-world software stacks and represent real-world setups.
     url: http://cloudsuite.ch/
@@ -41,7 +41,7 @@ projects:
     applications:
       - Infra
     description: State-of-the-art modeling tools for the computer architecture community
-    layman_desc: >
+    tech_desc: >
       QFlex is a full-system cycle-accurate computer architecture simulator of multi-node computer systems.
     url: https://qflex.epfl.ch/
     code:

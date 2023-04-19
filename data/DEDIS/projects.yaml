@@ -67,7 +67,7 @@ projects:
     applications:
       - Info
     description: Auditable Sharing and Management of Sensitive Data Across Jurisdictions
-    layman_desc: >
+    tech_desc: >
       Odyssey is a set of applications and tools that enables sharing of sensitive data between multiple distrustful parties. This project
       uses state-of-the-art secret management service on the blockchain coupled with an enclave delivery mechanism.
     url: https://dedis.github.io/odyssey/

@@ -6,7 +6,7 @@ projects:
     applications:
       - Infra
     description: GoLang extension to allow a programmer to execute a goroutine within an enclave
-    layman_desc: >
+    tech_desc: >
       Trusted Execution Environments (TEEs), such as Intel SGX enclaves, use hardware to ensure the confidentiality and integrity of
       operations on sensitive data. While the technology is available on many processors, the complexity of its programming model and its
       performance overhead have limited adoption. TEEs provide a new and valuable hardware functionality that has no obvious analogue in
@@ -66,7 +66,7 @@ projects:
     applications:
       - Infra
     description: Improved scalable and fault-tolerant distributed architecture
-    layman_desc: >
+    tech_desc: >
       Cloud platform services must simultaneously be scalable, meet low tail latency service-level objectives, and be resilient to a
       combination of software, hardware, and network failures. Replication plays a fundamental role in meeting both the scalability and the
       fault-tolerance requirement, but is subject to opposing requirements: (1) scalability is typicallyachieved by relaxing consistency;

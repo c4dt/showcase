@@ -101,7 +101,7 @@ projects:
     applications:
       - Infra
     description: Fuzzing tool and crash analyzer
-    layman_desc: >
+    tech_desc: >
       T-Fuzz (transformational fuzzing) improves fuzzing by detecting whenever the fuzzer is stuck and then modifying the underlying program
       to reach new program locations. This allows fuzzing to discover and test hard to reach code.
     code:
@@ -164,7 +164,7 @@ projects:
     applications:
       - Infra
     description: Protection for C++ internal code pointers
-    layman_desc: >
+    tech_desc: >
       CFIXX is a runtime mitigation that protects C++ programs from attacks that overwrite internal data structures containing code
       pointers.
     code:
@@ -194,7 +194,7 @@ projects:
     applications:
       - Infra
     description: Efficient detection of type confusion errors for C++
-    layman_desc: >
+    tech_desc: >
       HexType is a sanitizer for C++ cast safety. The primary use case is during testing to detect type confusion issues in the code.
       Additionally, HexType may be run in a fuzzing environment to detect type violations.
     code:
@@ -224,7 +224,7 @@ projects:
     applications:
       - Infra
     description: Static instrumentation of binaries for fuzzing and sanitation
-    layman_desc: >
+    tech_desc: >
       RetroWrite can analyze the security of closed source binaries by applying an efficient fuzzing technique that usually only works when
       the source code is available. This makes it possible to trigger more errors than the default binary fuzzers available, while being
       much faster in finding these errors.
@@ -293,7 +293,7 @@ projects:
     applications:
       - Infra
     description: Host-based, performance-counter-based attack detection system
-    layman_desc: >
+    tech_desc: >
       Attacks change the execution behavior of a system. Our attack detection system HexPADS detects attacks through divergences from normal
       behavior using attack signatures. HexPADS collects information from the operating system on runtime performance metrics with
       measurements from hardware performance counters for individual processes. Cache behavior is a strong indicator of ongoing attacks like
@@ -326,7 +326,7 @@ projects:
     applications:
       - Infra
     description: Automatic fuzzer generation
-    layman_desc: >
+    tech_desc: >
       FuzzGen is a tool for automatically synthesizing fuzzers for complex libraries in a given environment. From a given library, it allow
       for creating a dedicated fuzzer, aiming at good code coverage, without human interaction.
     code:
@@ -358,7 +358,7 @@ projects:
     applications:
       - Info
     description: Configurable data confidentiality and integrity
-    layman_desc: >
+    tech_desc: >
       DataShield can, based on C/C++ languages annotation, protect unwanted access to secret data. By securing only theses datastructures,
       performance overhead is greatly reduced.
     code:
@@ -390,7 +390,7 @@ projects:
     applications:
       - Infra
     description: Firmware re-hosting through abstraction layer emulation
-    layman_desc: >
+    tech_desc: >
       HALucinator allow for running a firmware outside of its physical implementation. When extracting it, one can recreate the same
       environment as the one used by the firmware's developer thus allowing for faster exploitation.
     code:
@@ -423,7 +423,7 @@ projects:
     applications:
       - Infra
     description: Security benchmarks for the Internet of Things
-    layman_desc: >
+    tech_desc: >
       BenchIoT enables automatic evaluation of 14 metrics covering security, performance, memory usage, and energy consumption. Having a
       sound benchmark focused on IoT allow for robust and comparable metrics.
     code:
@@ -455,7 +455,7 @@ projects:
     applications:
       - Health
     description: Alternative to GAEN for contact tracing applications
-    layman_desc: >
+    tech_desc: >
       Apple and Google developed the Google-Apple Exposure Notification system in order to provide a uniform API for contact-tracing apps
       while preserving user privacy. On Android, GAEN is integrated in the Google Play services, which is proprietary. As a consequence,
       users wanting to keep a free system, as well as phone manufacturers such as Huawei who don't have Google Play services cannot use
@@ -499,7 +499,7 @@ projects:
     applications:
       - Infra
     description: "Automatic profile-aware debloating of bluetooth stacks"
-    layman_desc: >
+    tech_desc: >
       The Bluetooth standard is complex, many commands are defined but aren't needed in many use cases. It allows for a big surface attack
       which can be cumbersome to correctly reduce. Based on Bluetooth usage profiling, LightBlue allows to reduce the number of exposed
       commands understood by the firmware and the runtime, thus greatly reducing the potential future attacks that might arise.
@@ -530,7 +530,7 @@ projects:
     applications:
       - Infra
     description: Crash deduplication through root-cause clustering
-    layman_desc: >
+    tech_desc: >
       Fuzzing has emerged as the most effective bug-finding technique. The output of a fuzzer is a set of proof-of-concept (PoC) test cases
       for all observed “unique” crashes. It costs developers substantial efforts to analyze each crashing test case. This, mostly manual,
       process has lead to the number of reported crashes out-pacing the number of bug fixes. Igor is a tool for automated crash
@@ -584,7 +584,7 @@ projects:
     applications:
       - Infra
     description: Grammar-aware fuzzing
-    layman_desc: >
+    tech_desc: >
       Coverage-guided fuzzer that uses grammar automatons to perform grammar-aware fuzzing.
     code:
       type: Lab GitHub

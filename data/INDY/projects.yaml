@@ -45,7 +45,7 @@ projects:
       - Info
     description: Machine Learning framework to search a database via similarity samples
     url: https://who-is-th.at/
-    layman_desc: >
+    tech_desc: >
       Use machine learning to organize a collection of objects (e.g. faces of actors) so as to make them interactively searchable via
       similarity queries. The approach combines concepts from representation learning, reinforcement learning, discrete-choice theory and
       bayesian inference.
@@ -65,7 +65,7 @@ projects:
     applications:
       - Info
     description: Dynamic skill rating system
-    layman_desc: >
+    tech_desc: >
       Kickscore can be used to understand & visualize the skill of players (or teams) competing in pairwise matches, and to predict outcomes
       of future matches. It extends the Elo rating system and TrueSkill.
     code:

@@ -254,7 +254,7 @@ projects:
     applications:
       - Infra
     description: Multiversion Timestamp Locking (MVTL)
-    layman_desc: >
+    tech_desc: >
       MVTL is a new family of concurrency control algorithms. Improving performance of distributed databases by allowing read accesses to
       lag behind the latest version of the data.
     contacts:

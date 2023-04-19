@@ -6,7 +6,7 @@ projects:
     applications:
       - Info
     description: Privacy-preserving photo sharing
-    layman_desc: >
+    tech_desc: >
       Proshare allows you to share your photos, while protecting sensitive regions and hiding secret messages.
     url: http://grebproshare.epfl.ch/
     tags:
@@ -22,7 +22,7 @@ projects:
     applications:
       - Info
     description: Crowdsourcing image quality assessment
-    layman_desc: >
+    tech_desc: >
       Video quality assessment with subjective testing is both time consuming and expensive. An interesting new approach to traditional
       testing is the so-called crowdsourcing, moving the testing effort into the internet. QualityCrowd allows to perform subjective quality
       assessment with crowdsourcing. QualityCrowd allows codec independent quality assessment with a simple web interface, usable with
@@ -118,7 +118,7 @@ projects:
     applications:
       - Gov
     description: Correctly re-identify people in different images
-    layman_desc: >
+    tech_desc: >
       In person re-identification, people must to be correctly identified in images that come from different cameras or are captured at
       different points in time. In the open-set case, the above needs be achieved for persons that have not been previously observed. We
       propose a universal method for building a multi-shot gallery of observed reference identities recurrently online.
@@ -209,7 +209,7 @@ projects:
       - Info
       - Health
     description: Privacy-preserving camera system tracking individual body temperatures
-    layman_desc: >
+    tech_desc: >
       Many contagious diseases such as Covid19 can induce high temperatures and fever in a significant number of affected individuals.
       Contact tracing of such individuals and analysis of their behaviour  and interactions with others and their environment can be a
       useful tool to contain spread of contagious diseases. A key component of ProCam is an innovative camera that combines infrared/thermal
@@ -236,7 +236,7 @@ projects:
     description:
       "EPFL's contribution to the AdMiRe project: the Background Extraction and Super Resolution modules, with input and output as NDI
       streams."
-    layman_desc: >
+    tech_desc: >
       Currently, TV audiences can only interact with the shows they are watching through social media or hybrid broadcast broadband TV.
       Additionally, content creators in film, TV or live productions face technical challenges that result in less engaging content. The
       EU-funded AdMiRe project aims to tackle both these problems by developing, validating and demonstrating innovative solutions based on

@@ -6,7 +6,7 @@ projects:
     applications:
       - Info
     description: High-level synthesis compiler
-    layman_desc: >
+    tech_desc: >
       Dynamatic is an academic, open-source high-level synthesis compiler that produces synchronous dynamically-scheduled circuits from
       C/C++ code. It delivers significant performance improvements compared to state-of-the-art commercial tools in specific situations.
     url: https://dynamatic.epfl.ch/

@@ -132,7 +132,7 @@ projects:
     applications:
       - Health
     description: Decentralized, secure, verifiable system for statistical queries and machine learning on distributed datasets
-    layman_desc: >
+    tech_desc: >
       Drynx allows to create privacy-preserving queries on encrypted datasets that are stored at different data providers who don't want to
       share the original data. Different types of statistical queries are possible, like average, standard deviation, linear and logistic
       regressions - all using homomorphic encryption, which means that the data is never shared in cleartext.
@@ -179,7 +179,7 @@ projects:
       - Info
     description: >
       Scalable, privacy-preserving, distributed learning on distributed datasets
-    layman_desc: >
+    tech_desc: >
       SPINDLE allows to train and evaluate generalized linear models on datasets that are stored at different data providers who don't want
       to share the original data.
     notes: Transfered to TuneInsight
