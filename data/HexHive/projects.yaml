@@ -728,3 +728,76 @@ projects:
         url: https://hexhive.epfl.ch/publications/files/22CCS.pdf
     date_added: 2023-03-20
     date_updated: 2023-03-20
+
+  warpattack:
+    name: WarpAttack
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Bypassing CFI through Compiler-Introduced Double-Fetches
+    tech_desc: >
+      WarpAttack is a new attack vector that exploits compiler-introduced double-fetch optimizations to mount TOCTTOU attacks and bypass
+      code-reuse mitigations.
+    tags:
+      - Attack
+    type: Application
+    code:
+      type: Lab Github
+      url: https://github.com/HexHive/WarpAttack
+      date_last_commit: 2023-04-13
+    information:
+      - type: Paper
+        title: "WarpAttack: Bypassing CFI through Compiler-Introduced Double-Fetches"
+        url: https://hexhive.epfl.ch/publications/files/23Oakland3.pdf
+    date_added: 2023-04-24
+    date_updated: 2023-04-24
+
+  videzzo:
+    name: ViDeZZo
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Dependency-aware Virtual Device Fuzzing Framework
+    tech_desc: >
+      ViDeZZo is a virtual device fuzzing framework considering both intra- and inter-message dependencies to balance fuzzing scalability
+      and efficiency.
+    tags:
+      - Fuzzing
+    type: Framework
+    code:
+      type: Lab Github
+      url: https://github.com/HexHive/ViDeZZo
+      date_last_commit: 2023-03-19
+    information:
+      - type: Paper
+        title: "VIDEZZO: Dependency-aware Virtual Device Fuzzing"
+        url: https://hexhive.epfl.ch/publications/files/23Oakland4.pdf
+    date_added: 2023-04-24
+    date_updated: 2023-04-24
+
+  sievefuzz:
+    name: SieveFuzz
+    categories:
+      - Security
+    applications:
+      - Infra
+    description: Optimizing Directed Fuzzing via Target-tailored Program State Restriction
+    tech_desc: >
+      We implement tripwiring-directed fuzzing as a prototype, Sieve-Fuzz, and evaluate it alongside the state-of-the-art directed fuzzers
+      AFLGo, BEACON and the leading undirected fuzzer AFL++. Overall, across nine benchmarks, SieveFuzz’s tripwiring enables it to trigger
+      bugs on an average 47% more consistently and 117% faster than AFLGo, BEACON and AFL++.
+    tags:
+      - Fuzzing
+    type: Framework
+    code:
+      type: Lab Github
+      url: https://github.com/HexHive/SieveFuzz
+      date_last_commit: 2023-04-10
+    information:
+      - type: Paper
+        title: "One Fuzz Doesn’t Fit All: Optimizing Directed Fuzzing via Target-tailored Program State Restriction"
+        url: https://hexhive.epfl.ch/publications/files/22ACSAC2.pdf
+    date_added: 2023-04-24
+    date_updated: 2023-04-24

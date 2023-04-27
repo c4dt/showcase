@@ -77,6 +77,9 @@ Showcase modifications from 2022-06-22 to 2026-07-07
   - added
     - gleefuzz
     - evocatio
+    - warpattack
+    - videzzo
+    - sievefuzz
   - magma
     - bump commit
   - retrowrite
@@ -89,7 +92,8 @@ Showcase modifications from 2022-06-22 to 2026-07-07
 
 - INDY - Matthias Grossglauser
 
-  - Nothing
+  - added
+    - climpact
 
 - IVRL - Sabine Süsstrunk
 

@@ -203,6 +203,12 @@ projects:
           - label: Presented at
             text: NeurIPS 2019
             url: https://nips.cc/Conferences/2019/Schedule?showEvent=14346
+      - type: Article
+        url: https://actu.epfl.ch/news/epfl-algorithm-in-the-world-s-most-popular-deep-le/
+        title: EPFL algorithm in the world's most popular deep learning software
+      - type: Article
+        url: https://actu.epfl.ch/news/using-the-matrix-to-help-meta-gear-up/
+        title: Using the matrix to help Meta gear up
     tags:
       - Decentralized
       - Distributed Learning

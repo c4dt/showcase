@@ -133,3 +133,27 @@ projects:
     type: Library
     date_added: 2020-05-01
     date_updated: 2022-07-05
+
+  climpact:
+    name: Climpact
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Estimate your perception of carbon footprint
+    url: https://climpact.ch/
+    layman_desc: >
+      For the climate, flying to New York is worse than taking a long shower. But is it 10 times worse or is it 1000 times worse? The carbon
+      footprint of our actions have been widely analyzed and quantified, but it does not mean that people are well aware of their impact.
+      With this project, we would like to understand people’s perception of their carbon footprint, and how does it compare to the actual
+      carbon footprint of actions they take. This could help climate scientists, sociologists, news outlets, politicians, and the general
+      public to improve climate communication and enhance climate action.
+    contacts:
+      - name: Victor Kristof
+        url: https://victorkristof.me/
+        email: victor.kristof@epfl.ch
+    tags:
+      - Predictor
+    type: Application
+    date_added: 2023-04-24
+    date_updated: 2023-04-24
