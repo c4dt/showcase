@@ -1,4 +1,4 @@
-<p>In the <a href="https://factory.c4dt.org/incubator/spindle/demo/">Spindle demo</a>,
+<p>In the Spindle demo,
     three hospitals want to determine if a patient has diabetes or
     not. To avoid invasive procedures, theses only want to proceed with the full
     test if it is likely that the patient has it.</p>
@@ -56,6 +56,7 @@ result is calculated and is ready to predict outcomes.</p>
     </label>
 </div>
 
-<a href="https://factory.c4dt.org/incubator/spindle/demo/" class="tab-link">
-    For a Live Demo Click Here
-</a>
+<p>
+    We do not host this demo anymore but you can
+    <a href="https://github.com/c4dt/service-spindle">find its code here</a>.
+</p>

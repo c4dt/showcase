@@ -1,5 +1,5 @@
 <p>
-    The Stainless Demonstrator
+    The Stainless demonstrator
     shows how Stainless helps develop Smart
     Contracts free of errors. It provides an interactive environment
     where the user can verify prewritten Smart Contracts, deploy them on

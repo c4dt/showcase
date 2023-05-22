@@ -1,5 +1,5 @@
 <p>Together with our SwissRe partner we created a
-    Demonstrator using the Drynx data analysis tool.
+    demonstrator using the Drynx data analysis tool.
     The source data is a list of house insurances and the incurred claims. Supposing that this list
     is spread over many insurers, Drynx allows to:</p>
 <ul>
