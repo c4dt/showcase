@@ -1,7 +1,7 @@
 <p>
-    The <a href="https://factory.c4dt.org/incubator/stainless/demo/">Stainless Demonstrator</a>
+    The Stainless demonstrator
     shows how Stainless helps develop Smart
-    Contracts free of errors. It provides an interactve environment
+    Contracts free of errors. It provides an interactive environment
     where the user can verify prewritten Smart Contracts, deploy them on
     a blockchain, and call their functions.
 </p>
@@ -26,6 +26,8 @@
     the user to have a background in software development and blockchain
     technology to fully benefit from it.
 </p>
-<a href="https://factory.c4dt.org/incubator/stainless/demo/" class="tab-link">
-    For a Live Demo Click Here
-</a>
+
+<p>
+    We do not host this demo anymore but you can
+    <a href="https://github.com/c4dt/service-stainless">find its code here</a>.
+</p>

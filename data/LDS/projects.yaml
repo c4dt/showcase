@@ -161,7 +161,7 @@ projects:
       products:
         - type: Demo
           title: Decentralized Data Analysis
-          url: https://factory.c4dt.org/incubator/drynx/demo
+          url: https://github.com/c4dt/service-drynx
           code: https://github.com/c4dt/service-drynx
     c4dt_contact:
       name: Valérian Rousset
@@ -207,8 +207,7 @@ projects:
       products:
         - type: Demo
           title: SPINDLE demonstrator
-          url: https://factory.c4dt.org/incubator/spindle/demo
-          code: https://github.com/c4dt/service-spindle
+          url: https://github.com/c4dt/service-spindle
     c4dt_contact:
       name: Valérian Rousset
       email: valerian.rousset@epfl.ch
