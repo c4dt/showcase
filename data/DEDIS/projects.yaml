@@ -560,6 +560,10 @@ projects:
       - type: Paper
         title: "Authenticated private information retrieval"
         url: https://eprint.iacr.org/2023/297
+        notes:
+          - label: Published at
+            text: "USENIX Security Symposium 2023"
+            url: https://www.usenix.org/conference/usenixsecurity23/presentation/colombo
       - type: Demo
         title: "Keyd: A privacy-preserving key-value store"
         url: https://keyd.org/
