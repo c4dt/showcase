@@ -531,3 +531,43 @@ projects:
     license: other
     date_added: 2022-03-16
     date_updated: 2022-03-16
+
+  apir:
+    name: APIR
+    categories:
+      - Privacy
+    applications:
+      - Info
+    description: >
+      Authenticated Private Information Retrieval
+    layman_desc: >
+      This work introduces protocols for authenticated private information retrieval, 
+      which enable a client to fetch a record from a database server such that (a) the server does 
+      not learn which record the client reads, and (b) the client either obtains the "authentic" 
+      record or detects server misbehavior and safely aborts.
+    contacts:
+      - name: Simone Colombo
+        email: simone.colombo@epfl.ch
+    tags:
+      - Anonymity
+      - Access Control
+    type: Library
+    code:
+      type: Lab GitHub
+      url: https://github.com/dedis/apir-code
+      date_last_commit: 2023-05-04
+    information:
+      - type: Paper
+        title: "Authenticated private information retrieval"
+        url: https://eprint.iacr.org/2023/297
+        notes:
+          - label: Published at
+            text: "USENIX Security Symposium 2023"
+            url: https://www.usenix.org/conference/usenixsecurity23/presentation/colombo
+      - type: Demo
+        title: "Keyd: A privacy-preserving key-value store"
+        url: https://keyd.org/
+    language: Go
+    license: GPL-3.0
+    date_added: 2023-07-05
+    date_updated: 2023-07-05
