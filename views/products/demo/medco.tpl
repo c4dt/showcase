@@ -12,6 +12,6 @@
     </label>
 </div>
 
-<a href="https://medco.epfl.ch/demo/" class="tab-link">
+<a href="https://medco-ch.github.io/" class="tab-link">
     For Demo Click Here
 </a>

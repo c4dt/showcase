@@ -1,3 +1,12 @@
+<h3>This demo has been archived</h3>
+
+<p>
+    We do not host this demo anymore but you can
+    <a href="https://github.com/c4dt/service-stainless">find its code here</a>.
+</p>
+
+<h4>Description</h4>
+
 <p>
     The Stainless demonstrator
     shows how Stainless helps develop Smart
@@ -25,9 +34,4 @@
     Please note that this demonstrator is fairly technical, and requires
     the user to have a background in software development and blockchain
     technology to fully benefit from it.
-</p>
-
-<p>
-    We do not host this demo anymore but you can
-    <a href="https://github.com/c4dt/service-stainless">find its code here</a>.
 </p>

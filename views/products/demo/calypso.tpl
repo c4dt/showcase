@@ -27,6 +27,6 @@
 </p>
 
 This demo needs to be run on your local computer. Find the code here:
-<a href="https://github.com/calypso-demo/filesharing">
+<a href="https://github.com/dedis/filesharing">
     Calypso Demo Code
 </a>
