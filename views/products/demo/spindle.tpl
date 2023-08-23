@@ -1,3 +1,13 @@
+<h3>This demo has been Archived</h3>
+
+<p>
+    We do not host this demo anymore but you can
+    <a href="https://github.com/c4dt/service-spindle">find its code here and use
+    the instructions to run it on your own computer!</a>.
+</p>
+
+<h4>Description</h4>
+
 <p>In the Spindle demo,
     three hospitals want to determine if a patient has diabetes or
     not. To avoid invasive procedures, theses only want to proceed with the full
@@ -55,8 +65,3 @@ result is calculated and is ready to predict outcomes.</p>
         <br>Ready to predict outcomes
     </label>
 </div>
-
-<p>
-    We do not host this demo anymore but you can
-    <a href="https://github.com/c4dt/service-spindle">find its code here</a>.
-</p>
