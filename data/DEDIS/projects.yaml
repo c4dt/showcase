@@ -463,9 +463,6 @@ projects:
       - Gov
     description: Token for conflicts zone
     url: https://dedis.github.io/hbt
-    contacts:
-      - name: Noémien Kocher
-        email: noemien.kocher@epfl.ch
     tags:
       - Anonymity
       - Decentralized
