@@ -556,6 +556,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/dedis/apir-code
       date_last_commit: 2023-05-04
+    maturity: 1
     information:
       - type: Paper
         title: "Authenticated private information retrieval"
