@@ -70,7 +70,10 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                     sy.Optional("url"): sy.Url(),
                     }),
                 ),
-            sy.Optional("c4dt_contact"): sy.Map({
+            sy.Optional(
+                "c4dt_contact",
+                default={"name": "C4DT team", "email": "c4dt-dev@listes.epfl.ch"}
+            ): sy.Map({
                 "name": sy.Str(),
                 "email": sy.Email(),
                 }),
@@ -149,6 +152,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
             })
         )
     })
+
 
 @lru_cache(maxsize=1)
 def load():

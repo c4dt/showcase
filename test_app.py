@@ -40,7 +40,7 @@ def test_consistent_data():
             for lab in labs.values()
             for p in lab['projects'].values()
             ]:
-        # All projects in the incubator have a C4DT contact and a description of work
+        # All projects in the incubator should have a C4DT contact (or a default exists)
         if p.get('incubator'):
             assert 'c4dt_contact' in p, f"'c4dt_contact' missing in {p['name']}"
 
