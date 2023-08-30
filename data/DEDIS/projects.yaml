@@ -43,8 +43,8 @@ projects:
       With Dela you can: learn the architecture of a distributed ledger, run your blockchain / distributed ledger, implement and test your
       new idea that will revolutionize the blockchain world by adding your new module’s implementation to the Dela ecosystem.
     contacts:
-      - name: Noémien Kocher
-        email: noemien.kocher@epfl.ch
+      - name: Pierluca Borsò
+        email: pierluca.borso@epfl.ch
     url: https://dedis.github.io/dela/
     tags:
       - Decentralized
@@ -76,8 +76,8 @@ projects:
       url: https://github.com/dedis/odyssey
       date_last_commit: 2020-10-01
     contacts:
-      - name: Noémien Kocher
-        email: noemien.kocher@epfl.ch
+      - name: Pierluca Borsò
+        email: pierluca.borso@epfl.ch
     tags:
       - Encryption
       - Access Control
@@ -441,8 +441,8 @@ projects:
       SimNet provides multiple configurations to affect the topology so that specific link between two nodes can have a delay or a loss of
       packets for instance.
     contacts:
-      - name: Noémien Kocher
-        email: noemien.kocher@epfl.ch
+      - name: Pierluca Borsò
+        email: pierluca.borso@epfl.ch
     tags:
       - Simulator
     type: Application
@@ -463,6 +463,9 @@ projects:
       - Gov
     description: Token for conflicts zone
     url: https://dedis.github.io/hbt
+    contacts:
+      - name: Pierluca Borsò
+        email: pierluca.borso@epfl.ch
     tags:
       - Anonymity
       - Decentralized
