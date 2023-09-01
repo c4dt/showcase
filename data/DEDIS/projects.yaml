@@ -571,3 +571,33 @@ projects:
     license: GPL-3.0
     date_added: 2023-07-05
     date_updated: 2023-07-05
+
+  dvoting:
+    name: d-voting
+    description: >
+      (Short description, will be shown under the name)
+    categories:
+      - "Blockchain"
+    applications:
+      - "Gov"
+    type: Application
+    layman_desc: >
+      The d-voting project allows for electronic voting without a central point of trust.
+      It relies instead on the majority of servers to be honest during the voting process.
+      The ballots are encrypted during the voting phase, and then shuffled to anonymise the results.
+      When they are finally decrypted, it is not possible anymore to retrace who voted for what.
+    tags:
+      - Anonymity
+      - Byzantine Resilience
+      - Decentralized
+    contacts:
+      - name: Pierluca Borsò
+        email: pierluca.borso@epfl.ch
+    url: https://dedis.github.io/d-voting/#/
+    code:
+      type: Lab Github
+      url: https://github.com/dedis/d-voting
+      date_last_commit: 2023-09-01
+    language: Golang
+    maturity: 1
+    date_added: 2023-09-01
