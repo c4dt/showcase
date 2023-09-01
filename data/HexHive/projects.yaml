@@ -454,7 +454,7 @@ projects:
       - Privacy
     applications:
       - Health
-    description: Alternative to GAEN for contact tracing applications
+    description: LibreCHovid - Alternative to GAEN for contact tracing applications
     tech_desc: >
       Apple and Google developed the Google-Apple Exposure Notification system in order to provide a uniform API for contact-tracing apps
       while preserving user privacy. On Android, GAEN is integrated in the Google Play services, which is proprietary. As a consequence,
