@@ -1,23 +1,22 @@
 (path):
   name:
+  description: >
   categories:
   applications:
-  description: >
+  tags:
   layman_desc: >
   tech_desc: >
+  type:
+  url:
   contacts:
     - name:
       email:
-  url:
-  tags:
-  type:
   code:
     type: Lab Github
     url: https://
     date_last_commit:
   language:
   license:
-  maturity: (1|2|3)
   information:
     - type: Paper
       title: ""
@@ -26,5 +25,6 @@
         - label:
           text:
           url:
+  maturity: (1|2|3)
   date_added:
   date_updated:

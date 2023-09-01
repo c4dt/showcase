@@ -52,31 +52,6 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "Info",
                 "Other"
             ])),
-            sy.Optional("notes"): sy.Str(),
-            sy.Optional("url"): sy.Url(),
-            sy.Optional("layman_desc"): sy.Str(),
-            sy.Optional("tech_desc"): sy.Str(),
-            sy.Optional("code"): sy.Map({
-                "type": sy.Str(),
-                sy.Optional("url"): sy.Url(),
-                sy.Optional("date_last_commit"): sy.Datetime(),
-                }),
-            sy.Optional("doc"): sy.Url(),
-            sy.Optional("lines_of_code"): sy.Str(),
-            sy.Optional("contacts"): sy.Seq(
-                sy.Map({
-                    "name": sy.Str(),
-                    sy.Optional("email"): sy.Email(),
-                    sy.Optional("url"): sy.Url(),
-                    }),
-                ),
-            sy.Optional(
-                "c4dt_contact",
-                default={"name": "C4DT team", "email": "c4dt-dev@listes.epfl.ch"}
-            ): sy.Map({
-                "name": sy.Str(),
-                "email": sy.Email(),
-                }),
             "tags": sy.Seq(sy.Enum([
                 "Access Control", "Anonymity", "Attack",
                 "Benchmark", "Binary", "Bluetooth", "Byzantine Resilience",
@@ -96,14 +71,42 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "TensorFlow", "Tor",
                 "Zero-Knowledge Proofs"
             ])),
-            sy.Optional("language"): sy.Str(),
+            "date_added": sy.Datetime(),
+
+            sy.Optional("layman_desc"): sy.Str(),
+            sy.Optional("tech_desc"): sy.Str(),
             sy.Optional("type"): sy.CommaSeparated(sy.Enum([
                 "Application",
                 "Library",
                 "Framework",
                 "Toolset",
                 "Simulation",
-                ])),
+                "Experiments",
+            ])),
+            sy.Optional("notes"): sy.Str(),
+            sy.Optional("url"): sy.Url(),
+            sy.Optional("contacts"): sy.Seq(
+                sy.Map({
+                    "name": sy.Str(),
+                    sy.Optional("email"): sy.Email(),
+                    sy.Optional("url"): sy.Url(),
+                }),
+            ),
+            sy.Optional("code"): sy.Map({
+                "type": sy.Str(),
+                sy.Optional("url"): sy.Url(),
+                sy.Optional("date_last_commit"): sy.Datetime(),
+                }),
+            sy.Optional("doc"): sy.Url(),
+            sy.Optional("lines_of_code"): sy.Str(),
+            sy.Optional(
+                "c4dt_contact",
+                default={"name": "C4DT team", "email": "c4dt-dev@listes.epfl.ch"}
+            ): sy.Map({
+                "name": sy.Str(),
+                "email": sy.Email(),
+                }),
+            sy.Optional("language"): sy.Str(),
             sy.Optional("license"): sy.CommaSeparated(sy.Enum([
                 "AGPL-3.0",
                 "GPL-2.0", "GPL-3.0",
@@ -135,8 +138,6 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                         ),
                     }),
                 ),
-            "date_added": sy.Datetime(),
-            sy.Optional("date_updated"): sy.Datetime(),
             sy.Optional("maturity"): sy.Int(),
             sy.Optional("incubator"): sy.Map({
                 "work": sy.Str(),
@@ -148,8 +149,10 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                         sy.Optional("code"): sy.Str(),
                         }),
                     )
-                }) | sy.EmptyList(),
-            })
+                }),
+            sy.Optional("date_updated"): sy.Datetime()
+            | sy.EmptyList(),
+            }),
         )
     })
 

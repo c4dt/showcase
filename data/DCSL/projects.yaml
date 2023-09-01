@@ -5,6 +5,7 @@ projects:
       - Security
     applications:
       - Infra
+    type: Library
     description: GoLang extension to allow a programmer to execute a goroutine within an enclave
     tech_desc: >
       Trusted Execution Environments (TEEs), such as Intel SGX enclaves, use hardware to ensure the confidentiality and integrity of
@@ -65,6 +66,7 @@ projects:
       - Other
     applications:
       - Infra
+    type: Experiments
     description: Improved scalable and fault-tolerant distributed architecture
     tech_desc: >
       Cloud platform services must simultaneously be scalable, meet low tail latency service-level objectives, and be resilient to a
@@ -100,6 +102,7 @@ projects:
       - Other
     applications:
       - Infra
+    type: Experiments
     description: L4 load balancer for cloud provider
     tech_desc: >
       Connection Redirect LoAd Balancer is a new scheme for L4 load balancing targeting specifically internal cloud workloads.

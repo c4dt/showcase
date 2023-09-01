@@ -619,6 +619,7 @@ projects:
       - Learning
     applications:
       - Info
+    type: Library
     description: Regularizer for failing neurons
     layman_desc: >
       How is a neural network changing its output in presence of failing node? This project provides a regularizer adapting itself to
@@ -659,7 +660,7 @@ projects:
     tags:
       - Concurrency
       - Network
-    type: Application
+    type: Simulation
     language: C
     information:
       - type: Paper
