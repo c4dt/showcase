@@ -583,7 +583,7 @@ projects:
     type: Application
     layman_desc: >
       The d-voting project allows for electronic voting without a central point of trust.
-      Instead it relies on the majority of servers to be honest during the voting process.
+      It relies instead on the majority of servers to be honest during the voting process.
       The ballots are encrypted during the voting phase, and then shuffled to anonymise the results.
       When they are finally decrypted, it is not possible anymore to retrace who voted for what.
     tags:
