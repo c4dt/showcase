@@ -575,7 +575,7 @@ projects:
   dvoting:
     name: d-voting
     description: >
-      (Short description, will be shown under the name)
+      A decentralized, fully anonymous voting system for EPFL-internal elections.
     categories:
       - "Blockchain"
     applications:
