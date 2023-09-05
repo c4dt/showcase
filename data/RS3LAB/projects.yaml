@@ -150,5 +150,17 @@ projects:
       - Concurrency
       - Fuzzing
       - Server
+    code:
+      type: Lab GitHub
+      url: https://github.com/sslab-gatech/hydra
+      date_last_commit: 2022-08-08
+    information:
+      - type: Paper
+        title: Finding Semantic Bugs in File Systems with an Extensible Fuzzing Framework
+        url: https://sanidhya.github.io/pubs/2019/hydra.pdf
+        notes:
+          - label: Published at
+            text: Symposium on Operating Systems Principles (SOSP) 2019
+            url: https://sosp19.rcs.uwaterloo.ca/
     date_added: 2022-09-27
     date_updated: 2022-09-27
