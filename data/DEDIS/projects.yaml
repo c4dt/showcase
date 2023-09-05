@@ -569,6 +569,7 @@ projects:
         url: https://keyd.org/
     language: Go
     license: GPL-3.0
+    maturity: 2
     date_added: 2023-07-05
     date_updated: 2023-07-05
 
