@@ -37,43 +37,57 @@ in `(brackets)`.
 ### Needed
 
 ```yaml
-    (url_path):
-        name: (lowercase short name)
-        description: >
-            (Short description, will be shown under the name)
-       contacts:
-            - name: (Full Name)
-              email: (name@institution.org)
-        tags:
-            - (Add tags, if possible out of the existing ones)
-        type: (Application / Library)
-        date_added: (YYYY-MM-DD)
-        date_updated: (YYYY-MM-DD)
+url_path:
+  name: (lowercase short name)
+  description: >
+    (Short description, will be shown under the name)
+  categories: ( "Privacy" | "Blockchain" | "Verification" | "Security" |
+    "Learning" | "Other" )
+  applications": ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )
+  tags:
+    - (Add tags, if possible out of the existing ones)
+  date_added: (YYYY-MM-DD)
 ```
 
 ### Optional
 
 ```yaml
-        layman_desc: >
-            (A 2-3 sentence description for somebody with general knowledge)
-        tech_desc: >
-            (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
-        url: (URL for a home page)
-        code:
-            type: (Lab Github, Personal Gihub, zip files, ...)
-            url:  (https://...)
-            date_last_commit: (YYYY-MM-DD)
-        language: (What the majority of the code is written in
-        license: (BSD, GPL 3+, MPL 2+, Apache, ...)
-        maturity: (1|2|3)
-        information: (zero or more of:)
-            - type: (Paper | Video | Article | Blog Post | Demo | Web Page | Documentation)
-              title: (Short title)
-              url: (https:.. - for papers, don't use arxiv, but the conference link)
-              notes: (this is optional)
-                - label: (what will be shown in front of the note)
-                  text: (the text of the note)
-                  url: (the URL for the <a> tag)
+    layman_desc: >
+      (A 2-3 sentence description for somebody with general knowledge)
+    tech_desc: >
+      (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
+    type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )
+    notes: (Additional description)
+    url: (URL for a home page)
+    contacts:
+      - name: (Full Name)
+        email: (name@institution.org)
+    code:
+      type: (Lab Github, Personal Gihub, zip files, ...)
+      url:  (https://...)
+      date_last_commit: (YYYY-MM-DD)
+    doc: (url to documentation)
+    lines_of_code: (# of codelines)
+    c4dt_contact: (Email of a special contact, defaults to c4dt-dev@listes.epfl.ch)
+    language: (What the majority of the code is written in)
+    license: (BSD, GPL 3+, MPL 2+, Apache, ...)
+    information: (zero or more of:)
+      - type: (Paper | Video | Article | Blog Post | Demo | Web Page | Documentation)
+        title: (Short title)
+        url: (https:.. - for papers, don't use arxiv, but the conference link)
+        notes: (this is optional)
+          - label: (what will be shown in front of the note)
+            text: (the text of the note)
+            url: (the URL for the <a> tag)
+    maturity: (1|2|3)
+    incubator:
+      work: (What C4DT did for the project)
+      products:
+        type: ( Demo | Hands-on | Pilot | App )
+        url: (https://...)
+        title: (Description of this product)
+        code: (https:// of the code)
+    date_updated: (YYYY-MM-DD)
 ```
 
 ## Run the application locally
@@ -134,4 +148,19 @@ Restart Apache:
 
 ```
 $ sudo /etc/init.d/apache2 restart
+```
+
+# Contributing
+
+To contribute to this repository, please install the pre-commit hooks:
+
+```
+pre-commit install
+```
+
+This will run the linter before committing.
+If you already committed, you can run it like this:
+
+```
+pre-commit run --all
 ```
