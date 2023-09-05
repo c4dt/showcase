@@ -76,12 +76,12 @@ PROJECTS_SCHEMA = sy.Map({"projects":
             sy.Optional("layman_desc"): sy.Str(),
             sy.Optional("tech_desc"): sy.Str(),
             sy.Optional("type"): sy.CommaSeparated(sy.Enum([
-                "Application",
-                "Library",
-                "Framework",
-                "Toolset",
-                "Simulation",
-                "Experiments",
+                "Application", # Stand-alone code with useful functionality outside of the paper
+                "Library",     # Code to be included in other projects outside of the paper
+                "Framework",   # A set of concepts and best practices for a given task
+                "Toolset",     # Various stand-alone applications for a given task
+                "Simulation",  # Generic code that can be used to run simpulations described in the paper
+                "Experiments", # Code that produces figures and graphs of the paper
             ])),
             sy.Optional("notes"): sy.Str(),
             sy.Optional("url"): sy.Url(),
