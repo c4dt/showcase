@@ -477,6 +477,14 @@ projects:
           - label: Published in
             text: NSDI 2022
             url: https://www.usenix.org/conference/nsdi22/presentation/pirelli
+    incubator:
+      work: >
+        For this project we implemented extended Berkley Packet Filtering (eBPF) support,
+        so that the software verification can also be done for this type of code.
+      products:
+        - type: OSS-participation
+          url: https://github.com/angr/angr-platforms/pull/55
+          title: Adding support for eBPF to Angr
     maturity: 1
     date_added: 2022-07-05
     date_updated: 2023-03-20

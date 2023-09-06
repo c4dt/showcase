@@ -83,7 +83,7 @@ url_path:
     incubator:
       work: (What C4DT did for the project)
       products:
-        type: ( Demo | Hands-on | Pilot | App )
+        type: ( Demo | Hands-on | Pilot | App | OSS-participation)
         url: (https://...)
         title: (Description of this product)
         code: (https:// of the code)
