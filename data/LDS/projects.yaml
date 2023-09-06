@@ -28,9 +28,6 @@ projects:
       type: Lab GitHub
       url: https://github.com/tuneinsight/lattigo
       date_last_commit: 2023-03-14
-    c4dt_contact:
-      name: Linus Gasser
-      email: linus.gasser@epfl.ch
     contacts:
       - name: Jean-Philippe Bossuat
         email: jean-philippe@tuneinsight.com
