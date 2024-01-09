@@ -501,3 +501,24 @@ labs:
       requirements, and they are under continual development and evolution.
     contacts:
     url: https://www.epfl.ch/labs/vlsc/
+
+  C4DT:
+    name: Center For Digital Trust
+    prof:
+      name:
+        - Jean-Pierre
+        - Hubaux
+      email: jean-pierre.hubaux@epfl.ch
+    description: >
+      The Center for Digital Trust is an academic-industry alliance of international relevance that facilitates
+      innovation in digital trust services and products. 
+      It brings together 15 industry partners, 38 EPFL laboratories, civil society, and policy actors to collaborate,
+      share insight, and to gain early access to trust-building technologies,
+      building on state-of-the-art research at EPFL and beyond.
+
+    contacts:
+      - name: Linus Gasser
+        email: linus.gasser@epfl.ch
+      - name: Olivier Crochat
+        email: olivier.crochat@epfl.ch
+    url: https://c4dt.epfl.ch
