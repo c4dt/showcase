@@ -44,6 +44,7 @@ projects:
       type: Non-lab GitHub
       url: https://github.com/cosmoss-vt/pactree
       date_last_commit: 2021-11-08
+    type: Simulation
     language: C++
     license: Apache-2.0
     tags:
@@ -75,6 +76,7 @@ projects:
       url: https://github.com/vmware-labs/node-replicated-kernel
       date_last_commit: 2023-03-11
     language: Rust
+    type: Framework, Experiments
     license: Apache-2.0
     tags:
       - Concurrency
@@ -106,6 +108,7 @@ projects:
       url: https://github.com/rs3lab/SynCord
       date_last_commit: 2022-07-01
     language: Python, C
+    type: Framework, Experiments
     license: other
     tags:
       - Concurrency
@@ -131,6 +134,7 @@ projects:
       url: https://github.com/rs3lab/Odinfs
       date_last_commit: 2022-05-16
     language: C
+    type: Simulation, Experiments
     license: other
     tags:
       - Concurrency
@@ -154,6 +158,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/sslab-gatech/hydra
       date_last_commit: 2022-08-08
+    type: Framework, Experiments
     information:
       - type: Paper
         title: Finding Semantic Bugs in File Systems with an Extensible Fuzzing Framework

@@ -17,6 +17,7 @@ projects:
       url: https://github.com/marinthiercelin/offChainer
       date_last_commit: 2020-01-14
     language: JavaScript
+    type: Toolset
     tags:
       - Decentralized
       - Zero-Knowledge Proofs

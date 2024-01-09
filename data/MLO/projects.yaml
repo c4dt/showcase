@@ -242,6 +242,7 @@ projects:
       url: https://github.com/epfml/relaysgd
       date_last_commit: 2021-10-27
     language: Python
+    type: Library, Experiments
     license: MIT
     tags:
       - Distributed Learning
@@ -357,6 +358,7 @@ projects:
       url: https://github.com/epfml/byzantine-robust-optimizer
       date_last_commit: 2021-06-11
     language: Python
+    type: Simulation
     license: MIT
     tags:
       - Distributed Learning
@@ -393,6 +395,7 @@ projects:
       url: https://github.com/epfml/quasi-global-momentum
       date_last_commit: 2022-12-23
     language: Python
+    type: Simulation
     license: Apache-2.0
     tags:
       - Decentralized
@@ -423,6 +426,7 @@ projects:
       type: Personal GitHub
       url: https://github.com/mvujas/HyperAggregate
       date_last_commit: 2021-07-03
+    type: Library, Experiments
     language: Python, JavaScript
     tags:
       - Decentralized
@@ -448,6 +452,7 @@ projects:
       url: https://github.com/epfml/phantomedicus
       date_last_commit: 2022-06-25
     language: Python
+    type: Framework
     tags:
       - Predictor
     date_added: 2022-07-06

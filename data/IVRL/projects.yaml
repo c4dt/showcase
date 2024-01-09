@@ -43,6 +43,7 @@ projects:
 
   adefan:
     name: ADEFAN
+    type: Application
     categories:
       - Other
     applications:
@@ -77,6 +78,7 @@ projects:
 
   fg-nic:
     name: FG-NIC
+    type: Application
     categories:
       - Learning
     applications:
@@ -111,6 +113,7 @@ projects:
 
   buifd:
     name: BUIFD
+    type: Application
     categories:
       - Learning
     applications:
@@ -144,6 +147,7 @@ projects:
 
   zero-learning-medical-fusion:
     name: Zero-Learning Fast Medical Image Fusion
+    type: Application
     categories:
       - Learning
     applications:
@@ -175,6 +179,7 @@ projects:
 
   lelsd:
     name: LELSD
+    type: Application
     categories:
       - Learning
     applications:
@@ -202,6 +207,7 @@ projects:
 
   dsr:
     name: DSR
+    type: Experiments, Simulation
     categories:
       - Learning
     applications:
@@ -233,6 +239,7 @@ projects:
 
   tempsal:
     name: TempSAL
+    type: Application, Experiments
     categories:
       - Learning
     applications:

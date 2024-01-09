@@ -1,6 +1,7 @@
 projects:
   dynamatic:
-    name: Dynamatic
+    name: Application, Dynamatic
+    type: Toolset
     categories:
       - Other
     applications:
@@ -38,6 +39,7 @@ projects:
 
   dynaburst:
     name: DynaBurst
+    type: Application, Library
     categories:
       - Other
     applications:

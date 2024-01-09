@@ -448,6 +448,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/spring-epfl/voteagain
       date_last_commit: 2022-03-22
+    type: Experiments
     language: Python
     license: MIT
     tags:
@@ -484,6 +485,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/spring-epfl/datashare-network-crypto
       date_last_commit: 2022-09-21
+    type: Simulation
     language: Python
     license: BSD-3-Clause
     tags:
@@ -517,6 +519,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/spring-epfl/tandem
       date_last_commit: 2020-06-14
+    type: Simulation
     language: C
     license: BSD-3-Clause
     tags:
@@ -552,6 +555,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/spring-epfl/WebGraph
       date_last_commit: 2022-08-25
+    type: Application
     language: Python
     license: other
     tags:
@@ -587,6 +591,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/spring-epfl/disparate-vulnerability
       date_last_commit: 2021-10-20
+    type: Simulation, Experiments
     language: Python
     license: MIT
     tags:
@@ -622,6 +627,7 @@ projects:
     c4dt_contact:
       name: Linus Gasser
       email: linus.gasser@epfl.ch
+    type: Simulation
     tags:
       - Anonymity
       - Protection

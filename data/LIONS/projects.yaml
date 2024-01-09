@@ -13,6 +13,7 @@ projects:
       type: Lab Download
       url: https://www.epfl.ch/labs/lions/wp-content/uploads/2019/01/DECOPT-v1.0.zip
     language: MATLAB
+    type: Framework, Experiments
     tags:
       - Optimization
     information:
@@ -44,6 +45,7 @@ projects:
       type: Lab Download
       url: https://www.epfl.ch/labs/lions/wp-content/uploads/2019/01/LB-CSMRI.zip
     language: MATLAB
+    type: Framework, Simulation
     tags:
       - Optimization
       - Images
@@ -72,6 +74,7 @@ projects:
       url: https://github.com/LIONS-EPFL/storm-plus-code
       date_last_commit: 2022-05-14
     language: Python
+    type: Library
     tags:
       - PyTorch
     information:

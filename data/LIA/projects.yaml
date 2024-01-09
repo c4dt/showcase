@@ -17,6 +17,7 @@ projects:
       url: https://github.com/AlekseiTriastcyn/bayesian-differential-privacy
       date_last_commit: 2020-08-12
     language: Python
+    type: Experiments
     license: Apache-2.0
     tags:
       - Anonymity
@@ -47,6 +48,7 @@ projects:
       url: https://github.com/DoubleMuL/ADER
       date_last_commit: 2021-10-27
     language: Python
+    type: Simulation
     license: MIT
     tags:
       - Decentralized

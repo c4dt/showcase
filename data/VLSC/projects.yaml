@@ -19,6 +19,7 @@ projects:
       url: https://github.com/epfl-vlsc/memoro
       date_last_commit: 2021-01-14
     language: C++, JavaScript
+    type: Application
     license: MIT
     tags:
       - Low-Level
@@ -51,6 +52,7 @@ projects:
       url: https://github.com/s3team/Abacus
       date_last_commit: 2022-05-17
     language: C
+    type: Application
     license: MIT
     tags:
       - Development
