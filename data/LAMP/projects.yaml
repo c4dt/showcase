@@ -1,6 +1,7 @@
 projects:
   scala-js:
     name: Scala.js
+    type: Library, Toolset
     categories:
       - Other
     applications:
@@ -27,6 +28,7 @@ projects:
 
   scala-native:
     name: Scala Native
+    type: Library, Toolset
     categories:
       - Other
     applications:

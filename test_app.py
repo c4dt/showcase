@@ -15,8 +15,10 @@ TEST_DATA = {
                 'proj1': {
                     'name': 'Project 1',
                     'date_added': MagicMock(),
-                    },
+                    'type': 'Library',
+                },
                 'proj2': None,
+                'type': 'Application',
                 },
             },
         'LAB2': {
@@ -25,6 +27,7 @@ TEST_DATA = {
             'prof': MagicMock(),
             'projects': {
                 'proj2': None,
+                'type': 'Experiments',
                 }
             },
         }

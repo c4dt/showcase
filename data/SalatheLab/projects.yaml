@@ -20,6 +20,7 @@ projects:
       url: https://github.com/digitalepidemiologylab/foodrepo_api
       date_last_commit: 2020-08-24
     license: CC BY 4.0
+    type: Application
     tags:
       - Database
     language: JavaScript
@@ -72,6 +73,7 @@ projects:
       type: Lab GitHub
       url: https://github.com/digitalepidemiologylab/crowdbreaks
       date_last_commit: 2022-11-30
+    type: Application
     license: MIT
     information:
       - type: Paper

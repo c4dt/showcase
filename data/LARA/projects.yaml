@@ -150,6 +150,7 @@ projects:
       date_last_commit: 2021-07-22
     maturity: 1
     language: Rust
+    type: Application
     license: Apache-2.0
     tags:
       - Static Analysis
@@ -172,6 +173,7 @@ projects:
       url: https://github.com/epfl-lara/lisa
       date_last_commit: 2023-02-24
     language: Scala
+    type: Framework, Application
     license: Apache-2.0
     tags:
       - Code Analysis
@@ -191,6 +193,7 @@ projects:
       url: https://github.com/epfl-lara/scallion
       date_last_commit: 2022-10-03
     language: Scala
+    type: Library
     license: Apache-2.0
     tags:
       - Development
