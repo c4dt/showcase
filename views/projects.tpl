@@ -75,6 +75,7 @@
 
             // Set focus on the search input
             $('#search').focus();
+            table.draw();
         });
 
         // If visible is true, all headers will be shown.
