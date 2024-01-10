@@ -497,7 +497,7 @@ projects:
       - Learning
     applications:
       - Info
-    description: Runs anomaly detection algorithms in a distributed and encrypted fashion.
+    description: Proof-of-concept ML algorithms to do anomaly detection compatible with distributed, encrypted algorithms.
     tech_desc: >
       The goal of this project is prove that state-of-the-art anomaly detection algorithms that already 
       achieve over 99% accuracy can be run in a distributed and encrypted fashion. In other words, prove 
