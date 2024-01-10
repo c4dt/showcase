@@ -495,3 +495,30 @@ projects:
       - PyTorch
     date_added: 2022-07-07
     date_updated: 2022-07-07
+
+  anomaly-detection:
+    name: Distributed Homomorphic Anomaly Detection
+    categories:
+      - Learning
+    applications:
+      - Info
+    description: Proof-of-concept ML algorithms to do anomaly detection compatible with distributed, encrypted algorithms.
+    tech_desc: >
+      The goal of this project is prove that state-of-the-art anomaly detection algorithms that already 
+      achieve over 99% accuracy can be run in a distributed and encrypted fashion. In other words, prove 
+      that multiple parties can collectively train a good anomaly detecting model without
+      revealing their data to each other. 
+      This has been achieved through transfer learning into a Multi-layer Perceptron (MLP)
+      model which achieved comparable results (95% compared to 99% False-Positive Rate accuracy).
+    code:
+      type: Lab GitHub
+      url: https://github.com/c4dt/predictive-maintenance
+      date_last_commit: 2023-09-11
+    language: Python
+    type: Experiments
+    tags:
+      - PyTorch
+      - Distributed Learning
+      - Homomorphic Encryption
+    date_added: 2024-01-03
+    date_updated: 2024-01-03
