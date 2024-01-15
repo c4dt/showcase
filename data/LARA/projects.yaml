@@ -89,6 +89,7 @@ projects:
     type: Library, Application
     license: Apache-2.0
     incubator:
+      type: retired_archived
       work: 2021/Q2 - updated demonstrator with more explanations
       products:
         - type: Demo

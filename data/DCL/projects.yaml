@@ -34,6 +34,7 @@ projects:
     language: Python, Cuda, C++
     license: MIT
     incubator:
+      type: incubated
       work: Started in Spring 2021, demo in Autumn.
       products:
         - type: Demo
@@ -156,6 +157,7 @@ projects:
     license: AGPL-3.0
     maturity: 1
     incubator:
+      type: incubated
       work: 2021/Q2 started working on demonstrator
       products:
         - type: Demo

@@ -478,6 +478,7 @@ projects:
             text: NSDI 2022
             url: https://www.usenix.org/conference/nsdi22/presentation/pirelli
     incubator:
+      type: retired
       work: >
         For this project we implemented extended Berkley Packet Filtering (eBPF) support,
         so that the software verification can also be done for this type of code.

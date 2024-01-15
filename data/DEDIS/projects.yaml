@@ -106,6 +106,7 @@ projects:
       name: Linus Gasser
       email: linus.gasser@epfl.ch
     incubator:
+      type: retired_archived
       work: |
         The C4DT created a demonstrator for Calypso, as well as a hands-on workshop.
       products:
@@ -195,6 +196,7 @@ projects:
     type: Application, Library
     license: AGPL-3.0
     incubator:
+      type: retired_archived
       work: The OmniLedger project is in the Market and will be re-evaluated in Spring 2022.
       products:
         - type: Demo
@@ -599,6 +601,13 @@ projects:
       type: Lab Github
       url: https://github.com/dedis/d-voting
       date_last_commit: 2023-09-01
+    incubator:
+      type: incubated_market
+      work: 2023/Q3 Debugging and feature enhancement
+      products:
+        - type: App
+          title: D-Voting application
+          url: https://github.com/dedis/d-voting
     language: Golang
     maturity: 1
     date_added: 2023-09-01

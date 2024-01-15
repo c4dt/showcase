@@ -271,6 +271,7 @@ projects:
     date_updated: 2023-03-22
     maturity: 3
     incubator:
+      type: retired
       work: 2020/Q4 documentation and testing of the app
     c4dt_contact:
       name: Linus Gasser
@@ -295,6 +296,7 @@ projects:
     doc: https://github.com/CrowdNotifier/documents
     maturity: 3
     incubator:
+      type: retired
       work: 2021/Q1 reference implementation of cryptography
     c4dt_contact:
       name: Linus Gasser
@@ -416,6 +418,13 @@ projects:
       type: C4DT Github
       url: https://github.com/C4DT/lightarti-rest
       date_last_commit: 2022-11-14
+    incubator:
+      type: incubated_market
+      work: Created and updated a library for mobile
+      products:
+        - type: Library
+          title: Lightarti-REST
+          url: https://github.com/c4dt/lightarti-rest
     information:
       - type: Library
         title: Android packages for lightarti-rest
