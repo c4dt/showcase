@@ -1,8 +1,10 @@
-<h3>This demo has been archived</h3>
-
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
 <p>
-    We do not host this demo anymore but you can
-    <a href="https://github.com/c4dt/service-stainless">find its code here</a>.
+    We do not host this demo anymore, but you can find its code here and use
+    the instructions to run it on your own computer!
+    <a href="https://github.com/c4dt/service-stainless">Stainless Archive</a>.
 </p>
 
 <h4>Description</h4>

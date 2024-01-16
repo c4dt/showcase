@@ -1,3 +1,11 @@
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    It is no longer actively supported.
+    If you're interested or have questions, please get in contact with
+    <a href="https://tuneinsight.com">TuneInsight.</a>
+</p>
 <p>Besides the documentation and source code of MedCo-Explore, we also provide a
     way to try out this software. To do that just log in our
     <a href="https://medco.epfl.ch/demo/">live demo</a> using the correct credentials.

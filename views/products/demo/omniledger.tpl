@@ -1,3 +1,11 @@
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    We do not host this demo anymore, but you can find its code here and use
+        the instructions to run it on your own computer!
+    <a href="https://github.com/c4dt/omniledger">Omniledger Archive</a>.
+</p>
 <p>OmniLedger has already been used for a number of years, and there are a lot of projects that
     interact with this blockchain.
     Together with the <a href="https://dedis.ch">DEDIS</a> lab, C4DT is running a test-network
