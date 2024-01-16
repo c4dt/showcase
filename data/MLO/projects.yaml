@@ -145,6 +145,7 @@ projects:
     type: Framework
     license: Apache-2.0
     incubator:
+      type: retired
       work: 2020/Q4 evaluated and tested the project
     date_added: 2019-07-30
     date_updated: 2023-03-22
@@ -283,6 +284,7 @@ projects:
     language: TypeScript
     license: Apache-2.0
     incubator:
+      type: incubated
       work: 2022/Q1 developing the project
       products:
         - type: Pilot

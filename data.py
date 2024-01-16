@@ -141,9 +141,15 @@ PROJECTS_SCHEMA = sy.Map({"projects":
             sy.Optional("maturity"): sy.Int(),
             sy.Optional("incubator"): sy.Map({
                 "work": sy.Str(),
+                sy.Optional("type", default="incubated"): sy.Enum([
+                    "incubated",
+                    "incubated_market",
+                    "retired",
+                    "retired_archived",
+                    ]),
                 sy.Optional("products"): sy.Seq(
                     sy.Map({
-                        "type": sy.Enum(["Demo", "Hands-on", "Pilot", "App", "OSS-participation"]),
+                        "type": sy.Enum(["Demo", "Hands-on", "Pilot", "App", "Library", "OSS-participation", "Archive"]),
                         "url": sy.Url(),
                         "title": sy.Str(),
                         sy.Optional("code"): sy.Str(),

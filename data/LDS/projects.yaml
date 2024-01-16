@@ -36,6 +36,7 @@ projects:
       - name: Lattigo mailing list
         email: lattigo@tuneinsight.com
     incubator:
+      type: retired
       work: 2020/Q1 maturity evaluation
     tags:
       - Homomorphic Encryption
@@ -117,6 +118,7 @@ projects:
       - name: Mickaël Misbach
         email: mickael.misbach@epfl.ch
     incubator:
+      type: retired
       work: 2020/Q2 Maturity Evaluation and library support
     date_added: 2019-03-18
     date_updated: 2023-03-21
@@ -154,6 +156,7 @@ projects:
       - name: Joao de Sá
         email: joao.gomesdesaesousa@epfl.ch
     incubator:
+      type: retired_archived
       work: 2020/Q1 created demonstrator for SwissRe
       products:
         - type: Demo
@@ -200,6 +203,7 @@ projects:
       - name: Joao de Sá
         email: joao.gomesdesaesousa@epfl.ch
     incubator:
+      type: retired_archived
       work: 2021/Q1 created Spindle demonstrator
       products:
         - type: Demo

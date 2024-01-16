@@ -75,7 +75,7 @@
 
             // Set focus on the search input
             $('#search').focus();
-            table.draw();
+            search_apply();
         });
 
         // If visible is true, all headers will be shown.
@@ -94,7 +94,7 @@
 
             ["work", "categories", "applications", "lab"].forEach(id => {
                 let select = $(`#${id}`)[0];
-		  select.selectedIndex = 0;
+                select.selectedIndex = 0;
                 for (let index = 0; index < select.length; index++){
                     if (dropdown.includes(select.options[index].value) > 0){
                         select.selectedIndex = index;
@@ -115,9 +115,9 @@
         // box.
         function search_apply() {
             search_lock = true;
+            let work = $('#work')[0].value;
             let categories = $('#categories')[0].value;
             let applications = $('#applications')[0].value;
-            let work = $('#work')[0].value;
             let lab = $('#lab')[0].value;
             let search_input = $('#search')[0].value;
             let dropdown = [work, categories, lab, applications]
@@ -232,7 +232,10 @@ applications.update({ "Other": "Other" })
                         style="width: 13em;"
                         onchange="search_apply();">
                     <option selected value="">All projects</option>
-                    <option value="project_incubated">C4DT Factory involved</option>
+                    <option value="project_incubated">C4DT Factory currently involved</option>
+                    <option value="project_incubated_market">C4DT Factory actively supported</option>
+                    <option value="project_retired">Retired C4DT Factory projects</option>
+                    <option value="project_retired_archived">Archived C4DT Factory projects</option>
                     <option value="project_active">Updated in last 6 months</option>
                     <option value="product_presentation">Presentation available</option>
                     <option value="product_details">Details available</option>
@@ -351,17 +354,18 @@ applications.update({ "Other": "Other" })
                         <td style="display: none;"></td>
                         <td data-order="{{ category_sort }}">
                             <span style="display: none">category_{{category_key}}
-                                project_active project_incubated
+                                project_active project_incubated project_incubated_market project_retired
+                                {{ " ".join(list(map(lambda a: "project_" + a, ["active", "incubated", "incubated_market", "retired", "retired_archived"]))) }}
                                 99 - {{ " ".join(list(map(lambda a: "product_" + a, ["presentation", "details", "demo", "hands-on", "pilot", "technical", "app"]))) }}
                             </span>
                         </td>
                     </tr>
                     <%for lab_id, lab in labs.items():
                         for project_id, project in lab['projects'].items():
+                            # Only keep the first appearance of an entry if the headers are not shown
                             if not category_key in project.get('categories'):
                                 continue
                             end
-                            # Only keep the first appearance of an entry if the headers are not shown
                             visibility = ""
                             if project.get('categories').index(category_key) > 0:
                                 visibility = "shown_with_headers"
@@ -406,7 +410,8 @@ applications.update({ "Other": "Other" })
                             active = is_active(project)
                             active_str = "project_active" if active else "inactive"
                             incubated = project.get('incubator')
-                            incubator_str = "project_incubated" if incubated else "no support"
+                            incubator_str = f"project_{incubated['type']}" if incubated else "no support"
+
                             products = find_project_tabs(project_id)
                             maturity_order = maturity + 0.5 if active else maturity
                             %>
