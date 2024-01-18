@@ -1,7 +1,8 @@
-<h3>This demo has been archived</h3>
-
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
 <p>
-    We do not host this demo anymore but you can
+    We do not host this demo anymore, but you can
     <a href="https://github.com/c4dt/service-drynx">find its code here</a>.
 </p>
 

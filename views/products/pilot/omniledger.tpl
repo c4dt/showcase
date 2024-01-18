@@ -1,3 +1,11 @@
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    We do not host this demo anymore, but you can find its code here and use
+    the instructions to run it on your own computer!
+    <a href="https://github.com/c4dt/omniledger">Omniledger Archive</a>.
+</p>
 <p>With the C4DT team we created a pilot using OmniLedger to create a self-sovereign
     identity. The identity is stored on the blockchain and controlled by the user. Instead
     of using passwords, the user has a private key stored in his web-browser. Using this private

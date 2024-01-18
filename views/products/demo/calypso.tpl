@@ -1,3 +1,13 @@
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    It is no longer actively supported, but you can find the archived project here:
+    <a href="https://github.com/dedis/filesharing">
+        Calypso Demo Code
+    </a>
+    However, if you have questions or suggestions, feel free to contact us.
+</p>
 <p>OmniLedger has already been used for a number of years, and there are a lot of projects that
     interact with this blockchain.
     Together with the <a href="https://dedis.ch">DEDIS</a> lab, C4DT is running a test-network

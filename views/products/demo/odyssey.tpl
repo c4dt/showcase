@@ -1,5 +1,12 @@
 <img src="../../../resources/products/images/calypso/odyssey-components.png" width="30%"
      style="float: left;" class="dark_invert"/>
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    It is no longer actively supported.
+    However, if you have questions or suggestions, feel free to contact us.
+</p>
 <p>Together with our C4DT partner Swiss Re and the DEDIS lab, we created a pilot to solve one
     of Swiss Re's business use cases. Their data analysts need to be able to calculate with
     data from different sources that have different restrictions. These restrictions can include

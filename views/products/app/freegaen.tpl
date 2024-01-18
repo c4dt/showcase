@@ -1,5 +1,12 @@
 <img src="../../../resources/products/images/freegaen/librechovid.png" width="30%"
      style="float: left; margin: 1em;">
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    It is no longer actively supported.
+    However, if you have questions or suggestions, feel free to contact us.
+</p>
 <p>
     We produced a version of SwissCovid that uses this approach to run on any
     phone that does not have access to Google Play services. The resulting

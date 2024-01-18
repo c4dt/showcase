@@ -1,3 +1,6 @@
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
 <p>As part of our collaboration with our partners at C4DT, we created a hands-on workshop
     showcasing Calypso. The problem to be solved was how to handle secret keys in a
     self-sovereign identity management system. As you don't have a central authority anymore,
