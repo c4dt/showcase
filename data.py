@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import codecs
 import os
 
@@ -20,14 +22,27 @@ LABS_SCHEMA = sy.Map({"labs":
                 }),
             "description": sy.Str(),
             "url": sy.Url(),
-            "contacts": sy.EmptyList() | sy.Seq(
+            sy.Optional("contacts"): sy.Seq(
                 sy.Map({
                     "name": sy.Str(),
                     sy.Optional("email"): sy.Email(),
                     }),
                 ),
             sy.Optional("notes"): sy.Str(),
-            })
+            sy.Optional("information"): sy.Seq(
+                sy.Map({
+                    "title": sy.Str(),
+                    "url": sy.Url(),
+                    sy.Optional("notes"): sy.Seq(
+                        sy.Map({
+                            sy.Optional("label"): sy.Str(),
+                            "text": sy.Str(),
+                            sy.Optional("url"): sy.Url(),
+                        }),
+                    ),
+                }),
+            ),
+        }),
         )
     })
 
@@ -171,10 +186,22 @@ def load():
         labs = labs_yaml['labs'].data
 
     for lab_id, lab in labs.items():
-        with codecs.open(os.path.join(DATA_PATH, lab_id, PROJECTS_FILENAME),
+        project_file = os.path.join(DATA_PATH, lab_id, PROJECTS_FILENAME)
+        if not os.path.exists(project_file):
+            continue
+        with codecs.open(project_file,
                 encoding='utf-8') as f:
             projects_yaml = sy.load(f.read(), PROJECTS_SCHEMA, label=f.name)
         lab['projects'] = projects_yaml['projects'].data
 
     return labs
 
+if __name__ == '__main__':
+    import sys, os
+    data = load()
+    if len(sys.argv) != 2:
+        print("\n".join(data.keys()))
+        sys.exit(0)
+
+    if sys.argv[1] in data:
+        print("\n".join(data[sys.argv[1]]['projects'].keys()))

@@ -1,0 +1,16 @@
+[checking]
+recursionlevel=2
+timeout=20
+threads=50
+maxrequestspersecond=50
+ignoreddosprotection=1
+
+[filtering]
+internlinks=^https://.*epfl.ch.*
+checkextern=1
+
+[output]
+ignoreerrors=
+    ^https://.*epfl.ch.* 401
+    ^https://.*epfl.ch.* 403
+warnings=0

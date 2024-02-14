@@ -150,6 +150,39 @@ Restart Apache:
 $ sudo /etc/init.d/apache2 restart
 ```
 
+# Tools
+
+## Linkchecker
+
+When checking the links, you can use [LinkChecker](https://github.com/linkchecker/linkchecker) to
+scan all links from the showcase.
+The configuration file [./linkcheckerrc](./linkcheckerrc) helps cleaning up the result page of a linkchecker
+run.
+You can get the links to the project of a lab with the `data.py` file:
+
+```bash
+make env
+. ./venv/bin/activate
+./data.py
+```
+
+This will print out a list of all available labs.
+Launch the showcase:
+
+```bash
+make showcase &
+```
+
+Now you can launch linkchecker on all pages from a given lab:
+
+```bash
+for project in $( ./data.py LSIR ); do
+  linkchecker -f linkcheckerrc http://localhost:8080/showcase/$project/technical
+done
+```
+
+This will also check the links of the external websites.
+
 # Contributing
 
 To contribute to this repository, please install the pre-commit hooks:
