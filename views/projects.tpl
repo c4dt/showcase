@@ -206,14 +206,16 @@ applications.update({ "Other": "Other" })
 
 <div class="contents">
     <div class="page-header">
-        <a href="https://c4dt.org">
-            <picture>
-                <source
-                        srcset="/resources/c4dt_logo_dark.png"
-                        media="(prefers-color-scheme: dark)">
-                <img class="float_left" src="/resources/c4dt_logo.png" style="max-height: 10em; max-width: 10em;">
-            </picture>
-        </a>
+        <div class="logo">
+            <a href="https://c4dt.org">
+                <picture>
+                    <source
+                            srcset="/resources/c4dt_logo_dark.png"
+                            media="(prefers-color-scheme: dark)">
+                    <img src="/resources/c4dt_logo.png" class="logo">
+                </picture>
+            </a>
+        </div>
         <div class="intro">
             <h1>C4DT Affiliated Lab Projects</h1>
             <p>
@@ -361,6 +363,9 @@ applications.update({ "Other": "Other" })
                         </td>
                     </tr>
                     <%for lab_id, lab in labs.items():
+                        if not ('projects' in lab):
+                            continue
+                        end
                         for project_id, project in lab['projects'].items():
                             # Only keep the first appearance of an entry if the headers are not shown
                             if not category_key in project.get('categories'):
