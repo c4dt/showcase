@@ -13,14 +13,13 @@ projects:
     code:
       type: Private GitHub
     contacts:
-      - name: Hamza Harkous
-        email: hamza.harkous@gmail.com
       - name: Rémi Lebret
         email: remi.lebret@epfl.ch
     tags:
       - Natural Language
     language: Python, JavaScript
     type: Application
+    url: https://www.epfl.ch/labs/lsir/pribot/
     information:
       - type: Paper
         title: "Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning"
@@ -28,10 +27,10 @@ projects:
         notes:
           - label: Published at
             text: USENIX'18
-            url: https://www.usenix.org/conference/usenixsecurity18
+            url: https://www.usenix.org/conference/usenixsecurity18/presentation/harkous
     license: commercial
     date_added: 2019-03-18
-    date_updated: 2023-03-21
+    date_updated: 2024-02-07
 
   privyseal:
     name: PrivySeal
@@ -80,20 +79,14 @@ projects:
       on a mobile phone. The analysis can therefore run on the mobile phone without having to send any content to any server.
     code:
       type: Private GitHub
-    information:
-      - type: Demo
-        title: Online Image Retrieval Demo
-        url: https://modemos.epfl.ch/article
     contacts:
       - name: Rémi Lebret
         email: remi.lebret@epfl.ch
-      - name: Hamza Harkous
-        email: hamza.harkous@gmail.com
     tags:
       - Image Classification
     type: Framework
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2024-02-06
 
   ai-data-platform-v2:
     name: AI-Driven Classifier Building Pipeline
@@ -140,7 +133,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/LSIR/SciLens
-      date_last_commit: 2020-11-12
+      date_last_commit: 2022-10-25
     information:
       - type: Paper
         title: "SciLens: Evaluating the Quality of Scientific News Articles Using Social Media and Scientific Literature Indicators"
@@ -156,6 +149,23 @@ projects:
           - label: Published at
             text: VLDB'20
             url: https://vldb2020.org
+      - type: Paper
+        title: "SciClops: Detecting and Contextualizing Scientific Claims for Assisting Manual Fact-Checking"
+        url: https://infoscience.epfl.ch/record/289989?
+        notes:
+          - label: Published at
+            text: CIKM '21
+            url: https://dl.acm.org/doi/10.1145/3459637.3482475
+          - label: Slides
+            text: SciClops
+            url: https://scilens.epfl.ch/files/cikm2021.pptx
+      - type: Paper
+        title: "SciLander: Mapping the Scientific News Landscape"
+        url: https://scilens.epfl.ch/files/icwsm2023.pdf
+        notes:
+          - label: Published at
+            text: ICWSM '23
+            url: https://ojs.aaai.org/index.php/ICWSM/article/view/22144
     contacts:
       - name: Panayiotis Smeros
         email: panayiotis.smeros@epfl.ch
@@ -165,7 +175,7 @@ projects:
     license: GPL-3.0
     type: Application
     date_added: 2019-03-18
-    date_updated: 2023-03-21
+    date_updated: 2024-02-06
 
   media-observatory:
     name: Media Observatory
@@ -182,9 +192,6 @@ projects:
     url: https://www.mediaobservatory.com
     code:
       type: Private GitHub
-    contacts:
-      - name: Jérémie Rappaz
-        email: jeremie.rappaz@epfl.ch
     tags:
       - Natural Language
     type: Application
@@ -204,7 +211,7 @@ projects:
             text: WWW'19
             url: https://www2019.thewebconf.org
     date_added: 2019-09-04
-    date_updated: 2022-07-06
+    date_updated: 2024-02-12
 
   mozuma:
     name: Mozuma
@@ -219,9 +226,9 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/mozuma/mozuma
-      date_last_commit: 2022-10-28
+      date_last_commit: 2023-07-11
     tags:
       - PyTorch
     type: Library
     date_added: 2022-07-06
-    date_updated: 2023-03-21
+    date_updated: 2024-02-12

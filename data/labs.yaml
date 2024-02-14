@@ -28,7 +28,6 @@ labs:
       The Distributed Computing Lab focuses currently on Scalable Implementations  of Cryptocurrencies, Byzantine fault tolerance and
       privacy in distributed machine  learning, distributed algorithms making use of RDMA and NVRAM.
     url: https://dcl.epfl.ch/site/
-    contacts:
 
   DCSL:
     name: Data Center Systems Laboratory
@@ -40,7 +39,6 @@ labs:
     description: >
       The Data Center Systems Laboratory (DCSL) focuses on systems-level problems within datacenters combining operating systems, networks,
       and computer architecture.
-    contacts:
     url: https://www.epfl.ch/labs/dcsl/
 
   DEDIS:
@@ -56,10 +54,8 @@ labs:
       software updates, provide public randomness, enable privacy-conscious medical-data sharing and a lot more. Other projects include
       communicating securely over insecure channels and fast, scalable, accountable anonymous communication.
     contacts:
-      - name: Jeff Allen
-        email: jeff.allen@epfl.ch
-      - name: Philipp Svetolik Jovanovic
-        email: philipp.jovanovic@epfl.ch
+      - name: Pierluca Borso
+        email: pierluca.borso@epfl.ch
     url: https://dedis.epfl.ch
 
   DLAB:
@@ -74,7 +70,6 @@ labs:
       logs, social media, wikis, online news, online games, etc. We distill heaps of raw data into meaningful insights by developing and
       applying algorithms and techniques in areas including social and information network analysis, machine learning, computational social
       science, data mining, natural language processing, and human computation.
-    contacts:
     url: https://dlab.epfl.ch/
 
   DSLAB:
@@ -125,8 +120,10 @@ labs:
       The Embedded Systems Laboratory (ESL) is part of the Institute of Electrical Engineering at EPFL, and focuses on the definition of
       system-level multi-objective design methods, optimization methodologies and tools for high-performance embedded systems and nano-scale
       Multi-Processor System-on-Chip (MPSoC) architectures targeting the Internet-of-Things (IoT) Era.
-    contacts:
     url: https://www.epfl.ch/labs/esl/
+    information:
+      - title: Github Repository
+        url: https://github.com/esl-epfl
 
   HexHive:
     name: HexHive Group
@@ -154,7 +151,6 @@ labs:
         the resilience of applications against attacks (in the presence of
         software vulnerabilities). All prototypes are released as open-source.
       </li> </ul>
-    contacts:
     url: https://hexhive.epfl.ch/
 
   INDY:
@@ -170,7 +166,6 @@ labs:
       of large dynamical systems involving both human and technical agents. Examples include social and information networks, epidemic
       processes, human mobility and transportation, and recommender systems. Our work lies at the intersection of machine learning,
       probabilistic modeling, large-scale data analytics, and performance analysis.
-    contacts:
     url: https://indy.epfl.ch/
 
   IVRL:
@@ -203,7 +198,6 @@ labs:
       composition. Good techniques for software composition are the keys to scalable systems. The principal means of writing and composing
       software is a programming language. Consequently, advances in programming language design are an important factor in solutions of the
       software composition problem. This is what we work on in our group.
-    contacts:
     url: https://www.epfl.ch/labs/lamp/
 
   LAP:
@@ -217,7 +211,6 @@ labs:
       Excellent performance in computing systems is the result of a judicious blend of computer architecture, compiler technology, and
       hardware implementation. The choices in each of these areas must strongly depend on the technical possibilities offered in the others.
       We want to understand better how to exploit synergies across the above fields and we wish to pass this knowledge over to our students.
-    contacts:
     url: https://www.epfl.ch/labs/lap/
 
   LARA:
@@ -247,7 +240,6 @@ labs:
     description: >
       The main activities of LASEC are research and education on the security of communication and information systems, cryptography, and
       applications.
-    contacts:
     url: https://lasec.epfl.ch/
 
   LCA2:
@@ -260,7 +252,6 @@ labs:
     description: >
       The Computer Communications and Applications Laboratory 2 do research in communication networks, with emphasis on deterministic
       networks, smart grids and optimization of mobility.
-    contacts:
     url: http://lca2.epfl.ch/
 
   LDS:
@@ -276,9 +267,6 @@ labs:
       hospitals. Their core competencies are  in applied cryptography, data protection techniques such as differential privacy, and wireless
       networking. Their research is funded by the Strategic Focus Area “Personalized Health and Related Technologies” of the ETH Domain, the
       Swiss Data Science Center and the Swiss National Science Foundation.
-    contacts:
-      - name: Juan Ramón Troncoso-Pastoriza
-        email: juan.troncoso-pastoriza@epfl.ch
     url: https://lds.epfl.ch
 
   LIA:
@@ -290,7 +278,6 @@ labs:
       email: boi.faltings@epfl.ch
     description: >
       We develop knowledge-based technologies that allow humans and computers to deal better with the artificial world that surrounds us.
-    contacts:
     url: https://lia.epfl.ch/
 
   LIONS:
@@ -303,7 +290,6 @@ labs:
     description: >
       At LIONS, we are concerned with optimized information extraction from signals or data volumes. We therefore develop mathematical
       theory and computational methods for information recovery from highly incomplete data.
-    contacts:
     url: https://www.epfl.ch/labs/lions/
 
   LSI:
@@ -316,7 +302,6 @@ labs:
     description: >
       The Integrated Systems Laboratory studies design technologies for circuits and systems. The objective is to research the interplay of
       hardware and software design for traditional (computation on silicon) and non-traditional (nanotechnology and biosensors) systems.
-    contacts:
     url: https://www.epfl.ch/labs/lsi/
 
   LSIR:
@@ -336,10 +321,12 @@ labs:
       human knowledge with state-of-the-art machine learning. <br>They apply the results of their work in concrete application domains, such
       as Media, Humanitarian Action and Knowledge Management in enterprises.
     contacts:
-      - name: Hamza Karkous
       - name: Rémi Philippe Lebret
         email: remi.lebret@epfl.ch
-    url: http://lsir.epfl.ch
+    url: https://www.epfl.ch/labs/lsir/
+    information:
+      - title: Github Repo
+        url: https://github.com/LSIR
 
   LTS4:
     name: Signal Processing Laboratory
@@ -389,8 +376,21 @@ labs:
       The Multimedia Signal Processing Group is headed by Prof. Touradj Ebrahimi. <br>The group is active in research and teaching in the
       field of multimedia signal processing. Research topics span over three highly interconnected disciplines of multimedia signal
       processing, namely multimedia coding, multimodal processing, analysis and interpretation, and media security.
-    contacts:
     url: https://mmspg.epfl.ch/
+
+  NAL:
+    name: Network Architecture Lab
+    description: >
+      Something
+    prof:
+      name:
+        - Katerina
+        - Argyraki
+      email: katerina.argyraki@epfl.ch
+    url: https://www.epfl.ch/labs/nal/
+    information:
+      - title: Github Repo
+        url: https://github.com/nal-epfl
 
   PARSA:
     name: Parallel Systems Architecture Lab
@@ -426,7 +426,6 @@ labs:
       intricacies of existing layers in both software and hardware; and revisiting the design in a principled manner. Our research
       contributions have been published in top academic conferences, and have made great impacts on real-world programs, such as the Linux
       kernel.
-    contacts:
     url: https://rs3lab.github.io/
 
   SACS:
@@ -444,7 +443,6 @@ labs:
       challenges that we address in our team.  We are interested in all aspects of such large-scale distributed systems be they datacenters,
       edge computing, fully decentralized systems, self organizing systems, and we are working on scalable design,  failure resilience,
       performance and privacy-preservation.
-    contacts:
     url: https://www.epfl.ch/labs/sacs/
 
   SalatheLab:
@@ -482,9 +480,6 @@ labs:
         <li>Evaluating privacy in complex systems</li>
         <li>Engineering privacy-preserving systems</li>
       </ul>
-    contacts:
-      - name: Wouter Lueks
-        email: wouter.lueks@epfl.ch
     url: https://spring.epfl.ch
 
   VLSC:
@@ -499,7 +494,6 @@ labs:
       large-scale services. These services may encompass tens of geo-distributed data centers, each of which can contain tens of thousands
       of servers. Compounded by challenges of scale and distribution, services also have very high availability and responsiveness
       requirements, and they are under continual development and evolution.
-    contacts:
     url: https://www.epfl.ch/labs/vlsc/
 
   C4DT:

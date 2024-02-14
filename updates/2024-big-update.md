@@ -1,0 +1,73 @@
+Showcase modifications in 2024-02
+
+- LSIR - Karl Aberer
+  - update lab url
+  - pribot:
+    - dead link from https://www.epfl.ch/labs/lsir/pribot/ to https://pribot.org/bot
+  - ai-data-platform-v1
+    - dead link from https://www.epfl.ch/labs/lsir/ai-research-aiding-online-children-safety/ to https://modemos.epfl.ch/main
+    - removed demo from project entry
+  - ai-data-platform-v2
+    - not in infoscience
+  - scilens
+    - broken link in https://scilens.epfl.ch -> `Details` -> `System` -> `NewsTeller`
+  - media-observatory:
+    - removed contact 'Jérémie Rappaz'
+    - github repo is private - is that Jérémie's? Or somebody else's?
+  - website
+    - dead links on "Go try it now" on Polisis and others: https://www.epfl.ch/labs/lsir/polisis/
+      - Polisis
+      - PoliCompare
+      - Pribot
+      - Privyseal
+      - TinyGSN - "You don't have access"
+      - ArgSM - "You don't have access"
+      - Crowdsourcing Benchmark - "You don't have access"
+  - Added github repo to labs.yaml
+- NAL - Katerina Argyraki
+  - On lab page https://www.epfl.ch/labs/nal/
+    - failing link to https://vigor.epfl.ch/ in `first framework for verifying software NFs with no verification expertise`
+  - Added link in labs.yaml
+  - Added github repo to labs.yaml
+- ## ESL - David Atienza
+  - Added github repo to labs.yaml
+- Antoine Bosselut
+- Thomas Bourgeat
+- DCSL - Edouard Bugnion
+- DSLAB - George Candea
+- LIONS - Volkan Cevher
+- COMPSEC - Alessandro Chiesa
+- SFI-PCD - Pierre Collin-Dufresne
+- LSI - Giovanni De Micheli
+- MMSPG - Touradj Ebrahimi
+- SFI-RF - Ruediger Fahlenbrach
+- PARSA - Babak Falsafi
+- LIA - Boi Faltings
+- GR-FE - Jacques Fellay
+- SFI - Damir Filipovic
+- DEDIS - Bryan Ford
+- LTS4 - Pascal Frossard
+- INDY - Matthias Grossglauser
+- DCL - Rachid Guerraoui
+- LDS - Jean-Pierre Hubaux
+  - retired
+- SFI-JH - Julien Hugonnier
+- LAP - Paolo Ienne
+- MLO - Martin Jaggi
+- RS3LAB - Sanidhya Kashyap
+- SACS - Anne-Marie Kermarrec
+- LARA - Viktor Kunčak
+- VLSC - James Larus
+- LCA2 - Jean-Yves Le Boudec
+  - retired
+- SFI-SM - Semyon Malamud
+- LAMP - Martin Odersky
+- DESL-PWRS - Mario Paolone
+- HexHive - Mathias Payer
+- Clément Pit-Claudel
+- SalatheLab - Marcel Salathé
+- Yanina Shkel
+- IVRL - Sabine Süsstrunk
+- SPRING - Carmela Troncoso
+- LASEC - Serge Vaudenay
+- DLAB - Robert West
