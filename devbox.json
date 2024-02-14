@@ -1,0 +1,9 @@
+{
+  "packages": ["python3@latest", "git@latest", "linkchecker@latest"],
+  "shell": {
+    "init_hook": [". $VENV_DIR/bin/activate"],
+    "scripts": {
+      "test": ["echo \"Error: no test specified\" && exit 1"]
+    }
+  }
+}

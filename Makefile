@@ -12,7 +12,7 @@ $(VENV_DIR)/%: | $(VENV_DIR)
 
 .PHONY: env
 env: requirements.txt $(VENV_DIR)
-	. $(VENV_DIR)/bin/activate
+	. $(VENV_DIR)/bin/activate && \
 	pip3 install -r $<
 
 .PHONY: showcase
