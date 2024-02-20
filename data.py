@@ -76,7 +76,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "Other"
             ])),
             "tags": sy.Seq(sy.Enum([
-                "Access Control", "Anonymity", "Attack",
+                "Access Control", "Adversarial", "Anonymity", "Attack",
                 "Benchmark", "Binary", "Bluetooth", "Byzantine Resilience",
                 "Cloud", "Code Analysis", "Computer Vision", "Concurrency", "Consensus", "CrowdSource",
                 "Data Structures", "Database", "Debug", "Decentralized", "Deep Neural Networks",

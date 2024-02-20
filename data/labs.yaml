@@ -392,6 +392,18 @@ labs:
       - title: Github Repo
         url: https://github.com/nal-epfl
 
+  NLP:
+    name: Natural Language Processing Lab
+    description: >
+      The NLP lab is focused on advanced NLP research areas like knowledge 
+      representations, reasoning, narrative understanding, and biomedical NLP.
+    prof:
+      name:
+        - Antoine
+        - Bosselut
+      email: antoine.bosselut@epfl.ch
+    url: https://nlp.epfl.ch/
+
   PARSA:
     name: Parallel Systems Architecture Lab
     prof:

@@ -173,3 +173,29 @@ projects:
     language: Python
     license: MIT
     date_added: 2024-02-20
+
+  url_path:
+    name: (lowercase short name with spaces)
+    description: >
+      (Short description, will be shown under the name)
+    tech_desc: >
+      (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
+    layman_desc: >
+      (A 2-3 sentence description for somebody with general knowledge)
+    type: ( Application | Library | Framework | Toolset | Simulation | Experiments )
+    categories:
+      - ( Privacy | Blockchain | Verification | Security | Learning | Other )
+    applications:
+      - ( Finance | Health | Gov | Infra | Info | Other )
+    tags:
+      - (Add tags, if possible out of the existing ones)
+    url: (URL for a home page)
+    code:
+      type: (Lab Github, Personal Gihub, zip files, ...)
+      url: (https://...)
+      date_last_commit: (YYYY-MM-DD)
+    doc: (url to documentation)
+    lines_of_code: (# of codelines)
+    language: (What the majority of the code is written in)
+    license: (BSD, GPL 3+, MPL 2+, Apache, ...)
+    date_added: (YYYY-MM-DD)

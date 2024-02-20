@@ -44,7 +44,7 @@ url_path:
   type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )
   categories: ( "Privacy" | "Blockchain" | "Verification" | "Security" |
     "Learning" | "Other" )
-  applications": ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )
+  applications: ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )
   tags:
     - (Add tags, if possible out of the existing ones)
   date_added: (YYYY-MM-DD)

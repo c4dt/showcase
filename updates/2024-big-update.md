@@ -7,42 +7,60 @@ Showcase modifications in 2024-02
     - updates
 
 - yaml for new projects
-  name: (lowercase short name)
-  description: >
-  (Short description, will be shown under the name)
-  tech_desc: >
-  (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
-  layman_desc: >
-  (A 2-3 sentence description for somebody with general knowledge)
-  type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )
-  categories: ( "Privacy" | "Blockchain" | "Verification" | "Security" |
-  "Learning" | "Other" )
-  applications": ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )
-  tags:
 
-  - (Add tags, if possible out of the existing ones)
+```yaml
+projects:
+  url_path:
+    name: (lowercase short name with spaces)
+    description: >
+      (Short description, will be shown under the name)
+    tech_desc: >
+      (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
+    layman_desc: >
+      (A 2-3 sentence description for somebody with general knowledge)
+    type: ( Application | Library | Framework | Toolset | Simulation | Experiments )
+    categories:
+      - ( Privacy | Blockchain | Verification | Security | Learning | Other )
+    applications:
+      - ( Finance | Health | Gov | Infra | Info | Other )
+    tags:
+      - (Add tags, if possible out of the existing ones)
     url: (URL for a home page)
     code:
-    type: (Lab Github, Personal Gihub, zip files, ...)
-    url: (https://...)
-    date_last_commit: (YYYY-MM-DD)
+      type: (Lab Github, Personal Gihub, zip files, ...)
+      url: (https://...)
+      date_last_commit: (YYYY-MM-DD)
     doc: (url to documentation)
     lines_of_code: (# of codelines)
     language: (What the majority of the code is written in)
     license: (BSD, GPL 3+, MPL 2+, Apache, ...)
     date_added: (YYYY-MM-DD)
+```
 
 - email for professors:
 
 ```
 Hi ,
 
-Might not know me: I’m Linus from the C4DT Factory - we’re working on the projects from the labs to learn the latest tech and link it to our partners. We concentrate on the projects with a software component that is actively worked on. About once per year we update our list of projects at https://showcase.c4dt.org.
-Know me: The C4DT Factory is in the process of updating the projects from the affiliated labs at https://showcase.c4dt.org. We concentrate on the projects with a software component that is actively worked on. Currently we have the following list of projects for your lab:
+Might not know me: I’m Linus from the C4DT Factory - we’re working on the
+projects from the labs to learn the latest tech and link it to our partners.
+About once per year we update our list of projects at https://showcase.c4dt.org.
+
+Know me: The C4DT Factory is in the process of updating the projects from the
+affiliated labs at https://showcase.c4dt.org.
+
+We concentrate on the projects with a software component that is actively worked
+on and related to digital trust.
+Currently we have the following list of projects related to digital trust
+from your lab:
 
 https://factory.c4dt.org/showcase/#dropdown=lab_FILLIN
 
-Do you think we’re missing any important work which has an associated, publicly available software artefact? I found the following two projects which look very interesting, and would like to know if there is software available, as I couldn’t find it on the website:
+Do you think we’re missing any important work related to digital trust from your lab,
+and which has an associated, publicly available software artefact?
+
+Projects w/o code: I found the following two projects which look very interesting,
+and would like to know if there is software available, as I couldn’t find it on the website:
 
 No projects: Currently we have no projects listed from your lab. If you think there are one or more projects with software artefacts, could you point me to them so I can add them to the list?
 
@@ -98,7 +116,20 @@ Linus
     - cloud-performance-monitor
     - digital-twins
   - 2024-02-20 - sent email to David
+  - David replied, asking to add
+    - https://www.epfl.ch/labs/esl/research/systems-on-chip/x-heep/
 - Antoine Bosselut
+  - added lab to list
+  - doesn't seem to have a lab github
+  - Added projects:
+    - PeaCoK - no license
+    - Disco
+    - Meditron
+    - CroW - no license
+  - nlp.epfl.ch links:
+    - https://nlp.epfl.ch/publications.html: Comfact "Dataset" link is broken
+  - https://factory.c4dt.org/showcase/#dropdown=lab_NLP
+  - 2024-02-20 - sent email to Antoine
 - Thomas Bourgeat
 - DCSL - Edouard Bugnion
 - DSLAB - George Candea

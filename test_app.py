@@ -70,7 +70,7 @@ def test_all_projects():
     with patch.object(data, 'load', return_value=labs):
         for lab_id, lab in labs.items():
             if 'projects' not in lab: continue
-            
+
             for project_id in lab['projects']:
                 for tab in showcase.find_project_products(project_id):
                     showcase.product_tab(project_id, tab)
