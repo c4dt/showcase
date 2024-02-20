@@ -135,6 +135,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "CeCILL-B",
                 "CloudSuite",
                 "CC BY 4.0",
+                "SOLDERPAD HARDWARE LICENSE",
                 "commercial",
                 "non-commercial",
                 "other",

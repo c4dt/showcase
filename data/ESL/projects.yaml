@@ -88,9 +88,6 @@ projects:
       multi-objective resource management. This research line aims to enhance
       the efficiency of heterogeneous High Performance Computing (HPC) servers
       and data centers by employing system-level resource management techniques.
-      Through projects like RECIPE H2020, MANGO H2020, Compusapien, and 
-      DeepHealth H2020, the team works towards achieving diverse design- 
-      and run-time objectives and constraints simultaneously.
     layman_desc: >
       In simpler terms, this project explores how to make high-performance 
       computing servers and data centers smarter using machine learning. 
@@ -174,28 +171,37 @@ projects:
     license: MIT
     date_added: 2024-02-20
 
-  url_path:
-    name: (lowercase short name with spaces)
+  x-heep:
+    name: x-heep
     description: >
-      (Short description, will be shown under the name)
+      Open-source RISC-V system-on-chip for healthcare monitoring
     tech_desc: >
-      (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
+      The X-HEEP project is an open-source RISC-V microcontroller designed for continuous 
+      healthcare monitoring. It provides a customizable microcontroller unit (MCU) 
+      composed of an open-source, industrial-grade RISC-V CPU, common peripherals, 
+      and memories, which users can extend with their own accelerators. The project 
+      targets both FPGA and ASIC implementations, with support for Xilinx-based 
+      FPGAs.
     layman_desc: >
-      (A 2-3 sentence description for somebody with general knowledge)
-    type: ( Application | Library | Framework | Toolset | Simulation | Experiments )
+      X-HEEP is a project that aims to improve healthcare monitoring by creating 
+      a new type of computer chip that can be customized by users. This chip can 
+      be used in small devices for personal health monitoring or in larger systems 
+      for more demanding applications. The project is open-source, meaning anyone 
+      can use, modify, and distribute it, which could lead to widespread adoption 
+      and innovation in the field of healthcare technology.
+    type: Toolset
     categories:
-      - ( Privacy | Blockchain | Verification | Security | Learning | Other )
+      - Security
     applications:
-      - ( Finance | Health | Gov | Infra | Info | Other )
+      - Health
     tags:
-      - (Add tags, if possible out of the existing ones)
-    url: (URL for a home page)
+      - Development
+      - Internet of Things
+    url: https://www.epfl.ch/labs/esl/research/systems-on-chip/x-heep/
     code:
-      type: (Lab Github, Personal Gihub, zip files, ...)
-      url: (https://...)
-      date_last_commit: (YYYY-MM-DD)
-    doc: (url to documentation)
-    lines_of_code: (# of codelines)
-    language: (What the majority of the code is written in)
-    license: (BSD, GPL 3+, MPL 2+, Apache, ...)
-    date_added: (YYYY-MM-DD)
+      type: Lab Github
+      url: https://github.com/esl-epfl/x-heep
+      date_last_commit: 2024-02-14
+    language: C
+    license: SOLDERPAD HARDWARE LICENSE, Apache-2.0
+    date_added: 2024-02-20
