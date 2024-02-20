@@ -494,6 +494,15 @@ labs:
       </ul>
     url: https://spring.epfl.ch
 
+  VCA:
+    name: Verification and Computer Architecture Lab
+    prof:
+      name:
+        - Thomas
+        - Bourgeat
+      email: thomas.bourgeat@epfl.ch
+    url: https://www.epfl.ch/labs/vca/
+
   VLSC:
     name: Very Large Scale Computing Lab
     prof:

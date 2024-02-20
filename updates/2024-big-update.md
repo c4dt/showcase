@@ -131,6 +131,7 @@ Linus
   - https://factory.c4dt.org/showcase/#dropdown=lab_NLP
   - 2024-02-20 - sent email to Antoine
 - Thomas Bourgeat
+  - no lab page yet
 - DCSL - Edouard Bugnion
 - DSLAB - George Candea
 - LIONS - Volkan Cevher
