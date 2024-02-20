@@ -43,6 +43,7 @@ def find_project(project_id, lab_id=None):
 
     for l_id, l in labs.items():
         if lab_id is not None and l_id != lab_id: continue
+        if 'projects' not in l: continue
 
         for p_id, p in l['projects'].items():
             if p_id != project_id: continue

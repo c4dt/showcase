@@ -41,6 +41,7 @@ def test_consistent_data():
     for p in [
             p
             for lab in labs.values()
+            if 'projects' in lab
             for p in lab['projects'].values()
             ]:
         # All projects in the incubator should have a C4DT contact (or a default exists)
@@ -68,6 +69,8 @@ def test_all_projects():
 
     with patch.object(data, 'load', return_value=labs):
         for lab_id, lab in labs.items():
+            if 'projects' not in lab: continue
+            
             for project_id in lab['projects']:
                 for tab in showcase.find_project_products(project_id):
                     showcase.product_tab(project_id, tab)
