@@ -86,7 +86,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "Homomorphic Encryption",
                 "Image Classification", "Images", "Inductive Bias", "Internet of Things",
                 "Locking", "Low-Level",
-                "Mobile App",
+                "Machine Learning", "Mobile App",
                 "Natural Language", "Network",
                 "Optimization",
                 "Predictor", "Protection", "Protocol", "PyTorch",

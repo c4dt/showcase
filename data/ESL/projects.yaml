@@ -9,7 +9,7 @@ projects:
     layman_desc: >
       gem5-X stands for a gem5-based full-system simulator with architectural eXtensions. It is a gem5-based simulator that allows
       architectural exploration and optimization of heterogeneous systems
-    url: https://www.epfl.ch/labs/esl/research/2d-3d-system-on-chip/gem5-x/
+    url: https://ecocloud.epfl.ch/research/sustainable-it-infrastructure/gem5-x/
     doc: https://www.epfl.ch/labs/esl/wp-content/uploads/2021/08/gem5_X_TechnicalManual_v2.pdf
     code:
       type: Lab GitHub
@@ -43,7 +43,7 @@ projects:
     layman_desc: >
       Hardware is getting smaller every day, components are being stacked on top of each other, in order to make theses more compact. But as
       it is getting smaller, it's also getting hotter. 3D-ICE helps in modelling how thermal flux are behaving.
-    url: https://www.epfl.ch/labs/esl/research/open-source-tools/3d-ice/
+    url: https://www.epfl.ch/labs/esl/research/open-source-software-projects/3d-ice/
     doc: https://eslweb.epfl.ch/3Dice/3D-ICE-User_Guide.pdf
     code:
       type: Lab GitHub
@@ -77,3 +77,99 @@ projects:
             url: https://therminic.org/therminic2010/
     date_added: 2022-07-05
     date_updated: 2022-07-05
+
+  cloud-performance-monitor:
+    name: cloud-performance-monitor
+    description: >
+      Monitoring and improving performance of cloud services
+    tech_desc: >
+      The project on machine learning for HPC servers and data centers at the 
+      ESL lab focuses on utilizing machine learning-based approaches for 
+      multi-objective resource management. This research line aims to enhance
+      the efficiency of heterogeneous High Performance Computing (HPC) servers
+      and data centers by employing system-level resource management techniques.
+      Through projects like RECIPE H2020, MANGO H2020, Compusapien, and 
+      DeepHealth H2020, the team works towards achieving diverse design- 
+      and run-time objectives and constraints simultaneously.
+    layman_desc: >
+      In simpler terms, this project explores how to make high-performance 
+      computing servers and data centers smarter using machine learning. 
+      By applying advanced algorithms, the team aims to optimize the use of 
+      resources in these environments efficiently. Ultimately, the goal is to 
+      improve the performance and reliability of these systems while ensuring 
+      they operate in a cost-effective and sustainable manner, contributing to 
+      advancements in cloud infrastructure management and data center operations.
+    type: Application
+    categories:
+      - Security
+    applications:
+      - Infra
+    tags:
+      - Benchmark
+      - Cloud
+      - Optimization
+    url: https://www.epfl.ch/labs/esl/research/cloud-infrastructure/machine-learning-for-hpc-servers-and-data-centers/
+    date_added: 2024-02-20
+
+  digital-twins:
+    name: digital-twins
+    description: >
+      Virtual copies for real-time connections
+    type: Application
+    categories:
+      - Security
+    applications:
+      - Health
+    tags:
+      - Anonymity
+      - Predictor
+    date_added: 2024-02-20
+    layman_desc: >
+      Digital Twins are like virtual doppelgangers of physical objects, 
+      helping in predicting diseases, evaluating climate policies, and 
+      conserving resources. 
+      EPFL's DIGIPREDICT project used digital twins to anticipate how COVID-19 
+      might progress in individuals, aiding in better healthcare decisions.
+    tech_desc: >
+      Digital Twins involve creating virtual copies of real objects for 
+      real-time monitoring and analysis. These replicas are utilized in various 
+      fields like disease prediction, climate policy assessment, and resource 
+      conservation. 
+      EPFL's DIGIPREDICT consortium used digital twins to forecast 
+      COVID-19 progression in patients.
+    url: https://www.epfl.ch/labs/esl/research/digital-twins/
+
+  hdtorch:
+    name: hdtorch
+    description: >
+      PyTorch-based hyperdimensional computing library
+    tech_desc: >
+      HDTorch is a PyTorch-based library designed for hyperdimensional 
+      computing, featuring custom CUDA extensions to accelerate hypervector
+      operations. It is utilized for analyzing HDC benchmark datasets, focusing 
+      on accuracy, runtime, and memory usage. The workflow involves initializing 
+      basis vectors, encoding features, and aggregating vectors of the same 
+      class.
+    layman_desc: >
+      HDTorch is a specialized library that uses PyTorch for advanced 
+      hyperdimensional computing tasks. It helps researchers analyze complex 
+      datasets efficiently, ensuring accuracy and optimizing resource usage.
+      In simpler terms, it's like a powerful tool that assists in handling data
+      securely and effectively for projects related to privacy and digital 
+      trust.
+    type: "Library"
+    categories:
+      - Learning
+    applications:
+      - Info
+    tags:
+      - Optimization
+      - TensorFlow
+      - Machine Learning
+    code:
+      type: Lab Github
+      url: https://c4science.ch/source/hdtorch/
+      date_last_commit: 2023-10-18
+    language: Python
+    license: MIT
+    date_added: 2024-02-20
