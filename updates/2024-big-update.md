@@ -152,7 +152,10 @@ Linus
   - Looked at webpage and saw a couple of other projects from 2019:
     - scopt, clash, alps, matrix-alps, tv-normed-pursuit, nys-sketch, LB-CSMRI
   - sent email 2024-03-08
-- COMPSEC - Alessandro Chiesa
+- THEORY - Alessandro Chiesa
+  - Added lab description
+  - some old links on theory.epfl.ch
+  - sent email 2024-03-08
 - SFI-PCD - Pierre Collin-Dufresne
 - LSI - Giovanni De Micheli
 - MMSPG - Touradj Ebrahimi

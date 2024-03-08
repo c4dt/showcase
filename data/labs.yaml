@@ -537,3 +537,16 @@ labs:
       - name: Olivier Crochat
         email: olivier.crochat@epfl.ch
     url: https://c4dt.epfl.ch
+
+  Theory:
+    name: Theory Group
+    prof:
+      name:
+        - Alessandro
+        - Chiesa
+      email: alessandro.chiesa@epfl.ch
+    description: >
+      I am broadly interested in Theoretical Computer Science and Computer Security. 
+      Specific interests include theoretical and applied cryptography, complexity theory, 
+      privacy-enhancing technologies, and quantum information.
+    url: https://theory.epfl.ch

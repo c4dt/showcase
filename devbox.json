@@ -1,5 +1,10 @@
 {
-  "packages": ["python3@latest", "git@latest", "linkchecker@latest"],
+  "packages": [
+    "python3@latest",
+    "git@latest",
+    "linkchecker@latest",
+    "vim@latest"
+  ],
   "shell": {
     "init_hook": [". $VENV_DIR/bin/activate"],
     "scripts": {
