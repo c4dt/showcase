@@ -148,6 +148,10 @@ Linus
     - link to ERC and intel are broken
   - sent email 2024-03-08
 - LIONS - Volkan Cevher
+  - lions.epfl.ch
+  - Looked at webpage and saw a couple of other projects from 2019:
+    - scopt, clash, alps, matrix-alps, tv-normed-pursuit, nys-sketch, LB-CSMRI
+  - sent email 2024-03-08
 - COMPSEC - Alessandro Chiesa
 - SFI-PCD - Pierre Collin-Dufresne
 - LSI - Giovanni De Micheli
