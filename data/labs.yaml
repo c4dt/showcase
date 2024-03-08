@@ -103,8 +103,6 @@ labs:
         </li>
       </ul>
     contacts:
-      - name: Arseniy Zaostrovnykh
-        email: arseniy.zaostrovnykh@epfl.ch
       - name: Beatriz Descloux
         email: beatriz.descloux@epfl.ch
     url: https://dslab.epfl.ch
@@ -381,7 +379,8 @@ labs:
   NAL:
     name: Network Architecture Lab
     description: >
-      Something
+      We are the Network Architecture Lab,
+      and we work on fundamental questions regarding network system design.
     prof:
       name:
         - Katerina
@@ -395,7 +394,7 @@ labs:
   NLP:
     name: Natural Language Processing Lab
     description: >
-      The NLP lab is focused on advanced NLP research areas like knowledge 
+      The NLP lab is focused on advanced NLP research areas like knowledge
       representations, reasoning, narrative understanding, and biomedical NLP.
     prof:
       name:
@@ -496,6 +495,8 @@ labs:
 
   VCA:
     name: Verification and Computer Architecture Lab
+    description: >
+      Something new is coming
     prof:
       name:
         - Thomas
@@ -526,11 +527,10 @@ labs:
       email: jean-pierre.hubaux@epfl.ch
     description: >
       The Center for Digital Trust is an academic-industry alliance of international relevance that facilitates
-      innovation in digital trust services and products. 
+      innovation in digital trust services and products.
       It brings together 15 industry partners, 38 EPFL laboratories, civil society, and policy actors to collaborate,
       share insight, and to gain early access to trust-building technologies,
       building on state-of-the-art research at EPFL and beyond.
-
     contacts:
       - name: Linus Gasser
         email: linus.gasser@epfl.ch

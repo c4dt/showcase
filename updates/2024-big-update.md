@@ -101,8 +101,15 @@ Linus
     - failing link to https://vigor.epfl.ch/ in `first framework for verifying software NFs with no verification expertise`
   - Added link in labs.yaml
   - Added github repo to labs.yaml
-  - 2024-02-20 - sent email to Katerina
-- ## ESL - David Atienza
+  - 2024-02-20 - sent email to Katerina - she replied with the following two projects
+    - https://nal-epfl.github.io/WeHeY/
+      - License
+        - server - is it Apache, like the LICENSE.txt, or should it add the CRAPL-LICENSE.txt?
+        - cli - no license
+    - https://nal-epfl.github.io/tero-project/
+      - no license
+    - for both: rename the paper to something more specific
+- ESL - David Atienza
   - Added github repo to labs.yaml
   - removed homepage for gem5-x project
   - modified link for gem5-x project
@@ -133,7 +140,8 @@ Linus
 - Thomas Bourgeat
   - no lab page yet
 - DCSL - Edouard Bugnion
-- DSLAB - George Candea
+  - sent email
+- ## DSLAB - George Candea
 - LIONS - Volkan Cevher
 - COMPSEC - Alessandro Chiesa
 - SFI-PCD - Pierre Collin-Dufresne
