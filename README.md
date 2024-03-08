@@ -38,7 +38,7 @@ in `(brackets)`.
 
 ```yaml
 url_path:
-  name: (lowercase short name)
+  name: (short name)
   description: >
     (Short description, will be shown under the name)
   type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )

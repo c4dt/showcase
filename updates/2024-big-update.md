@@ -109,6 +109,7 @@ Linus
     - https://nal-epfl.github.io/tero-project/
       - no license
     - for both: rename the paper to something more specific
+  - 2024-03-08 - answered Katerina's email with the suggestions from above
 - ESL - David Atienza
   - Added github repo to labs.yaml
   - removed homepage for gem5-x project
@@ -140,8 +141,12 @@ Linus
 - Thomas Bourgeat
   - no lab page yet
 - DCSL - Edouard Bugnion
-  - sent email
-- ## DSLAB - George Candea
+  - sent email 2024-02-20
+  - received reply that once they open source smth, OK
+- DSLAB - George Candea
+  - dslab.epfl.ch
+    - link to ERC and intel are broken
+  - sent email 2024-03-08
 - LIONS - Volkan Cevher
 - COMPSEC - Alessandro Chiesa
 - SFI-PCD - Pierre Collin-Dufresne

@@ -173,7 +173,7 @@ projects:
     code:
       type: Project GitHub
       url: https://github.com/s2e
-      date_last_commit: 2023-03-12
+      date_last_commit: 2023-12-10
     language: C, C++
     license: MIT
     contacts:
@@ -193,7 +193,7 @@ projects:
             url: https://dl.acm.org/doi/10.1145/2110356.2110358
     type: Library
     date_added: 2019-03-18
-    date_updated: 2023-03-20
+    date_updated: 2024-03-08
 
   asap:
     name: ASAP
@@ -460,7 +460,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dslab-epfl/klint
-      date_last_commit: 2023-01-30
+      date_last_commit: 2024-02-19
     language: C, Python
     license: MIT
     type: Toolset
@@ -488,7 +488,7 @@ projects:
           title: Adding support for eBPF to Angr
     maturity: 1
     date_added: 2022-07-05
-    date_updated: 2023-03-20
+    date_updated: 2024-03-08
 
   pix:
     name: PIX
