@@ -130,7 +130,7 @@
             update_url(dropdown, search_input);
             // This makes sure that double entries are correctly displayed in the corner
             // case where a text is in the search box and a category is chosen.
-            show_headers(search_input === "" || categories !== "");
+            show_headers(search_input === "" && dropdown === "");
             reset_show(dropdown !== "" || search_input !== "");
             search_lock = false;
         }
@@ -367,10 +367,10 @@ applications.update({ "Other": "Other" })
                             continue
                         end
                         for project_id, project in lab['projects'].items():
-                            # Only keep the first appearance of an entry if the headers are not shown
                             if not category_key in project.get('categories'):
                                 continue
                             end
+                            # Only keep the first appearance of an entry if the headers are not shown
                             visibility = ""
                             if project.get('categories').index(category_key) > 0:
                                 visibility = "shown_with_headers"
