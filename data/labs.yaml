@@ -538,8 +538,8 @@ labs:
         email: olivier.crochat@epfl.ch
     url: https://c4dt.epfl.ch
 
-  Compsec:
-    name: laboratory for computation security
+  COMPSEC:
+    name: Laboratory for Computation Security
     prof:
       name:
         - Alessandro
