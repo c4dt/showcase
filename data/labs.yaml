@@ -538,15 +538,16 @@ labs:
         email: olivier.crochat@epfl.ch
     url: https://c4dt.epfl.ch
 
-  Theory:
-    name: Theory Group
+  Compsec:
+    name: laboratory for computation security
     prof:
       name:
         - Alessandro
         - Chiesa
       email: alessandro.chiesa@epfl.ch
     description: >
-      I am broadly interested in Theoretical Computer Science and Computer Security. 
-      Specific interests include theoretical and applied cryptography, complexity theory, 
-      privacy-enhancing technologies, and quantum information.
+      We work on the theoretical foundations and practical realizations of cryptographic proofs. 
+      This enables checking the correctness of a computation in zero knowledge, 
+      and much faster than re-running the computation. 
+      These cryptographic proofs have powerful applications in the real world.
     url: https://theory.epfl.ch
