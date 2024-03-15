@@ -157,8 +157,15 @@ Linus
   - some old links on theory.epfl.ch
   - sent email 2024-03-08
   - received answer with project and website explanation
-- SFI-PCD - Pierre Collin-Dufresne
+
+[//]: # " 10 "
+
 - LSI - Giovanni De Micheli
+  - Website
+    - Not valid anymore:
+      - Open Science Fund
+      - the 2018 Xilinx Open Hardware University Design Competition 2018
+  - Sent email
 - MMSPG - Touradj Ebrahimi
 - SFI-RF - Ruediger Fahlenbrach
 - PARSA - Babak Falsafi
@@ -168,6 +175,9 @@ Linus
 - DEDIS - Bryan Ford
 - LTS4 - Pascal Frossard
 - INDY - Matthias Grossglauser
+
+[//]: # " 20 "
+
 - DCL - Rachid Guerraoui
 - LDS - Jean-Pierre Hubaux
   - retired
@@ -178,6 +188,9 @@ Linus
 - SACS - Anne-Marie Kermarrec
 - LARA - Viktor Kunčak
 - VLSC - James Larus
+
+[//]: # " 30 "
+
 - LCA2 - Jean-Yves Le Boudec
   - retired
 - SFI-SM - Semyon Malamud
@@ -189,5 +202,12 @@ Linus
 - Yanina Shkel
 - IVRL - Sabine Süsstrunk
 - SPRING - Carmela Troncoso
+
+[//]: # " 40 "
+
 - LASEC - Serge Vaudenay
 - DLAB - Robert West
+
+[//]: # " Labs w/o code "
+
+- SFI-PCD - Pierre Collin-Dufresne
