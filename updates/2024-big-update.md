@@ -184,8 +184,9 @@ Linus
       - Download error: when trying to use the ftp connection from https://www.epfl.ch/labs/mmspg/downloads/mj-pccd/
       - 404: Link on the right side of https://www.epfl.ch/labs/mmspg/meetings/
   - Sent email on 2024-03-15
-- SFI-RF - Ruediger Fahlenbrach
 - PARSA - Babak Falsafi
+  - Website OK
+  - Sent email on 2024-03-15
 - LIA - Boi Faltings
 - GR-FE - Jacques Fellay
 - SFI - Damir Filipovic
@@ -196,35 +197,33 @@ Linus
 [//]: # " 20 "
 
 - DCL - Rachid Guerraoui
-- LDS - Jean-Pierre Hubaux
-  - retired
-- SFI-JH - Julien Hugonnier
 - LAP - Paolo Ienne
 - MLO - Martin Jaggi
 - RS3LAB - Sanidhya Kashyap
 - SACS - Anne-Marie Kermarrec
 - LARA - Viktor Kunčak
 - VLSC - James Larus
-
-[//]: # " 30 "
-
-- LCA2 - Jean-Yves Le Boudec
-  - retired
 - SFI-SM - Semyon Malamud
 - LAMP - Martin Odersky
 - DESL-PWRS - Mario Paolone
+
+[//]: # " 30 "
+
 - HexHive - Mathias Payer
 - Clément Pit-Claudel
 - SalatheLab - Marcel Salathé
 - Yanina Shkel
 - IVRL - Sabine Süsstrunk
 - SPRING - Carmela Troncoso
-
-[//]: # " 40 "
-
 - LASEC - Serge Vaudenay
 - DLAB - Robert West
 
 [//]: # " Labs w/o code "
 
 - SFI-PCD - Pierre Collin-Dufresne
+- SFI-RF - Ruediger Fahlenbrach
+- SFI-JH - Julien Hugonnier
+- LDS - Jean-Pierre Hubaux
+  - retired
+- LCA2 - Jean-Yves Le Boudec
+  - retired

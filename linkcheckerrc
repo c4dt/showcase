@@ -13,4 +13,8 @@ checkextern=1
 ignoreerrors=
     ^https://.*epfl.ch.* 401
     ^https://.*epfl.ch.* 403
+    .* 418
+    https://infoscience.epfl.ch/js/tinduicomponents/tinduicomponents/tinduicomponents.js 404
+    https://www.epfl.ch/accessibility.en 404
+
 warnings=0
