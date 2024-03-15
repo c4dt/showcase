@@ -118,8 +118,7 @@
             let work = $('#work')[0].value;
             let categories = $('#categories')[0].value;
             let applications = $('#applications')[0].value;
-            // Add trailing '_' to avoid matching short lab names
-            let lab = $('#lab')[0].value + '_';
+            let lab = $('#lab')[0].value;
             let search_input = $('#search')[0].value;
             let dropdown = [work, categories, lab, applications]
                 .filter((e) => e !== "")
@@ -278,7 +277,7 @@ applications.update({ "Other": "Other" })
                     <option selected value="">All labs</option>
                     % for lab_id, lab in sorted(labs.items(), key=lambda k: k[1]['prof']['name']):
                         % prof = " ".join(lab['prof']['name'])
-                        <option value="lab_{{ lab_id }}">{{ prof }} - {{ lab['name'] }}</option>
+                        <option value="lab_{{ lab_id }}_">{{ prof }} - {{ lab['name'] }}</option>
                     % end
                 </select>
             </div>

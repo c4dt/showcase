@@ -165,8 +165,25 @@ Linus
     - Not valid anymore:
       - Open Science Fund
       - the 2018 Xilinx Open Hardware University Design Competition 2018
-  - Sent email
+  - Sent email on 2024-03-15
 - MMSPG - Touradj Ebrahimi
+  - Website
+    - https://grebproshare.epfl.ch/ - Links to app store not working
+    - main site:
+      - 404: Advanced image processing and analysis (http://moodle.epfl.ch/course/view.php?id=462)
+      - 404: Bio-inspired processing of cognitive signals (http://moodle.epfl.ch/course/view.php?id=1851)
+      - 404: EPFL-PoliMI Subjective Video Quality Assessment Database (http://vqa.como.polimi.it/index.htm)
+        - working link: https://vqa.como.polimi.it
+      - 404: Information Processing for Video Surveillance (http://spie.org/x1139.xml?course_id=E0838267&search_text=ebrahimi&format=All)
+      - 404: All links on the right side of https://www.epfl.ch/labs/mmspg/research/page-58317-en-html/
+      - 404: All links on the right side of https://www.epfl.ch/labs/mmspg/research/page-58342-en-html/
+      - 404: Most links on the right side of https://www.epfl.ch/labs/mmspg/research/page-58351-en-html/
+      - 404: Link on the right side of https://www.epfl.ch/labs/mmspg/research/page-58363-en-html/
+      - 404: Lutz Goldmann, Lin Yuan, Anne-Flore Perrin, Irene Viola on https://www.epfl.ch/labs/mmspg/mmspg-alumni/
+      - 404/Certificate error: MPEG and DMP on https://www.epfl.ch/labs/mmspg/innovation/
+      - Download error: when trying to use the ftp connection from https://www.epfl.ch/labs/mmspg/downloads/mj-pccd/
+      - 404: Link on the right side of https://www.epfl.ch/labs/mmspg/meetings/
+  - Sent email on 2024-03-15
 - SFI-RF - Ruediger Fahlenbrach
 - PARSA - Babak Falsafi
 - LIA - Boi Faltings
