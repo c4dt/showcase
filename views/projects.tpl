@@ -118,7 +118,8 @@
             let work = $('#work')[0].value;
             let categories = $('#categories')[0].value;
             let applications = $('#applications')[0].value;
-            let lab = $('#lab')[0].value;
+            // Add trailing '_' to avoid matching short lab names
+            let lab = $('#lab')[0].value + '_';
             let search_input = $('#search')[0].value;
             let dropdown = [work, categories, lab, applications]
                 .filter((e) => e !== "")
@@ -507,7 +508,7 @@ applications.update({ "Other": "Other" })
                                         % end
                                         {{ active_str }}
                                         {{ incubator_str }}
-                                        lab_{{ lab_id }}
+                                        lab_{{ lab_id }}_
                                         % for product in products:
                                             product_{{product}}
                                         % end
