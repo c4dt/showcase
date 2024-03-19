@@ -89,8 +89,14 @@
         // Sets the dropdown-boxes and the search box given a URL-hash string.
         // If the string is invalid, it will reset it to be empty.
         function search_for_query(str){
-            let search = new URLSearchParams(str);
-            let dropdown = search.get("dropdown")?.split(" ") ?? [];
+            const search = new URLSearchParams(str);
+            const dropdown = (search.get("dropdown")?.split(" ") ?? []).map((s) => {
+                // Make old links compatible with new "_" at the end of lab names
+                if (s.startsWith("lab_") && !s.endsWith("_")){
+                    return `${s}_`;
+                }
+                return s;
+            });
 
             ["work", "categories", "applications", "lab"].forEach(id => {
                 let select = $(`#${id}`)[0];
