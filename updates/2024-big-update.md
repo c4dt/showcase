@@ -96,6 +96,19 @@ Linus
       - Crowdsourcing Benchmark - "You don't have access"
   - Added github repo to labs.yaml
   - 2024-02-20 - sent email to Remi
+  - 03-05 - reply from Remi:
+    - Pribot/Polisis/PoliCompare/Privyseal are projects from Hamza Harkous, a former Phd student.
+      I actually met with him last week, those services are now supposed to be maintained by
+      his partner at the University of Wisconsin.
+      It looks like they are not doing their jobs :) Anyway, those services are quite old now.
+      It is OK to remove them from your portofolio.
+    - TinyGSN/ArgSM/Crowdsourcing Benchmark —> I don’t know about these projects.
+      They are even older I guess. You can remove those.
+    - Infoscience —> les papiers qui sont déjà en open-access ne sont généralement pas sur infoscience,
+      is that bad?
+    - media-observatory —> repo is public: https://github.com/mediaobservatory
+    - For the active projects, we are maintaining the list here: https://modemos.epfl.ch/
+  - 03-19 - answered to Rémi
 - NAL - Katerina Argyraki
   - On lab page https://www.epfl.ch/labs/nal/
     - failing link to https://vigor.epfl.ch/ in `first framework for verifying software NFs with no verification expertise`
