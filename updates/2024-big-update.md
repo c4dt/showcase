@@ -160,6 +160,9 @@ Linus
   - dslab.epfl.ch
     - link to ERC and intel are broken
   - sent email 2024-03-08
+  - got answer 03-13
+    - Here is a link to the version of PIX tailored specifically for eBPF code - https://github.com/dslab-epfl/ebpf-se.
+      Please let me know if you have any questions/need additional information.
 - LIONS - Volkan Cevher
   - lions.epfl.ch
   - Looked at webpage and saw a couple of other projects from 2019:

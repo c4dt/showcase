@@ -521,3 +521,39 @@ projects:
             url: https://www.usenix.org/conference/nsdi22/presentation/iyer
     date_added: 2022-07-05
     date_updated: 2023-03-20
+
+  ebpf-se:
+    name: eBPF-SE
+    description: >
+      eBPF symbolic execution tool
+    type: "Application"
+    categories:
+      - "Security"
+    applications:
+      - "Infra"
+    tags:
+      - "Code Analysis"
+      - "Debug"
+      - "Network"
+    layman_desc: >
+      eBPF-SE is a tool that analyzes programs written for the Linux
+      kernel's eBPF framework. It systematically explores all possible
+      execution paths through the program by using symbolic values instead
+      of concrete inputs. This allows finding bugs or verifying properties
+      of the program. eBPF-SE uses models of the Linux APIs to avoid
+      getting bogged down in the real kernel code. It was originally part
+      of a tool for optimizing network software performance.
+    tech_desc: >
+      eBPF-SE is a tool that symbolically executes eBPF programs written
+      for the Linux kernel. It is based on the KLEE symbolic execution
+      engine and uses models (stubs) for the Linux kernel's libbpf API.
+      This allows exploring all program paths without path explosion from
+      the real API implementation. eBPF-SE was previously part of PIX, a
+      tool that extracts performance interfaces from network function code.
+    code:
+      type: Lab Github
+      url: https://github.com/dslab-epfl/ebpf-se
+      date_last_commit: 2024-03-05
+    language: C
+    license: MIT
+    date_added: 2024-03-20
