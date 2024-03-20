@@ -182,6 +182,12 @@ Linus
       - Open Science Fund
       - the 2018 Xilinx Open Hardware University Design Competition 2018
   - Sent email on 2024-03-15
+  - Answered 03-15
+    - Hi,
+      some of this work is obsolete, and should be deleted.
+      The EPFL logic synthesis benchmarks are still available and maintained.
+      Recent work addressed garbl;ed circuits (in the broad domain of crypto) and there are 3 pubs about it.
+  - 2024-03-20 - Sent request for more information
 - MMSPG - Touradj Ebrahimi
   - Website
     - https://grebproshare.epfl.ch/ - Links to app store not working
