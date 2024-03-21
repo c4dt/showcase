@@ -34,7 +34,7 @@ projects:
             text: 2016 IEEE Conference on Computer Vision and Pattern Recognition
             url: https://cvpr2016.thecvf.com/program/main_conference
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21
 
   manifool:
     name: ManiFool
@@ -68,7 +68,7 @@ projects:
             text: proceedings of the 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
             url: https://www.computer.org/csdl/proceedings/cvpr/2018/17D45VtKirt
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21
 
   sparsefool:
     name: SparseFool
@@ -103,7 +103,7 @@ projects:
             text: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition
             url: https://cvpr2019.thecvf.com/program/main_conference
     date_added: 2019-09-04
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21
 
   universal:
     name: Universal
@@ -135,7 +135,7 @@ projects:
             text: proceedings of 2017 IEEE Conference on Computer Vision and Pattern Recognition
             url: https://www.computer.org/csdl/proceedings/cvpr/2017/12OmNyoiYVr
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21
 
   hold-me-tight:
     name: Hold me tight!
@@ -178,7 +178,7 @@ projects:
             text: Neural Information Processing Systems (NeurIPS) 2020
             url: https://neurips.cc/virtual/2020/public/papers.html?filter=sessions&search=poster+session+2
     date_added: 2021-01-27
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21
 
   neural-anisotropy-directions:
     name: Neural Anisotropy Directions
@@ -220,7 +220,7 @@ projects:
             text: Neural Information Processing Systems (NeurIPS) 2020
             url: https://neurips.cc/virtual/2020/public/papers.html?filter=sessions&search=Poster+Session+4
     date_added: 2021-01-27
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21
 
   orthonet:
     name: OrthoNet
@@ -259,7 +259,7 @@ projects:
             text: IEEE Transactions on Signal and Information Processing over Networks, Volume 6
             url: https://ieeexplore.ieee.org/document/8974205
     date_added: 2021-11-04
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21
 
   prime:
     name: PRIME
@@ -290,4 +290,4 @@ projects:
         title: "PRIME: A few primitives can boost robustness to common corruptions"
         url: https://arxiv.org/abs/2112.13547
     date_added: 2022-07-06
-    date_updated: 2022-07-06
+    date_updated: 2024-03-21

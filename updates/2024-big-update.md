@@ -46,8 +46,8 @@ Might not know me: I’m Linus from the C4DT Factory - we’re working on the
 projects from the labs to learn the latest tech and link it to our partners.
 About once per year we update our list of projects at https://showcase.c4dt.org.
 
-Know me: The C4DT Factory is in the process of updating the projects from the
-affiliated labs at https://showcase.c4dt.org.
+Know me: The C4DT Factory is in the process of updating the projects related
+to digital trust from the affiliated labs at https://showcase.c4dt.org.
 
 We concentrate on the projects with a software component that is actively worked
 on and related to digital trust.
@@ -221,7 +221,9 @@ Linus
   - updated last commits
   - changed github URL for dela and d-voting to c4dt/
   - Sent email on 2024-03-21
-- ## LTS4 - Pascal Frossard
+- LTS4 - Pascal Frossard
+  - Removed Seyed from lab description
+  - Sent email on 2024-03-21
 - INDY - Matthias Grossglauser
 - DCL - Rachid Guerraoui
 - LAP - Paolo Ienne
