@@ -210,16 +210,24 @@ Linus
   - Website OK
   - Sent email on 2024-03-15
 - LIA - Boi Faltings
-- GR-FE - Jacques Fellay
-- SFI - Damir Filipovic
+  - Website
+    - Location - How to reach the LIA using public transport - Zürich Airport
+  - Sent email on 2024-03-20
 - DEDIS - Bryan Ford
-- LTS4 - Pascal Frossard
+  - Website
+    - Link to list of projects https://github.com/dedis/doc is archived
+    - "our blog" is from 2020
+    - 404 - "page at stack overflow"
+  - updated last commits
+  - changed github URL for dela and d-voting to c4dt/
+  - Sent email on 2024-03-21
+- ## LTS4 - Pascal Frossard
 - INDY - Matthias Grossglauser
+- DCL - Rachid Guerraoui
+- LAP - Paolo Ienne
 
 [//]: # " 20 "
 
-- DCL - Rachid Guerraoui
-- LAP - Paolo Ienne
 - MLO - Martin Jaggi
 - RS3LAB - Sanidhya Kashyap
 - SACS - Anne-Marie Kermarrec
@@ -249,3 +257,5 @@ Linus
   - retired
 - LCA2 - Jean-Yves Le Boudec
   - retired
+- GR-FE - Jacques Fellay
+- SFI - Damir Filipovic

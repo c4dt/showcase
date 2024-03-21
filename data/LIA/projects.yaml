@@ -30,7 +30,7 @@ projects:
             text: ICML 2020
             url: https://icml.cc/Conferences/2020
     date_added: 2021-11-04
-    date_updated: 2022-07-05
+    date_updated: 2024-03-20
 
   ader:
     name: ADER
@@ -61,4 +61,4 @@ projects:
             text: RECSYS 2020
             url: https://recsys.acm.org/recsys20/
     date_added: 2021-11-05
-    date_updated: 2022-07-05
+    date_updated: 2024-03-20
