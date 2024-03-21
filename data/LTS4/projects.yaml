@@ -18,9 +18,6 @@ projects:
       type: Lab GitHub
       url: https://github.com/LTS4/DeepFool
       date_last_commit: 2018-09-07
-    contacts:
-      - name: Seyed Moosavi
-        email: seyed.moosavi@alumni.epfl.ch
     tags:
       - Deep Neural Networks
     language: MATLAB, Python
@@ -52,9 +49,6 @@ projects:
       type: Personal GitHub
       url: https://github.com/moosavism/ManiFool
       date_last_commit: 2018-01-24
-    contacts:
-      - name: Seyed Moosavi
-        email: seyed.moosavi@alumni.epfl.ch
     tags:
       - Deep Neural Networks
     language: Python
@@ -86,9 +80,6 @@ projects:
       type: Lab GitHub
       url: https://github.com/LTS4/SparseFool
       date_last_commit: 2020-09-27
-    contacts:
-      - name: Apostolos Modas
-        email: apostolos.modas@epfl.ch
     tags:
       - Deep Neural Networks
     language: Python
@@ -119,9 +110,6 @@ projects:
       type: Lab GitHub
       url: https://github.com/LTS4/universal
       date_last_commit: 2017-10-23
-    contacts:
-      - name: Seyed Moosavi
-        email: seyed.moosavi@alumni.epfl.ch
     tags:
       - Deep Neural Networks
     language: MATLAB, Python
@@ -155,9 +143,6 @@ projects:
       together. Finally, we show that the construction of the decision boundary is extremely sensitive to small perturbations of the
       training samples, and that changes in certain directions can lead to sudden invariances in the orthogonal ones. This is precisely the
       mechanism that adversarial training uses to achieve robustness.
-    contacts:
-      - name: Apostolos Modas
-        email: apostolos.modas@epfl.ch
     tags:
       - Deep Neural Networks
       - Inductive Bias
@@ -197,9 +182,6 @@ projects:
       signature, encode the preference of a network to separate the input data based on some particular features. We provide an efficient
       method to identify NADs for several CNN architectures and thus reveal their directional inductive biases. Furthermore, we show that,
       for the CIFAR-10 dataset, NADs characterize the features used by CNNs to discriminate between different classes.
-    contacts:
-      - name: Apostolos Modas
-        email: apostolos.modas@epfl.ch
     tags:
       - Deep Neural Networks
       - Inductive Bias
@@ -237,9 +219,6 @@ projects:
       feature vector. We propose to extend the node clustering problem, that commonly considers only the network information, to a problem
       where both the network information and the node features are considered together for learning a clustering-friendly representation of
       the feature space.
-    contacts:
-      - name: Apostolos Modas
-        email: apostolos.modas@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/LTS4/OrthoNet
@@ -272,9 +251,6 @@ projects:
     tech_desc: >
       PRIME is a generic, plug-n-play data augmentation scheme that consists of simple families of max-entropy image transformations for
       conferring robustness to common corruptions. PRIME leads to significant improvements in corruption robustness on multiple benchmarks.
-    contacts:
-      - name: Apostolos Modas
-        email: apostolos.modas@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/LTS4/PRIME-augmentations

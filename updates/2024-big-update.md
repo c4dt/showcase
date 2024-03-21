@@ -225,26 +225,30 @@ Linus
   - Removed Seyed from lab description
   - Sent email on 2024-03-21
 - INDY - Matthias Grossglauser
+  - Website indy.epfl.ch:
+    - 413 - URL `../assets/img/apple-icon.png'
+    - ConnectionTimeout `http://icapeople.epfl.ch/grossglauser/' - `Matthias Grossglauser'
+  - Removed contacts from projects
+  - Sent email on 2024-03-21
 - DCL - Rachid Guerraoui
 - LAP - Paolo Ienne
+- MLO - Martin Jaggi
 
 [//]: # " 20 "
 
-- MLO - Martin Jaggi
 - RS3LAB - Sanidhya Kashyap
 - SACS - Anne-Marie Kermarrec
 - LARA - Viktor Kunčak
-- VLSC - James Larus
 - SFI-SM - Semyon Malamud
 - LAMP - Martin Odersky
 - DESL-PWRS - Mario Paolone
-
-[//]: # " 30 "
-
 - HexHive - Mathias Payer
 - Clément Pit-Claudel
 - SalatheLab - Marcel Salathé
 - Yanina Shkel
+
+[//]: # " 30 "
+
 - IVRL - Sabine Süsstrunk
 - SPRING - Carmela Troncoso
 - LASEC - Serge Vaudenay
@@ -261,3 +265,5 @@ Linus
   - retired
 - GR-FE - Jacques Fellay
 - SFI - Damir Filipovic
+- VLSC - James Larus
+  - retired
