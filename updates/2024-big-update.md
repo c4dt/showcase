@@ -231,6 +231,16 @@ Linus
   - Removed contacts from projects
   - Sent email on 2024-03-21
 - DCL - Rachid Guerraoui
+  - Website
+    - some internal CORS and scripts not found error
+    - Failing links to people who left: matej.pavlovic, dragos-adrian.seredinschi, matteo.monti, athanasios.xygkis
+  - Projects
+    - talk and zebra on github.com/Distributed-EPFL
+    - public version of chop-chop?
+    - missing READMEs and LICENSEs...
+  - Github organizations
+    - https://github.com/Distributed-EPFL and https://github.com/LPD-EPFL ?
+  - Sent email on 2024-03-22
 - LAP - Paolo Ienne
 - MLO - Martin Jaggi
 

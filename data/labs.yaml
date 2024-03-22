@@ -28,6 +28,11 @@ labs:
       The Distributed Computing Lab focuses currently on Scalable Implementations  of Cryptocurrencies, Byzantine fault tolerance and
       privacy in distributed machine  learning, distributed algorithms making use of RDMA and NVRAM.
     url: https://dcl.epfl.ch/site/
+    information:
+      - title: Lab Github Repository
+        url: https://github.com/Distributed-EPFL
+      - title: Old (?) Lab Github Repository
+        url: https://github.com/LPD-EPFL
 
   DCSL:
     name: Data Center Systems Laboratory
