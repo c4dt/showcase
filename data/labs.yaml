@@ -215,6 +215,9 @@ labs:
       hardware implementation. The choices in each of these areas must strongly depend on the technical possibilities offered in the others.
       We want to understand better how to exploit synergies across the above fields and we wish to pass this knowledge over to our students.
     url: https://www.epfl.ch/labs/lap/
+    information:
+      - title: Lab GitHub
+        url: https://github.com/EPFL-LAP
 
   LARA:
     name: Lab for Automated Reasoning and Analysis

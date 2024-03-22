@@ -242,6 +242,8 @@ Linus
     - https://github.com/Distributed-EPFL and https://github.com/LPD-EPFL ?
   - Sent email on 2024-03-22
 - LAP - Paolo Ienne
+  - Website dynamatic.epfl.ch has wrong link to https://dynamatic.epfl.ch/images/EPFL%20marks%2050%20years%20of%20scientific%20progress.mp4
+  - Sent email on 2024-03-22
 - MLO - Martin Jaggi
 
 [//]: # " 20 "
