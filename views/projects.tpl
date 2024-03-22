@@ -89,8 +89,14 @@
         // Sets the dropdown-boxes and the search box given a URL-hash string.
         // If the string is invalid, it will reset it to be empty.
         function search_for_query(str){
-            let search = new URLSearchParams(str);
-            let dropdown = search.get("dropdown")?.split(" ") ?? [];
+            const search = new URLSearchParams(str);
+            const dropdown = (search.get("dropdown")?.split(" ") ?? []).map((s) => {
+                // Make old links compatible with new "_" at the end of lab names
+                if (s.startsWith("lab_") && !s.endsWith("_")){
+                    return `${s}_`;
+                }
+                return s;
+            });
 
             ["work", "categories", "applications", "lab"].forEach(id => {
                 let select = $(`#${id}`)[0];
@@ -130,7 +136,7 @@
             update_url(dropdown, search_input);
             // This makes sure that double entries are correctly displayed in the corner
             // case where a text is in the search box and a category is chosen.
-            show_headers(search_input === "" || categories !== "");
+            show_headers(search_input === "" && dropdown === "");
             reset_show(dropdown !== "" || search_input !== "");
             search_lock = false;
         }
@@ -206,14 +212,16 @@ applications.update({ "Other": "Other" })
 
 <div class="contents">
     <div class="page-header">
-        <a href="https://c4dt.org">
-            <picture>
-                <source
-                        srcset="/resources/c4dt_logo_dark.png"
-                        media="(prefers-color-scheme: dark)">
-                <img class="float_left" src="/resources/c4dt_logo.png" style="max-height: 10em; max-width: 10em;">
-            </picture>
-        </a>
+        <div class="logo">
+            <a href="https://c4dt.org">
+                <picture>
+                    <source
+                            srcset="/resources/c4dt_logo_dark.png"
+                            media="(prefers-color-scheme: dark)">
+                    <img src="/resources/c4dt_logo.png" class="logo">
+                </picture>
+            </a>
+        </div>
         <div class="intro">
             <h1>C4DT Affiliated Lab Projects</h1>
             <p>
@@ -275,7 +283,7 @@ applications.update({ "Other": "Other" })
                     <option selected value="">All labs</option>
                     % for lab_id, lab in sorted(labs.items(), key=lambda k: k[1]['prof']['name']):
                         % prof = " ".join(lab['prof']['name'])
-                        <option value="lab_{{ lab_id }}">{{ prof }} - {{ lab['name'] }}</option>
+                        <option value="lab_{{ lab_id }}_">{{ prof }} - {{ lab['name'] }}</option>
                     % end
                 </select>
             </div>
@@ -361,11 +369,14 @@ applications.update({ "Other": "Other" })
                         </td>
                     </tr>
                     <%for lab_id, lab in labs.items():
+                        if not ('projects' in lab):
+                            continue
+                        end
                         for project_id, project in lab['projects'].items():
-                            # Only keep the first appearance of an entry if the headers are not shown
                             if not category_key in project.get('categories'):
                                 continue
                             end
+                            # Only keep the first appearance of an entry if the headers are not shown
                             visibility = ""
                             if project.get('categories').index(category_key) > 0:
                                 visibility = "shown_with_headers"
@@ -502,7 +513,7 @@ applications.update({ "Other": "Other" })
                                         % end
                                         {{ active_str }}
                                         {{ incubator_str }}
-                                        lab_{{ lab_id }}
+                                        lab_{{ lab_id }}_
                                         % for product in products:
                                             product_{{product}}
                                         % end

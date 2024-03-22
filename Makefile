@@ -2,7 +2,7 @@ all: showcase
 
 .ONESHELL:
 
-PYTEST_OPTIONS := -v
+PYTEST_OPTIONS := -v -x
 VENV_DIR := venv
 
 $(VENV_DIR):
@@ -12,7 +12,7 @@ $(VENV_DIR)/%: | $(VENV_DIR)
 
 .PHONY: env
 env: requirements.txt $(VENV_DIR)
-	. $(VENV_DIR)/bin/activate
+	. $(VENV_DIR)/bin/activate && \
 	pip3 install -r $<
 
 .PHONY: showcase
@@ -22,12 +22,12 @@ showcase: env showcase.py
 
 .PHONY: env-test
 env-test: requirements-test.txt $(VENV_DIR)
-	. $(VENV_DIR)/bin/activate
+	. $(VENV_DIR)/bin/activate && \
 	pip3 install -r $<
 
 .PHONY: test
 test: env-test
-	. $(VENV_DIR)/bin/activate
+	. $(VENV_DIR)/bin/activate && \
 	python3 -m pytest $(PYTEST_OPTIONS)
 
 .PHONY: clean

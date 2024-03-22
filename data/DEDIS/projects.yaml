@@ -26,11 +26,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/dedis/popstellar
-      date_last_commit: 2023-03-15
+      date_last_commit: 2024-03-11
     language: Go, Java, Scala, JavaScript
     license: AGPL-3.0
     date_added: 2021-04-13
-    date_updated: 2023-03-15
+    date_updated: 2024-03-20
 
   dela:
     name: DEDIS Ledger Architecture
@@ -52,12 +52,19 @@ projects:
     type: Application
     code:
       type: Lab Github
-      url: https://github.com/dedis/dela
-      date_last_commit: 2023-03-08
+      url: https://github.com/c4dt/dela
+      date_last_commit: 2024-03-05
+    incubator:
+      type: incubated_market
+      work: 2023/Q3-2024/Q2 Debugging and feature enhancement
+      products:
+        - type: Library
+          title: DELA updates
+          url: https://github.com/c4dt/d-voting
     language: Go
     license: BSD-3-Clause
     date_added: 2021-04-13
-    date_updated: 2023-03-16
+    date_updated: 2024-03-20
 
   odyssey:
     name: Odyssey
@@ -85,7 +92,7 @@ projects:
     type: Application
     license: GPL-3.0
     date_added: 2020-04-28
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
 
   calypso:
     name: Calypso
@@ -138,11 +145,8 @@ projects:
           - label: Published in
             text: PVLDB Volume 14, No. 4 - December 2020
             url: http://vldb.org/pvldb/vol14-volume-info/
-      - type: Code demo
-        url: https://github.com/calypso-demo
-        title: Calypso demo from the paper
     date_added: 2019-03-18
-    date_updated: 2023-03-15
+    date_updated: 2024-03-20
     maturity: 2
 
   kyber:
@@ -157,7 +161,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dedis/kyber
-      date_last_commit: 2022-11-30
+      date_last_commit: 2024-03-18
     lines_of_code: 17000 / 4000
     contacts:
       - name: Pierluca Borsò
@@ -170,7 +174,7 @@ projects:
     type: Library
     license: MPL-2.0
     date_added: 2019-03-18
-    date_updated: 2023-03-16
+    date_updated: 2024-03-20
     maturity: 3
 
   omniledger:
@@ -186,7 +190,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/c4dt/byzcoin
-      date_last_commit: 2022-07-04
+      date_last_commit: 2023-09-27
     contacts:
       - name: Pierluca Borsò
         email: pierluca.borso@epfl.ch
@@ -196,15 +200,8 @@ projects:
     type: Application, Library
     license: AGPL-3.0
     incubator:
+      work: Created a pilot that has been used for login procedures
       type: retired_archived
-      work: The OmniLedger project is in the Market and will be re-evaluated in Spring 2022.
-      products:
-        - type: Demo
-          title: "Blockchain Explorer"
-          url: https://explorer.c4dt.org
-        - type: Pilot
-          title: "Login Service"
-          url: https://login.c4dt.org
     c4dt_contact:
       name: Linus Gasser
       email: linus.gasser@epfl.ch
@@ -243,7 +240,7 @@ projects:
         title: Linus Gasser - DARC
         url: https://c4dt.org/article/darc
     date_added: 2019-03-18
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
     maturity: 2
 
   onet:
@@ -273,7 +270,7 @@ projects:
     type: Library
     license: LGPL-3.0
     date_added: 2019-03-18
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
 
   e-voting:
     name: E-voting
@@ -307,7 +304,7 @@ projects:
     type: Application
     license: AGPL-3.0
     date_added: 2019-03-18
-    date_updated: 2023-03-16
+    date_updated: 2024-03-20
 
   drand:
     name: DRand
@@ -322,7 +319,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/drand/drand
-      date_last_commit: 2023-03-16
+      date_last_commit: 2024-03-12
     url: https://drand.love
     doc: https://github.com/drand/drand#documentation
     lines_of_code: 1000 / 200
@@ -340,7 +337,7 @@ projects:
         title: League of Entropy
         url: https://leagueofentropy.com/
     date_added: 2019-03-18
-    date_updated: 2023-03-16
+    date_updated: 2024-03-20
 
   purbs:
     name: PURBs
@@ -371,7 +368,7 @@ projects:
     type: Library
     license: BSD-3-Clause
     date_added: 2019-03-18
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
 
   threshold-logical-clocks:
     name: Threshold Logical Clocks
@@ -391,7 +388,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dedis/tlc
-      date_last_commit: 2022-05-12
+      date_last_commit: 2023-04-21
     tags:
       - Byzantine Resilience
       - Consensus
@@ -407,7 +404,7 @@ projects:
         url: https://drive.google.com/file/d/1BrTz20CbvXyFEKDtWH48FdWgwoG37wmr/view
     type: Application
     date_added: 2019-07-26
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
 
   twins:
     name: Twins
@@ -429,7 +426,7 @@ projects:
       - Consensus
     type: Application
     date_added: 2021-02-05
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
 
   simnet:
     name: SimNet
@@ -455,7 +452,7 @@ projects:
     language: Go
     license: GPL-3.0
     date_added: 2021-02-24
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
 
   hbt:
     name: HBT
@@ -475,11 +472,11 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/dedis/hbt
-      date_last_commit: 2023-03-16
+      date_last_commit: 2024-03-15
     language: Go
     license: other
     date_added: 2022-07-04
-    date_updated: 2023-03-16
+    date_updated: 2024-03-20
 
   determ-checker:
     name: determ-checker
@@ -501,7 +498,7 @@ projects:
     language: Go
     license: other
     date_added: 2022-07-04
-    date_updated: 2022-07-04
+    date_updated: 2024-03-20
 
   matchertext:
     name: matchertext
@@ -532,7 +529,7 @@ projects:
     language: Go
     license: other
     date_added: 2022-03-16
-    date_updated: 2022-03-16
+    date_updated: 2024-03-20
 
   apir:
     name: APIR
@@ -557,7 +554,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/dedis/apir-code
-      date_last_commit: 2023-05-04
+      date_last_commit: 2023-09-05
     information:
       - type: Paper
         title: "Authenticated private information retrieval"
@@ -573,7 +570,7 @@ projects:
     license: GPL-3.0
     maturity: 2
     date_added: 2023-07-05
-    date_updated: 2023-07-05
+    date_updated: 2024-03-20
 
   dvoting:
     name: d-voting
@@ -598,16 +595,17 @@ projects:
         email: pierluca.borso@epfl.ch
     url: https://dedis.github.io/d-voting/#/
     code:
-      type: Lab Github
-      url: https://github.com/dedis/d-voting
-      date_last_commit: 2023-09-01
+      type: C4DT Github
+      url: https://github.com/c4dt/d-voting
+      date_last_commit: 2024-03-15
     incubator:
       type: incubated_market
-      work: 2023/Q3 Debugging and feature enhancement
+      work: 2023/Q3-2024/Q2 Debugging and feature enhancement
       products:
         - type: App
           title: D-Voting application
-          url: https://github.com/dedis/d-voting
+          url: https://github.com/c4dt/d-voting
     language: Golang
     maturity: 1
     date_added: 2023-09-01
+    date_updated: 2024-03-20

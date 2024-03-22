@@ -1,4 +1,4 @@
-Showcase modifications from 2022-06-22 to 2026-07-07
+Showcase modifications from 2023-06-22 to 2023-07-07
 
 - COMPSEC - Alessandro Chiesa
 - SFI-PCD - Pierre Collin-Dufresne
