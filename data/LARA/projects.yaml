@@ -13,7 +13,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfl-lara/stainless
-      date_last_commit: 2023-03-20
+      date_last_commit: 2024-02-29
     doc: https://epfl-lara.github.io/stainless/
     contacts:
       - name: Viktor Kunčak
@@ -39,10 +39,6 @@ projects:
       - type: Paper
         title: "On Counter-Example Complete Verification for Higher-Order Functions"
         url: https://infoscience.epfl.ch/record/207420
-        notes:
-          - label: Published at
-            text: Scala Symposium 2015
-            url: http://lampwww.epfl.ch/~hmiller/scala2015
       - type: Paper
         title: "System FR as Foundations for Stainless"
         url: https://arxiv.org/pdf/1904.03482.pdf
@@ -59,9 +55,12 @@ projects:
       - type: Tutorial
         title: Stainless Verification System Tutorial
         url: https://raw.githubusercontent.com/epfl-lara/fmcad2021tutorial/main/Stainless-Tutorial-FMCAD2021.pdf
-    date_added: 2019-03-18
-    date_updated: 2023-03-21
+      - type: Webpage
+        title: "Bolts: Stainless Verified Scala Examples"
+        url: https://github.com/epfl-lara/bolts
     maturity: 2
+    date_added: 2019-03-18
+    date_updated: 2024-04-12
 
   stainless-for-smart-contracts:
     name: Stainless for smart contracts
@@ -100,7 +99,7 @@ projects:
       name: Christian Grigis
       email: christian.grigis@epfl.ch
     date_added: 2022-09-26
-    date_updated: 2022-09-26
+    date_updated: 2024-04-12
     maturity: 2
 
   inox:
@@ -115,7 +114,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfl-lara/inox
-      date_last_commit: 2023-02-28
+      date_last_commit: 2023-10-31
     contacts:
       - name: Viktor Kunčak
         email: viktor.kuncak@epfl.ch
@@ -131,7 +130,7 @@ projects:
     notes: >
       Invokes https://github.com/Z3Prover/z3 and http://cvc4.cs.stanford.edu/web/
     date_added: 2019-03-18
-    date_updated: 2023-03-21
+    date_updated: 2024-04-12
 
   rust-stainless:
     name: Rust-Stainless
@@ -157,7 +156,7 @@ projects:
       - Static Analysis
       - Code Analysis
     date_added: 2021-11-04
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   lisa:
     name: LISA
@@ -172,7 +171,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/epfl-lara/lisa
-      date_last_commit: 2023-02-24
+      date_last_commit: 2024-04-08
     language: Scala
     type: Framework, Application
     license: Apache-2.0
@@ -180,7 +179,7 @@ projects:
       - Code Analysis
       - Development
     date_added: 2022-07-05
-    date_updated: 2023-03-21
+    date_updated: 2024-04-12
 
   scallion:
     name: Scallion
@@ -207,4 +206,4 @@ projects:
             text: PLDI 2020
             url: https://pldi20.sigplan.org
     date_added: 2022-07-05
-    date_updated: 2023-03-21
+    date_updated: 2024-04-12

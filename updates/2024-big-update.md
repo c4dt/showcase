@@ -266,6 +266,38 @@ Linus
     - 404 - `https://doi.org/10.1145/10.1145/2872362.2872385` on `https://infoscience.epfl.ch/record/215897`
   - Sent email on 2024-04-12
 - LARA - Viktor Kunčak
+  - Lab page
+    - Parent URL: https://lara.epfl.ch/w/
+      - 404 [https://www.epfl.ch/labs/lara/wp-json/]
+      - 404 [https://www.epfl.ch/labs/lara/]
+      - 403 [Andreas Pavlogiannis][http://lara.epfl.ch/~pavlogia/]
+      - 404 [https://people.epfl.ch/nataliia.stulova?lang=en]
+      - 404 [Marco Antognini][https://people.epfl.ch/Marco%20Antognini]
+      - 404 [https://people.epfl.ch/sarah.sallinger]
+      - 404 [Ravichandhran Kandhadai Madhavan][https://people.epfl.ch/ravi.kandhadai]
+      - 404 [https://people.epfl.ch/emmanouil.koukoutos]
+      - 404 [https://people.epfl.ch/mikael.mayer]
+      - 404 [https://people.epfl.ch/andrew.reynolds]
+      - 404 [https://people.epfl.ch/tihomir.gvero]
+      - 404 [https://people.epfl.ch/filip.konecny]
+      - 404 [https://people.epfl.ch/pierre-emmanuel.cornilleau]
+      - 404 [https://people.epfl.ch/ivan.kuraj]
+      - 404 [https://people.epfl.ch/andrej.spielmann]
+      - 404 [EPFL Fellows program][http://commission-recherche.epfl.ch/EPFLFellows]
+      - 404 [Verifying and Synthesizing Software with Recursive Functions][http://video.itu.dk/video/10044793/icalp-2014-viktor-kuncak]
+      - 404 [https://lara.epfl.ch/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js]
+      - 404 [Accessibility][https://epfl-idevelop.github.io/elements/#/doc/accessibility.html]
+      - 404 [Emina Torlak][https://homes.cs.washington.edu/~emina/]
+      - 404 [https://people.eecs.berkeley.edu/~koksal/]
+      - 404 [https://www.iaik.tugraz.at/content/about_iaik/people/jacobs_swen/]
+    - Parent URL: https://stainless.epfl.ch
+      - 404 [https://stainless.epfl.ch/img/favicon.png]
+      - 503 [Isabelle/HOL][https://isabelle.in.tum.de/]
+    - Parent URL: https://stainless.epfl.ch/smart-contracts.html
+      - 404 [the corresponding benchmark][https://github.com/epfl-lara/smart/tree/master/frontends/benchmarks/smartcontracts/valid/Voting]
+      - Error [https://sidecar.gitter.im/dist/sidecar.v1.js]
+      - 404 [Romain Jufer][https://people.epfl.ch/romain.jufer]
+  - Sent email on 2024-04-12
 - SFI-SM - Semyon Malamud
 - LAMP - Martin Odersky
 - DESL-PWRS - Mario Paolone
