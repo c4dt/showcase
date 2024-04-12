@@ -6,37 +6,6 @@ Showcase modifications in 2024-02
     - creation date
     - updates
 
-- yaml for new projects
-
-```yaml
-projects:
-  url_path:
-    name: (lowercase short name with spaces)
-    description: >
-      (Short description, will be shown under the name)
-    tech_desc: >
-      (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
-    layman_desc: >
-      (A 2-3 sentence description for somebody with general knowledge)
-    type: ( Application | Library | Framework | Toolset | Simulation | Experiments )
-    categories:
-      - ( Privacy | Blockchain | Verification | Security | Learning | Other )
-    applications:
-      - ( Finance | Health | Gov | Infra | Info | Other )
-    tags:
-      - (Add tags, if possible out of the existing ones)
-    url: (URL for a home page)
-    code:
-      type: (Lab Github, Personal Gihub, zip files, ...)
-      url: (https://...)
-      date_last_commit: (YYYY-MM-DD)
-    doc: (url to documentation)
-    lines_of_code: (# of codelines)
-    language: (What the majority of the code is written in)
-    license: (BSD, GPL 3+, MPL 2+, Apache, ...)
-    date_added: (YYYY-MM-DD)
-```
-
 - email for professors:
 
 ```
@@ -288,9 +257,14 @@ Linus
       - no paper on the webpage (https://rs3lab.github.io/TCLocks) or github (https://github.com/rs3lab/TCLocks)
       - https://github.com/rs3lab/TCLocks/blob/master/LICENSE is not very clear - is it GPL-v2, or GPL-v2+?
     - Trio
-  - lab page
+  - lab page - OK
   - Sent email on 2024-04-12
 - SACS - Anne-Marie Kermarrec
+  - Currently no projects - but some seem to be upcoming
+  - Lab page
+    - 404 - `https://www.epfl.ch/labs/sacs/fr/'
+    - 404 - `https://doi.org/10.1145/10.1145/2872362.2872385` on `https://infoscience.epfl.ch/record/215897`
+  - Sent email on 2024-04-12
 - LARA - Viktor Kunčak
 - SFI-SM - Semyon Malamud
 - LAMP - Martin Odersky
@@ -307,16 +281,15 @@ Linus
 - LASEC - Serge Vaudenay
 - DLAB - Robert West
 
-[//]: # " Labs w/o code || retired"
+[//]: # " Labs w/o code - to be checked next time around "
 
 - SFI-PCD - Pierre Collin-Dufresne
 - SFI-RF - Ruediger Fahlenbrach
 - SFI-JH - Julien Hugonnier
-- LDS - Jean-Pierre Hubaux
-  - retired
-- LCA2 - Jean-Yves Le Boudec
-  - retired
 - GR-FE - Jacques Fellay
 - SFI - Damir Filipovic
+
+[//]: # " Retired || left"
+- LDS - Jean-Pierre Hubaux
+- LCA2 - Jean-Yves Le Boudec
 - VLSC - James Larus
-  - retired

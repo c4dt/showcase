@@ -459,6 +459,9 @@ labs:
       edge computing, fully decentralized systems, self organizing systems, and we are working on scalable design,  failure resilience,
       performance and privacy-preservation.
     url: https://www.epfl.ch/labs/sacs/
+    information:
+      - title: Lab github
+        url: https://github.com/sacs-epfl
 
   SalatheLab:
     name: Salathe Lab
