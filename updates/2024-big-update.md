@@ -6,6 +6,42 @@ Showcase modifications in 2024-02
     - creation date
     - updates
 
+- template:
+
+```yaml
+  url_path:
+    name: (short name)
+    description: >
+      (Short description, will be shown under the name)
+    type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )
+    categories:
+      - ( "Privacy" | "Blockchain" | "Verification" | "Security" | "Learning" | "Other" )
+    applications:
+      - ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )
+    tags:
+      - (Add tags, if possible out of the existing ones)
+    layman_desc: >
+      (A 2-3 sentence description for somebody with general knowledge)
+    tech_desc: >
+      (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
+    url: (URL for a home page)
+    code:
+      type: (Lab Github, Personal Gihub, zip files, ...)
+      url: (https://...)
+      date_last_commit: (YYYY-MM-DD)
+    language: (What the majority of the code is written in)
+    license: (BSD-2-Clause, BSD-3-Clause, GPL-3+, MPL-2+, Apache-2.0, ...)
+    information:
+      - type: (Paper | Video | Article | Blog Post | Demo | Web Page | Documentation)
+        title: (Short title)
+        url: (https:.. - for papers, don't use arxiv, but the conference link)
+        notes:
+          - label: (what will be shown in front of the note)
+            text: (the text of the note)
+            url: (the URL for the <a> tag)
+    date_added: (YYYY-MM-DD)
+```
+
 - email for professors:
 
 ```
@@ -298,23 +334,25 @@ Linus
       - Error [https://sidecar.gitter.im/dist/sidecar.v1.js]
       - 404 [Romain Jufer][https://people.epfl.ch/romain.jufer]
   - Sent email on 2024-04-12
-- SFI-SM - Semyon Malamud
 - LAMP - Martin Odersky
+  - Added Scala3
+  - Sent email
 - DESL-PWRS - Mario Paolone
 - HexHive - Mathias Payer
 - Clément Pit-Claudel
 - SalatheLab - Marcel Salathé
 - Yanina Shkel
+- IVRL - Sabine Süsstrunk
 
 [//]: # " 30 "
 
-- IVRL - Sabine Süsstrunk
 - SPRING - Carmela Troncoso
 - LASEC - Serge Vaudenay
 - DLAB - Robert West
 
 [//]: # " Labs w/o code - to be checked next time around "
 
+- SFI-SM - Semyon Malamud
 - SFI-PCD - Pierre Collin-Dufresne
 - SFI-RF - Ruediger Fahlenbrach
 - SFI-JH - Julien Hugonnier
