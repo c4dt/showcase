@@ -21,7 +21,7 @@ projects:
       url: (https://...)
       date_last_commit: (YYYY-MM-DD)
     language: (What the majority of the code is written in)
-    license: (BSD, GPL 3+, MPL 2+, Apache-2.0, ...)
+    license: (BSD-2-Clause, BSD-3-Clause, GPL-3+, MPL-2+, Apache-2.0, ...)
     date_added: (YYYY-MM-DD)
 
     # Additional fields:

@@ -125,8 +125,9 @@ PROJECTS_SCHEMA = sy.Map({"projects":
             sy.Optional("license"): sy.CommaSeparated(sy.Enum([
                 "AGPL-3.0",
                 "GPL-2.0", "GPL-3.0",
+                "GPL-2.0+", "GPL-3.0+",
                 "LGPL-3.0",
-                "MPL-2.0",
+                "MPL-2.0", "MPL-2.0+",
                 "MIT",
                 "Apache-2.0",
                 "BSD-2-Clause",

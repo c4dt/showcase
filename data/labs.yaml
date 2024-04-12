@@ -439,6 +439,9 @@ labs:
       contributions have been published in top academic conferences, and have made great impacts on real-world programs, such as the Linux
       kernel.
     url: https://rs3lab.github.io/
+    information:
+      - title: Lab github
+        url: https://github.com/rs3lab
 
   SACS:
     name: Scalable Computing Systems Laboratory

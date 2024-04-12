@@ -283,6 +283,13 @@ Linus
 [//]: # " 20 "
 
 - RS3LAB - Sanidhya Kashyap
+  - New projects
+    - TClocks 
+      - no paper on the webpage (https://rs3lab.github.io/TCLocks) or github (https://github.com/rs3lab/TCLocks)
+      - https://github.com/rs3lab/TCLocks/blob/master/LICENSE is not very clear - is it GPL-v2, or GPL-v2+?
+    - Trio
+  - lab page
+  - Sent email on 2024-04-12
 - SACS - Anne-Marie Kermarrec
 - LARA - Viktor Kunčak
 - SFI-SM - Semyon Malamud
@@ -300,7 +307,7 @@ Linus
 - LASEC - Serge Vaudenay
 - DLAB - Robert West
 
-[//]: # " Labs w/o code "
+[//]: # " Labs w/o code || retired"
 
 - SFI-PCD - Pierre Collin-Dufresne
 - SFI-RF - Ruediger Fahlenbrach
