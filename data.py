@@ -139,6 +139,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "commercial",
                 "non-commercial",
                 "other",
+                "various"
                 ])),
             sy.Optional("information"): sy.Seq(
                 sy.Map({

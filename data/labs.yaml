@@ -359,12 +359,10 @@ labs:
     description: >
       The Machine Learning and Optimization Laboratory is interested in machine learning, optimization algorithms and text understanding, as
       well as several application domains.
-    contacts:
-      - name: Aymeric Dieuleveut
-        email: aymeric.dieuleveut@epfl.ch
-      - name: Mikhail Langovoy
-        email: mikhail.langovoy@epfl.ch
     url: https://mlo.epfl.ch
+    information:
+      - title: Github Repo
+        url: https://github.com/epfml
 
   MMSPG:
     name: Multimedia Signal Processing Group

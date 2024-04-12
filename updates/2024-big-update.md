@@ -246,7 +246,40 @@ Linus
   - Sent email on 2024-03-22
 - MLO - Martin Jaggi
 
-[//]: # " 20 "
+  - updated last commits
+  - update contacts
+  - existing projects
+    - disco: https://epfml.github.io/disco/#/list - says disco server is not running
+  - lab page:
+    - Empty or broken links:
+      - `AISTATS Paper on Adaptive First-Order Optimization`
+      - `AISTATS results on Frank-Wolfe, and Optimal Transport`
+      - https://thijsvogels.nl
+      - Links to AMLD workshops:
+        - `NLP track`: `https://appliedmldays.org/tracks`
+        - `Theory meets Practice Workshop`: `https://appliedmldays.org/workshops/advances-in-ml-theory-meets-practice`
+        - `PyTorch Workshop`: `https://appliedmldays.org/workshops/pytorch-tutorial`
+        - `Industry Track`: `https://www.appliedmldays.org/2019/tracks/6`
+        - `the first instance of the Applied ML Days`: `https://www.appliedmldays.org/2017`
+      - other links:
+        - `Electric Vehicle Charging`: `https://www.faculty.ece.vt.edu/kekatos/papers/CDC2016.pdf`
+        - `Summer school`: `https://www.ds3-datascience-polytechnique.fr/day-4-5-sessions/`
+        - `Machine Learning Course Started`: `https://mlo.epfl.ch/page-146520.html`
+        - `Google Focused Research Award`: `https://ai.google/research/outreach/focused-research-awards/`
+        - `Greedy and Coordinate Algorithms at AISTATS`: `http://www.aistats.org/accepted.html`
+        - `Welcome Mikhail and Sebastian`: `/mlo/page-135382-en-html/`
+        - `Machine Learning Course Started`: `mlo.epfl.ch/page-136795.html`
+        - `news article`: `https://www.inf.ethz.ch/news-and-events/spotlights/semeval2016.html`
+        - `here`: `http://www.jmlr.org/proceedings/papers/v37/mab15.html`
+        - `Algorithms in the wild`: `https://blogs.nvidia.com/blog/2018/03/20/big-blue-touts-partnership-with-nvidia-at-ibm-think-confab/`
+        - `SDSC fellowship`: `https://datascience.ch/academic-projects/`
+        - `Paper “Primal-Dual Rates and Certificates” at ICML`: `http://jmlr.org/proceedings/papers/v48/dunner16.html`
+    - new projects
+      - Meditron
+      - Megatron
+      - Also various new github repos - which ones are worth to be shown?
+  - Sent email on 2024-04-12
+    [//]: # " 20 "
 
 - RS3LAB - Sanidhya Kashyap
 - SACS - Anne-Marie Kermarrec
