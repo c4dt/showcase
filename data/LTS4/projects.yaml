@@ -267,3 +267,80 @@ projects:
         url: https://arxiv.org/abs/2112.13547
     date_added: 2022-07-06
     date_updated: 2024-03-21
+
+  transfool:
+    name: TransFool
+    description: >
+      Adversarial attack against neural machine translation models
+    type: "Toolset"
+    categories:
+      - "Learning"
+    applications:
+      - "Info"
+    tags:
+      - Machine Learning
+      - Natural Language
+      - Adversarial
+    layman_desc: >
+      TransFool is an attack algorithm to against translation models to make the output translation wrong.
+    tech_desc: >
+      Deep neural networks have been shown to be vulnerable to small perturbations of their inputs. 
+      In this paper, we investigate the vulnerability of Neural Machine Translation (NMT) models to these attacks
+      and propose a new attack algorithm called TransFool. 
+      TransFool can severely degrade the translation quality for different translation tasks and NMT architectures. 
+      Moreover, we show that TransFool is transferable to unknown target models. 
+      Finally, based on automatic and human evaluations, TransFool leads to improvement in performance compared to the
+      existing attacks.
+      Thus, TransFool permits us to better characterize the vulnerability of NMT models and outlines the necessity to
+      design strong defense mechanisms and more robust NMT systems for real-life applications.
+    code:
+      type: Personal Gihub
+      url: https://github.com/sssadrizadeh/TransFool
+      date_last_commit: 2023-06-23
+    language: Python
+    license: Apache-2.0
+    information:
+      - type: Paper
+        title: "TransFool: An Adversarial Attack against Neural Machine Translation Models"
+        url: https://openreview.net/pdf?id=sFk3aBNb81
+    date_added: 2024-04-12
+
+  act:
+    name: Adversarial Classification aTtack
+    description: >
+      Classification-Guided Adversarial Attack against NMT
+    type: "Toolset"
+    categories:
+      - "Learning"
+    applications:
+      - "Info"
+    tags:
+      - Machine Learning
+      - Natural Language
+      - Adversarial
+    layman_desc: >
+      ACT is a new attack framework against translation models to change the class (such as sentiment) of the 
+      output translation.
+    tech_desc: >
+      Neural Machine Translation (NMT) models have been shown to be vulnerable to adversarial attacks, wherein 
+      carefully crafted perturbations of the input can mislead the target model. 
+      In this paper, we introduce ACT, a novel adversarial attack framework against NMT systems guided by a classifier. 
+      In our attack, the adversary aims to craft meaning-preserving adversarial examples whose translations in the 
+      target language by the NMT model belong to a different class (such as sentiment) than the original translations. 
+      Unlike previous attacks, our new approach has a more substantial effect on the translation by altering the overall 
+      meaning, which then leads to a different class determined by a classifier.  
+      Our attack is considerably more successful in altering the class of the output translation and has more effect on 
+      the translation. 
+      This new paradigm can reveal the vulnerabilities of NMT systems by focusing on the class of translation rather 
+      than the mere translation quality as studied traditionally.
+    code:
+      type: Personal Gihub
+      url: https://github.com/sssadrizadeh/ACT
+      date_last_commit: 2024-02-22
+    language: Python
+    license: Apache-2.0
+    date_added: 2024-12-31
+    information:
+      - type: Paper
+        title: A Classification-Guided Approach for Adversarial Attacks against Neural Machine Translation
+        url: https://aclanthology.org/2024.eacl-long.70/

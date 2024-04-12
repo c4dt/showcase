@@ -224,6 +224,7 @@ Linus
 - LTS4 - Pascal Frossard
   - Removed Seyed from lab description
   - Sent email on 2024-03-21
+  - Included suggestions from sahar.sadrizadeh@epfl.ch from 2024-04-08 on 2024-04-12
 - INDY - Matthias Grossglauser
   - Website indy.epfl.ch:
     - 413 - URL `../assets/img/apple-icon.png'
@@ -245,7 +246,6 @@ Linus
   - Website dynamatic.epfl.ch has wrong link to https://dynamatic.epfl.ch/images/EPFL%20marks%2050%20years%20of%20scientific%20progress.mp4
   - Sent email on 2024-03-22
 - MLO - Martin Jaggi
-
   - updated last commits
   - update contacts
   - existing projects
@@ -279,7 +279,8 @@ Linus
       - Megatron
       - Also various new github repos - which ones are worth to be shown?
   - Sent email on 2024-04-12
-    [//]: # " 20 "
+
+[//]: # " 20 "
 
 - RS3LAB - Sanidhya Kashyap
 - SACS - Anne-Marie Kermarrec
