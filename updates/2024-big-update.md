@@ -55,7 +55,11 @@ Know me: The C4DT Factory is in the process of updating the projects related
 to digital trust from the affiliated labs at https://showcase.c4dt.org.
 
 We concentrate on the projects with a software component that is actively worked
-on and related to digital trust.
+on and related to digital trust. Once we have an updated list, we handpick about 5 projects 
+in total and present them to our partners in order to create Proof-of-Concepts.
+
+Currently we have the following list of projects related to digital trust from your lab:
+
 Currently we have the following list of projects related to digital trust
 from your lab:
 
@@ -336,22 +340,25 @@ Linus
   - Sent email on 2024-04-12
 - LAMP - Martin Odersky
   - Added Scala3
-  - Sent email
-- DESL-PWRS - Mario Paolone
+  - Sent email on 2024-04-12
 - HexHive - Mathias Payer
+  - Updated last commit
+  - TEEzz or GLeeFuzz ?
+  - PR to fix 404 on website: https://github.com/HexHive/hexhive.github.io/pull/1
 - Clément Pit-Claudel
 - SalatheLab - Marcel Salathé
 - Yanina Shkel
 - IVRL - Sabine Süsstrunk
+- SPRING - Carmela Troncoso
 
 [//]: # " 30 "
 
-- SPRING - Carmela Troncoso
 - LASEC - Serge Vaudenay
 - DLAB - Robert West
 
 [//]: # " Labs w/o code - to be checked next time around "
 
+- DESL-PWRS - Mario Paolone
 - SFI-SM - Semyon Malamud
 - SFI-PCD - Pierre Collin-Dufresne
 - SFI-RF - Ruediger Fahlenbrach
