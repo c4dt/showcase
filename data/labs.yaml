@@ -559,7 +559,7 @@ labs:
       These cryptographic proofs have powerful applications in the real world.
     url: https://theory.epfl.ch
 
-  SYSTEMF:
+  SystemF:
     name: Systems and Formalisms Lab
     prof:
       name:

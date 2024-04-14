@@ -351,8 +351,15 @@ Linus
   - Added RegElk and JumboTrace
   - Will send email on 2024-04-15
 - SalatheLab - Marcel Salathé
+  - Updated github project dates
+  - Will send email on 2024-04-15
 - Yanina Shkel
+  - No projects
+  - Will send email on 2024-04-15
 - IVRL - Sabine Süsstrunk
+  - Updated github project dates
+  - Many new projects on github - is there something we should add?
+  - Will send email on 2024-04-15
 - SPRING - Carmela Troncoso
 
 [//]: # " 30 "
