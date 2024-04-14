@@ -558,3 +558,19 @@ labs:
       and much faster than re-running the computation. 
       These cryptographic proofs have powerful applications in the real world.
     url: https://theory.epfl.ch
+
+  SYSTEMF:
+    name: Systems and Formalisms Lab
+    prof:
+      name:
+        - Clément
+        - Pit-Claudel
+      email: clement.pit-claudel@epfl.ch
+    description: >
+      We're a programming languages, formal methods, and systems engineering lab at EPFL, 
+      led by Clément Pit-Claudel. We use (and invent!) mathematical formalisms and interactive 
+      tools to explore new ways to develop computer systems.
+    url: https://systemf.epfl.ch/
+    information:
+      - title: Lab github
+        url: https://github.com/epfl-systemf

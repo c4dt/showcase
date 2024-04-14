@@ -345,7 +345,11 @@ Linus
   - Updated last commit
   - TEEzz or GLeeFuzz ?
   - PR to fix 404 on website: https://github.com/HexHive/hexhive.github.io/pull/1
+  - Sent email on 2024-04-10 - Mathias answered that there is no specific new thing he can think of 
 - Clément Pit-Claudel
+  - Added new projects file
+  - Added RegElk and JumboTrace
+  - Will send email on 2024-04-15
 - SalatheLab - Marcel Salathé
 - Yanina Shkel
 - IVRL - Sabine Süsstrunk
