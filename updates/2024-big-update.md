@@ -361,6 +361,11 @@ Linus
   - Many new projects on github - is there something we should add?
   - Will send email on 2024-04-15
 - SPRING - Carmela Troncoso
+  - New projects: SINBAD?
+  - Lab page:
+    - URL        `http://eprints.networks.imdea.org/2080/1/CR_PETS.pdf'
+      Name       `Angel or Devil? A Privacy Study of Mobile Parental Control Apps'
+      Parent URL https://spring.epfl.ch, line 117, col 36
 
 [//]: # " 30 "
 
