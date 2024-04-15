@@ -336,6 +336,9 @@ projects:
       - type: Webpage
         title: League of Entropy
         url: https://leagueofentropy.com/
+      - type: Blog
+        title: EPFL launches globally distributed randomness
+        url: https://actu.epfl.ch/news/epfl-helps-launch-globally-distributed-randomness-/
     date_added: 2019-03-18
     date_updated: 2024-03-20
 
