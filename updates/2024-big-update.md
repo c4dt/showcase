@@ -368,6 +368,8 @@ Linus
 [//]: # " 30 "
 
 - LASEC - Serge Vaudenay
+  - Updated github project dates
+  - Sent email on 2024-04-16
 - DLAB - Robert West
 
 [//]: # " Labs w/o code - to be checked next time around "
