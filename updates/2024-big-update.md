@@ -371,6 +371,10 @@ Linus
   - Updated github project dates
   - Sent email on 2024-04-16
 - DLAB - Robert West
+  - Added aiFlows, transformers-cfg, multilingual-entity-insertion (no license)
+  - Lab webpage errors
+    - on https://dlab.epfl.ch/, `Swiss Data Science Center': `https://datascience.ch/project/the-human-measurement-project-hmp/'
+  - Sent email on 2024-04-16
 
 [//]: # " Labs w/o code - to be checked next time around "
 

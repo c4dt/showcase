@@ -76,6 +76,9 @@ labs:
       applying algorithms and techniques in areas including social and information network analysis, machine learning, computational social
       science, data mining, natural language processing, and human computation.
     url: https://dlab.epfl.ch/
+    information:
+      - title: Github Repository
+        url: https://github.com/epfl-dlab
 
   DSLAB:
     name: Dependable Systems Lab
