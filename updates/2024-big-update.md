@@ -51,7 +51,7 @@ Might not know me: I’m Linus from the C4DT Factory - we’re working on the
 projects from the labs to learn the latest tech and link it to our partners.
 About once per year we update our list of projects at https://showcase.c4dt.org.
 
-Know me: The C4DT Factory is in the process of updating the projects related
+Knows me: The C4DT Factory is in the process of updating the projects related
 to digital trust from the affiliated labs at https://showcase.c4dt.org.
 
 We concentrate on the projects with a software component that is actively worked
@@ -59,9 +59,6 @@ on and related to digital trust. Once we have an updated list, we handpick about
 in total and present them to our partners in order to create Proof-of-Concepts.
 
 Currently we have the following list of projects related to digital trust from your lab:
-
-Currently we have the following list of projects related to digital trust
-from your lab:
 
 https://factory.c4dt.org/showcase/#dropdown=lab_FILLIN
 
@@ -346,26 +343,27 @@ Linus
   - TEEzz or GLeeFuzz ?
   - PR to fix 404 on website: https://github.com/HexHive/hexhive.github.io/pull/1
   - Sent email on 2024-04-10 - Mathias answered that there is no specific new thing he can think of 
-- Clément Pit-Claudel
+- SystemF: Clément Pit-Claudel
   - Added new projects file
   - Added RegElk and JumboTrace
-  - Will send email on 2024-04-15
+  - Sent email on 2024-04-16
 - SalatheLab - Marcel Salathé
   - Updated github project dates
-  - Will send email on 2024-04-15
+  - Sent email on 2024-04-16
 - Yanina Shkel
   - No projects
-  - Will send email on 2024-04-15
+  - Sent email on 2024-04-16
 - IVRL - Sabine Süsstrunk
   - Updated github project dates
   - Many new projects on github - is there something we should add?
-  - Will send email on 2024-04-15
+  - Sent email on 2024-04-16
 - SPRING - Carmela Troncoso
   - New projects: SINBAD?
   - Lab page:
     - URL        `http://eprints.networks.imdea.org/2080/1/CR_PETS.pdf'
       Name       `Angel or Devil? A Privacy Study of Mobile Parental Control Apps'
       Parent URL https://spring.epfl.ch, line 117, col 36
+  - Sent email on 2024-04-16
 
 [//]: # " 30 "
 

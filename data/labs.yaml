@@ -186,6 +186,9 @@ labs:
     contacts:
       - name: Siavash Arjomand Bigdeli
     url: https://ivrl.epfl.ch/
+    information:
+      - title: Lab GitHub
+        url: https://github.com/IVRL
 
   LAMP:
     name: Programming Methods Laboratory
