@@ -254,7 +254,7 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/rs3lab/Trio
-      date_last_commit: 2024-08-24
+      date_last_commit: 2023-08-24
     language: C
     license: Apache-2.0
     information:
