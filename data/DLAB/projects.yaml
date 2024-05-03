@@ -311,3 +311,107 @@ projects:
       date_last_commit: 2024-04-15
     language: Jupyter Notebook
     date_added: 2024-04-16
+
+  # Most common fields:
+  refiner:
+    name: Refiner
+    description: >
+      Reasoning framework with feedback on intermediate steps
+    type: "Toolset"
+    categories:
+      - "Learning"
+    applications:
+      - "Info"
+    tags:
+      - Machine Learning
+      - Natural Language
+      - Optimization
+    layman_desc: >
+      This project introduces REFINER, a system that helps language models
+      improve their reasoning abilities through feedback.  It has one model
+      that generates initial reasoning steps, and another model that
+      critiques those steps.  By getting feedback on the intermediate
+      reasoning, the first model can refine its final answer.  This allows
+      language models to solve complex reasoning tasks more accurately.
+    tech_desc: >
+      REFINER is an interaction-based framework for natural language
+      reasoning tasks.  It has a CRITIC model that provides structured
+      feedback on intermediate reasoning steps, and a GENERATOR model that
+      solves the reasoning task by first generating intermediate steps.  The
+      core idea is the interaction between the generator and critic, where
+      the generator's steps are improved via feedback from the critic.
+    code:
+      type: Personal GitHub
+      url: https://github.com/debjitpaul/refiner
+      date_last_commit: 2024-02-21
+    language: Python
+    license: Apache-2.0
+    date_added: 2024-05-03
+
+  lamen:
+    name: LAMEN
+    description: >
+      Evaluating language models through negotiation tasks
+    type: "Toolset"
+    categories:
+      - "Learning"
+    applications:
+      - "Info"
+    tags:
+      - Machine Learning
+      - Natural Language
+      - Optimization
+    layman_desc: >
+      This project introduces a new way to test the decision-making abilities of
+      AI language models by having them engage in negotiations with each other.
+      By designing various negotiation scenarios, such as dividing pizza slices
+      or deciding on the amount of cheese, the researchers can evaluate how well
+      the AI models perform in terms of reaching agreements, maximizing their
+      own benefits, and cooperating when necessary. The study also examines how
+      faithfully the AI models follow their own reasoning and instructions,
+      providing insights into their reliability and alignment with human values.
+    tech_desc: >
+      The project proposes using structured negotiations as a dynamic benchmark
+      for evaluating language model (LM) agents. The negotiation framework
+      consists of a game setting, issues to negotiate, and optional preference
+      weights, allowing for the design of complex games by increasing the number
+      of issues, mixing issue types, and adding non-uniform preferences. The
+      benchmark setup jointly evaluates performance metrics (utility and
+      completion rate) and alignment metrics (faithfulness and
+      instruction-following) in self-play and cross-play settings.
+    url: https://dlab.epfl.ch/2024-01-10-evaluating-language-model-agency/
+    code:
+      type: Lab Github
+      url: https://github.com/epfl-dlab/LAMEN
+      date_last_commit: 2024-02-04
+    language: Python
+    date_added: 2024-05-03
+
+  llm-ga:
+    name: LLM Grounding Analysis
+    description: >
+      LLM grounding vs. factual recall
+    type: "Experiments"
+    categories:
+      - "Learning"
+    applications:
+      - "Gov"
+    tags:
+      - Machine Learning
+      - Natural Language
+    layman_desc: >
+      Large language models (LLMs) can memorize and apply new information. However,
+      it's unclear how they balance this new context with their pre-existing knowledge.
+      This research analyzes how LLMs manage this conflict using a new counterfactual dataset.
+    tech_desc: >
+      The study investigates LLMs using Fakepedia, a dataset presenting contradictions 
+      between known facts and new information. Through Masked Grouped Causal Tracing (MGCT),
+      the research deciphers LLMs' grounding mechanisms by contrasting neural activation patterns.
+      Findings help understand the co-functioning of grounding with recall capabilities within LLMs.
+    code:
+      type: Lab Github
+      url: https://github.com/epfl-dlab/llm-grounding-analysis
+      date_last_commit: 2024-02-19
+    language: Python
+    license: Apache-2.0
+    date_added: 2024-05-03
