@@ -28,13 +28,6 @@ projects:
       type: Lab GitHub
       url: https://github.com/tuneinsight/lattigo
       date_last_commit: 2023-03-14
-    contacts:
-      - name: Jean-Philippe Bossuat
-        email: jean-philippe@tuneinsight.com
-      - name: Christian Mouchet
-        email: christian.mouchet@epfl.ch
-      - name: Lattigo mailing list
-        email: lattigo@tuneinsight.com
     incubator:
       type: retired
       work: 2020/Q1 maturity evaluation
@@ -80,11 +73,6 @@ projects:
     language: GoLang
     type: Application
     license: non-commercial
-    contacts:
-      - name: David Froelicher
-        email: david.froelicher@epfl.ch
-      - name: Joao de Sá
-        email: joao.gomesdesaesousa@epfl.ch
     date_added: 2019-03-18
     date_updated: 2022-09-28
 
@@ -111,12 +99,6 @@ projects:
     language: GoLang
     type: Application
     license: non-commercial
-    c4dt_contact:
-      name: Linus Gasser
-      email: linus.gasser@epfl.ch
-    contacts:
-      - name: Mickaël Misbach
-        email: mickael.misbach@epfl.ch
     incubator:
       type: retired
       work: 2020/Q2 Maturity Evaluation and library support
@@ -150,11 +132,6 @@ projects:
     language: GoLang
     type: Application
     license: other
-    contacts:
-      - name: David Froelicher
-        email: david.froelicher@epfl.ch
-      - name: Joao de Sá
-        email: joao.gomesdesaesousa@epfl.ch
     incubator:
       type: retired_archived
       work: 2020/Q1 created demonstrator for SwissRe
@@ -163,9 +140,6 @@ projects:
           title: Decentralized Data Analysis
           url: https://github.com/c4dt/service-drynx
           code: https://github.com/c4dt/service-drynx
-    c4dt_contact:
-      name: Valérian Rousset
-      email: valerian.rousset@epfl.ch
     date_added: 2019-03-18
     date_updated: 2022-09-28
     maturity: 1
@@ -197,11 +171,6 @@ projects:
     language: GoLang
     type: Application
     license: other
-    contacts:
-      - name: David Froelicher
-        email: david.froelicher@epfl.ch
-      - name: Joao de Sá
-        email: joao.gomesdesaesousa@epfl.ch
     incubator:
       type: retired_archived
       work: 2021/Q1 created Spindle demonstrator
@@ -209,9 +178,6 @@ projects:
         - type: Demo
           title: SPINDLE demonstrator
           url: https://github.com/c4dt/service-spindle
-    c4dt_contact:
-      name: Valérian Rousset
-      email: valerian.rousset@epfl.ch
     date_added: 2021-01-21
     date_updated: 2022-09-28
 

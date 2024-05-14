@@ -93,9 +93,9 @@ url_path:
 ## Run the application locally
 
 Ensure you have the required tools to create Python virtual environments.
-You can either install the dependencies globally, or use [devbox](https://www.jetpack.io/devbox).
+You can either install the dependencies in a virtual environment, or use [devbox](https://www.jetpack.io/devbox).
 
-### Install dependencies globally
+### Install dependencies in a virtual environment
 
 You might need to install a specific package depending on your distribution,
 e.g. on Debian `python3-venv`:

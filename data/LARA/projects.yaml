@@ -95,9 +95,6 @@ projects:
           title: Stainless-OmniLedger demonstrator
           url: https://github.com/c4dt/service-stainless
           code: https://github.com/c4dt/service-stainless
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     date_added: 2022-09-26
     date_updated: 2024-04-12
     maturity: 2

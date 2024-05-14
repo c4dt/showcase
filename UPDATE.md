@@ -38,8 +38,6 @@ This is a little todo-list of how to update the showcase
       - maturity evaluation
       - promote projects
       - work on specific projects
-      - -> perhaps we should have an article with some of the most typical work we did
-        for the labs
     - CC one or two postdocs
     - remind them after a week or so
 

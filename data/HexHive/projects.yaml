@@ -476,9 +476,6 @@ projects:
     incubator:
       type: retired
       work: 2021/Q1 worked on improving and integrating with microG and published app
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     date_added: 2020-10-05
     date_updated: 2024-04-12
 
