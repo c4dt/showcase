@@ -44,8 +44,8 @@
                 "columnDefs": [
                     {"width": "20%", "targets": 0},
                     {"width": "30%", "targets": 1},
-                    {"width": "30%", "targets": 2},
-                    {"width": "15%", "targets": 3},
+                    {"width": "20%", "targets": 2},
+                    {"width": "20%", "targets": 5},
                     {"visible": false, "targets": "extra"}, // Hide "extra" columns by default 
                 ]
             });
@@ -131,7 +131,8 @@
                 .join(" ");
 
             const table = $('#projects').DataTable();
-            table.order([21, "asc"], [3, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
+            table.order([14, "desc"], [3, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
+            // table.order([21, "asc"], [3, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
             table.search(search_input).column(21).search(dropdown).draw();
             update_url(dropdown, search_input);
             // This makes sure that double entries are correctly displayed in the corner
@@ -307,10 +308,10 @@ applications.update({ "Other": "Other" })
                     <th>Name</th>
                     <th>Description</th>
                     <th>Tags</th>
-                    <th>Products</th>
-                    <th>Maturity</th>
+                    <th class="extra">Products</th>
+                    <th class="extra">Maturity</th>
 
-                    <th class="extra">Professor &mdash; Lab</th>
+                    <th>Professor &mdash; Lab</th>
                     <th class="extra">More information</th>
                     <th class="extra">Date added</th>
                     <th class="extra">Date updated</th>
@@ -320,7 +321,7 @@ applications.update({ "Other": "Other" })
                     <th class="extra">Language</th>
                     <th class="extra">Type</th>
                     <th class="extra">Source code</th>
-                    <th class="extra">Date last commit</th>
+                    <th>Date last commit</th>
 
                     <th class="extra">LOC</th>
                     <th class="extra">Documentation</th>
