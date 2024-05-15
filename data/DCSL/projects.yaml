@@ -34,7 +34,7 @@ projects:
             text: USENIX ATC 2019
             url: https://www.usenix.org/conference/atc19
     date_added: 2021-11-04
-    date_updated: 2022-07-04
+    date_updated: 2024-02-20
 
   raft:
     name: Raft consensus protocol
@@ -58,7 +58,7 @@ projects:
       - Decentralized
       - Protocol
     date_added: 2021-11-05
-    date_updated: 2022-07-04
+    date_updated: 2024-02-20
 
   hovercraft:
     name: HovercRaft
@@ -94,7 +94,7 @@ projects:
             text: EuroSys 2020
             url: https://www.eurosys2020.org/
     date_added: 2021-11-05
-    date_updated: 2022-07-04
+    date_updated: 2024-02-20
 
   crab:
     name: CRAB
@@ -123,4 +123,4 @@ projects:
             text: SoCC 2020
             url: https://acmsocc.github.io/2020/
     date_added: 2022-07-04
-    date_updated: 2022-07-04
+    date_updated: 2024-02-20

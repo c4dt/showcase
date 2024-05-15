@@ -30,7 +30,7 @@ projects:
             text: SCIS 2020
             url: https://www.iwsec.org/scis/2020/index_en.html
     date_added: 2021-11-05
-    date_updated: 2022-07-05
+    date_updated: 2024-04-16
 
   ophcrack:
     name: ophcrack
@@ -46,10 +46,10 @@ projects:
     code:
       type: Non-lab GitLab
       url: https://gitlab.com/objectifsecurite/ophcrack/
-      date_last_commit: 2018-03-06
+      date_last_commit: 2023-11-29
     language: C
     type: Application
     tags:
       - Attack
     date_added: 2021-11-05
-    date_updated: 2022-07-05
+    date_updated: 2024-04-16

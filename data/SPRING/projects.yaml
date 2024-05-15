@@ -21,8 +21,6 @@ projects:
     contacts:
       - name: Theresa Stadler
         email: theresa.stadler@epfl.ch
-      - name: Laurent Girod
-        email: laurent.girod@epfl.ch
     tags:
       - Protocol
     type: Library
@@ -57,9 +55,6 @@ projects:
       type: Project GitHub
       url: https://github.com/claimchain
       date_last_commit: 2018-10-13
-    contacts:
-      - name: Bogdan Kulynych
-        email: bogdan.kulynych@epfl.ch
     tags:
       - Decentralized
     language: Python
@@ -87,9 +82,6 @@ projects:
       A Javascript library for browsers for anonymous communication via the Tor network. The library connects to the Tor network to enable
       websites to send and retrieve data anonymously (e.g. send sensitive information without identifying the user) without requiring users
       to install special software such as the Tor browser.
-    contacts:
-      - name: Laurent Girod
-        email: laurent.girod@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/lightnion
@@ -113,9 +105,6 @@ projects:
     tech_desc: >
       Trickster allows to attack machine learning models where the attack needs to be more sophisticated than simply adding some noise to an
       image. One example is to evade an abuse detection model, for example, social media bot detection, or a malware detector.
-    contacts:
-      - name: Bogdan Kulynych
-        email: bogdan.kulynych@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/trickster
@@ -153,9 +142,6 @@ projects:
       type: Lab GitHub
       url: https://github.com/spring-epfl/hippiepug
       date_last_commit: 2019-10-22
-    contacts:
-      - name: Bogdan Kulynych
-        email: bogdan.kulynych@epfl.ch
     tags:
       - Decentralized
     language: Python
@@ -180,9 +166,6 @@ projects:
       - Info
     description: Evaluation code for mobile crowdsourcing privacy
     tech_desc: This tool implements the evaluation framework described in the paper
-    contacts:
-      - name: Carmela Troncoso
-        email: carmela.troncoso@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/MCSAuditing
@@ -215,9 +198,6 @@ projects:
       url: https://github.com/spring-epfl/zksk
       date_last_commit: 2022-03-02
     doc: https://zksk.readthedocs.io/
-    contacts:
-      - name: Bogdan Kulynych
-        email: bogdan.kulynych@epfl.ch
     tags:
       - Zero-Knowledge Proofs
     language: Python
@@ -325,9 +305,6 @@ projects:
     description: Wrapper around RELIC pairings
     tech_desc: >
       petrelic is a Python wrapper around RELIC. It provides a simple python interface to the BLS-381 pairing and RELIC's big number class.
-    contacts:
-      - name: Laurent Girod
-        email: laurent.girod@epfl.ch
     tags:
       - Low-Level
     type: Library
@@ -350,9 +327,6 @@ projects:
     description: Library to facilitate anonymous authentication
     tech_desc: >
       SSCred provides the following primitives: 1) Anonymous credential light (ACL) 2) Abe's Blind signature 3) Blinded Pedersen commitment
-    contacts:
-      - name: Kasra Edalat
-        email: kasra.edalat@epfl.ch
     tags:
       - Anonymity
     type: Library
@@ -376,9 +350,6 @@ projects:
       These are attacks against privacy of the training data. In MIA, an attacker tries to guess whether a given example was used during
       training of a target model or not, only by querying the model. See more in the paper by Shokri et al. Currently, you can use the
       library to evaluate the robustness of your Keras or PyTorch models to MIA.
-    contacts:
-      - name: Bogdan Kulynych
-        email: bogdan.kulynych@epfl.ch
     tags:
       - Attack
     type: Application
@@ -403,13 +374,6 @@ projects:
       This library builds upon the arti-library. It wraps the arti-library for easy use by mobile applications. Instead of downloading the
       whole dictionary of the Tor-nodes every hour, a prepared dictionary is downloaded once per week. This reduces bandwidth requirements,
       as the whole dictionary is around 3MB. The prepared dictionary only weighs 200kB.
-    contacts:
-      - name: Wouter Lueks
-        email: wouter.lueks@epfl.ch
-      - name: Linus Gasser
-        email: linus.gasser@epfl.ch
-      - name: Laurent Girod
-        email: laurent.girod@epfl.ch
     tags:
       - Tor
       - Mobile App
@@ -450,9 +414,6 @@ projects:
       their votes, or to abstain. Existing remote voting systems either do not provide this property; require an ex-pensive tallying phase;
       or burden users with the need to store cryptographic key material and with the responsibility to deceive their coercers. VoteAgain is
       a scalable voting scheme that relies on the revoting paradigm to provide coercion resistance.
-    contacts:
-      - name: Wouter Lueks
-        email: wouter.lueks@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/voteagain
@@ -487,9 +448,6 @@ projects:
       reporters, their stories, and their sources.  Consequently, many documents are used only for single, local, investigations.
       DatashareNetwork is a decentralized and privacy-preserving search system that enables journalists world-wide to find documents via a
       dedicated network of peers.
-    contacts:
-      - name: Kasra Edalatnejadkhamene
-        email: kasra.edalat@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/datashare-network-crypto
@@ -521,9 +479,6 @@ projects:
     tech_desc: >
       Users’ devices, e.g., smartphones or laptops, are typically incapable of securely storing and processing cryptographic keys. Tandem is
       a novel set of protocols for securing cryptographic keys with support from a central server.
-    contacts:
-      - name: Wouter Lueks
-        email: wouter.lueks@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/tandem
@@ -557,9 +512,6 @@ projects:
     description: Capturing Advertising and Tracking Information Flows for Robust Blocking
     tech_desc: >
       ML-based ad and tracker blocker that detects ads and trackers based on their action rather than their content.
-    contacts:
-      - name: Sandra Siby
-        email: sandra.siby@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/WebGraph
@@ -593,9 +545,6 @@ projects:
     tech_desc: >
       A membership inference attack (MIA) against a machine-learning model enables an attacker to determine whether a given data record was
       part of the model's training data or not. DisparateVulnerability helps in measuring how much a given model can be inverted.
-    contacts:
-      - name: Bogdan Kulynych
-        email: bogdan.kulynych@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/spring-epfl/disparate-vulnerability

@@ -1,70 +1,4 @@
 projects:
-  pribot:
-    name: PriBot
-    categories:
-      - Privacy
-      - Learning
-    applications:
-      - Info
-    description: Automated analysis of privacy policies
-    tech_desc: >
-      Pribot uses an automated framework for privacy policy analysis (Polisis). It enables scalable, dynamic, and multi-dimensional queries
-      on natural language privacy policies.
-    code:
-      type: Private GitHub
-    contacts:
-      - name: Hamza Harkous
-        email: hamza.harkous@gmail.com
-      - name: Rémi Lebret
-        email: remi.lebret@epfl.ch
-    tags:
-      - Natural Language
-    language: Python, JavaScript
-    type: Application
-    information:
-      - type: Paper
-        title: "Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning"
-        url: https://infoscience.epfl.ch/record/270808
-        notes:
-          - label: Published at
-            text: USENIX'18
-            url: https://www.usenix.org/conference/usenixsecurity18
-    license: commercial
-    date_added: 2019-03-18
-    date_updated: 2023-03-21
-
-  privyseal:
-    name: PrivySeal
-    categories:
-      - Privacy
-    applications:
-      - Info
-    description: Privacy assistant for installing third party cloud apps
-    tech_desc: >
-      When installing third party apps for cloud services such as Google Drive or DropBox, PrivySeal compares the required permissions to
-      the ones actually needed, and informs users about the data-driven insights that these apps can make about them (e.g. topics of
-      interest, activity patterns, etc.). The goal is to make users aware of these facts and discourage them to install over-privileged
-      apps.
-    code:
-      type: Private GitHub
-    contacts:
-      - name: Hamza Harkous
-        email: hamza.harkous@gmail.com
-    tags:
-      - Cloud
-    language: JavaScript, Python
-    type: Application
-    information:
-      - type: Paper
-        title: "The Curious Case of the PDF Converter that Likes Mozart: Dissecting and Mitigating the Privacy Risk of Personal Cloud Apps"
-        url: https://infoscience.epfl.ch/record/218003
-        notes:
-          - label: Published at
-            text: PETS'16
-            url: https://petsymposium.org/2016
-    date_added: 2019-03-18
-    date_updated: 2022-07-06
-
   ai-data-platform-v1:
     name: AI Research Aiding Online Children Safety
     categories:
@@ -80,20 +14,14 @@ projects:
       on a mobile phone. The analysis can therefore run on the mobile phone without having to send any content to any server.
     code:
       type: Private GitHub
-    information:
-      - type: Demo
-        title: Online Image Retrieval Demo
-        url: https://modemos.epfl.ch/article
     contacts:
       - name: Rémi Lebret
         email: remi.lebret@epfl.ch
-      - name: Hamza Harkous
-        email: hamza.harkous@gmail.com
     tags:
       - Image Classification
     type: Framework
     date_added: 2019-03-18
-    date_updated: 2022-07-06
+    date_updated: 2024-02-06
 
   ai-data-platform-v2:
     name: AI-Driven Classifier Building Pipeline
@@ -140,7 +68,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/LSIR/SciLens
-      date_last_commit: 2020-11-12
+      date_last_commit: 2022-10-25
     information:
       - type: Paper
         title: "SciLens: Evaluating the Quality of Scientific News Articles Using Social Media and Scientific Literature Indicators"
@@ -156,6 +84,23 @@ projects:
           - label: Published at
             text: VLDB'20
             url: https://vldb2020.org
+      - type: Paper
+        title: "SciClops: Detecting and Contextualizing Scientific Claims for Assisting Manual Fact-Checking"
+        url: https://infoscience.epfl.ch/record/289989?
+        notes:
+          - label: Published at
+            text: CIKM '21
+            url: https://dl.acm.org/doi/10.1145/3459637.3482475
+          - label: Slides
+            text: SciClops
+            url: https://scilens.epfl.ch/files/cikm2021.pptx
+      - type: Paper
+        title: "SciLander: Mapping the Scientific News Landscape"
+        url: https://scilens.epfl.ch/files/icwsm2023.pdf
+        notes:
+          - label: Published at
+            text: ICWSM '23
+            url: https://ojs.aaai.org/index.php/ICWSM/article/view/22144
     contacts:
       - name: Panayiotis Smeros
         email: panayiotis.smeros@epfl.ch
@@ -165,7 +110,7 @@ projects:
     license: GPL-3.0
     type: Application
     date_added: 2019-03-18
-    date_updated: 2023-03-21
+    date_updated: 2024-02-06
 
   media-observatory:
     name: Media Observatory
@@ -182,9 +127,7 @@ projects:
     url: https://www.mediaobservatory.com
     code:
       type: Private GitHub
-    contacts:
-      - name: Jérémie Rappaz
-        email: jeremie.rappaz@epfl.ch
+      url: https://github.com/mediaobservatory
     tags:
       - Natural Language
     type: Application
@@ -204,7 +147,7 @@ projects:
             text: WWW'19
             url: https://www2019.thewebconf.org
     date_added: 2019-09-04
-    date_updated: 2022-07-06
+    date_updated: 2024-02-12
 
   mozuma:
     name: Mozuma
@@ -219,9 +162,80 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/mozuma/mozuma
-      date_last_commit: 2022-10-28
+      date_last_commit: 2023-07-11
     tags:
       - PyTorch
     type: Library
     date_added: 2022-07-06
-    date_updated: 2023-03-21
+    date_updated: 2024-02-12
+
+  commpass:
+    name: CommPass
+    description: >
+      News article similarity visualization tool
+    type: "Application"
+    categories:
+      - "Learning"
+    applications:
+      - "Info"
+    tags:
+      - "Adversarial"
+      - "Machine Learning"
+      - "Natural Language"
+    layman_desc: >
+      This tool visualizes how similar or different news articles about the
+      same event are from multiple perspectives. It can show if articles
+      have a positive or negative stance on the topic. This helps users
+      understand if they are caught in a filter bubble and exposes them to
+      diverse viewpoints. It also assists journalists in positioning their
+      articles among others covering the same story.
+    tech_desc: >
+      The project aims to visualize semantic similarity and polarity of news
+      articles covering a given media event. It extends the NewsTeller
+      platform which processes over 1.5 million news articles per month.
+      The goal is to provide intuitive visualization tools to explore the
+      media landscape and enhance the NewsTeller platform.
+    url: https://www.media-initiative.ch/project/commpass/
+    date_added: 2024-03-19
+
+  # Most common fields:
+  upgrade_newsroom:
+    name: Upgrading the Newsroom
+    description: >
+      Automated image selection system for news articles
+    type: "Application"
+    categories:
+      - "Learning"
+    applications:
+      - "Info"
+    tags:
+      - "Adversarial"
+      - "Machine Learning"
+      - "Natural Language"
+    layman_desc: >
+      It is an automated system that can recommend suitable images to illustrate 
+      news articles by analyzing the text content of the articles. 
+      The system can handle inputs in multiple languages like German and French 
+      by using aligned multilingual word embeddings. 
+      It uses advanced neural network techniques like attention to identify 
+      the most relevant parts of the text for retrieving matching images from a 
+      large database.
+    tech_desc: >
+      The system fuses multiple textual sources (caption, body, headline, lead) 
+      from news articles using a hierarchical attention mechanism to retrieve 
+      relevant images. 
+      It utilizes subword embeddings and self-attention to better encode 
+      entities and capture important keywords within texts. 
+      The model is trained on a large-scale multimodal multilingual dataset of 
+      over 500k German and French news article-image pairs in a 
+      weakly-supervised manner.
+    url: https://modemos.epfl.ch/article
+    contacts:
+      - name: Rémi Lebret
+        email: remi.lebret@epfl.ch
+    information:
+      # One or more of:
+      - type: Paper
+        title: "Upgrading the Newsroom: An Automated Image Selection System for News Articles"
+        url: https://arxiv.org/abs/2004.11449
+    date_added: 2024-03-19

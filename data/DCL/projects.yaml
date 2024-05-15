@@ -7,9 +7,6 @@ projects:
       - Info
     description: >
       System support for byzantine machine learning
-    contacts:
-      - name: Arsany Guirguis
-        email: arsany.guirguis@epfl.ch
     type: Library
     tech_desc: >
       Garfield is a library to build Byzantine machine learning (ML) applications on top of popular frameworks such as TensorFlow and
@@ -41,9 +38,6 @@ projects:
           title: Garfield Demonstrator
           url: https://factory.c4dt.org/incubator/garfield/demo/
           code: https://github.com/c4dt/Garfield
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     maturity: 1
     information:
       - type: Paper
@@ -131,7 +125,7 @@ projects:
             text: Proceedings of NeurIPS 2017
             url: https://proceedings.neurips.cc/paper/2017
     date_added: 2021-01-20
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   at2:
     name: AT2
@@ -147,13 +141,10 @@ projects:
       We replace consensus with a lightweight building block -- a broadcast-based primitive -- to obtain a full-fledged asset transfer
       system (cryptocurrency). This system is more efficient and more scalable compared with Bitcoin and consensus-based solutions. AT2 is
       the first system to bypass consensus algorithms for implementing asset transfers.
-    contacts:
-      - name: Matteo Monti
-        email: matteo.monti@epfl.ch
     code:
       type: Lab GitHub
-      url: https://github.com/Distributed-EPFL
-      date_last_commit: 2021-10-21
+      url: https://github.com/Distributed-EPFL/at2-web
+      date_last_commit: 2022-02-24
     license: AGPL-3.0
     maturity: 1
     incubator:
@@ -164,9 +155,6 @@ projects:
           title: AT2 Demonstrator
           url: https://factory.c4dt.org/incubator/at2/demo
           code: https://github.com/Distributed-EPFL/at2-web
-    c4dt_contact:
-      name: Valérian Rousset
-      email: valerian.rousset@epfl.ch
     tags:
       - Decentralized
       - Byzantine Resilience
@@ -211,7 +199,7 @@ projects:
         title: "Presentation of Dynamic Byzantine Reliable Broadcast"
         url: https://www.youtube.com/watch?v=WIm8XGopqIA
     date_added: 2019-03-18
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   fegan:
     name: FeGAN
@@ -224,9 +212,6 @@ projects:
       The FeGAN system enables training GANs in the Federated Learning setup. GANs are generative adversarial networks, a class of machine
       learning where two neural networks contest with each other. FeGAN is implemented on PyTorch and is using less bandwidth and is faster
       than using stat-of-the-art GANs implementations.
-    contacts:
-      - name: Arsany Guirguis
-        email: arsany.guirguis@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/FeGAN
@@ -247,7 +232,7 @@ projects:
             text: ACM/IFIP Middleware 2020
             url: https://2020.middleware-conference.org
     date_added: 2020-11-11
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   mvtil:
     name: MVTIL
@@ -259,9 +244,6 @@ projects:
     tech_desc: >
       MVTL is a new family of concurrency control algorithms. Improving performance of distributed databases by allowing read accesses to
       lag behind the latest version of the data.
-    contacts:
-      - name: Rachid Guerraoui
-        email: rachid.guerraoui@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/MVTIL
@@ -282,7 +264,7 @@ projects:
             text: PODC 2018
             url: https://www.podc.org/podc2018
     date_added: 2019-09-19
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   libnvram:
     name: libNVRAM
@@ -294,9 +276,6 @@ projects:
     layman_desc: >
       Storing data structures in non-volatile RAM such that transient failures don't corrupt the data.
     url: http://dcl.epfl.ch/site/nvram
-    contacts:
-      - name: Rachid Guerraoui
-        email: rachid.guerraoui@epfl.ch
     code:
       type: Lab Github
       url: https://github.com/LPD-EPFL/nv-lf-structures
@@ -317,7 +296,7 @@ projects:
             text: ATC 2018
             url: https://www.usenix.org/conference/atc18/presentation/david
     date_added: 2019-03-18
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   flodb:
     name: FloDB
@@ -333,9 +312,6 @@ projects:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/flodb
       date_last_commit: 2017-03-28
-    contacts:
-      - name: Zablotchi Mihail Igor
-        email: igor.zablotchi@epfl.ch
     tags:
       - Database
       - Server
@@ -351,7 +327,7 @@ projects:
             text: EuroSys 2017
             url: https://eurosys2017.github.io
     date_added: 2019-03-18
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   fleet:
     name: FLeet
@@ -363,9 +339,6 @@ projects:
     layman_desc: >
       MobNet is a framework for federated machine learning on Android devices. It consumes much less battery than Standard FL while
       increasing the model's accuracy three times. It allows for Android to actually participate in the building of a ML model.
-    contacts:
-      - name: Georgios Damaskinos
-        url: https://gdamaskinos.com
     code:
       type: Non-lab GitHub
       url: https://github.com/gdamaskinos/fleet
@@ -386,7 +359,7 @@ projects:
             text: ACM/IFIP Middleware 2020
             url: https://2020.middleware-conference.org
     date_added: 2019-07-01
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   mctop:
     name: MCTOP
@@ -399,9 +372,6 @@ projects:
       MCTOP is an abstraction of multi-core topologies augmented with important low-level hardware information, such as memory bandwidths
       and communication latencies.
     url: https://dcl.epfl.ch/site/mctop
-    contacts:
-      - name: Vasileios Trigonakis
-        email: github@trigonakis.com
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/mctop
@@ -420,7 +390,7 @@ projects:
             text: EuroSys 2017
             url: https://eurosys2017.github.io
     date_added: 2019-07-26
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   lockin:
     name: LOCKIN
@@ -436,9 +406,6 @@ projects:
       lock libraries, GLS does not require any effort from the programmer for allocating and initializing locks, nor for selecting the
       appropriate locking strategy.
     url: https://dcl.epfl.ch/site/lockin
-    contacts:
-      - name: Rachid Guerraoui
-        email: rachid.guerraoui@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/lockin
@@ -464,7 +431,7 @@ projects:
             text: ACM/IFIP Middleware 2016
             url: http://2016.middleware-conference.org
     date_added: 2019-07-01
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   aggregathor:
     name: AggregaThor
@@ -477,11 +444,6 @@ projects:
       Framework built over TensorFlow implementing state-of-the-art Byzantine-resilient, distributed Stochastic Gradient Descent (SGD).
       Modular approach allows most of its components to be reused in other projects. Unreliable communication channels are supported,
       providing a performance speed-up over standard TensorFlow in saturated networks.
-    contacts:
-      - name: Arsany Guirguis
-        email: arsany.guirguis@epfl.ch
-      - name: Georgios Damaskinos
-        url: https://gdamaskinos.com/
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/AggregaThor
@@ -501,7 +463,7 @@ projects:
             text: SysML 2019
             url: https://mlsys.org/Conferences/2019
     date_added: 2019-03-18
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   ascylib-optik:
     name: ASCYLIB + OPTIK
@@ -514,11 +476,6 @@ projects:
       Over 40 implementations of linked lists, hash tables, skip lists, binary search trees (BSTs), queues, priority queues, and stacks.
       ASCYLIB contains sequential, lock-based, and lock-free implementations for each data structure.
     url: https://dcl.epfl.ch/site/ascylib
-    contacts:
-      - name: Vasileios Trigonakis
-        email: github@trigonakis.com
-      - name: Tudor David
-        email: repos@tudordavid.com
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/ASCYLIB
@@ -549,7 +506,7 @@ projects:
         url: https://infoscience.epfl.ch/record/203822
         title: Designing ASCY-compliant Concurrent Search Data Structures
     date_added: 2021-02-09
-    date_updated: 2022-07-01
+    date_updated: 2024-03-22
 
   carbon:
     name: carbon
@@ -564,13 +521,7 @@ projects:
     tech_desc: >
       Carbon is the next iteration on AT2, adding many new features, such as minting and a dynamic network. By decoupling leader selection
       from transaction processing, this system is more efficient and more scalable compared with Bitcoin and consensus-based solutions.
-    contacts:
-      - name: Matteo Monti
-        email: matteo.monti@epfl.ch
     maturity: 1
-    c4dt_contact:
-      name: Valérian Rousset
-      email: valerian.rousset@epfl.ch
     tags:
       - Decentralized
       - Byzantine Resilience
@@ -582,7 +533,7 @@ projects:
         title: "AT2: Asynchronous Trustworthy Transfers"
         url: https://arxiv.org/abs/1812.10844
     date_added: 2021-12-01
-    date_updated: 2022-07-04
+    date_updated: 2024-03-22
 
   clht:
     name: CLHT
@@ -595,9 +546,6 @@ projects:
       CLHT contains both a lock-based and lock-free implementation of hash tables. Its optimistic design allows for 50 MegaOP/s in a
       concurrent run.
     url: https://lpd.epfl.ch/site/ascylib
-    contacts:
-      - name: Vasileios Trigonakis
-        email: github@trigonakis.com
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/CLHT
@@ -613,7 +561,7 @@ projects:
         title: Designing ASCY-compliant Concurrent Search Data Structures
         url: https://infoscience.epfl.ch/record/203822
     date_added: 2022-07-04
-    date_updated: 2022-07-04
+    date_updated: 2024-03-22
 
   nn-fault-tolerance:
     name: Probabilistic Fault Tolerance of Neural Networks in the Continuous Limit
@@ -626,9 +574,6 @@ projects:
     layman_desc: >
       How is a neural network changing its output in presence of failing node? This project provides a regularizer adapting itself to
       changing conditions.
-    contacts:
-      - name: Sergia Volodin
-        email: sergei.volodin.ch@gmail.com
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/nn-fault-tolerance
@@ -642,7 +587,7 @@ projects:
         title: The Probabilistic Fault Tolerance of Neural Networks in the Continuous Limit
         url: https://arxiv.org/abs/1902.01686
     date_added: 2022-07-04
-    date_updated: 2022-07-04
+    date_updated: 2024-03-22
 
   ukharon:
     name: uKharon
@@ -651,9 +596,6 @@ projects:
     applications:
       - Info
     description: Membership service for microsecond applications
-    contacts:
-      - name: Athanasios Xygkis
-        email: athanasios.xygkis@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/ukharon-artifacts
@@ -673,7 +615,7 @@ projects:
             text: ATC 2022
             url: https://www.usenix.org/conference/atc22
     date_added: 2022-07-04
-    date_updated: 2022-07-04
+    date_updated: 2024-03-22
 
   ubft:
     name: uBFT
@@ -682,14 +624,11 @@ projects:
     applications:
       - Infra
     description: Microsecond-scale BFT using Disaggregated Memory
-    contacts:
-      - name: Athanasios Xygkis
-        email: athanasios.xygkis@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/LPD-EPFL/ubft
-      date_last_commit: 2022-10-18
-    license: other
+      date_last_commit: 2023-03-14
+    license: CC BY 4.0
     tags:
       - Byzantine Resilience
       - Network
@@ -706,4 +645,4 @@ projects:
             text: ASPLOS 2023
             url: https://dl.acm.org/doi/proceedings/10.1145/3575693
     date_added: 2023-03-13
-    date_updated: 2023-03-13
+    date_updated: 2024-03-22

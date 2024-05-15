@@ -28,7 +28,7 @@ projects:
             text: "Usenix ATC '20"
             url: https://www.usenix.org/conference/atc20/presentation/jeon
     date_added: 2021-03-05
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   usbfuzz:
     name: USBFuzz
@@ -57,7 +57,7 @@ projects:
             text: "Usenix S&P '20"
             url: https://www.usenix.org/conference/usenixsecurity20/presentation/peng
     date_added: 2021-03-05
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   magma:
     name: Magma
@@ -92,7 +92,7 @@ projects:
             text: SIGMETRICS 2021
             url: http://www.sigmetrics.org/sigmetrics2021
     date_added: 2020-02-21
-    date_updated: 2023-03-20
+    date_updated: 2024-04-12
 
   t-fuzz:
     name: T-Fuzz
@@ -123,7 +123,7 @@ projects:
             text: SP 2018
             url: https://ieeexplore.ieee.org/document/8418632
     date_added: 2019-03-18
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   bopc:
     name: BOPC
@@ -155,7 +155,7 @@ projects:
             text: CCS 2018
             url: https://dl.acm.org/doi/10.1145/3243734.3243739
     date_added: 2019-03-18
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   cfixx:
     name: CFIXX
@@ -185,7 +185,7 @@ projects:
             text: NDSS 2018
             url: https://www.ndss-symposium.org/ndss2018
     date_added: 2019-03-18
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   hextype:
     name: HexType
@@ -215,7 +215,7 @@ projects:
             url: https://ccs2017.sigsac.org
     maturity: 1
     date_added: 2019-03-18
-    date_updated: 2022-08-11
+    date_updated: 2024-04-12
 
   retrowrite:
     name: RetroWrite
@@ -231,7 +231,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/HexHive/retrowrite
-      date_last_commit: 2023-03-08
+      date_last_commit: 2023-11-30
     tags:
       - Fuzzing
       - Binary
@@ -250,7 +250,7 @@ projects:
         title: RetroWrite Tutorial
         url: https://github.com/HexHive/RetroWrite-Tutorial
     date_added: 2019-09-02
-    date_updated: 2023-03-20
+    date_updated: 2024-04-12
 
   shadowstack:
     name: ShadowStack
@@ -284,7 +284,7 @@ projects:
             text: Oakland 2019
             url: https://ieeexplore.ieee.org/document/8835389
     date_added: 2020-02-21
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   hexpads:
     name: HexPADS
@@ -317,7 +317,7 @@ projects:
             text: ESSoS 2016
             url: https://dl.acm.org/conference/essos
     date_added: 2020-02-21
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   fuzzgen:
     name: FuzzGen
@@ -349,7 +349,7 @@ projects:
             text: SEC 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2020-02-21
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   datashield:
     name: DataShield
@@ -381,7 +381,7 @@ projects:
             text: AsiaCCS 2017
             url: https://dl.acm.org/doi/10.1145/3052973.3052983
     date_added: 2020-02-21
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   halucinator:
     name: HALucinator
@@ -413,7 +413,7 @@ projects:
             text: SEC 2020
             url: https://www.usenix.org/conference/usenixsecurity20
     date_added: 2020-02-24
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
     maturity: 1
 
   benchiot:
@@ -446,7 +446,7 @@ projects:
             url: https://ieeexplore.ieee.org/document/8809492
     maturity: 1
     date_added: 2020-02-24
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   freegaen:
     name: Free GAEN alternative
@@ -465,13 +465,6 @@ projects:
       type: C4DT GitHub
       url: https://github.com/c4dt/dp3t-app-android-ch/tree/microg-nearby
       date_last_commit: 2021-07-15
-    contacts:
-      - name: Mathias Payer
-        email: mathias.payer@epfl.ch
-      - name: Daniele Antonioli
-        email: daniele.antonioli@epfl.ch
-      - name: Christian Grigis
-        email: christian.grigis@epfl.ch
     tags:
       - Mobile App
       - Protocol
@@ -483,15 +476,8 @@ projects:
     incubator:
       type: retired
       work: 2021/Q1 worked on improving and integrating with microG and published app
-      products:
-        - type: App
-          title: LibreCHovid
-          url: https://f-droid.org/en/packages/ch.corona.tracing/
-    c4dt_contact:
-      name: Christian Grigis
-      email: christian.grigis@epfl.ch
     date_added: 2020-10-05
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   lightblue:
     name: LightBlue
@@ -522,7 +508,7 @@ projects:
             url: https://www.usenix.org/conference/usenixsecurity21/
     language: C++, Python
     date_added: 2020-02-26
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   igor:
     name: Igor
@@ -556,7 +542,7 @@ projects:
         title: "Igor: Crash Deduplication Through Root-Cause Clustering (CCS'21)"
         url: https://www.youtube.com/watch?v=V06x1Ad5dRo
     date_added: 2021-11-04
-    date_updated: 2023-03-20
+    date_updated: 2024-04-12
 
   dis-cover:
     name: dis-cover
@@ -576,7 +562,7 @@ projects:
       - Binary
       - Low-Level
     date_added: 2021-11-04
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   gramatron:
     name: Gramatron
@@ -606,7 +592,7 @@ projects:
             text: ISSTA 2021
             url: https://conf.researchr.org/home/issta-2021
     date_added: 2021-11-04
-    date_updated: 2022-07-05
+    date_updated: 2024-04-12
 
   dataflow:
     name: datAFLow
@@ -636,7 +622,7 @@ projects:
             text: FUZZING 2022
             url: https://fuzzingworkshop.github.io
     date_added: 2022-07-05
-    date_updated: 2023-03-20
+    date_updated: 2024-04-12
 
   midas:
     name: Midas
@@ -669,7 +655,7 @@ projects:
             text: "Usenix SEC '22"
             url: https://www.usenix.org/conference/usenixsecurity22/summer-accepted-papers
     date_added: 2022-09-27
-    date_updated: 2022-09-27
+    date_updated: 2024-04-12
 
   gleefuzz:
     name: GLeeFuzz
@@ -703,7 +689,7 @@ projects:
             text: Usenix SEC '23
             url: https://www.usenix.org/conference/usenixsecurity23/summer-accepted-papers
     date_added: 2023-03-20
-    date_updated: 2023-03-20
+    date_updated: 2024-04-12
 
   evocatio:
     name: Evocatio
@@ -722,13 +708,13 @@ projects:
     code:
       type: Lab Github
       url: https://github.com/HexHive/Evocatio
-      date_last_commit: 2022-12-16
+      date_last_commit: 2023-07-21
     information:
       - type: Paper
         title: "Evocatio: Conjuring Bug Capabilities from a Single PoC"
         url: https://hexhive.epfl.ch/publications/files/22CCS.pdf
     date_added: 2023-03-20
-    date_updated: 2023-03-20
+    date_updated: 2024-04-12
 
   warpattack:
     name: WarpAttack
@@ -752,7 +738,7 @@ projects:
         title: "WarpAttack: Bypassing CFI through Compiler-Introduced Double-Fetches"
         url: https://hexhive.epfl.ch/publications/files/23Oakland3.pdf
     date_added: 2023-04-24
-    date_updated: 2023-04-24
+    date_updated: 2024-04-12
 
   videzzo:
     name: ViDeZZo
@@ -776,7 +762,7 @@ projects:
         title: "VIDEZZO: Dependency-aware Virtual Device Fuzzing"
         url: https://hexhive.epfl.ch/publications/files/23Oakland4.pdf
     date_added: 2023-04-24
-    date_updated: 2023-04-24
+    date_updated: 2024-04-12
 
   sievefuzz:
     name: SieveFuzz
@@ -801,4 +787,4 @@ projects:
         title: "One Fuzz Doesn’t Fit All: Optimizing Directed Fuzzing via Target-tailored Program State Restriction"
         url: https://hexhive.epfl.ch/publications/files/22ACSAC2.pdf
     date_added: 2023-04-24
-    date_updated: 2023-04-24
+    date_updated: 2024-04-12

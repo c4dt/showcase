@@ -38,12 +38,13 @@ in `(brackets)`.
 
 ```yaml
 url_path:
-  name: (lowercase short name)
+  name: (short name)
   description: >
     (Short description, will be shown under the name)
+  type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )
   categories: ( "Privacy" | "Blockchain" | "Verification" | "Security" |
     "Learning" | "Other" )
-  applications": ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )
+  applications: ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )
   tags:
     - (Add tags, if possible out of the existing ones)
   date_added: (YYYY-MM-DD)
@@ -56,7 +57,6 @@ url_path:
       (A 2-3 sentence description for somebody with general knowledge)
     tech_desc: >
       (A more detailed description in 2-3 sentences for somebody knowledgeable in the subject)
-    type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )
     notes: (Additional description)
     url: (URL for a home page)
     contacts:
@@ -92,11 +92,27 @@ url_path:
 
 ## Run the application locally
 
-Ensure you have the required tools to create Python virtual environments. You might need to install a specific package depending on your distribution, e.g. on Debian `python3-venv`:
+Ensure you have the required tools to create Python virtual environments.
+You can either install the dependencies in a virtual environment, or use [devbox](https://www.jetpack.io/devbox).
+
+### Install dependencies in a virtual environment
+
+You might need to install a specific package depending on your distribution,
+e.g. on Debian `python3-venv`:
 
 ```
 $ sudo apt install python3-venv
 ```
+
+### Use devbox
+
+Install devbox from https://www.jetpack.io/devbox, then run:
+
+```bash
+devbox shell --pure
+```
+
+### Create the virtual environment
 
 Simply run `make`:
 
@@ -104,9 +120,11 @@ Simply run `make`:
 $ make
 ```
 
-This will create a Python virtual environment, activate it, install the dependencies and run the showcase application.
+This will create a Python virtual environment, activate it,
+install the dependencies and run the showcase application.
 
-The application listens by default on port 8080; point your browser to http://localhost:8080/showcase.
+The application listens by default on port 8080 in the path `showcase`;
+point your browser to http://localhost:8080/showcase.
 
 ## Run the tests
 
@@ -116,7 +134,8 @@ $ make test
 
 ## Run the application on a server
 
-Assuming \$APP_PATH is the directory containing the application, the following must be setup on the server (see also the [mod_wsgi docs](https://modwsgi.readthedocs.io/en/develop/user-guides/virtual-environments.html#daemon-mode-single-application):
+Assuming `$APP_PATH` is the directory containing the application,
+the following must be setup on the server (see also the [mod_wsgi docs](https://modwsgi.readthedocs.io/en/develop/user-guides/virtual-environments.html#daemon-mode-single-application):
 
 Clone the repository:
 
@@ -149,6 +168,45 @@ Restart Apache:
 ```
 $ sudo /etc/init.d/apache2 restart
 ```
+
+# Tools
+
+## Linkchecker
+
+When checking the links, you can use [LinkChecker](https://github.com/linkchecker/linkchecker) to
+scan all links from the showcase.
+The configuration file [./linkcheckerrc](./linkcheckerrc) helps to clean up
+the result page of a linkchecker run.
+You can get the links to the project of a lab with the `data.py` file:
+
+```bash
+make env
+. ./venv/bin/activate
+./data.py
+```
+
+This will print out a list of all available labs.
+Launch the showcase:
+
+```bash
+make showcase &
+```
+
+Now you can launch linkchecker on all pages from a given lab:
+
+For a list of available labs:
+
+```bash
+./check_lab_links.sh
+```
+
+Checking a given lab:
+
+```bash
+./check_lab_links.sh LAB_NAME
+```
+
+This will also check the links of the external websites.
 
 # Contributing
 

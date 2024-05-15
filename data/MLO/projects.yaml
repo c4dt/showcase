@@ -10,9 +10,6 @@ projects:
       Inspired by the PowerSGD algorithm for centralized deep learning, this algorithm uses power iteration steps to maximize the
       information transferred per bit. We prove that our method requires no additional hyperparameters, converges faster than prior methods,
       and is asymptotically independent of both the network and the compression.
-    contacts:
-      - name: Thijs Vogels
-        email: thijs.vogels@epfl.ch
     tags:
       - Deep Neural Networks
     type: Library
@@ -31,7 +28,7 @@ projects:
             text: NeurIPS 2020
             url: https://proceedings.neurips.cc/paper/2020/hash/a376802c0811f1b9088828288eb0d3f0-Abstract.html
     date_added: 2021-03-05
-    date_updated: 2022-07-06
+    date_updated: 2024-04-09
 
   chocosgd:
     name: chocoSGD
@@ -43,9 +40,6 @@ projects:
     tech_desc: >
       Communication-efficient decentralized ML training (both deep learning, compatible with PyTorch, and traditional convex machine
       learning models).
-    contacts:
-      - name: Tao Lin
-        email: tao.lin@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/ChocoSGD
@@ -66,7 +60,7 @@ projects:
     language: Python
     license: Apache-2.0
     date_added: 2019-07-30
-    date_updated: 2022-07-06
+    date_updated: 2024-04-09
     maturity: 1
 
   cola:
@@ -109,7 +103,7 @@ projects:
     license: Apache-2.0
     type: Application
     date_added: 2019-07-30
-    date_updated: 2022-07-06
+    date_updated: 2024-04-09
 
   mlbench:
     name: MLBench
@@ -138,9 +132,6 @@ projects:
         url: https://mlbench.github.io/blog/
     tags:
       - Benchmark
-    c4dt_contact:
-      name: Linus Gasser
-      email: linus.gasser@epfl.ch
     language: Python
     type: Framework
     license: Apache-2.0
@@ -148,7 +139,7 @@ projects:
       type: retired
       work: 2020/Q4 evaluated and tested the project
     date_added: 2019-07-30
-    date_updated: 2023-03-22
+    date_updated: 2024-04-09
     maturity: 2
 
   sent2vec:
@@ -174,7 +165,7 @@ projects:
       - Natural Language
     type: Library
     date_added: 2019-03-18
-    date_updated: 2023-03-22
+    date_updated: 2024-04-09
     maturity: 1
 
   powersgd:
@@ -189,13 +180,10 @@ projects:
       compressed gradients using all-reduce, and iii) achieve test performance on par with SGD. The proposed algorithm is the only method
       evaluated that achieves consistent wall-clock speedups when benchmarked against regular SGD with an optimized communication backend.
       We demonstrate reduced training times for convolutional networks as well as LSTMs on common datasets.
-    contacts:
-      - name: Thijs Vogels
-        email: thijs.vogels@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/powersgd
-      date_last_commit: 2022-11-22
+      date_last_commit: 2023-07-04
     information:
       - type: Paper
         title: "PowerSGD: Practical Low-Rank Gradient Compression for Distributed Optimization"
@@ -217,7 +205,7 @@ projects:
     type: Application
     license: MIT
     date_added: 2020-05-01
-    date_updated: 2023-03-22
+    date_updated: 2024-04-09
     maturity: 2
 
   relaysgd:
@@ -235,13 +223,10 @@ projects:
       the RelaySum mechanism for information propagation in decentralized learning. RelaySum uses spanning trees to distribute information
       exactly uniformly across all workers with finite delays depending on the distance between nodes. In contrast, the typical gossip
       averaging mechanism only distributes data uniformly asymptotically while using the same communication volume per step as RelaySum.
-    contacts:
-      - name: Thijs Vogels
-        email: thijs.vogels@epfl.ch
     code:
-      type: La GitHub
+      type: Lab GitHub
       url: https://github.com/epfml/relaysgd
-      date_last_commit: 2021-10-27
+      date_last_commit: 2023-04-21
     language: Python
     type: Library, Experiments
     license: MIT
@@ -254,7 +239,7 @@ projects:
         title: RelaySum for Decentralized Deep Learning on Heterogeneous Data
         url: https://arxiv.org/pdf/2110.04175v1.pdf
     date_added: 2021-11-04
-    date_updated: 2022-07-06
+    date_updated: 2024-04-09
 
   disco:
     name: Disco
@@ -271,16 +256,10 @@ projects:
       creating machine learning models and people having relevant data. By running without installation nor complex configuration, anyone
       can help. It's also a breeding ground for new machine learning technologies.
     url: https://epfml.github.io/disco
-    c4dt_contact:
-      name: Linus Gasser
-      email: linus.gasser@epfl.ch
-    contacts:
-      - name: Martin Jaggi
-        email: martin.jaggi@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/disco
-      date_last_commit: 2023-03-21
+      date_last_commit: 2024-04-03
     language: TypeScript
     license: Apache-2.0
     incubator:
@@ -335,7 +314,7 @@ projects:
             url: http://proceedings.mlr.press/v139/karimireddy21a.html
     maturity: 2
     date_added: 2022-02-18
-    date_updated: 2023-03-22
+    date_updated: 2024-04-09
 
   byzantine-robust-optimizer:
     name: Byzantine Robust Optimizer
@@ -351,8 +330,6 @@ projects:
       worker momentum to overcome time-coupled attacks. This is the first provably robust method for the standard stochastic optimization
       setting.
     contacts:
-      - name: Sai Praneeth Reddy Karimireddy
-        email: sai.karimireddy@epfl.ch
       - name: Lie He
         email: lie.he@epfl.ch
     code:
@@ -375,7 +352,7 @@ projects:
             text: ICML 2021
             url: https://icml.cc/Conferences/2021
     date_added: 2021-11-04
-    date_updated: 2022-07-06
+    date_updated: 2024-04-09
 
   quasi-global-momentum:
     name: Quasi-Global Momentum
@@ -389,9 +366,6 @@ projects:
       realistic learning scenarios, the presence of heterogeneity across different clients' local datasets poses an optimization challenge
       and may severely deteriorate the generalization performance. We propose a novel momentum-based method to mitigate this decentralized
       training difficulty.
-    contacts:
-      - name: Tao Lin
-        email: tao.lin@epfl.ch
     code:
       type: Lab GitHub
       url: https://github.com/epfml/quasi-global-momentum
@@ -412,7 +386,7 @@ projects:
             text: ICML 2021
             url: https://icml.cc/Conferences/2021
     date_added: 2021-11-04
-    date_updated: 2023-03-22
+    date_updated: 2024-04-09
 
   hyperaggregate:
     name: HyperAggregate
@@ -438,7 +412,7 @@ projects:
         title: "HyperAggregate: A sublinear secure aggregation protocol"
         url: https://infoscience.epfl.ch/record/286909
     date_added: 2021-11-04
-    date_updated: 2022-07-06
+    date_updated: 2024-04-09
 
   phantomedicus:
     name: PhantoMedicus
@@ -458,7 +432,7 @@ projects:
     tags:
       - Predictor
     date_added: 2022-07-06
-    date_updated: 2022-07-06
+    date_updated: 2024-04-09
 
   paxlib:
     name: PAXlib
@@ -477,10 +451,10 @@ projects:
     tags:
       - PyTorch
     date_added: 2022-07-07
-    date_updated: 2022-07-07
+    date_updated: 2024-04-09
 
   byzantine-robust-noniid-optimizer:
-    name: Byzantine-Robust optimizer
+    name: Byzantine-Robust NonIID optimizer
     categories:
       - Learning
     applications:
@@ -496,7 +470,7 @@ projects:
     tags:
       - PyTorch
     date_added: 2022-07-07
-    date_updated: 2022-07-07
+    date_updated: 2024-04-09
 
   anomaly-detection:
     name: Distributed Homomorphic Anomaly Detection
@@ -523,4 +497,80 @@ projects:
       - Distributed Learning
       - Homomorphic Encryption
     date_added: 2024-01-03
-    date_updated: 2024-01-03
+    date_updated: 2024-04-09
+
+  meditron:
+    name: Meditron
+    description: >
+      Open-source medical language model for clinical decision support
+    type: "Application"
+    categories:
+      - "Learning"
+    applications:
+      - "Health"
+    tags:
+      - Machine Learning
+      - Natural Language
+    layman_desc: >
+      MEDITRON is an AI model designed to help doctors and healthcare
+      professionals make better decisions by providing access to medical
+      knowledge.  It was trained on high-quality medical information from
+      research papers and guidelines.  Unlike other medical AI models that
+      are closed-source, MEDITRON's code and training data are open, allowing
+      transparency and further improvement by researchers.  The goal is to
+      safely bring the benefits of AI to healthcare in an ethical way.
+    tech_desc: >
+      MEDITRON is a pair of open-source large language models (LLMs) with 7
+      and 70 billion parameters, tailored to the medical domain.  It was
+      trained on carefully curated medical data sources, including
+      peer-reviewed literature and clinical practice guidelines.  MEDITRON
+      outperforms other open-source models and closed models like GPT-3.5 on
+      medical benchmarks, coming within 5-10% of GPT-4 and Med-PaLM-2.
+    code:
+      type: Lab Github
+      url: https://github.com/epfLLM/meditron
+      date_last_commit: 2024-04-10
+    language: Python
+    license: Apache-2.0
+    url: https://actu.epfl.ch/news/epfl-s-new-large-language-model-for-medical-knowle/
+    information:
+      - type: Paper
+        title: "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models"
+        url: https://arxiv.org/abs/2311.16079
+    date_added: 2024-04-12
+
+  # Most common fields:
+  megatron:
+    name: Megatron-LLM
+    description: >
+      Large language model training library
+    type: "Application"
+    categories:
+      - "Learning"
+    applications:
+      - "Infra"
+    tags:
+      - Machine Learning
+      - Natural Language
+    layman_desc: >
+      Megatron-LLM is a software library that allows researchers and
+      developers to train and fine-tune large language models, which are powerful
+      AI systems that can understand and generate human-like text. It supports
+      various model architectures and enables training on regular hardware by
+      distributing the workload across multiple machines. The library offers advanced
+      features to improve model performance and integrates with popular tools for
+      tracking training progress and sharing models.
+    tech_desc: >
+      Megatron-LLM enables pre-training and fine-tuning of large language
+      models (LLMs) at scale. It supports architectures like Llama, Llama 2, Code
+      Llama, Falcon, and Mistral. The library allows training of large models (up to
+      70B parameters) on commodity hardware using tensor, pipeline, and data
+      parallelism. It provides features like grouped-query attention, rotary position
+      embeddings, BF16/FP16 training, and integration with Hugging Face and WandB.
+    code:
+      type: Lab Github
+      url: https://github.com/epfLLM/Megatron-LLM/
+      date_last_commit: 2023-12-03
+    language: Python
+    license: various
+    date_added: 2024-04-12

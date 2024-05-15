@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import codecs
 import os
 
@@ -20,14 +22,27 @@ LABS_SCHEMA = sy.Map({"labs":
                 }),
             "description": sy.Str(),
             "url": sy.Url(),
-            "contacts": sy.EmptyList() | sy.Seq(
+            sy.Optional("contacts"): sy.Seq(
                 sy.Map({
                     "name": sy.Str(),
                     sy.Optional("email"): sy.Email(),
                     }),
                 ),
             sy.Optional("notes"): sy.Str(),
-            })
+            sy.Optional("information"): sy.Seq(
+                sy.Map({
+                    "title": sy.Str(),
+                    "url": sy.Url(),
+                    sy.Optional("notes"): sy.Seq(
+                        sy.Map({
+                            sy.Optional("label"): sy.Str(),
+                            "text": sy.Str(),
+                            sy.Optional("url"): sy.Url(),
+                        }),
+                    ),
+                }),
+            ),
+        }),
         )
     })
 
@@ -61,7 +76,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "Other"
             ])),
             "tags": sy.Seq(sy.Enum([
-                "Access Control", "Anonymity", "Attack",
+                "Access Control", "Adversarial", "Anonymity", "Attack",
                 "Benchmark", "Binary", "Bluetooth", "Byzantine Resilience",
                 "Cloud", "Code Analysis", "Computer Vision", "Concurrency", "Consensus", "CrowdSource",
                 "Data Structures", "Database", "Debug", "Decentralized", "Deep Neural Networks",
@@ -71,7 +86,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "Homomorphic Encryption",
                 "Image Classification", "Images", "Inductive Bias", "Internet of Things",
                 "Locking", "Low-Level",
-                "Mobile App",
+                "Machine Learning", "Mobile App",
                 "Natural Language", "Network",
                 "Optimization",
                 "Predictor", "Protection", "Protocol", "PyTorch",
@@ -110,8 +125,9 @@ PROJECTS_SCHEMA = sy.Map({"projects":
             sy.Optional("license"): sy.CommaSeparated(sy.Enum([
                 "AGPL-3.0",
                 "GPL-2.0", "GPL-3.0",
+                "GPL-2.0+", "GPL-3.0+",
                 "LGPL-3.0",
-                "MPL-2.0",
+                "MPL-2.0", "MPL-2.0+",
                 "MIT",
                 "Apache-2.0",
                 "BSD-2-Clause",
@@ -120,9 +136,11 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "CeCILL-B",
                 "CloudSuite",
                 "CC BY 4.0",
+                "SOLDERPAD HARDWARE LICENSE",
                 "commercial",
                 "non-commercial",
                 "other",
+                "various"
                 ])),
             sy.Optional("information"): sy.Seq(
                 sy.Map({
@@ -171,10 +189,22 @@ def load():
         labs = labs_yaml['labs'].data
 
     for lab_id, lab in labs.items():
-        with codecs.open(os.path.join(DATA_PATH, lab_id, PROJECTS_FILENAME),
+        project_file = os.path.join(DATA_PATH, lab_id, PROJECTS_FILENAME)
+        if not os.path.exists(project_file):
+            continue
+        with codecs.open(project_file,
                 encoding='utf-8') as f:
             projects_yaml = sy.load(f.read(), PROJECTS_SCHEMA, label=f.name)
         lab['projects'] = projects_yaml['projects'].data
 
     return labs
 
+if __name__ == '__main__':
+    import sys, os
+    data = load()
+    if len(sys.argv) != 2:
+        print("\n".join(data.keys()))
+        sys.exit(0)
+
+    if sys.argv[1] in data:
+        print("\n".join(data[sys.argv[1]]['projects'].keys()))

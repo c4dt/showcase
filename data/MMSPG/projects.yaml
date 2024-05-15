@@ -8,12 +8,12 @@ projects:
     description: Privacy-preserving photo sharing
     tech_desc: >
       Proshare allows you to share your photos, while protecting sensitive regions and hiding secret messages.
-    url: http://grebproshare.epfl.ch/
+    url: https://grebproshare.epfl.ch/
     tags:
       - Images
     type: Application
     date_added: 2019-03-18
-    date_updated: 2022-07-07
+    date_updated: 2024-03-15
 
   quality-crowd:
     name: QualityCrowd
@@ -41,7 +41,7 @@ projects:
         title: QualityCrowd - A Framework for Crowd-based Quality Evaluation
         url: https://mediatum.ub.tum.de/doc/1098076/1098076.pdf
     date_added: 2021-05-21
-    date_updated: 2022-07-07
+    date_updated: 2024-03-15
 
   point-cloud-web-renderer:
     name: Point cloud web renderer
@@ -73,7 +73,7 @@ projects:
             text: APSIPA
             url: http://apsipa.org
     date_added: 2021-05-21
-    date_updated: 2022-07-07
+    date_updated: 2024-03-15
 
   learned-residual-pcc:
     name: Learned Residual PCC
@@ -109,7 +109,7 @@ projects:
             text: Proceedings of SPIE - Applications of Digital Image Processing XLIV
             url: https://spie.org/Publications/Proceedings/Volume/11842
     date_added: 2021-11-04
-    date_updated: 2022-07-07
+    date_updated: 2024-03-15
 
   errgb:
     name: Error Resilient Recurring Gallery Building
@@ -143,7 +143,7 @@ projects:
             text: IEEE ICIP 2021
             url: https://www.2021.ieeeicip.org/
     date_added: 2021-11-04
-    date_updated: 2022-07-07
+    date_updated: 2024-03-15
 
   mesh-sampling:
     name: Mesh sampling
@@ -169,7 +169,7 @@ projects:
         title: Sampling color and geometry point clouds from ShapeNet dataset
         url: https://arxiv.org/abs/2201.06935
     date_added: 2021-11-04
-    date_updated: 2022-07-07
+    date_updated: 2024-03-15
 
   pcc-geo-color:
     name: Point-cloud compressor
@@ -199,7 +199,7 @@ projects:
             text: Proceedings Applications of Digital Image Processing 2020
             url: https://www.spie.org/Publications/Proceedings/Volume/11510
     date_added: 2021-11-04
-    date_updated: 2022-07-07
+    date_updated: 2024-03-15
 
   procam:
     name: ProCam
@@ -221,11 +221,12 @@ projects:
       - Images
       - Anonymity
     type: Application
-    date_added: 2022-09-14
-    date_updated: 2022-09-14
     code:
       type: Project GitLab
       url: https://gitlab.com/procam.epfl
+      date_last_commit: 2022-01-04
+    date_added: 2022-09-14
+    date_updated: 2024-03-15
 
   admire:
     name: AdMiRe EPFL
@@ -247,9 +248,10 @@ projects:
     tags:
       - Images
     type: Application
-    date_added: 2023-03-22
-    date_updated: 2023-03-22
     license: GPL-3.0
     code:
       type: Lab GitHub
       url: https://github.com/mmspg/AdMiRe_EPFL
+      date_last_commit: 2022-08-26
+    date_added: 2023-03-22
+    date_updated: 2024-03-15

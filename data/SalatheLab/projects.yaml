@@ -29,7 +29,7 @@ projects:
         title: My Food Repo
         url: https://www.myfoodrepo.org
     date_added: 2019-03-18
-    date_updated: 2023-03-23
+    date_updated: 2024-04-14
 
   foodandyou:
     name: Food & You
@@ -39,10 +39,11 @@ projects:
       - Health
     description: Track your individual response to food and help advance science
     layman_desc: >
-      Take part in an exciting citizen science project on personalized nutrition! Citizen science enables volunteers and professionals to
+      Take part in an exciting citizen science project on personalized nutrition! 
+      Citizen science enables volunteers and professionals to
       make discoveries together.
-
-      By participating in this project, you will understand how your blood sugar levels change in response to the food you eat.
+      By participating in this project, you will understand how your blood sugar levels
+      change in response to the food you eat.
     maturity: 3
     contacts:
       - name: contact
@@ -52,7 +53,7 @@ projects:
     type: Application
     url: https://www.foodandyou.ch
     date_added: 2021-01-21
-    date_updated: 2022-07-07
+    date_updated: 2024-04-14
 
   crowdbreaks:
     name: CrowdBreaks
@@ -72,7 +73,7 @@ projects:
     code:
       type: Lab GitHub
       url: https://github.com/digitalepidemiologylab/crowdbreaks
-      date_last_commit: 2022-11-30
+      date_last_commit: 2023-05-25
     type: Application
     license: MIT
     information:
@@ -84,7 +85,7 @@ projects:
             text: Frontiers Public Health 2019
             url: https://www.frontiersin.org/articles/10.3389/fpubh.2019.00081
     date_added: 2021-01-21
-    date_updated: 2023-03-22
+    date_updated: 2024-04-14
 
   aicrowd:
     name: AIcrowd
@@ -108,7 +109,7 @@ projects:
     type: Application
     maturity: 3
     date_added: 2021-01-21
-    date_updated: 2023-03-22
+    date_updated: 2024-04-14
 
   txcl:
     name: txcl
@@ -129,4 +130,4 @@ projects:
     type: Application
     maturity: 1
     date_added: 2022-07-07
-    date_updated: 2022-08-11
+    date_updated: 2024-04-14
