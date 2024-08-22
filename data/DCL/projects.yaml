@@ -31,8 +31,8 @@ projects:
     language: Python, Cuda, C++
     license: MIT
     incubator:
-      type: incubated
-      work: Started in Spring 2021, demo in Autumn.
+      work: Created a demo for our website
+      type: retired_archived
       products:
         - type: Demo
           title: Garfield Demonstrator
@@ -148,8 +148,8 @@ projects:
     license: AGPL-3.0
     maturity: 1
     incubator:
-      type: incubated
-      work: 2021/Q2 started working on demonstrator
+      work: Created a demonstrator for our website
+      type: retired_archived
       products:
         - type: Demo
           title: AT2 Demonstrator

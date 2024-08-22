@@ -1,3 +1,11 @@
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    We do not host this demo anymore, but you can find its code here and use
+    the instructions to run it on your own computer!
+    <a href="https://github.com/c4dt/garfield">Garfield Archive</a>.
+</p>
 <p>
     The <a href="https://factory.c4dt.org/incubator/garfield/demo/">Garfield
     Demonstrator</a> illustrates how Machine Learning is used to train a model
