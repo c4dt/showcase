@@ -1,3 +1,11 @@
+<h3>
+    This project has been retired from the C4DT Factory Incubator
+</h3>
+<p>
+    We do not host this demo anymore, and unfortunately we cannot provide the
+    source code of the project.
+    If you're interested, please contact us, and we'll get you in contact
+    with the original authors.</p>
 <p>
   The
   <a href="https://factory.c4dt.org/incubator/at2/demo/">AT2 Demonstrator</a>
