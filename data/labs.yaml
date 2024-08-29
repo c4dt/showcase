@@ -382,6 +382,9 @@ labs:
       field of multimedia signal processing. Research topics span over three highly interconnected disciplines of multimedia signal
       processing, namely multimedia coding, multimodal processing, analysis and interpretation, and media security.
     url: https://mmspg.epfl.ch/
+    information:
+      - title: Github Organization
+        url: https://github.com/mmspg
 
   NAL:
     name: Network Architecture Lab
