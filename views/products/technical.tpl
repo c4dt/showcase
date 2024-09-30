@@ -55,12 +55,19 @@
 
     <%
     import itertools
-    for info_type, infos in itertools.groupby(
+    for info_type, infos_iter in itertools.groupby(
       sorted(project.get('information', []), key=lambda v: v['type']),
       lambda v: v['type']):
+
+      infos = list(infos_iter)
+      plural = "s"
+      if len(infos) == 1:
+        plural = ""
+      end
+
     %>
     <div>
-        <div class="header">{{ info_type }}s:</div>
+        <div class="header">{{ info_type }}{{ plural }}:</div>
         <ul>
             % for info in infos:
             <li>
