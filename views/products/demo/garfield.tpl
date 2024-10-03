@@ -6,6 +6,57 @@
     the instructions to run it on your own computer!
     <a href="https://github.com/c4dt/garfield">Garfield Archive</a>.
 </p>
+<p>Here are some screenshots from the running demo:</p>
+<div class="columns">
+    <div class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/garfield/garfield-demo-1.png">
+            <br>
+        </label>
+    </div>
+    <div class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/garfield/garfield-demo-2.png">
+            <br>
+        </label>
+    </div>
+</div>
+<div class="columns">
+    <div class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/garfield/garfield-demo-3.png">
+            <br>
+        </label>
+    </div>
+    <div class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/garfield/garfield-demo-4.png">
+            <br>
+        </label>
+    </div>
+</div>
+<div class="columns">
+    <div class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/garfield/garfield-demo-5.png">
+            <br>
+        </label>
+    </div>
+    <div class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/garfield/garfield-demo-6.png">
+            <br>
+        </label>
+    </div>
+</div>
+
+<h4>Former description</h4>
 <p>
     The <a href="https://factory.c4dt.org/incubator/garfield/demo/">Garfield
     Demonstrator</a> illustrates how Machine Learning is used to train a model
