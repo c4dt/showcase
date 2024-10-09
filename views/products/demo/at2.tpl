@@ -11,7 +11,9 @@
     <div class="click-zoom">
         <label>
             <input type="checkbox">
-            <img src="../../../resources/products/images/at2/at2-demo-1.png">
+            <img src="../../../resources/products/images/at2/at2-demo-1.png"
+                 alt="Welcome screen of the AT2 demo showing some text and an
+                  image representing data on a half-circle">
             <br>The introduction of the demo with a short explanation of what
             it is about.
         </label>
@@ -19,7 +21,9 @@
     <div class="click-zoom">
         <label>
             <input type="checkbox">
-            <img src="../../../resources/products/images/at2/at2-demo-2.png">
+            <img src="../../../resources/products/images/at2/at2-demo-2.png"
+                 alt="A short explanation of how to create an account, a field for
+                  choosing a name, and a button to update the username.">
             <br>On the next screen it shows the account creation and the
             network of the nodes.
         </label>
@@ -29,7 +33,9 @@
     <div class="click-zoom">
         <label>
             <input type="checkbox">
-            <img src="../../../resources/products/images/at2/at2-demo-3.png">
+            <img src="../../../resources/products/images/at2/at2-demo-3.png"
+                 alt="A simple form to send some of your assets over to network
+                  to another account.">
             <br>Now you can transfer some assets to one of the other accounts
             on the network. For this test you have 100k coins of whatever value
             (currently 0US$ :)
@@ -38,7 +44,10 @@
     <div class="click-zoom">
         <label>
             <input type="checkbox">
-            <img src="../../../resources/products/images/at2/at2-demo-4.png">
+            <img src="../../../resources/products/images/at2/at2-demo-4.png"
+                 alt="A form to choose a destination and how much transactions should be performed.
+                Below is a test-run which shows that AT2 managed to do around 900 transactions
+                per second.">
             <br>To show the performance of AT2, you can perform a speedtest where
             it tries to send the tokens as fast as possible over the network.
             Once the tokens are sent, it waits for confirmation from the network, which
