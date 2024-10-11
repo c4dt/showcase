@@ -474,8 +474,8 @@ projects:
     license: MPL-2.0
     maturity: 1
     incubator:
-      type: retired
-      work: 2021/Q1 worked on improving and integrating with microG and published app
+      type: retired_archived
+      work: 2021/Q1 worked on improving and integrating with microG and published app - retired and archived in 2023/Q3
     date_added: 2020-10-05
     date_updated: 2024-04-12
 

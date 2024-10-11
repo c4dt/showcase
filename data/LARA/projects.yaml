@@ -89,12 +89,11 @@ projects:
     license: Apache-2.0
     incubator:
       type: retired_archived
-      work: 2021/Q2 - updated demonstrator with more explanations
+      work: 2021/Q2 - updated demonstrator with more explanations - retired and archived in 2023/Q2
       products:
         - type: Demo
           title: Stainless-OmniLedger demonstrator
           url: https://github.com/c4dt/service-stainless
-          code: https://github.com/c4dt/service-stainless
     date_added: 2022-09-26
     date_updated: 2024-04-12
     maturity: 2

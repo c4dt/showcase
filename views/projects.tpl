@@ -289,7 +289,7 @@ applications.update({ "Other": "Other" })
                 </select>
             </div>
 
-            <div class="form-group" style="display: flex; flex-direction: row; align-items: center">
+            <div style="display: flex; flex-direction: row; align-items: center">
                 <label class="sr-only">search:</label>
                 <input id="search" class="form-control" oninput="search_apply()">
                 <span onclick="search_set('')" class="clear_search">X</span>
@@ -421,13 +421,24 @@ applications.update({ "Other": "Other" })
 
                             active = is_active(project)
                             active_str = "project_active" if active else "inactive"
-                            incubated = project.get('incubator')
-                            incubator_str = f"project_{incubated['type']}" if incubated else "no support"
+                            incubator = project.get('incubator')
+                            incubator_str = "no support"
+                            incubated = "not_incubated"
+                            if incubator:
+                                incubator_str = f"project_{incubator['type']}"
+                                if incubator['type'].startswith("incubated"):
+                                    incubated = "incubated"
+                                else:
+                                    if incubator['type'].startswith("retired"):
+                                        incubated = "prev_incubated"
+                                    end
+                                end
+                            end
 
                             products = find_project_tabs(project_id)
                             maturity_order = maturity + 0.5 if active else maturity
                             %>
-                            <tr class="{{ 'incubated' if incubated else 'not_incubated' }} {{visibility}}">
+                            <tr class="{{ incubated }} {{visibility}}">
                                 <td class="proj_name"
                                     style="cursor: pointer">
                                     <a href="{{project_id}}"><div>
@@ -531,7 +542,11 @@ applications.update({ "Other": "Other" })
         <div class="color_legend">
             <span class="box incubated_even"></span>
             <span class="box incubated_odd"></span>
-            C4DT supported projects
+            Actively C4DT supported projects
+            <span style="width: 3em;"></span>
+            <span class="box prev_incubated_even"></span>
+            <span class="box prev_incubated_odd"></span>
+            Previously C4DT supported projects
             <span style="width: 3em;"></span>
             <span class="box not_incubated_even"></span>
             <span class="box not_incubated_odd"></span>

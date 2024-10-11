@@ -134,12 +134,11 @@ projects:
     license: other
     incubator:
       type: retired_archived
-      work: 2020/Q1 created demonstrator for SwissRe
+      work: 2020/Q1 created demonstrator for SwissRe - retired and archived in 2022/Q1
       products:
         - type: Demo
           title: Decentralized Data Analysis
           url: https://github.com/c4dt/service-drynx
-          code: https://github.com/c4dt/service-drynx
     date_added: 2019-03-18
     date_updated: 2022-09-28
     maturity: 1
@@ -173,7 +172,7 @@ projects:
     license: other
     incubator:
       type: retired_archived
-      work: 2021/Q1 created Spindle demonstrator
+      work: 2021/Q1 created Spindle demonstrator - retired and archived in 2023/Q1
       products:
         - type: Demo
           title: SPINDLE demonstrator

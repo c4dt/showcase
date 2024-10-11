@@ -89,6 +89,14 @@
 
         date_added = project.get('date_added')
         date_updated = project.get('date_updated', date_added)
+        c4dt_work = ""
+        if 'incubator' in project:
+            wt = project.get('incubator').get('type')
+            c4dt_work = "- C4DT work: " + {'incubated': "in incubator",
+                'incubated_market': "in incubator and market support",
+                'retired': "not supported anymore",
+                'retired_archived': "not supported anymore and archived"}.get(wt)
+        end
         %>
 
         <div class="header">Project status:</div> {{ status }}
@@ -96,6 +104,7 @@
         entered showcase: {{ date_added.date() }}
         &mdash;
         entry updated: {{ date_updated.date() }}
+        {{ c4dt_work }}
     </div>
 
     % incubator = project.get('incubator')

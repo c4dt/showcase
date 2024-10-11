@@ -263,8 +263,8 @@ projects:
     language: TypeScript
     license: Apache-2.0
     incubator:
-      type: incubated
-      work: 2022/Q1 developing the project
+      type: retired
+      work: 2022/Q1 developing the project - handed over to lab 2023/Q1
       products:
         - type: Pilot
           title: "Disco"

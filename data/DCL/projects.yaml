@@ -31,13 +31,12 @@ projects:
     language: Python, Cuda, C++
     license: MIT
     incubator:
-      work: Created a demo for our website
-      type: retired_archived
+      work: 2021/09 - Created a demo for our website - archived in 2024/10
+      type: retired
       products:
-        - type: Demo
-          title: Garfield Demonstrator
-          url: https://factory.c4dt.org/incubator/garfield/demo/
-          code: https://github.com/c4dt/Garfield
+        - type: Demo-Code
+          title: Byzantine ML Code
+          url: https://github.com/c4dt/Garfield
     maturity: 1
     information:
       - type: Paper
@@ -148,13 +147,12 @@ projects:
     license: AGPL-3.0
     maturity: 1
     incubator:
-      work: Created a demonstrator for our website
-      type: retired_archived
+      work: 2021/04 - Created a demonstrator - archived in 2024/10
+      type: retired
       products:
-        - type: Demo
+        - type: Demo-Code
           title: AT2 Demonstrator
-          url: https://factory.c4dt.org/incubator/at2/demo
-          code: https://github.com/Distributed-EPFL/at2-web
+          url: https://github.com/Distributed-EPFL/at2-web
     tags:
       - Decentralized
       - Byzantine Resilience
