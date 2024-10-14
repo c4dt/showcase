@@ -1,10 +1,14 @@
 :root {
   --category-row-color: #e0e0f0;
   --category-row-hover-color: #d0d0f0;
-  --incubated-odd-row-hover-color: #c0e8e0;
-  --incubated-odd-row-color: #e0f8f0;
-  --incubated-even-row-hover-color: #b8e8e0;
-  --incubated-even-row-color: #d8f8f0;
+  --incubated-odd-row-hover-color: #c0d8d0;
+  --incubated-odd-row-color: #e0e8e0;
+  --incubated-even-row-hover-color: #b8d8d0;
+  --incubated-even-row-color: #d8e8e0;
+  --prev-incubated-odd-row-hover-color: #c0e0e8;
+  --prev-incubated-odd-row-color: #e0f8f0;
+  --prev-incubated-even-row-hover-color: #b8e0e8;
+  --prev-incubated-even-row-color: #d8f0f8;
   --not-incubated-odd-row-hover-color: #f0f0f0;
   --not-incubated-odd-row-color: #fefefe;
   --not-incubated-even-row-hover-color: #eaeaea;
@@ -22,6 +26,10 @@
     --incubated-odd-row-color: #134c3b;
     --incubated-even-row-hover-color: #2b6453;
     --incubated-even-row-color: #1b5443;
+    --prev-incubated-odd-row-hover-color: #334b54;
+    --prev-incubated-odd-row-color: #233b44;
+    --prev-incubated-even-row-hover-color: #3b535c;
+    --prev-incubated-even-row-color: #2b434c;
     --not-incubated-odd-row-hover-color: #474747;
     --not-incubated-odd-row-color: #373737;
     --not-incubated-even-row-hover-color: #4f4f4f;
@@ -73,6 +81,8 @@ div.intro {
 
 div.color_legend {
   display: flex;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: 1em;
   height: 2em;
@@ -91,7 +101,7 @@ div.layout-filter {
   align-items: center;
   margin-right: 5em;
   z-index: 1;
-  width: 80%;
+  width: 90%;
 }
 
 div.layout-filter div {
@@ -101,9 +111,8 @@ div.layout-filter div {
 div.layout-table {
   margin-top: -1em;
   margin-bottom: -1.5em;
-  flex-grow: 1;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 2em);
 }
 
 input {
@@ -140,6 +149,14 @@ span.box {
 
 .incubated_odd {
   background-color: var(--incubated-odd-row-color);
+}
+
+.prev_incubated_even {
+  background-color: var(--prev-incubated-even-row-color);
+}
+
+.prev_incubated_odd {
+  background-color: var(--prev-incubated-odd-row-color);
 }
 
 .not_incubated_even {
@@ -212,6 +229,22 @@ table.dataTable.display tbody tr.incubated.odd:hover > td {
 
 table.dataTable.display tbody tr.incubated.even:hover > td {
   background-color: var(--incubated-even-row-hover-color);
+}
+
+table.dataTable.display tbody tr.prev_incubated.odd > td {
+  background-color: var(--prev-incubated-odd-row-color);
+}
+
+table.dataTable.display tbody tr.prev_incubated.even > td {
+  background-color: var(--prev-incubated-even-row-color);
+}
+
+table.dataTable.display tbody tr.prev_incubated.odd:hover > td {
+  background-color: var(--prev-incubated-odd-row-hover-color);
+}
+
+table.dataTable.display tbody tr.prev_incubated.even:hover > td {
+  background-color: var(--prev-incubated-even-row-hover-color);
 }
 
 table.dataTable.display tbody tr > td.category {

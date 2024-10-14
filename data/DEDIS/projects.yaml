@@ -115,7 +115,7 @@ projects:
     incubator:
       type: retired_archived
       work: |
-        The C4DT created a demonstrator for Calypso, as well as a hands-on workshop.
+        2019/01 - The C4DT created a demonstrator for Calypso, as well as a hands-on workshop - retired in 2022/10
       products:
         - type: Demo
           title: "Calypso filesharing"

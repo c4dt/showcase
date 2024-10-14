@@ -480,8 +480,9 @@ projects:
     incubator:
       type: retired
       work: >
-        For this project we implemented extended Berkley Packet Filtering (eBPF) support,
-        so that the software verification can also be done for this type of code.
+        2021/09 - For this project we implemented extended Berkley Packet Filtering (eBPF) support,
+        so that the software verification can also be done for this type of code. - stopped
+        working on it in 2022/04
       products:
         - type: OSS-participation
           url: https://github.com/angr/angr-platforms/pull/55

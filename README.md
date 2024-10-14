@@ -86,7 +86,6 @@ url_path:
         type: ( Demo | Hands-on | Pilot | App | OSS-participation)
         url: (https://...)
         title: (Description of this product)
-        code: (https:// of the code)
     date_updated: (YYYY-MM-DD)
 ```
 
