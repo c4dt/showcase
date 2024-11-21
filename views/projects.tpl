@@ -241,11 +241,11 @@ applications.update({ "Other": "Other" })
                         style="width: 13em;"
                         onchange="search_apply();">
                     <option selected value="">All projects</option>
-                    <option value="project_incubated">C4DT Factory currently involved</option>
-                    <option value="project_incubated_market">C4DT Factory actively supported</option>
+                    <option value="project_incubated">C4DT Factory currently involved (Incubator)</option>
+                    <option value="project_incubated_market">C4DT Factory actively supported (Market)</option>
                     <option value="project_retired">Retired C4DT Factory projects</option>
                     <option value="project_retired_archived">Archived C4DT Factory projects</option>
-                    <option value="project_active">Updated in last 6 months</option>
+                    <option value="project_active">Updated by the lab in last 6 months</option>
                     <option value="product_presentation">Presentation available</option>
                     <option value="product_details">Details available</option>
                     <option value="product_demo">Demo available</option>

@@ -572,8 +572,8 @@ projects:
     language: Go
     license: GPL-3.0
     maturity: 2
-    date_added: 2023-07-05
-    date_updated: 2024-03-20
+    date_added: 2024-10-10
+    date_updated: 2024-11-21
 
   dvoting:
     name: d-voting
@@ -608,7 +608,13 @@ projects:
         - type: App
           title: D-Voting application
           url: https://github.com/c4dt/d-voting
+        - type: Blog
+          title: Introducing d-voting
+          url: https://c4dt.epfl.ch/article/introducing-d-voting/
+        - type: Blog
+          title: "Secure, Transparent, and Verifiable Elections: The D-Voting Project"
+          url: https://c4dt.epfl.ch/article/secure-transparent-and-verifiable-elections-the-d-voting-project/
     language: Golang
     maturity: 1
     date_added: 2023-09-01
-    date_updated: 2024-03-20
+    date_updated: 2024-11-21

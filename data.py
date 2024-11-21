@@ -167,7 +167,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                     ]),
                 sy.Optional("products"): sy.Seq(
                     sy.Map({
-                        "type": sy.Enum(["Demo", "Demo-Code", "Hands-on", "Pilot", "App", "Library", "OSS-participation", "Archive"]),
+                        "type": sy.Enum(["Demo", "Demo-Code", "Hands-on", "Pilot", "App", "Library", "OSS-participation", "Archive", "Blog"]),
                         "url": sy.Url(),
                         "title": sy.Str(),
                         }),
