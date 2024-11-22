@@ -131,7 +131,7 @@
                 .join(" ");
 
             const table = $('#projects').DataTable();
-            table.order([14, "desc"], [3, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
+            table.order([21, "asc"], [3, "desc"], [14, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
             // table.order([21, "asc"], [3, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
             table.search(search_input).column(21).search(dropdown).draw();
             update_url(dropdown, search_input);
