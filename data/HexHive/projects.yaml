@@ -788,3 +788,26 @@ projects:
         url: https://hexhive.epfl.ch/publications/files/22ACSAC2.pdf
     date_added: 2023-04-24
     date_updated: 2024-04-12
+
+  orchard:
+    name: Orchestrated Artifact Evaluation
+    categories:
+      - Security
+    applications:
+      - Infra
+    type: Framework
+    description: Automatically evaluating code artifacts from research papers
+    tech_desc: >
+      While there has been a strong push for adding reliable code artifacts to
+      research papers since 2018, the process of evaluating them is still manual
+      and often very tedious.
+      Orchard proposes a standard configuration for those artifacts, so that they
+      can be run in a docker environment.
+    tags:
+      - Benchmark
+      - Code Analysis
+    incubator:
+      work: 2024/Q3 - started implementing of a first PoC
+      type: incubated
+    date_added: 2024-11-22
+    date_updated: 2024-11-22

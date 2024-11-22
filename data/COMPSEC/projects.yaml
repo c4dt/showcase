@@ -35,6 +35,9 @@ projects:
       date_last_commit: 2024-03-08
     language: Rust
     license: Apache-2.0
+    incubator:
+      work: 2024/Q3 - maturity evaluation
+      type: incubated
     information:
       - type: Video
         title: Rust Ecosystem for zkSNARKs

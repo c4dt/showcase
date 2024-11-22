@@ -233,6 +233,9 @@ projects:
       type: Lab Github
       url: https://github.com/epfl-dlab/aiflows?tab=readme-ov-file
       date_last_commit: 2024-04-12
+    incubator:
+      work: Q3/2024 created a maturity evaluation
+      type: incubated
     language: Python
     license: MIT
     date_added: 2024-04-16
