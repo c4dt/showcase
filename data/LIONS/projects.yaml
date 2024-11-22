@@ -88,3 +88,24 @@ projects:
     maturity: 1
     date_added: 2022-07-05
     date_updated: 2022-08-11
+
+  fine-tuning:
+    name: Fine-tuning pitfalls
+    type: "Hands-on"
+    description: Hands-on workshop on LLM fine-tuning pitfalls
+    categories:
+      - Learning
+    applications:
+      - Info
+    tags:
+      - Failure
+      - Machine Learning
+    incubator:
+      type: retired
+      work: 2024/Q3 Fine-tuning pitfalls
+      products:
+        - type: hands-on
+          title: LLM fine-tuning pitfalls
+          url: https://github.com/c4dt/pitfalls_in_fine_tuning_llms/tree/main
+    date_added: 2024-11-21
+    date_updated: 2024-08-23

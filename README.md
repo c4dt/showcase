@@ -41,7 +41,7 @@ url_path:
   name: (short name)
   description: >
     (Short description, will be shown under the name)
-  type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" )
+  type: ( "Application" | "Library" | "Framework" | "Toolset" | "Simulation" | "Experiments" | "Hands-on" )
   categories: ( "Privacy" | "Blockchain" | "Verification" | "Security" |
     "Learning" | "Other" )
   applications: ( "Finance" | "Health" | "Gov" | "Infra" | "Info" | "Other" )

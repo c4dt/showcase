@@ -424,6 +424,7 @@ applications.update({ "Other": "Other" })
                             incubator = project.get('incubator')
                             incubator_str = "no support"
                             incubated = "not_incubated"
+                            incubator_work = []
                             if incubator:
                                 incubator_str = f"project_{incubator['type']}"
                                 if incubator['type'].startswith("incubated"):
@@ -432,6 +433,9 @@ applications.update({ "Other": "Other" })
                                     if incubator['type'].startswith("retired"):
                                         incubated = "prev_incubated"
                                     end
+                                end
+                                if 'products' in incubator:
+                                    incubator_work.extend(map(lambda work: work['type'], incubator['products']))
                                 end
                             end
 
@@ -528,6 +532,9 @@ applications.update({ "Other": "Other" })
                                         lab_{{ lab_id }}_
                                         % for product in products:
                                             product_{{product}}
+                                        % end
+                                        % for work in incubator_work:
+                                            product_{{work}}
                                         % end
                                     </span>
                                 </td>
