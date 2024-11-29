@@ -58,7 +58,7 @@ PROJECTS_SCHEMA = sy.Map({"projects":
                 "Toolset",      # Various stand-alone applications for a given task
                 "Simulation",   # Generic code that can be used to run simulations described in the paper
                 "Experiments",  # Code that produces figures and graphs of the paper
-                "Hands-on",     # Stand alone hands-on workshop
+                "Hands-on",     # Stand-alone hands-on workshop
             ])),
             "categories": sy.Seq(sy.Enum([
                "Privacy",

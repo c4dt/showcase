@@ -21,7 +21,7 @@ projects:
       - Development
     incubator:
       type: retired
-      work: 2023/Q3-2024/Q2 Testing ad implementing the demonstrator
+      work: 2023/Q3-2024/Q2 Testing and implementing the demonstrator
       products:
         - type: Blog
           title: The Swiss Confederation E-ID Public Sandbox Trust Infrastructure
@@ -47,9 +47,9 @@ projects:
     description: A hands-on workshop showing how cryptography can preserve privacy and security of an E-ID solution.
     tech_desc: >
       To protect the privacy of the users of E-ID systems, several technical measures need to be taken.
-      This workshop shows how Self Sovereign Identities work, how you can protect the data using selective disclosure,
-      and further protections: unlinkability with BBS+, and zero-knowledge proofs to further hide the data from 
-      the users of the E-ID system.
+      This workshop demonstrates the workings of Self-Sovereign Identities, using selective disclosure 
+      for data protection, and explores further safeguards like unlinkability through BBS+ and 
+      zero-knowledge proofs to share only essential information.
     code:
       type: Lab GitHub
       url: https://github.com/c4dt/eid-workshop
