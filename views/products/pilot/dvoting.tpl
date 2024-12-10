@@ -23,8 +23,7 @@
 <p>
     In Summer 2024, the d-voting system has been used for the first time on a bigger scale to elect the
     members of the EPFL school assembly.
-    A little bit over 1000 voters used the system to elect the members, and besides one bug everything
-    went well.
+    A little bit over 1000 voters used the system to elect the members, and after the resolution of a bug discovered during the on-going voting process, the elections could be successfully concluded.
     Since then the system has been used multiple times for smaller elections or to poll the EPFL
     community on administrative questions.
 </p>

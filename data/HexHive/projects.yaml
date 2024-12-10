@@ -801,8 +801,7 @@ projects:
       While there has been a strong push for adding reliable code artifacts to
       research papers since 2018, the process of evaluating them is still manual
       and often very tedious.
-      Orchard proposes a standard configuration for those artifacts, so that they
-      can be run in a docker environment.
+      Orchard proposes a standardized framework based on Docker to automatically evaluate those artifacts.
     tags:
       - Benchmark
       - Code Analysis
