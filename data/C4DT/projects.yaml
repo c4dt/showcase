@@ -19,6 +19,51 @@ projects:
     tags:
       - Access Control
       - Development
+    incubator:
+      type: retired
+      work: 2023/Q3-2024/Q2 Testing and implementing the demonstrator
+      products:
+        - type: Blog
+          title: The Swiss Confederation E-ID Public Sandbox Trust Infrastructure
+          url: https://c4dt.epfl.ch/article/the-swiss-confederation-public-sandbox-trust-infrastructure/
+        - type: Blog
+          title: The Swiss Confederation E-ID Public Sandbox Trust Infrastructure – Part 2
+          url: https://c4dt.epfl.ch/article/the-swiss-confederation-e-id-public-sandbox-trust-infrastructure-part-2/
+        - type: Blog
+          title: The Swiss Confederation E-ID Public Sandbox Trust Infrastructure – Part 3
+          url: https://c4dt.epfl.ch/article/the-swiss-confederation-e-id-public-sandbox-trust-infrastructure-part-3/
     maturity: 0
     date_added: 2024-01-09
     date_updated: 2024-01-09
+
+  eid-hands-on:
+    name: E-ID Hands-on Workshop
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Gov
+    type: Hands-on
+    description: A hands-on workshop showing how cryptography can preserve privacy and security of an E-ID solution.
+    tech_desc: >
+      To protect the privacy of the users of E-ID systems, several technical measures need to be taken.
+      This workshop demonstrates the workings of Self-Sovereign Identities, using selective disclosure 
+      for data protection, and explores further safeguards like unlinkability through BBS+ and 
+      zero-knowledge proofs to share only essential information.
+    code:
+      type: Lab GitHub
+      url: https://github.com/c4dt/eid-workshop
+      date_last_commit: 2024-11-08
+    language: TypeScript
+    tags:
+      - Access Control
+      - Development
+    incubator:
+      type: retired
+      work: 2024/Q3 E-ID Cryptography
+      products:
+        - type: hands-on
+          title: E-ID Hands-on Workshop
+          url: https://github.com/c4dt/eid-workshop/
+    date_added: 2024-11-21
+    date_updated: 2024-11-08

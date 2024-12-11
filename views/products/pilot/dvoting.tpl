@@ -1,9 +1,32 @@
+<div class="center" style="width: 100%; display: flex;">
+    <div style="margin: 1em; flex:1;" class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/d-voting/d-voting_at_EPFL.png"/>
+            <br>Finalized Elections with results
+        </label>
+    </div>
+    <div style="margin: 1em; flex:1;" class="click-zoom">
+        <label>
+            <input type="checkbox">
+            <img src="../../../resources/products/images/d-voting/d-voting-overview.png"/>
+            <br>Overview of the components of the system
+        </label>
+    </div>
+</div>
+
 <p>The d-voting project allows for electronic voting without a central point of trust.
-It relies instead on the majority of servers to be honest during the voting process.
-The ballots are encrypted during the voting phase, and then shuffled to anonymise the results.
-When they are finally decrypted, it is not possible anymore to retrace who voted for what.
+    It relies instead on the majority of servers to be honest during the voting process.
+    The ballots are encrypted during the voting phase, and then shuffled to anonymise the results.
+    When they are finally decrypted, it is not possible anymore to retrace who voted for what.
 </p>
 <p>
-As of September 2023, we're preparing to launch a demo of the d-voting across several instances of EPFL.
-We plan to replace the current e-voting project for March 2024.
+    In Summer 2024, the d-voting system has been used for the first time on a bigger scale to elect the
+    members of the EPFL school assembly.
+    A little bit over 1000 voters used the system to elect the members, and after the resolution of a bug discovered during the on-going voting process, the elections could be successfully concluded.
+    Since then the system has been used multiple times for smaller elections or to poll the EPFL
+    community on administrative questions.
 </p>
+<p>The current plan wants to further improve the frontend of the program to make it even easier
+    for the admins to create new elections.
+    Also, some difficulties for new users will be removed.</p>

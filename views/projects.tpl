@@ -131,7 +131,7 @@
                 .join(" ");
 
             const table = $('#projects').DataTable();
-            table.order([14, "desc"], [3, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
+            table.order([21, "asc"], [3, "desc"], [14, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
             // table.order([21, "asc"], [3, "desc"], [4, "desc"], [0, "asc"], [1, "asc"]).draw();
             table.search(search_input).column(21).search(dropdown).draw();
             update_url(dropdown, search_input);
@@ -241,11 +241,11 @@ applications.update({ "Other": "Other" })
                         style="width: 13em;"
                         onchange="search_apply();">
                     <option selected value="">All projects</option>
-                    <option value="project_incubated">C4DT Factory currently involved</option>
-                    <option value="project_incubated_market">C4DT Factory actively supported</option>
+                    <option value="project_incubated">C4DT Factory currently involved (Incubator)</option>
+                    <option value="project_incubated_market">C4DT Factory actively supported (Market)</option>
                     <option value="project_retired">Retired C4DT Factory projects</option>
                     <option value="project_retired_archived">Archived C4DT Factory projects</option>
-                    <option value="project_active">Updated in last 6 months</option>
+                    <option value="project_active">Updated by the lab in last 6 months</option>
                     <option value="product_presentation">Presentation available</option>
                     <option value="product_details">Details available</option>
                     <option value="product_demo">Demo available</option>
@@ -424,6 +424,7 @@ applications.update({ "Other": "Other" })
                             incubator = project.get('incubator')
                             incubator_str = "no support"
                             incubated = "not_incubated"
+                            incubator_work = []
                             if incubator:
                                 incubator_str = f"project_{incubator['type']}"
                                 if incubator['type'].startswith("incubated"):
@@ -432,6 +433,9 @@ applications.update({ "Other": "Other" })
                                     if incubator['type'].startswith("retired"):
                                         incubated = "prev_incubated"
                                     end
+                                end
+                                if 'products' in incubator:
+                                    incubator_work.extend(map(lambda work: work['type'], incubator['products']))
                                 end
                             end
 
@@ -528,6 +532,9 @@ applications.update({ "Other": "Other" })
                                         lab_{{ lab_id }}_
                                         % for product in products:
                                             product_{{product}}
+                                        % end
+                                        % for work in incubator_work:
+                                            product_{{work}}
                                         % end
                                     </span>
                                 </td>
