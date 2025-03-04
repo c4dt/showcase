@@ -90,3 +90,36 @@ projects:
     url: https://seal-innovation.ch/en/combating-phishing/
     date_added: 2025-03-04
     date_updated: 2025-03-04
+
+  matrix-epfl:
+    name: Matrix@EPFL
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Infra
+    type: Application
+    description: >
+      Matrix is a widely used open source chat platform. It is an alternative to platforms such as Slack and MSTeams.
+      Edward Andò from the Imaging Center at EPFL started an EPFL-wide instance, matrix.epfl.ch, in 2023. It advances
+      digital trust at the whole EPFL while also having a broader positive impact.
+      Thinking ahead and planning to eventually move the users of matrix.c4dt.org to this EPFL-wide instance, C4DT
+      reached out to Edward Andò to offer our support bolstering matrix.epfl.ch’s team, which was readily welcomed.
+    tags:
+      - Protection
+      - Decentralized
+      - Encryption
+    incubator:
+      type: incubated
+      work: 2023/Q4 - maintenance and development
+    url: https://matrix.epfl.ch
+    code:
+      type: GitLab
+      url: https://gitlab.epfl.ch/matrix/matrix_at_epfl
+      date_last_commit: 2024-08-27
+    information:
+      - type: Article
+        url: https://c4dt.epfl.ch/article/report-2024-matrix-epfl-ch/
+        title: Report 2024 matrix.epfl.ch
+    date_added: 2025-03-04
+    date_updated: 2025-03-04
