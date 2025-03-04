@@ -67,3 +67,26 @@ projects:
           url: https://github.com/c4dt/eid-workshop/
     date_added: 2024-11-21
     date_updated: 2024-11-08
+
+  seal-phishing:
+    name: SEAL - Combating Phishing
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Other
+    type: Toolset
+    description: >
+      Phishing is a growing societal threat and requires urgent, effective solutions. Through a collaborative process
+      involving field feedback, ideation workshops, and state-of-the-art analysis, this open innovation project will
+      explore technical, organizational, and legal solutions. The results will be prototypes, practical guidelines,
+      and recommendations to strengthen digital security against phishing.
+    tags:
+      - Protection
+      - Survey
+    incubator:
+      type: incubated
+      work: 2024/Q4 - state-of-the-art analysis
+    url: https://seal-innovation.ch/en/combating-phishing/
+    date_added: 2025-03-04
+    date_updated: 2025-03-04
