@@ -77,6 +77,8 @@ projects:
       - Other
     type: Toolset
     description: >
+      "[seal] program to study the problem of phishing and the technical, organizational and legal measures to respond."
+    layman_desc: >
       Phishing is a growing societal threat and requires urgent, effective solutions. Through a collaborative process
       involving field feedback, ideation workshops, and state-of-the-art analysis, this open innovation project will
       explore technical, organizational, and legal solutions. The results will be prototypes, practical guidelines,
@@ -100,6 +102,9 @@ projects:
       - Infra
     type: Application
     description: >
+      The Matrix server run for the EPFL community by the EPFL Center for Imaging with help from the EPFL
+      Center for Digital Trust.
+    layman_desc: >
       Matrix is a widely used open source chat platform. It is an alternative to platforms such as Slack and MSTeams.
       Edward Andò from the Imaging Center at EPFL started an EPFL-wide instance, matrix.epfl.ch, in 2023. It advances
       digital trust at the whole EPFL while also having a broader positive impact.
@@ -113,10 +118,6 @@ projects:
       type: incubated
       work: 2023/Q4 - maintenance and development
     url: https://matrix.epfl.ch
-    code:
-      type: GitLab
-      url: https://gitlab.epfl.ch/matrix/matrix_at_epfl
-      date_last_commit: 2024-08-27
     information:
       - type: Article
         url: https://c4dt.epfl.ch/article/report-2024-matrix-epfl-ch/
