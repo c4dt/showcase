@@ -67,3 +67,60 @@ projects:
           url: https://github.com/c4dt/eid-workshop/
     date_added: 2024-11-21
     date_updated: 2024-11-08
+
+  seal-phishing:
+    name: SEAL - Combating Phishing
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Other
+    type: Toolset
+    description: >
+      "[seal] program to study the problem of phishing and the technical, organizational and legal measures to respond."
+    layman_desc: >
+      Phishing is a growing societal threat and requires urgent, effective solutions. Through a collaborative process
+      involving field feedback, ideation workshops, and state-of-the-art analysis, this open innovation project will
+      explore technical, organizational, and legal solutions. The results will be prototypes, practical guidelines,
+      and recommendations to strengthen digital security against phishing.
+    tags:
+      - Protection
+      - Survey
+    incubator:
+      type: incubated
+      work: 2024/Q4 - state-of-the-art analysis
+    url: https://seal-innovation.ch/en/combating-phishing/
+    date_added: 2025-03-04
+    date_updated: 2025-03-04
+
+  matrix-epfl:
+    name: Matrix@EPFL
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Infra
+    type: Application
+    description: >
+      The Matrix server run for the EPFL community by the EPFL Center for Imaging with help from the EPFL
+      Center for Digital Trust.
+    layman_desc: >
+      Matrix is a widely used open source chat platform. It is an alternative to platforms such as Slack and MSTeams.
+      Edward Andò from the Imaging Center at EPFL started an EPFL-wide instance, matrix.epfl.ch, in 2023. It advances
+      digital trust at the whole EPFL while also having a broader positive impact.
+      Thinking ahead and planning to eventually move the users of matrix.c4dt.org to this EPFL-wide instance, C4DT
+      reached out to Edward Andò to offer our support bolstering matrix.epfl.ch’s team, which was readily welcomed.
+    tags:
+      - Protection
+      - Decentralized
+      - Encryption
+    incubator:
+      type: incubated
+      work: 2023/Q4 - maintenance and development
+    url: https://matrix.epfl.ch
+    information:
+      - type: Article
+        url: https://c4dt.epfl.ch/article/report-2024-matrix-epfl-ch/
+        title: Report 2024 matrix.epfl.ch
+    date_added: 2025-03-04
+    date_updated: 2025-03-04
