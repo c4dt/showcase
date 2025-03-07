@@ -1,5 +1,12 @@
 <h4>Introduction</h4>
 
+<p style="font-weight: bold;">This is an archived project from the C4DT Factory.
+As such it does not represent the latest research done on the stainless
+project.
+You can find the latest research on the stainless project here:
+<a href="../stainless">stainless</a>
+</p>
+
 <p>
 Stainless is a tool to help designing highly reliable programs in <a
 href="https://scala-lang.org/">Scala</a>. Using <a
