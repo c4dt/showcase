@@ -5,7 +5,7 @@ projects:
       - Verification
     applications:
       - Infra
-    description: Verification framework and tool for higher-order Scala programs
+    description: Verification framework and tool for higher-order Scala programs.
     code:
       type: Lab GitHub
       url: https://github.com/epfl-lara/stainless
