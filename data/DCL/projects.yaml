@@ -644,3 +644,63 @@ projects:
             url: https://dl.acm.org/doi/proceedings/10.1145/3575693
     date_added: 2023-03-13
     date_updated: 2024-03-22
+
+  inference4all:
+    name: Inference 4 all
+    categories:
+      - Privacy
+      - Blockchain
+    applications:
+      - Infro
+    type: Application
+    description: Distributed ML inference across office computers for privacy
+    tech_desc: >
+      The system dynamically distributes large ML model inference workloads across 
+      heterogeneous local computing resources with fault tolerance capabilities.
+      It employs an intermediate representation dialect that enables seamless 
+      integration of new models without requiring manual hardcoding for each 
+      application.
+      Unlike static distribution systems, Inference4all supports dynamic client 
+      connections/disconnections and can efficiently partition large models 
+      (up to 70B parameters) across limited hardware resources like standard 
+      office computers.
+    layman_desc: >
+      Inference4all enables companies to run complex AI models directly on their 
+      existing office computers instead of sending data to external datacenters.
+      This approach preserves data privacy by keeping sensitive information within 
+      the organization while still allowing access to powerful AI capabilities.
+      By distributing computational tasks across regular machines like laptops and 
+      desktops, organizations can leverage AI without expensive hardware investments 
+      or privacy concerns.
+    language: C
+    tags:
+      - Decentralized
+      - "Machine Learning"
+      - "Byzantine Resilience"
+    information:
+      - type: Paper
+        title: "The Vital Role of Gradient Clipping in Byzantine-Resilient Distributed Learning"
+        url: https://arxiv.org/abs/2405.14432
+      - type: Paper
+        title: "Byzantine-Robust Federated Learning: Impact of Client Subsampling and Local"
+        url: https://arxiv.org/abs/2402.12780
+        notes:
+          - label: Published at
+            text: ICML'24
+            url: https://dl.acm.org/doi/10.5555/3692070.3692116
+      - type: Paper
+        title: "Chop Chop: Byzantine Atomic Broadcast to the Network Limit"
+        url: https://infoscience.epfl.ch/entities/publication/d83dd7af-b83d-4f99-b50a-0b6d11e786be
+        notes:
+          - label: Published at
+            text: OSDI 2024
+            url: https://www.usenix.org/conference/osdi24/presentation/camaioni
+      - type: Paper
+        title: "Robust Distributed Learning: Tight Error Bounds and Breakdown Point under Data Heterogeneity"
+        url: https://infoscience.epfl.ch/entities/publication/83afd663-8967-40d7-a0d9-5418371431f0
+        notes:
+          - label: Published at
+            text: NeurIPS 2023
+            url: https://papers.nips.cc/paper_files/paper/2023/hash/8f182e220092f7f1fc44f3313023f5a0-Abstract-Conference.html
+    date_added: 2025-03-21
+    date_updated: 2025-03-21
