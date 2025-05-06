@@ -124,3 +124,31 @@ projects:
         title: Report 2024 matrix.epfl.ch
     date_added: 2025-03-04
     date_updated: 2025-03-04
+
+  showcase_v2:
+    name: Showcase-NG
+    categories:
+      - Other
+    applications:
+      - Info
+    type: Application
+    description: >
+      The next generation of our showcase updates the UI to present our latest projects in a more 2025 compatible
+      layout.
+    layman_desc: >
+      The C4DT showcase is the list of all digital-trust related software projects from our affiliated labs.
+      It is the first contact point for finding new projects, mainly used internally to communicate with our partners.
+      For every project you find a short description, and links to the papers and software.
+      Some of the projects have been evaluated by the C4DT Factory, worked on, or presented as hands-on workshops.
+    tags:
+      - Database
+    incubator:
+      type: incubated_market
+      work: 2025/Q2 - active usage
+    url: https://showcase.c4dt.org
+    # information:
+    #   - type: Article
+    #     url: https://c4dt.epfl.ch/article/report-2024-matrix-epfl-ch/
+    #     title: Report 2024 matrix.epfl.ch
+    date_added: 2025-03-04
+    date_updated: 2025-03-04
