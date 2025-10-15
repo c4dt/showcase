@@ -618,3 +618,28 @@ projects:
     maturity: 1
     date_added: 2023-09-01
     date_updated: 2024-11-21
+
+  d-voting-master-research-project-25:
+    name: "Master research project spring semester 2025: integrating permission management on the DELA blockchain"
+    categories:
+      - "Blockchain"
+    applications:
+      - "Gov"
+    type: Application
+    description: >
+      D-Voting is EPFL’s e-voting platform based on the DELA blockchain. The project started in 2021 and has been
+      continuously developed by EPFL students and research software engineers. To improve D-Voting’s robustness,
+      the permission management is currently being overhauled.
+    incubator:
+      type: retired_archived
+      work: 2025/Q2 - Master research project supervision
+    code:
+      type: Lab GitHub
+      url: https://github.com/c4dt/d-voting/tree/student25spring_access_control
+      date_last_commit: 2025-07-04
+    tags:
+      - Anonymity
+      - Byzantine Resilience
+      - Decentralized
+    date_added: 2025-10-15
+    date_updated: 2025-10-15
