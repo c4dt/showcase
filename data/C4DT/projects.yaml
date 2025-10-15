@@ -36,6 +36,26 @@ projects:
     date_added: 2024-01-09
     date_updated: 2024-01-09
 
+  eid-innosuisse:
+    name: E-ID Innosuisse
+    categories:
+      - Security
+      - Privacy
+    applications:
+      - Gov
+    type: Library
+    description: >
+      This Innosuisse project focuses on researching cryptographic algorithms to fit the given requirements of a
+      privacy-preserving, unlinkable E-ID system.
+    tags:
+      - Access Control
+      - Development
+    incubator:
+      type: incubated
+      work: 2023/Q3-2024/Q2 Testing and implementing the demonstrator
+    date_added: 2025-10-15
+    date_updated: 2025-10-15
+
   eid-hands-on:
     name: E-ID Hands-on Workshop
     categories:
