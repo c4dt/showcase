@@ -144,3 +144,25 @@ projects:
         title: Report 2024 matrix.epfl.ch
     date_added: 2025-03-04
     date_updated: 2025-03-04
+
+  showcasev2:
+    name: Showcase v2.0
+    categories:
+      - Other
+    applications:
+      - Other
+    type: Application
+    description: Version 2.0 of the C4DT's showcase.
+    code:
+      type: Lab GitHub
+      url: https://github.com/c4dt/showcase_v2
+      date_last_commit: 2025-10-13
+    tags:
+      - "Development"
+    language: TypeScript
+    incubator:
+      type: incubated
+      work: Q4 2024/2025 Developing and implementing
+    maturity: 1
+    date_added: 2025-10-17
+    date_updated: 2025-10-17
