@@ -4,7 +4,7 @@
 
 Code that helps organize the labs' projects and present them nicely.
 
-This repository has been archived, as we have a newer version of it:
+This repository has been archived in April 2026, as we have a newer version of it:
 
 https://github.com/c4dt/showcase_v2
 
