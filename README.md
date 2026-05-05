@@ -1,8 +1,12 @@
 [![Build Status](https://github.com/c4dt/showcase/actions/workflows/main.yml/badge.svg)](https://github.com/c4dt/showcase/actions/workflows/main.yml)
 
-# Showcase
+# Showcase - ARCHIVED IN FAVOR OF https://github.com/c4dt/showcase_v2
 
-Code that helps organize the labs' projects and present them nicely
+Code that helps organize the labs' projects and present them nicely.
+
+This repository has been archived in April 2026, as we have a newer version of it:
+
+https://github.com/c4dt/showcase_v2
 
 ## Purpose
 
